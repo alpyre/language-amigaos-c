@@ -1,0 +1,1197 @@
+	{
+		"displayText": "_addleft(obj)",
+		"snippet": "_addleft(${1:obj})${2:}",
+		"type": "macro",
+		"leftLabel": "BYTE",
+		"description": "Frame & innerspacing left offset of MUI Object."
+	},
+	{
+		"displayText": "_addtop(obj)",
+		"snippet": "_addtop(${1:obj})${2:}",
+		"type": "macro",
+		"leftLabel": "BYTE",
+		"description": "Frame & innerspacing top offset of MUI Object."
+	},
+	{
+		"displayText": "_app(obj)",
+		"snippet": "_app(${1:obj})${2:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Shortcut to MUI ApplicationObject."
+	},
+	{
+		"displayText": "_bottom(obj)",
+		"snippet": "_bottom(${1:obj})${2:}",
+		"type": "macro",
+		"leftLabel": "WORD",
+		"description": "Bottom offset of MUI Object."
+	},
+	{
+		"displayText": "_defheight(obj)",
+		"snippet": "_defheight(${1:obj})${2:}",
+		"type": "macro",
+		"leftLabel": "WORD",
+		"description": "Default height of MUI object."
+	},
+	{
+		"displayText": "_defwidth(obj)",
+		"snippet": "_defwidth(${1:obj})${2:}",
+		"type": "macro",
+		"leftLabel": "WORD",
+		"description": "Default width of MUI object."
+	},
+	{
+		"displayText": "_dri(obj)",
+		"snippet": "_dri(${1:obj})${2:}",
+		"type": "macro",
+		"leftLabel": "struct DrawInfo*",
+		"description": "Shortcut to MUI objects DrawInfo."
+	},
+	{
+		"displayText": "_flags(obj)",
+		"snippet": "_flags(${1:obj})${2:}",
+		"type": "macro",
+		"leftLabel": "ULONG",
+		"description": "Shortuct to MUI objects AreaData flags."
+	},
+	{
+		"displayText": "_font(obj)",
+		"snippet": "_font(${1:obj})${2:}",
+		"type": "macro",
+		"leftLabel": "struct TextFont*",
+		"description": "Shortcut to MUI objects font."
+	},
+	{
+		"displayText": "_height(obj)",
+		"snippet": "_height(${1:obj})${2:}",
+		"type": "macro",
+		"leftLabel": "WORD",
+		"description": "Shortcut to MUI objects height."
+	},
+	{
+		"displayText": "_left(obj)",
+		"snippet": "_left(${1:obj})${2:}",
+		"type": "macro",
+		"leftLabel": "WORD",
+		"description": "Left offset of MUI object."
+	},
+	{
+		"displayText": "_maxheight(obj)",
+		"snippet": "_maxheight(${1:obj})${2:}",
+		"type": "macro",
+		"leftLabel": "WORD",
+		"description": "MaxHeight of MUI object."
+	},
+	{
+		"displayText": "_maxwidth(obj)",
+		"snippet": "_maxwidth(${1:obj})${2:}",
+		"type": "macro",
+		"leftLabel": "WORD",
+		"description": "MaxWidth of MUI object."
+	},
+	{
+		"displayText": "_mbottom(obj)",
+		"snippet": "_mbottom(${1:obj})${2:}",
+		"type": "macro",
+		"leftLabel": "WORD",
+		"description": "Inner bottom offset of MUI object."
+	},
+	{
+		"displayText": "_mheight(obj)",
+		"snippet": "_mheight(${1:obj})${2:}",
+		"type": "macro",
+		"leftLabel": "WORD",
+		"description": "Inner height of MUI object."
+	},
+	{
+		"displayText": "_minheight(obj)",
+		"snippet": "_minheight(${1:obj})${2:}",
+		"type": "macro",
+		"leftLabel": "WORD",
+		"description": "MinHeight of MUI object."
+	},
+	{
+		"displayText": "_minwidth(obj)",
+		"snippet": "_minwidth(${1:obj})${2:}",
+		"type": "macro",
+		"leftLabel": "WORD",
+		"description": "MinWidth of MUI object."
+	},
+	{
+		"displayText": "_mleft(obj)",
+		"snippet": "_mleft(${1:obj})${2:}",
+		"type": "macro",
+		"leftLabel": "WORD",
+		"description": "Inner left offset of MUI object."
+	},
+	{
+		"displayText": "_mright(obj)",
+		"snippet": "_mright(${1:obj})${2:}",
+		"type": "macro",
+		"leftLabel": "WORD",
+		"description": "Inner right offset of MUI object."
+	},
+	{
+		"displayText": "_mtop(obj)",
+		"snippet": "_mtop(${1:obj})${2:}",
+		"type": "macro",
+		"leftLabel": "WORD",
+		"description": "Inner top offset of MUI object."
+	},
+	{
+		"displayText": "_mwidth(obj)",
+		"snippet": "_mwidth(${1:obj})${2:}",
+		"type": "macro",
+		"leftLabel": "WORD",
+		"description": "Inner width of MUI object."
+	},
+	{
+		"displayText": "_pens(obj)",
+		"snippet": "_pens(${1:obj})${2:}",
+		"type": "macro",
+		"leftLabel": "UWORD",
+		"description": "Shortcut to MUI object pens."
+	},
+	{
+		"displayText": "_right(obj)",
+		"snippet": "_right(${1:obj})${2:}",
+		"type": "macro",
+		"leftLabel": "WORD",
+		"description": "Right offset of MUI object."
+	},
+	{
+		"displayText": "_rp(obj)",
+		"snippet": "_rp(${1:obj})${2:}",
+		"type": "macro",
+		"leftLabel": "struct RastPort*",
+		"description": "Shortcut to MUI objects RastPort."
+	},
+	{
+		"displayText": "_screen(obj)",
+		"snippet": "_screen(${1:obj})${2:}",
+		"type": "macro",
+		"leftLabel": "struct Screen*",
+		"description": "Shortcut to MUI objects Screen."
+	},
+	{
+		"displayText": "_subheight(obj)",
+		"snippet": "_subheight(${1:obj})${2:}",
+		"type": "macro",
+		"leftLabel": "BYTE",
+		"description": "Top + bottom frame & innerspacing of MUI object."
+	},
+	{
+		"displayText": "_subwidth(obj)",
+		"snippet": "_subwidth(${1:obj})${2:}",
+		"type": "macro",
+		"leftLabel": "BYTE",
+		"description": "Left + right frame & innerspacing of MUI object."
+	},
+	{
+		"displayText": "_top(obj)",
+		"snippet": "_top(${1:obj})${2:}",
+		"type": "macro",
+		"leftLabel": "WORD",
+		"description": "Top offset of MUI object."
+	},
+	{
+		"displayText": "_width(obj)",
+		"snippet": "_width(${1:obj})${2:}",
+		"type": "macro",
+		"leftLabel": "WORD",
+		"description": "Width of MUI object."
+	},
+	{
+		"displayText": "_win(obj)",
+		"snippet": "_win(${1:obj})${2:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Shorcut to MUI objects WindowObject."
+	},
+	{
+		"displayText": "_window(obj)",
+		"snippet": "_window(${1:obj})${2:}",
+		"type": "macro",
+		"leftLabel": "struct Window*",
+		"description": "Shortcut to MUI objects window."
+	},
+	{
+		"displayText": "CheckMark(selected)",
+		"snippet": "CheckMark(${1:selected})${2:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI CheckMark object. (OBSOLETE)"
+	},
+	{
+		"displayText": "CLabel(label)",
+		"snippet": "CLabel(${1:label})${2:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Label object."
+	},
+	{
+		"displayText": "CLabel1(label)",
+		"snippet": "CLabel1(${1:label})${2:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Label object."
+	},
+	{
+		"displayText": "CLabel2(label)",
+		"snippet": "CLabel2(${1:label})${2:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Label object."
+	},
+	{
+		"displayText": "ColGroup(cols)",
+		"snippet": "ColGroup(${1:cols})${2:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Group object."
+	},
+	{
+		"displayText": "ColGroupV(cols)",
+		"snippet": "ColGroupV(${1:cols})${2:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Virtgroup object."
+	},
+	{
+		"displayText": "Cycle(entries)",
+		"snippet": "Cycle(${1:entries})${2:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Cycle object. (OBSOLETE)"
+	},
+	{
+		"displayText": "FreeCLabel(label)",
+		"snippet": "FreeCLabel(${1:label})${2:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Label object."
+	},
+	{
+		"displayText": "FreeCLabel1(label)",
+		"snippet": "FreeCLabel1(${1:label})${2:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Label object."
+	},
+	{
+		"displayText": "FreeCLabel2(label)",
+		"snippet": "FreeCLabel2(${1:label})${2:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Label object."
+	},
+	{
+		"displayText": "FreeKeyCLabel(label, key)",
+		"snippet": "FreeKeyCLabel(${1:label}, ${2:key})${3:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Label object."
+	},
+	{
+		"displayText": "FreeKeyCLabel1(label, key)",
+		"snippet": "FreeKeyCLabel1(${1:label}, ${2:key})${3:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Label object."
+	},
+	{
+		"displayText": "FreeKeyCLabel2(label, key)",
+		"snippet": "FreeKeyCLabel2(${1:label}, ${2:key})${3:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Label object."
+	},
+	{
+		"displayText": "FreeKeyLabel(label, key)",
+		"snippet": "FreeKeyLabel(${1:label}, ${2:key})${3:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Label object."
+	},
+	{
+		"displayText": "FreeKeyLabel1(label, key)",
+		"snippet": "FreeKeyLabel1(${1:label}, ${2:key})${3:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Label object."
+	},
+	{
+		"displayText": "FreeKeyLabel2(label, key)",
+		"snippet": "FreeKeyLabel2(${1:label}, ${2:key})${3:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Label object."
+	},
+	{
+		"displayText": "FreeKeyLLabel(label, key)",
+		"snippet": "FreeKeyLLabel(${1:label}, ${2:key})${3:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Label object."
+	},
+	{
+		"displayText": "FreeKeyLLabel1(label, key)",
+		"snippet": "FreeKeyLLabel1(${1:label}, ${2:key})${3:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Label object."
+	},
+	{
+		"displayText": "FreeKeyLLabel2(label, key)",
+		"snippet": "FreeKeyLLabel2(${1:label}, ${2:key})${3:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Label object."
+	},
+	{
+		"displayText": "FreeLabel(label, key)",
+		"snippet": "FreeLabel(${1:label}, ${2:key})${3:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Label object."
+	},
+	{
+		"displayText": "FreeLabel1(label, key)",
+		"snippet": "FreeLabel1(${1:label}, ${2:key})${3:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Label object."
+	},
+	{
+		"displayText": "FreeLabel2(label, key)",
+		"snippet": "FreeLabel2(${1:label}, ${2:key})${3:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Label object."
+	},
+	{
+		"displayText": "FreeLLabel(label, key)",
+		"snippet": "FreeLLabel(${1:label}, ${2:key})${3:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Label object."
+	},
+	{
+		"displayText": "FreeLLabel1(label, key)",
+		"snippet": "FreeLLabel1(${1:label}, ${2:key})${3:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Label object."
+	},
+	{
+		"displayText": "FreeLLabel2(label, key)",
+		"snippet": "FreeLLabel2(${1:label}, ${2:key})${3:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Label object."
+	},
+	{
+		"displayText": "get(obj, attr, store)",
+		"snippet": "get(${1:obj}, ${2:attr}, ${3:store})${4:}",
+		"type": "macro",
+		"leftLabel": "ULONG",
+		"description": "Gets an attribute from BOOPSI objects."
+	},
+	{
+		"displayText": "GroupFrameT(title)",
+		"snippet": "GroupFrameT(${1:STRPTR title})${2:}",
+		"type": "macro",
+		"leftLabel": "",
+		"description": "Declares attributes for a framed & titled MUI Group."
+	},
+	{
+		"displayText": "GroupSpacing(space)",
+		"snippet": "GroupSpacing(${1:LONG space})${2:}",
+		"type": "macro",
+		"leftLabel": "",
+		"description": "Declares a spacing attribute for MUI Groups."
+	},
+	{
+		"displayText": "HCenter(obj)",
+		"snippet": "HCenter(${1:obj})${2:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares the MUI object as centered in a HGroup."
+	},
+	{
+		"displayText": "HSpace(space)",
+		"snippet": "HSpace(${1:LONG space})${2:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI horizontal spacer."
+	},
+	{
+		"displayText": "InnerSpacing(h, v)",
+		"snippet": "InnerSpacing(${1:h}, ${2:v})${3:}",
+		"type": "macro",
+		"leftLabel": "",
+		"description": "Declares inner spacing attributes for MUI objects."
+	},
+	{
+		"displayText": "KeyButton(name, key)",
+		"snippet": "KeyButton(${1:STRPTR name}, ${2:char key})${3:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI button object with a shortcut key. (OBSOLETE)"
+	},
+	{
+		"displayText": "KeyCheckMark(selected, key)",
+		"snippet": "KeyCheckMark(${1:BOOL selected}, ${2:char key})${3:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI CheckMark with a shortcut key. (OBSOLETE)"
+	},
+	{
+		"displayText": "KeyCLabel(label, key)",
+		"snippet": "KeyCLabel(${1:STRPTR label}, ${2:char key})${3:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Label with a shortcut key."
+	},
+	{
+		"displayText": "KeyCLabel1(label, key)",
+		"snippet": "KeyCLabel1(${1:STRPTR label}, ${2:char key})${3:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Label with a shortcut key."
+	},
+	{
+		"displayText": "KeyCLabel2(label, key)",
+		"snippet": "KeyCLabel2(${1:STRPTR label}, ${2:char key})${3:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Label with a shortcut key."
+	},
+	{
+		"displayText": "KeyCycle(entries, key)",
+		"snippet": "KeyCycle(${1:STRPTR *entries}, ${2:char key})${3:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Cycle with a shortcut key. (OBSOLETE)"
+	},
+	{
+		"displayText": "KeyLabel(label, key)",
+		"snippet": "KeyLabel(${1:STRPTR label}, ${2:char key})${3:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Label with a shortcut key."
+	},
+	{
+		"displayText": "KeyLabel1(label, key)",
+		"snippet": "KeyLabel1(${1:STRPTR label}, ${2:char key})${3:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Label with a shortcut key."
+	},
+	{
+		"displayText": "KeyLabel2(label, key)",
+		"snippet": "KeyLabel2(${1:STRPTR label}, ${2:char key})${3:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Label with a shortcut key."
+	},
+	{
+		"displayText": "KeyLLabel(label, key)",
+		"snippet": "KeyLLabel(${1:STRPTR label}, ${2:char key})${3:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Label with a shortcut key."
+	},
+	{
+		"displayText": "KeyLLabel1(label, key)",
+		"snippet": "KeyLLabel1(${1:STRPTR label}, ${2:char key})${3:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Label with a shortcut key."
+	},
+	{
+		"displayText": "KeyLLabel2(label, key)",
+		"snippet": "KeyLLabel2(${1:STRPTR label}, ${2:char key})${3:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Label with a shortcut key."
+	},
+	{
+		"displayText": "KeyRadio(name, array, key)",
+		"snippet": "KeyRadio(${1:STRPTR name}, ${2:STRPTR *array}, ${3:char key})${4:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI RadioObject with a shortcut key. (OBSOLETE)"
+	},
+	{
+		"displayText": "KeySlider(min, max, level, key)",
+		"snippet": "KeySlider(${1:LONG min}, ${2:LONG max}, ${3:LONG level} ${4:char key})${5:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI SliderObject with a shortcut key. (OBSOLETE)"
+	},
+	{
+		"displayText": "KeyString(contents, maxlen, key)",
+		"snippet": "KeyString(${1:STRPTR contents}, ${2:LONG maxlen}, ${3:char key})${4:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI StringObject with a shortcut key. (OBSOLETE)"
+	},
+	{
+		"displayText": "Label(label)",
+		"snippet": "Label(${1:STRPTR label})${2:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Label."
+	},
+	{
+		"displayText": "Label1(label)",
+		"snippet": "Label1(${1:STRPTR label})${2:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Label."
+	},
+	{
+		"displayText": "Label2(label)",
+		"snippet": "Label2(${1:STRPTR label})${2:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Label."
+	},
+	{
+		"displayText": "LLabel(label)",
+		"snippet": "LLabel(${1:STRPTR label})${2:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Label."
+	},
+	{
+		"displayText": "LLabel1(label)",
+		"snippet": "LLabel1(${1:STRPTR label})${2:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Label."
+	},
+	{
+		"displayText": "LLabel2(label)",
+		"snippet": "LLabel2(${1:STRPTR label})${2:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Label."
+	},
+	{
+		"displayText": "MenuObjectT(name)",
+		"snippet": "MenuObjectT(${1:STRPTR name})${2:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Menu object."
+	},
+	{
+		"displayText": "NBitmapFile(filename)",
+		"snippet": "NBitmapFile(${1:STRPTR filename})${2:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares an MUI NBitmap object."
+	},
+	{
+		"displayText": "nnset(obj, attr, value)",
+		"snippet": "nnset(${1:obj}, ${2:attr}, ${3:value})${4:}",
+		"type": "macro",
+		"leftLabel": "ULONG",
+		"description": "Sets an attribute of a BOOPSI object without notification."
+	},
+	{
+		"displayText": "PopButton(img)",
+		"snippet": "PopButton(${1:STRPTR imagespec})${2:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI ImageButton object."
+	},
+	{
+		"displayText": "Radio(name, array)",
+		"snippet": "Radio(${1:STRPTR name}, ${2:STRPTR *array})${3:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI RadioButton object. (OBSOLETE)"
+	},
+	{
+		"displayText": "RegisterGroup(titles)",
+		"snippet": "RegisterGroup(${1:STRPTR *titles})${2:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Register object."
+	},
+	{
+		"displayText": "RowGroup(rows)",
+		"snippet": "RowGroup(${1:LONG rows})${2:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Group object with rows."
+	},
+	{
+		"displayText": "RowGroupV(rows)",
+		"snippet": "RowGroupV(${1:LONG rows})${2:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Virtgroup object with rows."
+	},
+	{
+		"displayText": "set(obj, attr, value)",
+		"snippet": "set(${1:obj}, ${2:attr}, ${3:value})${4:}",
+		"type": "macro",
+		"leftLabel": "ULONG",
+		"description": "Sets an attribute of a BOOPSI object."
+	},
+	{
+		"displayText": "setcheckmark(obj, selected)",
+		"snippet": "setcheckmark(${1:obj}, ${2:BOOL selected})${3:}",
+		"type": "macro",
+		"leftLabel": "ULONG",
+		"description": "Sets the state of a MUI CheckMark."
+	},
+	{
+		"displayText": "setcycle(obj, active)",
+		"snippet": "setcycle(${1:obj}, ${2:LONG active})${3:}",
+		"type": "macro",
+		"leftLabel": "ULONG",
+		"description": "Sets the active item of a MUI Cycle."
+	},
+	{
+		"displayText": "setmutex(obj, active)",
+		"snippet": "setmutex(${1:obj}, ${2:LONG active})${3:}",
+		"type": "macro",
+		"leftLabel": "ULONG",
+		"description": "Sets the active item of a MUI Radio object."
+	},
+	{
+		"displayText": "setslider(obj, value)",
+		"snippet": "setslider(${1:obj}, ${2:LONG value})${3:}",
+		"type": "macro",
+		"leftLabel": "ULONG",
+		"description": "Sets a MUI Slider object to a value."
+	},
+	{
+		"displayText": "setstring(obj, string)",
+		"snippet": "setstring(${1:obj}, ${2:STRPTR str})${3:}",
+		"type": "macro",
+		"leftLabel": "ULONG",
+		"description": "Sets the string contents of a MUI String."
+	},
+	{
+		"displayText": "SimpleButton(label)",
+		"snippet": "SimpleButton(${1:STRPTR label})${2:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Button."
+	},
+	{
+		"displayText": "Slider(min, max, level)",
+		"snippet": "Slider(${1:LONG min}, ${2:LONG max}, ${3:LONG level})${4:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI Slider. (OBSOLETE)"
+	},
+	{
+		"displayText": "String(obj, maxlen)",
+		"snippet": "String(${1:obj}, ${2:LONG maxlen})${3:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI String object. (OBSOLETE)"
+	},
+	{
+		"displayText": "VCenter(obj)",
+		"snippet": "VCenter(${1:obj})${2:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares the MUI object as centered in a VGroup."
+	},
+	{
+		"displayText": "VSpace(space)",
+		"snippet": "VSpace(${1:LONG space})${2:}",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI vertical spacer."
+	},
+	{
+		"displayText": "AboutmuiObject",
+		"snippet": "AboutmuiObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI AboutmuiObject."
+	},
+	{
+		"displayText": "ApplicationObject",
+		"snippet": "ApplicationObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI ApplicationObject."
+	},
+	{
+		"displayText": "BalanceObject",
+		"snippet": "BalanceObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI BalanceObject."
+	},
+	{
+		"displayText": "BitmapObject",
+		"snippet": "BitmapObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI BitmapObject."
+	},
+	{
+		"displayText": "BodychunkObject",
+		"snippet": "BodychunkObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI BodychunkObject."
+	},
+	{
+		"displayText": "BoopsiObject",
+		"snippet": "BoopsiObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI BoopsiObject."
+	},
+	{
+		"displayText": "ButtonFrame",
+		"snippet": "ButtonFrame",
+		"type": "macro",
+		"leftLabel": "",
+		"description": "Declares frame attribute for MUI object."
+	},
+	{
+		"displayText": "Child",
+		"snippet": "Child",
+		"type": "macro",
+		"leftLabel": "",
+		"description": "Declares a children object for MUI object."
+	},
+	{
+		"displayText": "ColoradjustObject",
+		"snippet": "ColoradjustObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI ColoradjustObject."
+	},
+	{
+		"displayText": "ColorfieldObject",
+		"snippet": "ColorfieldObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI ColorfieldObject."
+	},
+	{
+		"displayText": "CycleObject",
+		"snippet": "CycleObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI CycleObject."
+	},
+	{
+		"displayText": "DirlistObject",
+		"snippet": "DirlistObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI DirlistObject."
+	},
+	{
+		"displayText": "FloattextObject",
+		"snippet": "FloattextObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI FloattextObject."
+	},
+	{
+		"displayText": "GaugeFrame",
+		"snippet": "GaugeFrame",
+		"type": "macro",
+		"leftLabel": "",
+		"description": "Declares frame attribute for MUI object."
+	},
+	{
+		"displayText": "GaugeObject",
+		"snippet": "GaugeObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI GaugeObject."
+	},
+	{
+		"displayText": "GroupFrame",
+		"snippet": "GroupFrame",
+		"type": "macro",
+		"leftLabel": "",
+		"description": "Declares frame attribute for MUI object."
+	},
+	{
+		"displayText": "GroupObject",
+		"snippet": "GroupObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI GroupObject."
+	},
+	{
+		"displayText": "HGroup",
+		"snippet": "HGroup",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI HGroup."
+	},
+	{
+		"displayText": "HGroupV",
+		"snippet": "HGroupV",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI HGroupV."
+	},
+	{
+		"displayText": "HVSpace",
+		"snippet": "HVSpace",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI HVSpace."
+	},
+	{
+		"displayText": "ImageButtonFrame",
+		"snippet": "ImageButtonFrame",
+		"type": "macro",
+		"leftLabel": "",
+		"description": "Declares frame attribute for MUI object."
+	},
+	{
+		"displayText": "ImageObject",
+		"snippet": "ImageObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI ImageObject."
+	},
+	{
+		"displayText": "InputListFrame",
+		"snippet": "InputListFrame",
+		"type": "macro",
+		"leftLabel": "",
+		"description": "Declares frame attribute for MUI object."
+	},
+	{
+		"displayText": "KeyentryObject",
+		"snippet": "KeyentryObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI KeyentryObject."
+	},
+	{
+		"displayText": "KnobObject",
+		"snippet": "KnobObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI KnobObject."
+	},
+	{
+		"displayText": "LevelmeterObject",
+		"snippet": "LevelmeterObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI LevelmeterObject."
+	},
+	{
+		"displayText": "ListObject",
+		"snippet": "ListObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI ListObject."
+	},
+	{
+		"displayText": "ListviewObject",
+		"snippet": "ListviewObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI ListviewObject."
+	},
+	{
+		"displayText": "MenuitemObject",
+		"snippet": "MenuitemObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI MenuitemObject."
+	},
+	{
+		"displayText": "MenuObject",
+		"snippet": "MenuObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI MenuObject."
+	},
+	{
+		"displayText": "MenustripObject",
+		"snippet": "MenustripObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI MenustripObject."
+	},
+	{
+		"displayText": "NoFrame",
+		"snippet": "NoFrame",
+		"type": "macro",
+		"leftLabel": "",
+		"description": "Declares frame attribute for MUI object."
+	},
+	{
+		"displayText": "NotifyObject",
+		"snippet": "NotifyObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI NotifyObject."
+	},
+	{
+		"displayText": "NumericbuttonObject",
+		"snippet": "NumericbuttonObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI NumericbuttonObject."
+	},
+	{
+		"displayText": "NumericObject",
+		"snippet": "NumericObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI NumericObject."
+	},
+	{
+		"displayText": "PageGroup",
+		"snippet": "PageGroup",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI PageGroup."
+	},
+	{
+		"displayText": "PageGroupV",
+		"snippet": "PageGroupV",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI PageGroupV."
+	},
+	{
+		"displayText": "PaletteObject",
+		"snippet": "PaletteObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI PaletteObject."
+	},
+	{
+		"displayText": "PenadjustObject",
+		"snippet": "PenadjustObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI PenadjustObject."
+	},
+	{
+		"displayText": "PendisplayObject",
+		"snippet": "PendisplayObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI PendisplayObject."
+	},
+	{
+		"displayText": "PopaslObject",
+		"snippet": "PopaslObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI PopaslObject."
+	},
+	{
+		"displayText": "PropFrame",
+		"snippet": "PropFrame",
+		"type": "macro",
+		"leftLabel": "",
+		"description": "Declares frame attribute for MUI object."
+	},
+	{
+		"displayText": "PoplistObject",
+		"snippet": "PoplistObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI PoplistObject."
+	},
+	{
+		"displayText": "PopobjectObject",
+		"snippet": "PopobjectObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI PopobjectObject."
+	},
+	{
+		"displayText": "PoppenObject",
+		"snippet": "PoppenObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI PoppenObject."
+	},
+	{
+		"displayText": "PopstringObject",
+		"snippet": "PopstringObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI PopstringObject."
+	},
+	{
+		"displayText": "PropObject",
+		"snippet": "PropObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI PropObject."
+	},
+	{
+		"displayText": "RadioObject",
+		"snippet": "RadioObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI RadioObject."
+	},
+	{
+		"displayText": "ReadListFrame",
+		"snippet": "ReadListFrame",
+		"type": "macro",
+		"leftLabel": "",
+		"description": "Declares frame attribute for MUI object."
+	},
+	{
+		"displayText": "RectangleObject",
+		"snippet": "RectangleObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI RectangleObject."
+	},
+	{
+		"displayText": "RegisterObject",
+		"snippet": "RegisterObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI RegisterObject."
+	},
+	{
+		"displayText": "ScaleObject",
+		"snippet": "ScaleObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI ScaleObject."
+	},
+	{
+		"displayText": "ScrmodelistObject",
+		"snippet": "ScrmodelistObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI ScrmodelistObject."
+	},
+	{
+		"displayText": "ScrollbarObject",
+		"snippet": "ScrollbarObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI ScrollbarObject."
+	},
+	{
+		"displayText": "ScrollgroupObject",
+		"snippet": "ScrollgroupObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI ScrollgroupObject."
+	},
+	{
+		"displayText": "SliderFrame",
+		"snippet": "SliderFrame",
+		"type": "macro",
+		"leftLabel": "",
+		"description": "Declares frame attribute for MUI object."
+	},
+	{
+		"displayText": "SliderObject",
+		"snippet": "SliderObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI SliderObject."
+	},
+	{
+		"displayText": "StringFrame",
+		"snippet": "StringFrame",
+		"type": "macro",
+		"leftLabel": "",
+		"description": "Declares frame attribute for MUI object."
+	},
+	{
+		"displayText": "StringObject",
+		"snippet": "StringObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI StringObject."
+	},
+	{
+		"displayText": "SubWindow",
+		"snippet": "SubWindow",
+		"type": "macro",
+		"leftLabel": "",
+		"description": "Declares MUIA_Application_Window."
+	},
+	{
+		"displayText": "TextFrame",
+		"snippet": "TextFrame",
+		"type": "macro",
+		"leftLabel": "",
+		"description": "Declares frame attribute for MUI object."
+	},
+	{
+		"displayText": "TextObject",
+		"snippet": "TextObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI TextObject."
+	},
+	{
+		"displayText": "VGroup",
+		"snippet": "VGroup",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI VGroup."
+	},
+	{
+		"displayText": "VGroupV",
+		"snippet": "VGroupV",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI VGroupV."
+	},
+	{
+		"displayText": "VirtgroupObject",
+		"snippet": "VirtgroupObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI VirtgroupObject."
+	},
+	{
+		"displayText": "VirtualFrame",
+		"snippet": "VirtualFrame",
+		"type": "macro",
+		"leftLabel": "",
+		"description": "Declares frame attribute for MUI object."
+	},
+	{
+		"displayText": "VolumelistObject",
+		"snippet": "VolumelistObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI VolumelistObject."
+	},
+	{
+		"displayText": "WindowContents",
+		"snippet": "WindowContents",
+		"type": "macro",
+		"leftLabel": "",
+		"description": "Declares MUIA_Window_RootObject."
+	},
+	{
+		"displayText": "WindowObject",
+		"snippet": "WindowObject",
+		"type": "macro",
+		"leftLabel": "Object*",
+		"description": "Declares a MUI WindowObject."
+	}

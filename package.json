@@ -1,0 +1,27 @@
+{
+  "name": "language-amigaos-c",
+  "main": "./lib/index.js",
+  "version": "0.0.0",
+  "description": "Syntax highlighting and autocomplete support for AmigaOS API in Atom.",
+  "engines": {
+    "atom": "*"
+  },
+  "dependencies": {
+    "language-c": "^0.56.0"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "provide"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alpyre/language-amigaos-c.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alpyre/language-amigaos-c/issues"
+  },
+  "license": "MIT"
+}

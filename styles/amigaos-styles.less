@@ -1,0 +1,88 @@
+@import "syntax-variables";
+
+//Colors
+@cyan:        @hue-1;    // <-for support functions
+@darkerGreen: @hue-4;
+@niceRed:     @hue-5;    // <-for compiler predefines
+@Red-2:       @hue-5-2;
+@yellow:      @hue-6-2;  // For variable identifiers !?
+@lighterPurple:   hsl(286, 60%, 75%); // <-For Amiga Storage Typedefs
+@darkerBlue: hsl(210, 100%, 58%);     // <-For Amiga defines
+@pink: hsl(330, 64%, 70%);           // For Library Bases
+
+//TEMPORARY SCOPE COLOR! (Remove this when One-Dark-Syntax gets this implemented)
+.syntax--entity.syntax--name.syntax--macro {
+  color: @hue-2; // <--Function color of One-Dark-Syntax
+}
+
+//Scope Selectors
+.syntax--storage {
+  &.syntax--type,
+  &.syntax--modifier {
+    &.syntax--amigaos,
+    &.syntax--amigaos4 {
+      color: @lighterPurple;
+    }
+  }
+}
+
+.syntax--struct,
+.syntax--union {
+  &.syntax--amigaos,
+  &.syntax--amigaos4 {
+    color: @lighterPurple;
+  }
+}
+
+.syntax--identifier {
+  &.syntax--amigaos,
+  &.syntax--amigaos4 {
+    color: @darkerBlue;
+  }
+  &.syntax--macro {
+    &.syntax--amigaos,
+    &.syntax--amigaos4 {
+      color: @hue-2;  // <-- Same as user func. color
+    }
+  }
+}
+
+.syntax--macro {
+  &.syntax--compiler.syntax--amigaos {
+    color: @niceRed;
+  }
+  &.syntax--amigaos,
+  &.syntax--amigaos4 {
+    color: @darkerBlue;
+  }
+}
+
+.syntax--identifier {
+  &.syntax--amigaos,
+  &.syntax--amigaos4 {
+    color: @darkerBlue;
+  }
+}
+
+.syntax--enum {
+  &.syntax--amigaos,
+  &.syntax--amigaos4 {
+    color: @darkerBlue;
+  }
+}
+
+.syntax--library-base {
+  &.syntax--amigaos,
+  &.syntax--amigaos4 {
+    color: @pink;
+  }
+}
+
+.syntax--obsolete {
+  color: @syntax-illegal-fg;
+  background-color: @syntax-illegal-bg;
+}
+
+.syntax--entity.syntax--other.syntax--label-name {
+  color: @niceRed;
+}

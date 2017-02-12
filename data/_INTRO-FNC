@@ -1,0 +1,4 @@
+'scopeName': 'source.amigaos-c'
+'name': 'SDK-AmigaOS-Functions'
+'injectionSelector': 'L:source.c meta.function.c - (comment | string), L:source.c meta.function-call.c - (comment | string), L:source.cpp meta.function.c - (comment | string), L:source.cpp meta.function-call.c - (comment | string)'
+'patterns': [

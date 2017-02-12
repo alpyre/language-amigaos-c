@@ -1,0 +1,344 @@
+	{
+		"displayText": "AHI_AddAudioMode(ahiPrivate)",
+		"snippet": "AHI_AddAudioMode(${1:struct TagItem *ahiPrivate})${2:}",
+		"type": "function",
+		"leftLabel": "ULONG",
+		"description": "",
+		"descriptionMoreURL": ""
+	},
+	{
+		"displayText": "AHI_AllocAudio(...)",
+		"snippet": "AHI_AllocAudio(${1:...})${2:}",
+		"type": "function",
+		"leftLabel": "struct AHIAudioCtrl*",
+		"description": "Allocates and initializes the audio hardware.",
+		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_AllocAudioA&funcgroup=AHI&action=Search"
+	},
+	{
+		"displayText": "AHI_AllocAudioA(tagList)",
+		"snippet": "AHI_AllocAudioA(${1:struct TagItem *tagList})${2:}",
+		"type": "function",
+		"leftLabel": "struct AHIAudioCtrl*",
+		"description": "Allocates and initializes the audio hardware.",
+		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_AllocAudioA&funcgroup=AHI&action=Search"
+	},
+	{
+		"displayText": "AHI_AllocAudioRequest(...)",
+		"snippet": "AHI_AllocAudioRequest(${1:...})${2:}",
+		"type": "function",
+		"leftLabel": "struct AHIAudioModeRequester*",
+		"description": "Allocate an audio mode requester.",
+		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_AllocAudioRequestA&funcgroup=AHI&action=Search"
+	},
+	{
+		"displayText": "AHI_AllocAudioRequestA(tagList)",
+		"snippet": "AHI_AllocAudioRequestA(${1:struct TagItem *tagList})${2:}",
+		"type": "function",
+		"leftLabel": "struct AHIAudioModeRequester*",
+		"description": "Allocate an audio mode requester.",
+		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_AllocAudioRequestA&funcgroup=AHI&action=Search"
+	},
+	{
+		"displayText": "AHI_AudioRequest(requester, ...)",
+		"snippet": "AHI_AudioRequest(${1:struct AHIAudioModeRequester *requester}, ${2:...})${3:}",
+		"type": "function",
+		"leftLabel": "BOOL",
+		"description": "Get an audio mode from user using a requester.",
+		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_AudioRequestA&funcgroup=AHI&action=Search"
+	},
+	{
+		"displayText": "AHI_AudioRequestA(requester, tagList)",
+		"snippet": "AHI_AudioRequestA(${1:struct AHIAudioModeRequester *requester}, ${2:struct TagItem *tagList})${3:}",
+		"type": "function",
+		"leftLabel": "BOOL",
+		"description": "Get an audio mode from user using a requester.",
+		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_AudioRequestA&funcgroup=AHI&action=Search"
+	},
+	{
+		"displayText": "AHI_BestAudioID(...)",
+		"snippet": "AHI_BestAudioID(${1:...})${2:}",
+		"type": "function",
+		"leftLabel": "ULONG",
+		"description": "Calculate the best ModeID with given parameters.",
+		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_BestAudioIDA&funcgroup=AHI&action=Search"
+	},
+	{
+		"displayText": "AHI_BestAudioIDA(tagList)",
+		"snippet": "AHI_BestAudioIDA(${1:struct TagItem *tagList})${2:}",
+		"type": "function",
+		"leftLabel": "ULONG",
+		"description": "Calculate the best ModeID with given parameters.",
+		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_BestAudioIDA&funcgroup=AHI&action=Search"
+	},
+	{
+		"displayText": "AHI_ControlAudio(audioCtrl, ...)",
+		"snippet": "AHI_ControlAudio(${1:struct AHIAudioCtrl *audioCtrl}, ${2:...})${3:}",
+		"type": "function",
+		"leftLabel": "ULONG",
+		"description": "Change audio attributes.",
+		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_ControlAudioA&funcgroup=AHI&action=Search"
+	},
+	{
+		"displayText": "AHI_ControlAudioA(audioCtrl, tagList)",
+		"snippet": "AHI_ControlAudioA(${1:struct AHIAudioCtrl *audioCtrl}, ${2:struct TagItem *tagList})${3:}",
+		"type": "function",
+		"leftLabel": "ULONG",
+		"description": "Change audio attributes.",
+		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_ControlAudioA&funcgroup=AHI&action=Search"
+	},
+	{
+		"displayText": "AHI_FreeAudio(audioCtrl)",
+		"snippet": "AHI_FreeAudio(${1:struct AHIAudioCtrl *audioCtrl})${2:}",
+		"type": "function",
+		"leftLabel": "void",
+		"description": "Deallocates the audio hardware.",
+		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_FreeAudio&funcgroup=AHI&action=Search"
+	},
+	{
+		"displayText": "AHI_FreeAudioRequest(aequester)",
+		"snippet": "AHI_FreeAudioRequest(${1:struct AHIAudioModeRequester *aequester})${2:}",
+		"type": "function",
+		"leftLabel": "void",
+		"description": "Frees requester resources.",
+		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_FreeAudioRequest&funcgroup=AHI&action=Search"
+	},
+	{
+		"displayText": "AHI_GetAudioAttrs(ID, audioCtrl, ...)",
+		"snippet": "AHI_GetAudioAttrs(${1:ULONG ID}, ${2:struct AHIAudioCtrl *audioCtrl}, ${3:...})${4:}",
+		"type": "function",
+		"leftLabel": "BOOL",
+		"description": "Examine an audio mode via a tag list.",
+		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_GetAudioAttrsA&funcgroup=AHI&action=Search"
+	},
+	{
+		"displayText": "AHI_GetAudioAttrsA(ID, audioCtrl, tagList)",
+		"snippet": "AHI_GetAudioAttrsA(${1:ULONG ID}, ${2:struct AHIAudioCtrl *audioCtrl}, ${3:struct TagItem *tagList})${4:}",
+		"type": "function",
+		"leftLabel": "BOOL",
+		"description": "Examine an audio mode via arguments.",
+		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_GetAudioAttrsA&funcgroup=AHI&action=Search"
+	},
+	{
+		"displayText": "AHI_KillAudio()",
+		"snippet": "AHI_KillAudio()",
+		"type": "function",
+		"leftLabel": "void",
+		"description": "",
+		"descriptionMoreURL": ""
+	},
+	{
+		"displayText": "AHI_LoadModeFile(ahiPrivate)",
+		"snippet": "AHI_LoadModeFile(${1:STRPTR ahiPrivate})${2:}",
+		"type": "function",
+		"leftLabel": "ULONG",
+		"description": "",
+		"descriptionMoreURL": ""
+	},
+	{
+		"displayText": "AHI_LoadSound(Sound, Type, Info, audioCtrl)",
+		"snippet": "AHI_LoadSound(${1:UWORD Sound}, ${2:ULONG Type}, ${3:APTR Info}, ${4:struct AHIAudioCtrl *audioCtrl})${5:}",
+		"type": "function",
+		"leftLabel": "ULONG",
+		"description": "Prepare a sound for playback.",
+		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_LoadSound&funcgroup=AHI&action=Search"
+	},
+	{
+		"displayText": "AHI_NextAudioID(last_ID)",
+		"snippet": "AHI_NextAudioID(${1:ULONG last_ID})${2:}",
+		"type": "function",
+		"leftLabel": "ULONG",
+		"description": "Iterate current audio mode identifiers.",
+		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_NextAudioID&funcgroup=AHI&action=Search"
+	},
+	{
+		"displayText": "AHI_Play(audioCtrl, ...)",
+		"snippet": "AHI_Play(${1:struct AHIAudioCtrl *audioCtrl}, ${2:...})${3:}",
+		"type": "function",
+		"leftLabel": "void",
+		"description": "Start multiple sounds in one call. (V4)",
+		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_PlayA&funcgroup=AHI&action=Search"
+	},
+	{
+		"displayText": "AHI_PlayA(audioCtrl, tagList)",
+		"snippet": "AHI_PlayA(${1:struct AHIAudioCtrl *audioCtrl}, ${2:struct TagItem *tagList})${3:}",
+		"type": "function",
+		"leftLabel": "void",
+		"description": "Start multiple sounds in one call. (V4)",
+		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_PlayA&funcgroup=AHI&action=Search"
+	},
+	{
+		"displayText": "AHI_RemoveAudioMode(ahiPrivate)",
+		"snippet": "AHI_RemoveAudioMode(${1:ULONG ahiPrivate})${2:}",
+		"type": "function",
+		"leftLabel": "ULONG",
+		"description": "",
+		"descriptionMoreURL": ""
+	},
+	{
+		"displayText": "AHI_SampleFrameSize(sampleType)",
+		"snippet": "AHI_SampleFrameSize(${1:ULONG sampleType})${2:}",
+		"type": "function",
+		"leftLabel": "ULONG",
+		"description": "Get the size of a sample frame. (V4)",
+		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_SampleFrameSize&funcgroup=AHI&action=Search"
+	},
+	{
+		"displayText": "AHI_SetEffect(effect, audioCtrl)",
+		"snippet": "AHI_SetEffect(${1:APTR effect}, ${2:struct AHIAudioCtrl *audioCtrl})${3:}",
+		"type": "function",
+		"leftLabel": "ULONG",
+		"description": "Set audio effect.",
+		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_SetEffect&funcgroup=AHI&action=Search"
+	},
+	{
+		"displayText": "AHI_SetFreq(channel, freq, audioCtrl, flags)",
+		"snippet": "AHI_SetFreq(${1:UWORD channel}, ${2:ULONG freq}, ${3:struct AHIAudioCtrl *audioCtrl}, ${4:ULONG flags})${5:}",
+		"type": "function",
+		"leftLabel": "void",
+		"description": "Set frequency for a channel.",
+		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_SetFreq&funcgroup=AHI&action=Search"
+	},
+	{
+		"displayText": "AHI_SetSound(channel, sound, offset, length, audioCtrl, flags)",
+		"snippet": "AHI_SetSound(${1:UWORD channel}, ${2:UWORD sound}, ${3:ULONG offset}, ${4:LONG length}, ${5:struct AHIAudioCtrl *audioCtrl}, ${6:ULONG flags})${7:}",
+		"type": "function",
+		"leftLabel": "void",
+		"description": "Set what sound to play for a channel.",
+		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_SetSound&funcgroup=AHI&action=Search"
+	},
+	{
+		"displayText": "AHI_SetVol(channel, volume, pan, audioCtrl, flags)",
+		"snippet": "AHI_SetVol(${1:UWORD channel}, ${2:Fixed volume}, ${3:sposition pan}, ${4:struct AHIAudioCtrl *audioCtrl}, ${5:ULONG flags})${6:}",
+		"type": "function",
+		"leftLabel": "void",
+		"description": "Set volume and stereo panning for a channel.",
+		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_SetVol&funcgroup=AHI&action=Search"
+	},
+	{
+		"displayText": "AHI_UnloadSound(Sound, audioCtrl)",
+		"snippet": "AHI_UnloadSound(${1:UWORD Sound}, ${2:struct AHIAudioCtrl *audioCtrl})${3:}",
+		"type": "function",
+		"leftLabel": "void",
+		"description": "Discard a sound.",
+		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_UnloadSound&funcgroup=AHI&action=Search"
+	},
+	{
+		"displayText": "AHIsub_AllocAudio(tagList, audioCtrl)",
+		"snippet": "AHIsub_AllocAudio(${1:struct TagItem *tagList}, ${2:struct AHIAudioCtrlDrv *audioCtrl})${3:}",
+		"type": "function",
+		"leftLabel": "ULONG",
+		"description": "",
+		"descriptionMoreURL": ""
+	},
+	{
+		"displayText": "AHIsub_Disable(audioCtrl)",
+		"snippet": "AHIsub_Disable(${1:struct AHIAudioCtrlDrv *audioCtrl})${2:}",
+		"type": "function",
+		"leftLabel": "void",
+		"description": "",
+		"descriptionMoreURL": ""
+	},
+	{
+		"displayText": "AHIsub_Enable(audioCtrl)",
+		"snippet": "AHIsub_Enable(${1:struct AHIAudioCtrlDrv *audioCtrl})${2:}",
+		"type": "function",
+		"leftLabel": "void",
+		"description": "",
+		"descriptionMoreURL": ""
+	},
+	{
+		"displayText": "AHIsub_FreeAudio(audioCtrl)",
+		"snippet": "AHIsub_FreeAudio(${1:struct AHIAudioCtrlDrv *audioCtrl})${2:}",
+		"type": "function",
+		"leftLabel": "void",
+		"description": "",
+		"descriptionMoreURL": ""
+	},
+	{
+		"displayText": "AHIsub_GetAttr(attribute, argument, defaults, tagList, audioCtrl)",
+		"snippet": "AHIsub_GetAttr(${1:ULONG attribute}, ${2:LONG argument}, ${3:LONG defaults}, ${4:struct TagItem *tagList}, ${5:struct AHIAudioCtrlDrv *audioCtrl})${6:}",
+		"type": "function",
+		"leftLabel": "LONG",
+		"description": "",
+		"descriptionMoreURL": ""
+	},
+	{
+		"displayText": "AHIsub_HardwareControl(attribute, argument, audioCtrl)",
+		"snippet": "AHIsub_HardwareControl(${1:ULONG attribute}, ${2:LONG argument}, ${3:struct AHIAudioCtrlDrv *audioCtrl})${4:}",
+		"type": "function",
+		"leftLabel": "LONG",
+		"description": "",
+		"descriptionMoreURL": ""
+	},
+	{
+		"displayText": "AHIsub_LoadSound(sound, type, info, audioCtrl)",
+		"snippet": "AHIsub_LoadSound(${1:UWORD sound}, ${2:ULONG type}, ${3:APTR info}, ${4:struct AHIAudioCtrlDrv *audioCtrl})${5:}",
+		"type": "function",
+		"leftLabel": "ULONG",
+		"description": "",
+		"descriptionMoreURL": ""
+	},
+	{
+		"displayText": "AHIsub_SetEffect(effect, audioCtrl)",
+		"snippet": "AHIsub_SetEffect(${1:APTR effect}, ${2:struct AHIAudioCtrlDrv *audioCtrl})${3:}",
+		"type": "function",
+		"leftLabel": "ULONG",
+		"description": "",
+		"descriptionMoreURL": ""
+	},
+	{
+		"displayText": "AHIsub_SetFreq(channel, freq, audioCtrl, flags)",
+		"snippet": "AHIsub_SetFreq(${1:UWORD channel}, ${2:ULONG freq}, ${3:struct AHIAudioCtrlDrv *audioCtrl}, ${4:ULONG flags})${5:}",
+		"type": "function",
+		"leftLabel": "ULONG",
+		"description": "",
+		"descriptionMoreURL": ""
+	},
+	{
+		"displayText": "AHIsub_SetSound(channel, sound, offset, length, audioCtrl, flags)",
+		"snippet": "AHIsub_SetSound(${1:UWORD channel}, ${2:UWORD sound}, ${3:ULONG offset}, ${4:LONG length}, ${5:struct AHIAudioCtrlDrv *audioCtrl}, ${6:ULONG flags})${7:}",
+		"type": "function",
+		"leftLabel": "ULONG",
+		"description": "",
+		"descriptionMoreURL": ""
+	},
+	{
+		"displayText": "AHIsub_SetVol(channel, volume, pan, audioCtrl, flags)",
+		"snippet": "AHIsub_SetVol(${1:UWORD channel}, ${2:Fixed volume}, ${3:sposition pan}, ${4:struct AHIAudioCtrlDrv *audioCtrl}, ${5:ULONG flags})${6:}",
+		"type": "function",
+		"leftLabel": "ULONG",
+		"description": "",
+		"descriptionMoreURL": ""
+	},
+	{
+		"displayText": "AHIsub_Start(flags, audioCtrl)",
+		"snippet": "AHIsub_Start(${1:ULONG flags}, ${2:struct AHIAudioCtrlDrv *audioCtrl})${3:}",
+		"type": "function",
+		"leftLabel": "ULONG",
+		"description": "",
+		"descriptionMoreURL": ""
+	},
+	{
+		"displayText": "AHIsub_Stop(flags, audioCtrl)",
+		"snippet": "AHIsub_Stop(${1:ULONG flags}, ${2:struct AHIAudioCtrlDrv *audioCtrl})${3:}",
+		"type": "function",
+		"leftLabel": "ULONG",
+		"description": "",
+		"descriptionMoreURL": ""
+	},
+	{
+		"displayText": "AHIsub_UnloadSound(sound, audioCtrl)",
+		"snippet": "AHIsub_UnloadSound(${1:UWORD sound}, ${2:struct AHIAudioCtrlDrv *audioCtrl})${3:}",
+		"type": "function",
+		"leftLabel": "ULONG",
+		"description": "",
+		"descriptionMoreURL": ""
+	},
+	{
+		"displayText": "AHIsub_Update(flags, audioCtrl)",
+		"snippet": "AHIsub_Update(${1:ULONG flags}, ${2:struct AHIAudioCtrlDrv *audioCtrl})${3:}",
+		"type": "function",
+		"leftLabel": "ULONG",
+		"description": "",
+		"descriptionMoreURL": ""
+	}

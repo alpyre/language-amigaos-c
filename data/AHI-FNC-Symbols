@@ -1,0 +1,4 @@
+  { #AHI function names
+    'match': '\\b(?:AHIsub_AllocAudio|AHIsub_Disable|AHIsub_Enable|AHIsub_FreeAudio|AHIsub_GetAttr|AHIsub_HardwareControl|AHIsub_LoadSound|AHIsub_SetEffect|AHIsub_SetFreq|AHIsub_SetSound|AHIsub_SetVol|AHIsub_Start|AHIsub_Stop|AHIsub_UnloadSound|AHIsub_Update|AHI_AddAudioMode|AHI_AllocAudio|AHI_AllocAudioA|AHI_AllocAudioRequest|AHI_AllocAudioRequestA|AHI_AudioRequest|AHI_AudioRequestA|AHI_BestAudioID|AHI_BestAudioIDA|AHI_ControlAudio|AHI_ControlAudioA|AHI_FreeAudio|AHI_FreeAudioRequest|AHI_GetAudioAttrs|AHI_GetAudioAttrsA|AHI_KillAudio|AHI_LoadModeFile|AHI_LoadSound|AHI_NextAudioID|AHI_Play|AHI_PlayA|AHI_RemoveAudioMode|AHI_SampleFrameSize|AHI_SetEffect|AHI_SetFreq|AHI_SetSound|AHI_SetVol|AHI_UnloadSound)(?=\\s*\\()'
+    'name': 'support.function.amigaos.AHI.c'
+  }

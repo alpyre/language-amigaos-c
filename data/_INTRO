@@ -1,0 +1,4 @@
+'scopeName': 'source.amigaos-c'
+'name': 'SDK-AmigaOS-Symbols'
+'injectionSelector': 'L:source.c - (comment | string | meta.preprocessor.pragma.c | meta.preprocessor.diagnostic.c), L:source.cpp - (comment | string | meta.preprocessor.pragma.c | meta.preprocessor.diagnostic.c)'
+'patterns': [

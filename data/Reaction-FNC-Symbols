@@ -1,0 +1,4 @@
+  { #Reaction macro names
+    'match': '\\b(?:BOffset|Button|gfFreeFilelist|gfRequestDir|gfRequestFile|gfRequestFont|HAlign|Item|Label|LabelString|LabelTextLine|LOffset|MemberLabel|Offset|PopString|PushButton|RA_CloseWindow|RA_FlushRexx|RA_HandleInput|RA_HandleRexx|RA_Iconify|RA_OpenWindow|RA_SetUpHook|RA_SetUpHook|RA_Uniconify|RequestScreenMode|ROffset|Spacing|String|SubItem|TextLine|Title|TOffset|VAlign)(?=\\s*\\()'
+    'name': 'macro.amigaos.Reaction.c'
+  }
