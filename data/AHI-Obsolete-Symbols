@@ -1,0 +1,4 @@
+  { #Obsolete AHI Symbols (CODER SHOULD NOT USE!)
+    'match': '\\b(?:AHIST_M8U)\\b'
+    'name': 'obsolete.amigaos.AHI.c'
+  }

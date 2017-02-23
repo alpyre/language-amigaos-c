@@ -1,0 +1,4 @@
+  { #Obsolete Reaction Symbols (CODER SHOULD NOT USE!)
+    'match': '\\b(?:BEVEL_HorzSize|BEVEL_HorzSize|BVS_SBAR_HORZ|BVS_SBAR_HORZ|CHECKBOX_BevelStyle|DRAWLIST_DrawInfo|FUELGAUGE_HORIZONTAL|FUELGAUGE_VERTICAL|GLYPH_DrawInfo|LABEL_CENTER|LABEL_CENTRE|LABEL_LEFT|LABEL_RIGHT|LAYOUT_DisposeLabels|LAYOUT_HorizSpacing|LAYOUT_VertSpacing|SPEEDBAR_HORIZONTAL|SPEEDBAR_VERTICAL|TNA_Enabled|TNA_Highlight|TNA_Spacing)\\b'
+    'name': 'obsolete.amigaos.Reaction.c'
+  }

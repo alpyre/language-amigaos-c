@@ -44,9 +44,10 @@
 .syntax--identifier {
   &.syntax--amigaos,
   &.syntax--amigaos4 {
-    color: @a_darkerBlue;
+    color: @syntax-color-variable;
   }
-  &.syntax--macro {
+  &.syntax--macro,
+  &.syntax--function {
     &.syntax--amigaos,
     &.syntax--amigaos4 {
       color: @syntax-color-function;  // <-- Same as user func. color

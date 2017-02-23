@@ -15,7 +15,7 @@
     'name': 'macro.compiler.amigaos.GCC.c'
   }
   { ##GCC named enums
-    'match': '\\benum\\s+(?:reg_class)\\b'
+    'match': '\\benum\\s+(?:reg_class|__type_class|__va_type_classes)\\b'
     'name': 'storage.type.amigaos.GCC.c'
   }
   { #GCC compiler predifines (OPTIMIZED)
@@ -47,7 +47,7 @@
     'name': 'identifier.amigaos.GCC.c'
   }
   { #GCC enumerations (OPTIMIZED)
-    'match': '\\b(?:MODE_(?:CC|COMPLEX_(?:FLOAT|INT)|FLOAT|FUNCTION|INT|PARTIAL_INT|RANDOM))\\b'
+    'match': '\\b(?:MODE_(?:CC|COMPLEX_(?:FLOAT|INT)|FLOAT|FUNCTION|INT|PARTIAL_INT|RANDOM)|__(?:array|boolean|char|complex|enumeral|file|function|integer|lang|method|no|offset|pointer|real|record|reference|set|string|union|void)_type_class)\\b'
     'name': 'enum.amigaos.GCC.c'
   }
   { #GCC __label__ forward declaration
@@ -72,7 +72,7 @@
         'name': 'entity.other.attribute-name.GCC.c'
       }
       {
-        'match': '\\b(alias|section)\\s*\\(\\s*("[A-Za-z_][A-Za-z0-9_]*")\\s*\\)'
+        'match': '\\b(alias|section)\\s*\\(\\s*("[A-Za-z_\.][A-Za-z0-9_\.]*")\\s*\\)'
         'captures':
           '1':
             'name': 'entity.other.attribute-name.GCC.c'

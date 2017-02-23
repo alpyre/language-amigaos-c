@@ -1,0 +1,4 @@
+  { #Reaction Symbols Obsoleted with OS4 (CODER SHOULD NOT USE!)
+    'match': '\\b(?:CHOOSER_AutoFit|GA_TEXTEDITOR_KeyBindings|GA_TEXTEDITOR_NumLock|GA_TEXTEDITOR_PopWindow_Open|GA_TEXTEDITOR_Prop_Release|LISTBROWSER_FastRender|SBNA_Left|SBNA_Top|SPEEDBAR_StrumBar)\\b'
+    'name': 'obsolete.amigaos4.Reaction.c'
+  }

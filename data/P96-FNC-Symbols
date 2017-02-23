@@ -1,4 +1,4 @@
-  { # Picasso 96 macro names
-    'match': '\\b(?:p96AllocBitMap|p96AllocModeListTagList|p96AllocModeListTags|p96BestModeIDTagList|p96BestModeIDTags|p96CloseScreen|p96FreeBitMap|p96FreeModeList|p96GetBitMapAttr|p96GetModeIDAttr|p96LockBitMap|p96OpenScreenTagList|p96OpenScreenTags|p96PIP_Close|p96PIP_GetTagList|p96PIP_GetTags|p96PIP_OpenTagList|p96PIP_OpenTags|p96PIP_SetTagList|p96PIP_SetTags|p96ReadPixel|p96ReadPixelArray|p96ReadTrueColorData|p96RectFill|p96RequestModeIDTagList|p96RequestModeIDTags|p96UnlockBitMap|p96WritePixel|p96WritePixelArray|p96WriteTrueColorData)(?=\\s*\\()'
-    'name': 'macro.amigaos.P96.c'
+  { # Picasso 96 function names
+    'match': '\\b(?:p96AllocBitMap|p96AllocModeListTagList|p96AllocModeListTags|p96BestModeIDTagList|p96BestModeIDTags|p96CloseScreen|p96EncodeColor|p96FreeBitMap|p96FreeModeList|p96FreeModeListTagList|p96GetBitMapAttr|p96GetBoardDataTagList|p96GetBoardDataTags|p96GetModeIDAttr|p96GetRTGDataTagList|p96GetRTGDataTags|p96LockBitMap|p96LockBitMapToBoard|p96OpenScreenTagList|p96OpenScreenTags|p96PIP_Close|p96PIP_GetIMsg|p96PIP_GetTagList|p96PIP_GetTags|p96PIP_OpenTagList|p96PIP_OpenTags|p96PIP_ReplyIMsg|p96PIP_SetTagList|p96PIP_SetTags|p96ReadPixel|p96ReadPixelArray|p96ReadTrueColorData|p96RectFill|p96RequestModeIDTagList|p96RequestModeIDTags|p96UnlockBitMap|p96UnlockBitMapFromBoard|p96WritePixel|p96WritePixelArray|p96WriteTrueColorData)(?=\\s*\\()'
+    'name': 'support.function.amigaos.P96.c'
   }
