@@ -6,9 +6,6 @@
   "engines": {
     "atom": "*"
   },
-  "dependencies": {
-    "language-c": "^0.56.0"
-  },
   "providedServices": {
     "autocomplete.provider": {
       "versions": {
