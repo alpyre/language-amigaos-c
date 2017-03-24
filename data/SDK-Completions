@@ -9821,4 +9821,2356 @@
 		"leftLabel": "void",
 		"description": "Change window to \"alternate\" position and dimensions. (V36)",
 		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0407.html"
+	},
+	{
+		"displayText": "AChain",
+		"type": "struct",
+		"description": "DOS pattern matching anchor chain.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D0.html#line98"
+	},
+	{
+		"displayText": "adtFrame",
+		"type": "struct",
+		"description": "Message struct for anim datatype methods.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D1.html#line206"
+	},
+	{
+		"displayText": "adtNewFormatFrame",
+		"type": "struct",
+		"description": "Message struct for anim datatype methods.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D1.html#line228"
+	},
+	{
+		"displayText": "adtStart",
+		"type": "struct",
+		"description": "Message struct for anim datatype methods.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D1.html#line256"
+	},
+	{
+		"displayText": "AmigaGuideHost",
+		"type": "struct",
+		"description": "Callback hook structure for AmigaGuideHost.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D2.html#line144"
+	},
+	{
+		"displayText": "AmigaGuideMsg",
+		"type": "struct",
+		"description": "AmigaGuide message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D2.html#line88"
+	},
+	{
+		"displayText": "AnalogSignalInterval",
+		"type": "struct",
+		"description": "Monitorspec structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D3.html#line151"
+	},
+	{
+		"displayText": "AnchorPath",
+		"type": "struct",
+		"description": "DOS pattern-matching structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D0.html#line51"
+	},
+	{
+		"displayText": "AnimComp",
+		"type": "struct",
+		"description": "Animation Component structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D4.html#line167"
+	},
+	{
+		"displayText": "AnimHeader",
+		"type": "struct",
+		"description": "AnimHeader structure that describes an ANIM frame.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D1.html#line100"
+	},
+	{
+		"displayText": "AnimOb",
+		"type": "struct",
+		"description": "Anim object data structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D4.html#line203"
+	},
+	{
+		"displayText": "apExecute",
+		"type": "struct",
+		"description": "ARexx AM_EXECUTE method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D5.html#line97"
+	},
+	{
+		"displayText": "AppIcon",
+		"type": "struct",
+		"description": "workbench.library private structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D6.html#line162"
+	},
+	{
+		"displayText": "AppIconRenderMsg",
+		"type": "struct",
+		"description": "AppIcon render hook data structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D6.html#line362"
+	},
+	{
+		"displayText": "AppMenu",
+		"type": "struct",
+		"description": "workbench.library private structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D6.html#line159"
+	},
+	{
+		"displayText": "AppMenuItem",
+		"type": "struct",
+		"description": "workbench.library private structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D6.html#line159"
+	},
+	{
+		"displayText": "AppMessage",
+		"type": "struct",
+		"description": "Workbench application message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D6.html#line115"
+	},
+	{
+		"displayText": "AppWindow",
+		"type": "struct",
+		"description": "workbench.library private structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D6.html#line160"
+	},
+	{
+		"displayText": "AppWindowDropZone",
+		"type": "struct",
+		"description": "workbench.library private structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D6.html"
+	},
+	{
+		"displayText": "AppWindowDropZoneMsg",
+		"type": "struct",
+		"description": "workbench.library private structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D6.html#line383"
+	},
+	{
+		"displayText": "AreaInfo",
+		"type": "struct",
+		"description": "AreaInfo structure for a rastport.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D7.html#line20"
+	},
+	{
+		"displayText": "ARexxCmd",
+		"type": "struct",
+		"description": "Structure for ARexx commands.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D5.html#line113"
+	},
+	{
+		"displayText": "ArticleDisposition",
+		"type": "struct",
+		"description": "Structure for article retrieval folder routing callback.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D8.html#line115"
+	},
+	{
+		"displayText": "AslPrefs",
+		"type": "struct",
+		"description": "ASL preferences structure.",
+		"descriptionMoreURL": ""
+	},
+	{
+		"displayText": "AslSemaphore",
+		"type": "struct",
+		"description": "ASL semaphore structure.",
+		"descriptionMoreURL": ""
+	},
+	{
+		"displayText": "AssignList",
+		"type": "struct",
+		"description": "Structure for multi-directory assigns.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D9.html#line406"
+	},
+	{
+		"displayText": "AvailFonts",
+		"type": "struct",
+		"description": "Structure for available fonts.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05DA.html#line95"
+	},
+	{
+		"displayText": "AvailFontsHeader",
+		"type": "struct",
+		"description": "Structure for available fonts buffer.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05DA.html#line105"
+	},
+	{
+		"displayText": "AVLNode",
+		"type": "struct",
+		"description": "",
+		"descriptionMoreURL": ""
+	},
+	{
+		"displayText": "BadBlockBlock",
+		"type": "struct",
+		"description": "Structure for bad-block/good-block pairs lists in RDB.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05DB.html#line136"
+	},
+	{
+		"displayText": "BadBlockEntry",
+		"type": "struct",
+		"description": "Structure for every BadBlock entry pairs in RDB.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05DB.html#line131"
+	},
+	{
+		"displayText": "BitMap",
+		"type": "struct",
+		"description": "gfx.library BitMap structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05DC.html#line45"
+	},
+	{
+		"displayText": "BitMapHeader",
+		"type": "struct",
+		"description": "Picture datatype Bitmap header structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05DD.html#line203"
+	},
+	{
+		"displayText": "BitScaleArgs",
+		"type": "struct",
+		"description": "Arguments structure for BitMapScale()",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05DE.html#line16"
+	},
+	{
+		"displayText": "bltnode",
+		"type": "struct",
+		"description": "Structure for blit queue.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05DF.html#line87"
+	},
+	{
+		"displayText": "Bob",
+		"type": "struct",
+		"description": "Blitter Object data structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D4.html#line138"
+	},
+	{
+		"displayText": "BoolInfo",
+		"type": "struct",
+		"description": "Data structure needed by an Extended Boolean Gadget.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E0.html#line513"
+	},
+	{
+		"displayText": "bootblock",
+		"type": "struct",
+		"description": "HDWrench bootblock structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05FA.html"
+	},
+	{
+		"displayText": "BootNode",
+		"type": "struct",
+		"description": "expansion.library boot node structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E1.html#line32"
+	},
+	{
+		"displayText": "Border",
+		"type": "struct",
+		"description": "Border structure used by DrawBorder().",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E0.html#line683"
+	},
+	{
+		"displayText": "CardHandle",
+		"type": "struct",
+		"description": "card.resource data structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E2.html#line29"
+	},
+	{
+		"displayText": "CardMemoryMap",
+		"type": "struct",
+		"description": "card.resource data structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E2.html#line44"
+	},
+	{
+		"displayText": "Catalog",
+		"type": "struct",
+		"description": "locale.library catalog structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E3.html#line245"
+	},
+	{
+		"displayText": "CDInfo",
+		"type": "struct",
+		"description": "cd.device CD Information structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E4.html#line132"
+	},
+	{
+		"displayText": "CDXL",
+		"type": "struct",
+		"description": "Item structure for CD Transfer Lists.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E4.html#line225"
+	},
+	{
+		"displayText": "CIA",
+		"type": "struct",
+		"description": "Complex Interface Adapter structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E5.html#line28"
+	},
+	{
+		"displayText": "ClassLibrary",
+		"type": "struct",
+		"description": "Library data structure for BOOPSI class libraries.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E6.html#line104"
+	},
+	{
+		"displayText": "ClipboardHandle",
+		"type": "struct",
+		"description": "Structure returned by OpenClipboard().",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E8.html#line147"
+	},
+	{
+		"displayText": "ClipboardUnitPartial",
+		"type": "struct",
+		"description": "clipboard.device unit structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E9.html#line33"
+	},
+	{
+		"displayText": "ClipHookMsg",
+		"type": "struct",
+		"description": "clipboard.device hook message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E9.html#line62"
+	},
+	{
+		"displayText": "ClipRect",
+		"type": "struct",
+		"description": "layers.library private data structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05EA.html#line56"
+	},
+	{
+		"displayText": "CliProcList",
+		"type": "struct",
+		"description": "dos.library private data structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D9.html#line273"
+	},
+	{
+		"displayText": "ClockData",
+		"type": "struct",
+		"description": "Data structure for date conversion routines.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05EB.html#line23"
+	},
+	{
+		"displayText": "CollectionItem",
+		"type": "struct",
+		"description": "iffparse.library Collection node item.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E8.html#line132"
+	},
+	{
+		"displayText": "collTable",
+		"type": "struct",
+		"description": "gels.library 16 collision procedure addresses.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D4.html#line264"
+	},
+	{
+		"displayText": "ColorFontColors",
+		"type": "struct",
+		"description": "graphics.library color font colors.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05EC.html#line142"
+	},
+	{
+		"displayText": "ColorMap",
+		"type": "struct",
+		"description": "Viewport ColorMap structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05ED.html#line142"
+	},
+	{
+		"displayText": "ColorRegister",
+		"type": "struct",
+		"description": "picture.datatype RGB color structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05DD.html#line223"
+	},
+	{
+		"displayText": "ColorSpec",
+		"type": "struct",
+		"description": "intuition.library RGB color structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E0.html#line1445"
+	},
+	{
+		"displayText": "ColorTextFont",
+		"type": "struct",
+		"description": "graphics.library colored Text font structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05EC.html#line149"
+	},
+	{
+		"displayText": "CommandLineInterface",
+		"type": "struct",
+		"description": "Additional data structures for CLI started processes.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D9.html#line313"
+	},
+	{
+		"displayText": "Conductor",
+		"type": "struct",
+		"description": "realtime.library private data structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05F0.html#line57"
+	},
+	{
+		"displayText": "ConfigDev",
+		"type": "struct",
+		"description": "Data structure for installed expansion boards.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05F1.html#line31"
+	},
+	{
+		"displayText": "ContextNode",
+		"type": "struct",
+		"description": "A node associated with a context on the iff_Stack.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E8.html#line84"
+	},
+	{
+		"displayText": "ConUnit",
+		"type": "struct",
+		"description": "console.device unit structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05F2.html#line52"
+	},
+	{
+		"displayText": "copinit",
+		"type": "struct",
+		"description": "copper.library private structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05F3.html#line99"
+	},
+	{
+		"displayText": "CopIns",
+		"type": "struct",
+		"description": "Copper instructions.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05F3.html#line23"
+	},
+	{
+		"displayText": "CopList",
+		"type": "struct",
+		"description": "Copper list structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05F3.html#line61"
+	},
+	{
+		"displayText": "CopyBeginMsg",
+		"type": "struct",
+		"description": "INFO",
+		"descriptionMoreURL": "LINK"
+	},
+	{
+		"displayText": "CopyDataMsg",
+		"type": "struct",
+		"description": "INFO",
+		"descriptionMoreURL": "LINK"
+	},
+	{
+		"displayText": "CopyEndMsg",
+		"type": "struct",
+		"description": "INFO",
+		"descriptionMoreURL": "LINK"
+	},
+	{
+		"displayText": "CountryPrefs",
+		"type": "struct",
+		"description": "locale.library country preference structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05F4.html#line31"
+	},
+	{
+		"displayText": "cprlist",
+		"type": "struct",
+		"description": "Structure of cprlist that points to list that hardware actually executes.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05F3.html#line54"
+	},
+	{
+		"displayText": "CSource",
+		"type": "struct",
+		"description": "Input source structure for ReadItem().",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05F5.html#line60"
+	},
+	{
+		"displayText": "CurrentBinding",
+		"type": "struct",
+		"description": "Driver binding structure for expansion boards.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05F1.html#line60"
+	},
+	{
+		"displayText": "Custom",
+		"type": "struct",
+		"description": "Custom chipset registers.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05F6.html#line24"
+	},
+	{
+		"displayText": "DataType",
+		"type": "struct",
+		"description": "DataType structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05F7.html#line174"
+	},
+	{
+		"displayText": "DataTypeHeader",
+		"type": "struct",
+		"description": "DataType header structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05F7.html#line39"
+	},
+	{
+		"displayText": "DateStamp",
+		"type": "struct",
+		"description": "DateStamp structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05F8.html#line51"
+	},
+	{
+		"displayText": "DateTime",
+		"type": "struct",
+		"description": "Data structure for StrtoDate() and DatetoStr().",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05F9.html#line24"
+	},
+	{
+		"displayText": "DBufInfo",
+		"type": "struct",
+		"description": "Double-buffering structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05ED.html#line278"
+	},
+	{
+		"displayText": "DBufPacket",
+		"type": "struct",
+		"description": "Structure for extra info buffer needed when double-buffering.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D4.html#line234"
+	},
+	{
+		"displayText": "DefaultsArray",
+		"type": "struct",
+		"description": "hdwrench.library defaults array structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05FA.html#line168"
+	},
+	{
+		"displayText": "DeleteBeginMsg",
+		"type": "struct",
+		"description": "INFO",
+		"descriptionMoreURL": "LINK"
+	},
+	{
+		"displayText": "DeleteDataMsg",
+		"type": "struct",
+		"description": "INFO",
+		"descriptionMoreURL": "LINK"
+	},
+	{
+		"displayText": "DeleteEndMsg",
+		"type": "struct",
+		"description": "INFO",
+		"descriptionMoreURL": "LINK"
+	},
+	{
+		"displayText": "Device",
+		"type": "struct",
+		"description": "device.library base structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05FB.html#line23"
+	},
+	{
+		"displayText": "DeviceData",
+		"type": "struct",
+		"description": "Printer device data structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05FC.html#line42"
+	},
+	{
+		"displayText": "DeviceList",
+		"type": "struct",
+		"description": "Structure representing a volume.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D9.html#line341"
+	},
+	{
+		"displayText": "DeviceNode",
+		"type": "struct",
+		"description": "Structure is for a dos device.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05FD.html#line95"
+	},
+	{
+		"displayText": "DeviceTData",
+		"type": "struct",
+		"description": "Device tuple data used by DeviceTuple().",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E2.html#line37"
+	},
+	{
+		"displayText": "DevInfo",
+		"type": "struct",
+		"description": "Device structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D9.html#line355"
+	},
+	{
+		"displayText": "DevProc",
+		"type": "struct",
+		"description": "Structure returned by GetDeviceProc().",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D9.html#line420"
+	},
+	{
+		"displayText": "DiagArea",
+		"type": "struct",
+		"description": "Expansion board diagnostic area structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05FE.html#line234"
+	},
+	{
+		"displayText": "DimensionInfo",
+		"type": "struct",
+		"description": "Data structure for display dimensions.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05FF.html#line120"
+	},
+	{
+		"displayText": "DiscResource",
+		"type": "struct",
+		"description": "Disk resouce data structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0600.html#line47"
+	},
+	{
+		"displayText": "DiscResourceUnit",
+		"type": "struct",
+		"description": "Disk resouce unit data structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0600.html#line40"
+	},
+	{
+		"displayText": "DiskFontHeader",
+		"type": "struct",
+		"description": "Disk font header structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05DA.html#line62"
+	},
+	{
+		"displayText": "DiskObject",
+		"type": "struct",
+		"description": "Data structure for Workbench icons.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D6.html#line64"
+	},
+	{
+		"displayText": "DiskResource",
+		"type": "struct",
+		"description": "INFO",
+		"descriptionMoreURL": "LINK"
+	},
+	{
+		"displayText": "DisplayInfo",
+		"type": "struct",
+		"description": "Data structure for display modes.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05FF.html#line52"
+	},
+	{
+		"displayText": "DisplayMode",
+		"type": "struct",
+		"description": "List item for display modes.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0601.html#line319"
+	},
+	{
+		"displayText": "DosEnvec",
+		"type": "struct",
+		"description": "Disk environment vector structure for disk geometries.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05FD.html#line22"
+	},
+	{
+		"displayText": "DosInfo",
+		"type": "struct",
+		"description": "Dos info structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D9.html#line283"
+	},
+	{
+		"displayText": "DosLibrary",
+		"type": "struct",
+		"description": "DOS library structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D9.html#line236"
+	},
+	{
+		"displayText": "DosList",
+		"type": "struct",
+		"description": "Combined structure for devices, assigned directories, volumes.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D9.html#line371"
+	},
+	{
+		"displayText": "DosPacket",
+		"type": "struct",
+		"description": "Structure for EXEC Messages used by DOS.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D9.html#line107"
+	},
+	{
+		"displayText": "DrawerData",
+		"type": "struct",
+		"description": "Drawer window snapshot data structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D6.html#line41"
+	},
+	{
+		"displayText": "DrawInfo",
+		"type": "struct",
+		"description": "Data structure for rendering information of a screen.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0602.html#line65"
+	},
+	{
+		"displayText": "DrawList",
+		"type": "struct",
+		"description": "drawlist.image BOOPSI class data structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0603.html#line67"
+	},
+	{
+		"displayText": "DriveGeometry",
+		"type": "struct",
+		"description": "trackdisk.device drive geometry structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0604.html#line134"
+	},
+	{
+		"displayText": "DRPSourceMsg",
+		"type": "struct",
+		"description": "Message structure for DRPA_SourceHook (printer.device).",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0605.html#line314"
+	},
+	{
+		"displayText": "dtDraw",
+		"type": "struct",
+		"description": "datatype.class DTM_DRAW method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0606.html#line429"
+	},
+	{
+		"displayText": "dtFrameBox",
+		"type": "struct",
+		"description": "datatype.class DTM_FRAMEBOX method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0606.html#line358"
+	},
+	{
+		"displayText": "dtGeneral",
+		"type": "struct",
+		"description": "datatype.class method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0606.html#line343"
+	},
+	{
+		"displayText": "dtGoto",
+		"type": "struct",
+		"description": "datatype.class DTM_GOTO method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0606.html#line373"
+	},
+	{
+		"displayText": "DTHookContext",
+		"type": "struct",
+		"description": "DataTypes comparision hook context.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05F7.html#line123"
+	},
+	{
+		"displayText": "DTMethod",
+		"type": "struct",
+		"description": "Datatype method structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0606.html#line272"
+	},
+	{
+		"displayText": "dtPrint",
+		"type": "struct",
+		"description": "datatype.class DTM_PRINT method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0606.html#line420"
+	},
+	{
+		"displayText": "dtSelect",
+		"type": "struct",
+		"description": "datatype.class DTM_SELECT method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0606.html#line350"
+	},
+	{
+		"displayText": "DTSpecialInfo",
+		"type": "struct",
+		"description": "Gadget SpecialInfo structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0606.html#line234"
+	},
+	{
+		"displayText": "dtTrigger",
+		"type": "struct",
+		"description": "datatype.class DTM_TRIGGER method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0606.html#line382"
+	},
+	{
+		"displayText": "dtWrite",
+		"type": "struct",
+		"description": "datatype.class DTM_WRITE method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0606.html#line443"
+	},
+	{
+		"displayText": "EasyStruct",
+		"type": "struct",
+		"description": "Argument data structure for EasyRequest().",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E0.html#line1456"
+	},
+	{
+		"displayText": "EClockVal",
+		"type": "struct",
+		"description": "timer.device E-Clock time value struct.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Devices_Manual_guide/node00BF.html#line31"
+	},
+	{
+		"displayText": "ErrorString",
+		"type": "struct",
+		"description": "A structure for holding dos error messages.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D9.html#line226"
+	},
+	{
+		"displayText": "ExAllControl",
+		"type": "struct",
+		"description": "Control structure passed to ExAll().",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0608.html#line69"
+	},
+	{
+		"displayText": "ExAllData",
+		"type": "struct",
+		"description": "Structure ExAll() results are returned in.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0608.html#line44"
+	},
+	{
+		"displayText": "ExecBase",
+		"type": "struct",
+		"description": "Exec library base structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0609.html#line33"
+	},
+	{
+		"displayText": "ExpansionBase",
+		"type": "struct",
+		"description": "Expansion library base structure",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E1.html#line43"
+	},
+	{
+		"displayText": "ExpansionControl",
+		"type": "struct",
+		"description": "Expansion board control structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05FE.html#line68"
+	},
+	{
+		"displayText": "ExpansionRom",
+		"type": "struct",
+		"description": "Data structure for expansion board ROMs.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05FE.html#line45"
+	},
+	{
+		"displayText": "ExtendedNode",
+		"type": "struct",
+		"description": "Extended graphics node structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node060A.html#line16"
+	},
+	{
+		"displayText": "ExtGadget",
+		"type": "struct",
+		"description": "Extended Gadget structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E0.html#line262"
+	},
+	{
+		"displayText": "ExtIntuiMessage",
+		"type": "struct",
+		"description": "Extended IntuiMessage structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E0.html#line821"
+	},
+	{
+		"displayText": "ExtNewScreen",
+		"type": "struct",
+		"description": "Intuition Extended Screen structure",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0602.html#line512"
+	},
+	{
+		"displayText": "ExtNewWindow",
+		"type": "struct",
+		"description": "Intuition Extended Window structure",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E0.html#line1156"
+	},
+	{
+		"displayText": "ExtSprite",
+		"type": "struct",
+		"description": "Extended Sprite structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node060B.html#line26"
+	},
+	{
+		"displayText": "FileHandle",
+		"type": "struct",
+		"description": "File handle structure returned by Open().",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D9.html#line88"
+	},
+	{
+		"displayText": "FileInfoBlock",
+		"type": "struct",
+		"description": "Data structure returned by Examine().",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05F8.html#line60"
+	},
+	{
+		"displayText": "FileLock",
+		"type": "struct",
+		"description": "Lock structure returned by Lock().",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D9.html#line455"
+	},
+	{
+		"displayText": "FileRequester",
+		"type": "struct",
+		"description": "ASL File Requester data structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0601.html#line66"
+	},
+	{
+		"displayText": "FileSysEntry",
+		"type": "struct",
+		"description": "Environment vector for filesystems.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node060C.html#line30"
+	},
+	{
+		"displayText": "FileSysHeaderBlock",
+		"type": "struct",
+		"description": "Header struct for filesystems in RDB.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05DB.html#line174"
+	},
+	{
+		"displayText": "FileSysResource",
+		"type": "struct",
+		"description": "File system resource item structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node060C.html#line24"
+	},
+	{
+		"displayText": "FileSysStartupMsg",
+		"type": "struct",
+		"description": "File system startup message for exec.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05FD.html#line80"
+	},
+	{
+		"displayText": "FolderIndex",
+		"type": "struct",
+		"description": "Folder indexing public data structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D8.html#line161"
+	},
+	{
+		"displayText": "FontContents",
+		"type": "struct",
+		"description": "diskfont.library font contents structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05DA.html#line26"
+	},
+	{
+		"displayText": "FontContentsHeader",
+		"type": "struct",
+		"description": "diskfont.library font contents header structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05DA.html#line52"
+	},
+	{
+		"displayText": "FontPrefs",
+		"type": "struct",
+		"description": "Font preferences structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node060D.html#line36"
+	},
+	{
+		"displayText": "FontRequester",
+		"type": "struct",
+		"description": "ASL Font Requester data structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0601.html#line186"
+	},
+	{
+		"displayText": "FrameInfo",
+		"type": "struct",
+		"description": "Datatype object frame info struct.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0606.html#line315"
+	},
+	{
+		"displayText": "FreeList",
+		"type": "struct",
+		"description": "A list of MemList structures to be freed.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D6.html#line85"
+	},
+	{
+		"displayText": "Gadget",
+		"type": "struct",
+		"description": "Intiution gadget structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E0.html#line213"
+	},
+	{
+		"displayText": "GadgetInfo",
+		"type": "struct",
+		"description": "Information passed to BOOPSI gadget hook functions.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node060E.html#line24"
+	},
+	{
+		"displayText": "GamePortTrigger",
+		"type": "struct",
+		"description": "Information needed for gameport trigger.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node060F.html#line35"
+	},
+	{
+		"displayText": "GelsInfo",
+		"type": "struct",
+		"description": "Argument structure for InitGels().",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D7.html#line38"
+	},
+	{
+		"displayText": "GfxBase",
+		"type": "struct",
+		"description": "graphics.library base structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0612.html#line25"
+	},
+	{
+		"displayText": "GlyphEngine",
+		"type": "struct",
+		"description": "Glyph library handle returned by OpenEngine().",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0613.html#line25"
+	},
+	{
+		"displayText": "GlyphMap",
+		"type": "struct",
+		"description": "GlyphMap structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0613.html#line33"
+	},
+	{
+		"displayText": "GlyphWidthEntry",
+		"type": "struct",
+		"description": "Glyph width item structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0613.html#line50"
+	},
+	{
+		"displayText": "gpDomain",
+		"type": "struct",
+		"description": "gadget class GM_DOMAIN method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0615.html#line475"
+	},
+	{
+		"displayText": "gpGoInactive",
+		"type": "struct",
+		"description": "gadget class GM_GOINACTIVE method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0615.html#line435"
+	},
+	{
+		"displayText": "gpHitTest",
+		"type": "struct",
+		"description": "gadget class GM_HITTEST method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0615.html#line343"
+	},
+	{
+		"displayText": "gpInput",
+		"type": "struct",
+		"description": "gadget class GM_HANDLEINPUT method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0615.html#line392"
+	},
+	{
+		"displayText": "gpKeyGoInactive",
+		"type": "struct",
+		"description": "gadget class GM_KEYGOACTIVE method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0615.html#line537"
+	},
+	{
+		"displayText": "gpKeyInput",
+		"type": "struct",
+		"description": "gadget class GM_KEYGOACTIVE method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0615.html#line521"
+	},
+	{
+		"displayText": "gpKeyTest",
+		"type": "struct",
+		"description": "gadget class GM_KEYTEST method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0615.html#line502"
+	},
+	{
+		"displayText": "gpLayout",
+		"type": "struct",
+		"description": "gadget class GM_LAYOUT method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0615.html#line459"
+	},
+	{
+		"displayText": "gpRender",
+		"type": "struct",
+		"description": "gadget class GM_RENDER method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0615.html#line376"
+	},
+	{
+		"displayText": "HDWLibrary",
+		"type": "struct",
+		"description": "HDWrench library base structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05FA.html#line27"
+	},
+	{
+		"displayText": "HintInfo",
+		"type": "struct",
+		"description": "Static Array of help hints.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0652.html"
+	},
+	{
+		"displayText": "Hook",
+		"type": "struct",
+		"description": "Hook function structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0617.html#line27"
+	},
+	{
+		"displayText": "IBox",
+		"type": "struct",
+		"description": "A data structure common in V36 Intuition processing.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E0.html#line895"
+	},
+	{
+		"displayText": "IClass",
+		"type": "struct",
+		"description": "BOOPSI class structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E6.html#line35"
+	},
+	{
+		"displayText": "IconIdentifyMsg",
+		"type": "struct",
+		"description": "For use with the file identification hook.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0618.html#line255"
+	},
+	{
+		"displayText": "IconSelectMsg",
+		"type": "struct",
+		"description": "The message your icon selection change hook is invoked with.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D6.html#line398"
+	},
+	{
+		"displayText": "IControlPrefs",
+		"type": "struct",
+		"description": "IControl preferences structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0619.html#line30"
+	},
+	{
+		"displayText": "IENewTablet",
+		"type": "struct",
+		"description": "Input event new Tablet structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node061A.html#line137"
+	},
+	{
+		"displayText": "IEPointerPixel",
+		"type": "struct",
+		"description": "Input event pointer pixel position structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node061A.html#line96"
+	},
+	{
+		"displayText": "IEPointerTablet",
+		"type": "struct",
+		"description": "Input event pointer tablet position structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node061A.html#line116"
+	},
+	{
+		"displayText": "IFFHandle",
+		"type": "struct",
+		"description": "Structure associated with an active IFF stream.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E8.html#line43"
+	},
+	{
+		"displayText": "IFFStreamCmd",
+		"type": "struct",
+		"description": "iffparse.library stream handler message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E8.html#line65"
+	},
+	{
+		"displayText": "Image",
+		"type": "struct",
+		"description": "Intuition image structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E0.html#line704"
+	},
+	{
+		"displayText": "impDomainFrame",
+		"type": "struct",
+		"description": "image.class IM_DOMAINFRAME method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node061B.html#line288"
+	},
+	{
+		"displayText": "impDraw",
+		"type": "struct",
+		"description": "image.class IM_DRAW method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node061B.html#line223"
+	},
+	{
+		"displayText": "impErase",
+		"type": "struct",
+		"description": "image.class IM_ERASE method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node061B.html#line246"
+	},
+	{
+		"displayText": "impFrameBox",
+		"type": "struct",
+		"description": "image.class IM_FRAMEBOX method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node061B.html#line210"
+	},
+	{
+		"displayText": "impHitTest",
+		"type": "struct",
+		"description": "image.class IM_HITTEST method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node061B.html#line265"
+	},
+	{
+		"displayText": "InfoData",
+		"type": "struct",
+		"description": "Dos.library return structure for Info().",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05F8.html#line146"
+	},
+	{
+		"displayText": "InputEvent",
+		"type": "struct",
+		"description": "Input event structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node061A.html#line256"
+	},
+	{
+		"displayText": "InputPrefs",
+		"type": "struct",
+		"description": "Input preferences structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node061C.html#line34"
+	},
+	{
+		"displayText": "InputXpression",
+		"type": "struct",
+		"description": "commodities.library IX structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0632.html#line74"
+	},
+	{
+		"displayText": "Interrupt",
+		"type": "struct",
+		"description": "Interrupt structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node061D.html#line21"
+	},
+	{
+		"displayText": "IntuiMessage",
+		"type": "struct",
+		"description": "IntuiMessage structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E0.html#line762"
+	},
+	{
+		"displayText": "IntuiText",
+		"type": "struct",
+		"description": "IntuiText structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E0.html#line655"
+	},
+	{
+		"displayText": "IntuitionBase",
+		"type": "struct",
+		"description": "intuition.library base structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node061E.html#line65"
+	},
+	{
+		"displayText": "IntVector",
+		"type": "struct",
+		"description": "Private exec.library interrupt vector structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node061D.html#line28"
+	},
+	{
+		"displayText": "IOAudio",
+		"type": "struct",
+		"description": "audio.device Audio IO structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node061F.html#line44"
+	},
+	{
+		"displayText": "IoBuff",
+		"type": "struct",
+		"description": "rexx.library I/O buffer list structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0620.html#line23"
+	},
+	{
+		"displayText": "IOClipReq",
+		"type": "struct",
+		"description": "clipboard.device I/O request structure returned by CreateExtIO().",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E9.html#line40"
+	},
+	{
+		"displayText": "IODRPReq",
+		"type": "struct",
+		"description": "printer.device I/O request structure for PRD_DUMPRPORT.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0605.html#line173"
+	},
+	{
+		"displayText": "IODRPTagsReq",
+		"type": "struct",
+		"description": "printer.device I/O request structure for PRD_DUMPRPORTTAGS.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0605.html#line196"
+	},
+	{
+		"displayText": "IOExtPar",
+		"type": "struct",
+		"description": "parallel.device extended I/O request structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Devices_Manual_guide/node0010.html#line7"
+	},
+	{
+		"displayText": "IOExtSer",
+		"type": "struct",
+		"description": "serial.device extended I/O request structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Devices_Manual_guide/node009C.html#line7"
+	},
+	{
+		"displayText": "IOExtTD",
+		"type": "struct",
+		"description": "trackdisk.device extended I/O request structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0604.html#line116"
+	},
+	{
+		"displayText": "IOPArray",
+		"type": "struct",
+		"description": "paralel.device structure for terminators.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_2._guide/node004A.html"
+	},
+	{
+		"displayText": "IOPrefsReq",
+		"type": "struct",
+		"description": "printer.device private I/O request structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0605.html#line399"
+	},
+	{
+		"displayText": "IOPrtCmdReq",
+		"type": "struct",
+		"description": "printer.device I/O request structure for PRD_PRTCOMMAND.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0605.html#line155"
+	},
+	{
+		"displayText": "IOPrtErrReq",
+		"type": "struct",
+		"description": "printer.device I/O request structure for PRD_SETERRHOOK.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0605.html#line361"
+	},
+	{
+		"displayText": "IOPrtPrefsReq",
+		"type": "struct",
+		"description": "printer.device I/O request structure for PRD_EDITPREFS.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0605.html#line339"
+	},
+	{
+		"displayText": "IORequest",
+		"type": "struct",
+		"description": "Basic I/O request structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0621.html#line17"
+	},
+	{
+		"displayText": "IOStdReq",
+		"type": "struct",
+		"description": "Standard I/O request structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0621.html#line26"
+	},
+	{
+		"displayText": "IOTArray",
+		"type": "struct",
+		"description": "serial.device structure for terminators.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_2._guide/node004B.html"
+	},
+	{
+		"displayText": "Isrvstr",
+		"type": "struct",
+		"description": "Structure used by AddTOFTask().",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0622.html#line17"
+	},
+	{
+		"displayText": "KeyMap",
+		"type": "struct",
+		"description": "KeyMap structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0623.html#line20"
+	},
+	{
+		"displayText": "KeyMapNode",
+		"type": "struct",
+		"description": "KeyMap node structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0623.html#line31"
+	},
+	{
+		"displayText": "KeyMapResource",
+		"type": "struct",
+		"description": "KeyMap resource structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0623.html#line37"
+	},
+	{
+		"displayText": "KeyQuery",
+		"type": "struct",
+		"description": "lowlevel.library structure for use with QueryKeys().",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0624.html#line29"
+	},
+	{
+		"displayText": "Layer",
+		"type": "struct",
+		"description": "Layer structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05EA.html#line26"
+	},
+	{
+		"displayText": "Layer_Info",
+		"type": "struct",
+		"description": "Layer info structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0625.html#line30"
+	},
+	{
+		"displayText": "Library",
+		"type": "struct",
+		"description": "Library Base Structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0626.html#line33"
+	},
+	{
+		"displayText": "Line",
+		"type": "struct",
+		"description": "Line structure in text objects.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0627.html#line42"
+	},
+	{
+		"displayText": "List",
+		"type": "struct",
+		"description": "Exec list structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0628.html#line19"
+	},
+	{
+		"displayText": "LoadSegBlock",
+		"type": "struct",
+		"description": "Drive initialization description block structure in RDB.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05DB.html#line207"
+	},
+	{
+		"displayText": "LocalContextItem",
+		"type": "struct",
+		"description": "iffparse.library local context item structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E8.html#line103"
+	},
+	{
+		"displayText": "Locale",
+		"type": "struct",
+		"description": "locale.library locale structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E3.html#line117"
+	},
+	{
+		"displayText": "LocaleBase",
+		"type": "struct",
+		"description": "locale.library base structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E3.html#line106"
+	},
+	{
+		"displayText": "LocalePrefs",
+		"type": "struct",
+		"description": "Locale preferences structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05F4.html#line83"
+	},
+	{
+		"displayText": "LocalVar",
+		"type": "struct",
+		"description": "Local dos variable structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0629.html#line24"
+	},
+	{
+		"displayText": "LVDrawMsg",
+		"type": "struct",
+		"description": "gadtools.library listview.class LV_DRAW method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node062A.html#line444"
+	},
+	{
+		"displayText": "MathIEEEBase",
+		"type": "struct",
+		"description": "MathIEEE.library base structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node062B.html#line18"
+	},
+	{
+		"displayText": "MathIEEEResource",
+		"type": "struct",
+		"description": "MathIEEE.library resource structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node062C.html#line32"
+	},
+	{
+		"displayText": "MemChunk",
+		"type": "struct",
+		"description": "Memory chunk structure used in MemHeaders.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node062D.html#line19"
+	},
+	{
+		"displayText": "MemEntry",
+		"type": "struct",
+		"description": "Memory structure for every entry in MemLists.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node062D.html#line39"
+	},
+	{
+		"displayText": "MemHandlerData",
+		"type": "struct",
+		"description": "Memory alloc. request info structure for Exec memory handler.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node062D.html#line89"
+	},
+	{
+		"displayText": "MemHeader",
+		"type": "struct",
+		"description": "Argument structure for Allocate().",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node062D.html#line27"
+	},
+	{
+		"displayText": "MemList",
+		"type": "struct",
+		"description": "Memory structure for AllocEntry().",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node062D.html#line55"
+	},
+	{
+		"displayText": "Menu",
+		"type": "struct",
+		"description": "Intuition menu structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E0.html#line59"
+	},
+	{
+		"displayText": "MenuItem",
+		"type": "struct",
+		"description": "Intuition menu item structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E0.html#line87"
+	},
+	{
+		"displayText": "Message",
+		"type": "struct",
+		"description": "Exec message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node062E.html#line46"
+	},
+	{
+		"displayText": "MinList",
+		"type": "struct",
+		"description": "Exec MinList structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0628.html#line30"
+	},
+	{
+		"displayText": "MinNode",
+		"type": "struct",
+		"description": "Exec MinNode structure for MinLists.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node062F.html#line30"
+	},
+	{
+		"displayText": "MonitorInfo",
+		"type": "struct",
+		"description": "Display info for monitors.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05FF.html#line137"
+	},
+	{
+		"displayText": "MonitorSpec",
+		"type": "struct",
+		"description": "Monitor specifications structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D3.html#line24"
+	},
+	{
+		"displayText": "mouth_rb",
+		"type": "struct",
+		"description": "narrator.device read request structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0630.html#line128"
+	},
+	{
+		"displayText": "MsgPort",
+		"type": "struct",
+		"description": "Exec message port structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node062E.html#line27"
+	},
+	{
+		"displayText": "NamedObject",
+		"type": "struct",
+		"description": "Structure returned by AllocNamedObjectA().",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0631.html#line24"
+	},
+	{
+		"displayText": "NameInfo",
+		"type": "struct",
+		"description": "Structure for display mode names.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05FF.html#line163"
+	},
+	{
+		"displayText": "narrator_rb",
+		"type": "struct",
+		"description": "narrator.device write request structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0630.html#line93"
+	},
+	{
+		"displayText": "NewAmigaGuide",
+		"type": "struct",
+		"description": "New Amiga Guide data structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D2.html#line102"
+	},
+	{
+		"displayText": "NewBroker",
+		"type": "struct",
+		"description": "commodities.library New Broker structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0632.html#line39"
+	},
+	{
+		"displayText": "NewGadget",
+		"type": "struct",
+		"description": "gadtools.library New Gadget structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node062A.html#line82"
+	},
+	{
+		"displayText": "NewMenu",
+		"type": "struct",
+		"description": "gadtools.library New Menu structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node062A.html#line113"
+	},
+	{
+		"displayText": "NewScreen",
+		"type": "struct",
+		"description": "Intuition New Screen structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0602.html#line476"
+	},
+	{
+		"displayText": "NewWindow",
+		"type": "struct",
+		"description": "Intuition New Window structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E0.html#line1086"
+	},
+	{
+		"displayText": "NexxStr",
+		"type": "struct",
+		"description": "Structure for internal Rexx argument strings.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0633.html#line40"
+	},
+	{
+		"displayText": "Node",
+		"type": "struct",
+		"description": "Node structure for Exec lists.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node062F.html#line21"
+	},
+	{
+		"displayText": "NotifyMessage",
+		"type": "struct",
+		"description": "Dos notification message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0634.html#line38"
+	},
+	{
+		"displayText": "NotifyRequest",
+		"type": "struct",
+		"description": "Dos notification request structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0634.html#line50"
+	},
+	{
+		"displayText": "NVEntry",
+		"type": "struct",
+		"description": "nonvolatile.library item structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0635.html#line38"
+	},
+	{
+		"displayText": "NVInfo",
+		"type": "struct",
+		"description": "nonvolatile.library info structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0635.html#line28"
+	},
+	{
+		"displayText": "OldDrawerData",
+		"type": "struct",
+		"description": "Workbench.library pre V36 drawer window snapshot data structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D6.html#line33"
+	},
+	{
+		"displayText": "opAddTail",
+		"type": "struct",
+		"description": "Intuition object class OM_ADDTAIL method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0636.html#line115"
+	},
+	{
+		"displayText": "opExpungeNode",
+		"type": "struct",
+		"description": "Intuition object class HM_EXPUNGE method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D2.html#line232"
+	},
+	{
+		"displayText": "opFindHost",
+		"type": "struct",
+		"description": "amigaguide.library HM_FINDNODE method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D2.html#line189"
+	},
+	{
+		"displayText": "opGet",
+		"type": "struct",
+		"description": "Intuition object class OM_GET method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0636.html#line106"
+	},
+	{
+		"displayText": "opMember",
+		"type": "struct",
+		"description": "Intuition object class OM_ADDMEMBER method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0636.html#line122"
+	},
+	{
+		"displayText": "opNodeIO",
+		"type": "struct",
+		"description": "amigaguide.library HM_OPENNODE method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D2.html#line201"
+	},
+	{
+		"displayText": "opSet",
+		"type": "struct",
+		"description": "Intuition object class OM_SET method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0636.html#line76"
+	},
+	{
+		"displayText": "opUpdate",
+		"type": "struct",
+		"description": "Intuition object class OM_UPDATE method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0636.html#line86"
+	},
+	{
+		"displayText": "orRequest",
+		"type": "struct",
+		"description": "Requester class RM_OPENREQ method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0637.html#line166"
+	},
+	{
+		"displayText": "OverscanPrefs",
+		"type": "struct",
+		"description": "Overscan preferences structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0638.html#line36"
+	},
+	{
+		"displayText": "PaletteExtra",
+		"type": "struct",
+		"description": "graphics.library extra palette information structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05ED.html#line142"
+	},
+	{
+		"displayText": "PalettePrefs",
+		"type": "struct",
+		"description": "Palette preferences structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0639.html#line34"
+	},
+	{
+		"displayText": "PartitionBlock",
+		"type": "struct",
+		"description": "Partition identifier block structure in RDB.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05DB.html#line150"
+	},
+	{
+		"displayText": "pdtBlitPixelArray",
+		"type": "struct",
+		"description": "Picture datatype class PDTM_WRITEPIXELARRAY method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05DD.html#line169"
+	},
+	{
+		"displayText": "pdtScale",
+		"type": "struct",
+		"description": "OS4 Picture datatype class PDTM_SCALE method message structure.",
+		"descriptionMoreURL": "http://amiga.sourceforge.net/amigadevhelp/phpwebdev.php?keyword=pictureclass.h&funcgroup=AmigaOS&action=Search"
+	},
+	{
+		"displayText": "PGX",
+		"type": "struct",
+		"description": "Private extra data structure for propgadets.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node060E.html#line68"
+	},
+	{
+		"displayText": "Player",
+		"type": "struct",
+		"description": "realtime.library Player structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05F0.html#line105"
+	},
+	{
+		"displayText": "pmState",
+		"type": "struct",
+		"description": "realtime.library PM_STATE method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05F0.html#line173"
+	},
+	{
+		"displayText": "pmTime",
+		"type": "struct",
+		"description": "realtime.library PM_TICK method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05F0.html#line166"
+	},
+	{
+		"displayText": "PointerPrefs",
+		"type": "struct",
+		"description": "Pointer preferences structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node063A.html#line28"
+	},
+	{
+		"displayText": "PPCBase",
+		"type": "struct",
+		"description": "PPC library base structure.",
+		"descriptionMoreURL": "http://cd.textfiles.com/amigaacs/amigaacs199706/Utilities/CommercialDemos/WarpUP-WarpOS/include/powerpc/powerpc.h"
+	},
+	{
+		"displayText": "Preferences",
+		"type": "struct",
+		"description": "Old-style preferences structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node063B.html#line57"
+	},
+	{
+		"displayText": "PrefHeader",
+		"type": "struct",
+		"description": "File format structure for preference headers.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node063C.html#line31"
+	},
+	{
+		"displayText": "PrinterData",
+		"type": "struct",
+		"description": "PrinterData structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05FC.html#line103"
+	},
+	{
+		"displayText": "PrinterDeviceUnitPrefs",
+		"type": "struct",
+		"description": "Descriptor for printer device units.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node063D.html#line98"
+	},
+	{
+		"displayText": "PrinterExtendedData",
+		"type": "struct",
+		"description": "Extended Printer data structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05FC.html#line275"
+	},
+	{
+		"displayText": "PrinterGfxPrefs",
+		"type": "struct",
+		"description": "PrinterGfx preferences structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node063E.html#line30"
+	},
+	{
+		"displayText": "PrinterPSPrefs",
+		"type": "struct",
+		"description": "PrinterPS preferences structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node063F.html#line30"
+	},
+	{
+		"displayText": "PrinterSegment",
+		"type": "struct",
+		"description": "Printer segment structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05FC.html#line441"
+	},
+	{
+		"displayText": "PrinterTxtPrefs",
+		"type": "struct",
+		"description": "PrinterTxt preferences structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node063D.html#line29"
+	},
+	{
+		"displayText": "PrinterUnitPrefs",
+		"type": "struct",
+		"description": "Information needed to open printer units.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node063D.html#line87"
+	},
+	{
+		"displayText": "Process",
+		"type": "struct",
+		"description": "AmigaDOS process structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D9.html#line36"
+	},
+	{
+		"displayText": "PropInfo",
+		"type": "struct",
+		"description": "Data structure for proportional gadgets.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E0.html#line537"
+	},
+	{
+		"displayText": "PrtDriverPreferences",
+		"type": "struct",
+		"description": "Data structure for printer driver specific preferences.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05FC.html#line459"
+	},
+	{
+		"displayText": "PrtErrMsg",
+		"type": "struct",
+		"description": "printer.device error message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0605.html#line383"
+	},
+	{
+		"displayText": "PubScreenNode",
+		"type": "struct",
+		"description": "Public screen structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0602.html#line548"
+	},
+	{
+		"displayText": "QCode",
+		"type": "struct",
+		"description": "cd.device Q-Code packet structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E4.html#line284"
+	},
+	{
+		"displayText": "QueryHeader",
+		"type": "struct",
+		"description": "Display mode Query Header structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05FF.html#line44"
+	},
+	{
+		"displayText": "RasInfo",
+		"type": "struct",
+		"description": "Information structure about the raster bitmap.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_2._guide/node00B8.html#line106"
+	},
+	{
+		"displayText": "PrtInfo",
+		"type": "struct",
+		"description": "printer.device printer info structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_2._guide/node003B.html#line33"
+	},
+	{
+		"displayText": "RastPort",
+		"type": "struct",
+		"description": "Raster port structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D7.html#line53"
+	},
+	{
+		"displayText": "RDArgs",
+		"type": "struct",
+		"description": "Data structure for Dos function ReadArgs().",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05F5.html#line94"
+	},
+	{
+		"displayText": "RealTimeBase",
+		"type": "struct",
+		"description": "realtime.library base structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05F0.html#line203"
+	},
+	{
+		"displayText": "RecordLock",
+		"type": "struct",
+		"description": "Data structure used by LockRecord().",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0641.html#line26"
+	},
+	{
+		"displayText": "Rect32",
+		"type": "struct",
+		"description": "graphics.library 32bit rectangle struct.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05DC.html#line32"
+	},
+	{
+		"displayText": "Rectangle",
+		"type": "struct",
+		"description": "graphics.library rectangle struct.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05DC.html#line26"
+	},
+	{
+		"displayText": "Region",
+		"type": "struct",
+		"description": "graphics.library region struct.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0642.html#line26"
+	},
+	{
+		"displayText": "RegionRectangle",
+		"type": "struct",
+		"description": "graphics.library region rectangle struct.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0642.html#line20"
+	},
+	{
+		"displayText": "Remember",
+		"type": "struct",
+		"description": "Intuition memmory allocation remember structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E0.html#line1429"
+	},
+	{
+		"displayText": "ReqToolsBase",
+		"type": "struct",
+		"description": "reqtools.library base structure.",
+		"descriptionMoreURL": "http://www.ummon.eu/Amiga/API/Library/ReqTools.Library/structures/ReqToolsBase.html"
+	},
+	{
+		"displayText": "Requester",
+		"type": "struct",
+		"description": "Intuition requester structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E0.html#line143"
+	},
+	{
+		"displayText": "Resident",
+		"type": "struct",
+		"description": "Structure for resident modules.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0643.html#line17"
+	},
+	{
+		"displayText": "RexxArg",
+		"type": "struct",
+		"description": "Structure for Rexx argument strings.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0633.html#line85"
+	},
+	{
+		"displayText": "RexxMsg",
+		"type": "struct",
+		"description": "Exec message structure for communication with Rexx programs.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0633.html#line97"
+	},
+	{
+		"displayText": "RexxMsgPort",
+		"type": "struct",
+		"description": "Message port structure for Rexx messages.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0620.html#line62"
+	},
+	{
+		"displayText": "RexxRsrc",
+		"type": "struct",
+		"description": "Rexx global resource structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0633.html#line160"
+	},
+	{
+		"displayText": "RexxTask",
+		"type": "struct",
+		"description": "Rexx task structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0633.html#line185"
+	},
+	{
+		"displayText": "RGBTable",
+		"type": "struct",
+		"description": "Pointer prefs RGB color structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node063A.html#line52"
+	},
+	{
+		"displayText": "RigidDiskBlock",
+		"type": "struct",
+		"description": "Rigid Disk Block structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05DB.html#line64"
+	},
+	{
+		"displayText": "RMSF",
+		"type": "struct",
+		"description": "cd.device position info structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E4.html#line193"
+	},
+	{
+		"displayText": "RootNode",
+		"type": "struct",
+		"description": "Dos library root node structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D9.html#line251"
+	},
+	{
+		"displayText": "rw_return",
+		"type": "struct",
+		"description": "HDWrench disk read write return structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05FA.html"
+	},
+	{
+		"displayText": "RxsLib",
+		"type": "struct",
+		"description": "The REXX systems library structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0644.html#line24"
+	},
+	{
+		"displayText": "SatisfyMsg",
+		"type": "struct",
+		"description": "clipboard.device satisfy post message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E9.html#line56"
+	},
+	{
+		"displayText": "Screen",
+		"type": "struct",
+		"description": "Intuition Screen structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0602.html#line132"
+	},
+	{
+		"displayText": "ScreenBuffer",
+		"type": "struct",
+		"description": "Double buffer info returned by AllocScreenBuffer().",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0602.html#line644"
+	},
+	{
+		"displayText": "ScreenModePrefs",
+		"type": "struct",
+		"description": "Screen Mode Preferences structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0645.html#line30"
+	},
+	{
+		"displayText": "ScreenModeRequester",
+		"type": "struct",
+		"description": "ASL Screen Mode Requester data structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0601.html#line286"
+	},
+	{
+		"displayText": "SCSICmd",
+		"type": "struct",
+		"description": "scsi.device command structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0646.html#line92"
+	},
+	{
+		"displayText": "Segment",
+		"type": "struct",
+		"description": "Structure for a segment in Dos resident lists.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D9.html#line298"
+	},
+	{
+		"displayText": "Semaphore",
+		"type": "struct",
+		"description": "INFO",
+		"descriptionMoreURL": "LINK"
+	},
+	{
+		"displayText": "SemaphoreMessage",
+		"type": "struct",
+		"description": "Semaphore procure message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0647.html#line50"
+	},
+	{
+		"displayText": "SemaphoreRequest",
+		"type": "struct",
+		"description": "Private structure used by ObtainSemaphore().",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0647.html#line32"
+	},
+	{
+		"displayText": "SerialPrefs",
+		"type": "struct",
+		"description": "Serial preferences structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0648.html#line30"
+	},
+	{
+		"displayText": "ServerProgressData",
+		"type": "struct",
+		"description": "aml.library structure for progress callbacks.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D8.html#line65"
+	},
+	{
+		"displayText": "SetupCleanupHookMsg",
+		"type": "struct",
+		"description": "OS4 workbench.library The message your setup/cleanup hook gets invoked with.",
+		"descriptionMoreURL": "http://amiga.sourceforge.net/amigadevhelp/phpwebdev.php?keyword=workbench.h&funcgroup=AmigaOS&action=Search"
+	},
+	{
+		"displayText": "SGWork",
+		"type": "struct",
+		"description": "Intuition string gadget hook structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0649.html#line30"
+	},
+	{
+		"displayText": "SignalSemaphore",
+		"type": "struct",
+		"description": "Exec Signal Semaphore data structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0647.html#line39"
+	},
+	{
+		"displayText": "SimpleSprite",
+		"type": "struct",
+		"description": "Simple sprite structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node060B.html#line18"
+	},
+	{
+		"displayText": "SoftIntList",
+		"type": "struct",
+		"description": "Exec private soft intterupt structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node061D.html#line35"
+	},
+	{
+		"displayText": "SoundPrefs",
+		"type": "struct",
+		"description": "Sound preferences structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node064A.html#line30"
+	},
+	{
+		"displayText": "SpecialMonitor",
+		"type": "struct",
+		"description": "Special Monitor structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D3.html#line157"
+	},
+	{
+		"displayText": "SrcNode",
+		"type": "struct",
+		"description": "Structure for Rexx segment arrays.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0633.html#line225"
+	},
+	{
+		"displayText": "StackSwapStruct",
+		"type": "struct",
+		"description": "Structure used in Exec funtion StackSwap().",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node064B.html#line51"
+	},
+	{
+		"displayText": "StandardPacket",
+		"type": "struct",
+		"description": "AmigaDOS standard packet structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D9.html#line138"
+	},
+	{
+		"displayText": "StoredProperty",
+		"type": "struct",
+		"description": "iffparse.library local context item structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E8.html#line118"
+	},
+	{
+		"displayText": "StringExtend",
+		"type": "struct",
+		"description": "Intuition extended string gadget structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0649.html#line16"
+	},
+	{
+		"displayText": "StringInfo",
+		"type": "struct",
+		"description": "Data structure for the intuition string gadget.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E0.html#line609"
+	},
+	{
+		"displayText": "TabletData",
+		"type": "struct",
+		"description": "Tablet data structure in ExtIntuiMessages.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E0.html#line1651"
+	},
+	{
+		"displayText": "TabletHookData",
+		"type": "struct",
+		"description": "Tablet hook structure in ExtIntuiMessages.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E0.html#line1688"
+	},
+	{
+		"displayText": "TagItem",
+		"type": "struct",
+		"description": "TagItem structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node064C.html#line31"
+	},
+	{
+		"displayText": "Task",
+		"type": "struct",
+		"description": "Exec Task structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node064B.html#line23"
+	},
+	{
+		"displayText": "TAvailFonts",
+		"type": "struct",
+		"description": "Structure for available fonts.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05DA.html#line100"
+	},
+	{
+		"displayText": "TDU_PublicUnit",
+		"type": "struct",
+		"description": "trackdisk.device public portion of the unit structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0604.html#line237"
+	},
+	{
+		"displayText": "TextAttr",
+		"type": "struct",
+		"description": "graphics.library Text attributes structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05EC.html#line64"
+	},
+	{
+		"displayText": "TextExtent",
+		"type": "struct",
+		"description": "Structure returned by TextExtend().",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05EC.html#line163"
+	},
+	{
+		"displayText": "TextFont",
+		"type": "struct",
+		"description": "diskfont.library font structure returned by OpenFont().",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05EC.html#line88"
+	},
+	{
+		"displayText": "TextFontExtension",
+		"type": "struct",
+		"description": "diskfont.library extended TextFont structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05EC.html#line118"
+	},
+	{
+		"displayText": "TextInputMsg",
+		"type": "struct",
+		"description": "OS4 workbench.library The messages your text input.hook is invoked with.",
+		"descriptionMoreURL": "http://amiga.sourceforge.net/amigadevhelp/phpwebdev.php?keyword=workbench.h&funcgroup=AmigaOS&action=Search"
+	},
+	{
+		"displayText": "TFontContents",
+		"type": "struct",
+		"description": "diskfont.library font contents structure with tags.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05DA.html#line33"
+	},
+	{
+		"displayText": "timerequest",
+		"type": "struct",
+		"description": "timer.device I/O request structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0607.html#line39"
+	},
+	{
+		"displayText": "timeval",
+		"type": "struct",
+		"description": "timer.device time value struct.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0607.html#line29"
+	},
+	{
+		"displayText": "TmpRas",
+		"type": "struct",
+		"description": "Memory buffer structure for RastPort functions.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D7.html#line31"
+	},
+	{
+		"displayText": "TOCEntry",
+		"type": "struct",
+		"description": "cd.device TOC entry structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E4.html#line256"
+	},
+	{
+		"displayText": "TOCSummary",
+		"type": "struct",
+		"description": "cd.device TOC summary structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E4.html#line248"
+	},
+	{
+		"displayText": "Tool",
+		"type": "struct",
+		"description": "datatypes.library Tool structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05F7.html#line144"
+	},
+	{
+		"displayText": "ToolNode",
+		"type": "struct",
+		"description": "datatypes.library Tool list item structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05F7.html#line190"
+	},
+	{
+		"displayText": "TP_AmigaXIP",
+		"type": "struct",
+		"description": "card.resource tuple for Amiga execute-in-place software.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E2.html#line163"
+	},
+	{
+		"displayText": "tPoint",
+		"type": "struct",
+		"description": "graphics.library point structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05DC.html"
+	},
+	{
+		"displayText": "TTextAttr",
+		"type": "struct",
+		"description": "graphics.library Text attributes structure with tags.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05EC.html#line71"
+	},
+	{
+		"displayText": "UCopList",
+		"type": "struct",
+		"description": "User copper list structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05F3.html#line88"
+	},
+	{
+		"displayText": "Unit",
+		"type": "struct",
+		"description": "Device unit structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05FB.html#line30"
+	},
+	{
+		"displayText": "UtilityBase",
+		"type": "struct",
+		"description": "utility.library base structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node064E.html#line30"
+	},
+	{
+		"displayText": "VecInfo",
+		"type": "struct",
+		"description": "graphics.library private VecInfo structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05FF.html#line176"
+	},
+	{
+		"displayText": "View",
+		"type": "struct",
+		"description": "View structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05ED.html#line63"
+	},
+	{
+		"displayText": "ViewExtra",
+		"type": "struct",
+		"description": "Extended View structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05ED.html#line75"
+	},
+	{
+		"displayText": "ViewPort",
+		"type": "struct",
+		"description": "ViewPort structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05ED.html#line46"
+	},
+	{
+		"displayText": "ViewPortExtra",
+		"type": "struct",
+		"description": "Extended ViewPort structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05ED.html#line85"
+	},
+	{
+		"displayText": "VoiceHeader",
+		"type": "struct",
+		"description": "sound.datatype Voice header structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node064F.html#line111"
+	},
+	{
+		"displayText": "VSprite",
+		"type": "struct",
+		"description": "Amiga GELs VSprite structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D4.html#line71"
+	},
+	{
+		"displayText": "WBArg",
+		"type": "struct",
+		"description": "Workbench application argument structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0650.html#line33"
+	},
+	{
+		"displayText": "WBPatternPrefs",
+		"type": "struct",
+		"description": "WBPattern preferences structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0651.html#line25"
+	},
+	{
+		"displayText": "WBStartup",
+		"type": "struct",
+		"description": "Exec message structure for WorkBench applications.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0650.html#line24"
+	},
+	{
+		"displayText": "Window",
+		"type": "struct",
+		"description": "Intuition Window structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E0.html#line908"
+	},
+	{
+		"displayText": "wmHandle",
+		"type": "struct",
+		"description": "window.class WM_HANDLEINPUT method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0652.html#line246"
+	},
+	{
+		"displayText": "WorkbenchHiddenDevicePrefs",
+		"type": "struct",
+		"description": "Workbench preferences structure for hidden devices.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0653.html#line40"
+	},
+	{
+		"displayText": "WorkbenchPrefs",
+		"type": "struct",
+		"description": "Workbench preferences structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0653.html#line24"
+	},
+	{
+		"displayText": "XRef",
+		"type": "struct",
+		"description": "amigaguide.library cross reference structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05D2.html#line147"
+	},
+	{
+		"displayText": "_Object",
+		"type": "struct",
+		"description": "Private BOOPSI structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E6.html#line78"
 	}

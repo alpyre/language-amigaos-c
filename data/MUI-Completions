@@ -4209,730 +4209,730 @@
 		"description": "Highlight text pen."
 	},
 	{
-  	"displayText": "MUIV_Application_Load_ENV",
-  	"snippet": "MUIV_Application_Load_ENV",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Application_Load_ENVARC",
-  	"snippet": "MUIV_Application_Load_ENVARC",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Application_ReturnID_Quit",
-  	"snippet": "MUIV_Application_ReturnID_Quit",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Application_Save_ENV",
-  	"snippet": "MUIV_Application_Save_ENV",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Application_Save_ENVARC",
-  	"snippet": "MUIV_Application_Save_ENVARC",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Cycle_Active_Next",
-  	"snippet": "MUIV_Cycle_Active_Next",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Cycle_Active_Prev",
-  	"snippet": "MUIV_Cycle_Active_Prev",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Dirlist_SortDirs_First",
-  	"snippet": "MUIV_Dirlist_SortDirs_First",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Dirlist_SortDirs_Last",
-  	"snippet": "MUIV_Dirlist_SortDirs_Last",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Dirlist_SortDirs_Mix",
-  	"snippet": "MUIV_Dirlist_SortDirs_Mix",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Dirlist_SortType_Date",
-  	"snippet": "MUIV_Dirlist_SortType_Date",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Dirlist_SortType_Name",
-  	"snippet": "MUIV_Dirlist_SortType_Name",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Dirlist_SortType_Size",
-  	"snippet": "MUIV_Dirlist_SortType_Size",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Dirlist_Status_Invalid",
-  	"snippet": "MUIV_Dirlist_Status_Invalid",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Dirlist_Status_Reading",
-  	"snippet": "MUIV_Dirlist_Status_Reading",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Dirlist_Status_Valid",
-  	"snippet": "MUIV_Dirlist_Status_Valid",
-  	"type": "value"
-  },
+		"displayText": "MUIV_Application_Load_ENV",
+		"snippet": "MUIV_Application_Load_ENV",
+		"type": "value"
+	},
 	{
-  	"displayText": "MUIV_EveryTime",
-  	"snippet": "MUIV_EveryTime",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Font_Big",
-  	"snippet": "MUIV_Font_Big",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Font_Button",
-  	"snippet": "MUIV_Font_Button",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Font_Fixed",
-  	"snippet": "MUIV_Font_Fixed",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Font_Inherit",
-  	"snippet": "MUIV_Font_Inherit",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Font_List",
-  	"snippet": "MUIV_Font_List",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Font_Normal",
-  	"snippet": "MUIV_Font_Normal",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Font_Tiny",
-  	"snippet": "MUIV_Font_Tiny",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Font_Title",
-  	"snippet": "MUIV_Font_Title",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Frame_Button",
-  	"snippet": "MUIV_Frame_Button",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Frame_Count",
-  	"snippet": "MUIV_Frame_Count",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Frame_Gauge",
-  	"snippet": "MUIV_Frame_Gauge",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Frame_Group",
-  	"snippet": "MUIV_Frame_Group",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Frame_ImageButton",
-  	"snippet": "MUIV_Frame_ImageButton",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Frame_InputList",
-  	"snippet": "MUIV_Frame_InputList",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Frame_None",
-  	"snippet": "MUIV_Frame_None",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Frame_PopUp",
-  	"snippet": "MUIV_Frame_PopUp",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Frame_Prop",
-  	"snippet": "MUIV_Frame_Prop",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Frame_ReadList",
-  	"snippet": "MUIV_Frame_ReadList",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Frame_Slider",
-  	"snippet": "MUIV_Frame_Slider",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Frame_String",
-  	"snippet": "MUIV_Frame_String",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Frame_Text",
-  	"snippet": "MUIV_Frame_Text",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Frame_Virtual",
-  	"snippet": "MUIV_Frame_Virtual",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Group_ActivePage_Advance",
-  	"snippet": "MUIV_Group_ActivePage_Advance",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Group_ActivePage_First",
-  	"snippet": "MUIV_Group_ActivePage_First",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Group_ActivePage_Last",
-  	"snippet": "MUIV_Group_ActivePage_Last",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Group_ActivePage_Next",
-  	"snippet": "MUIV_Group_ActivePage_Next",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Group_ActivePage_Prev",
-  	"snippet": "MUIV_Group_ActivePage_Prev",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_InputMode_Immediate",
-  	"snippet": "MUIV_InputMode_Immediate",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_InputMode_None",
-  	"snippet": "MUIV_InputMode_None",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_InputMode_RelVerify",
-  	"snippet": "MUIV_InputMode_RelVerify",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_InputMode_Toggle",
-  	"snippet": "MUIV_InputMode_Toggle",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_List_Active_Bottom",
-  	"snippet": "MUIV_List_Active_Bottom",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_List_Active_Down",
-  	"snippet": "MUIV_List_Active_Down",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_List_Active_Off",
-  	"snippet": "MUIV_List_Active_Off",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_List_Active_PageDown",
-  	"snippet": "MUIV_List_Active_PageDown",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_List_Active_PageUp",
-  	"snippet": "MUIV_List_Active_PageUp",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_List_Active_Top",
-  	"snippet": "MUIV_List_Active_Top",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_List_Active_Up",
-  	"snippet": "MUIV_List_Active_Up",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_List_ConstructHook_String",
-  	"snippet": "MUIV_List_ConstructHook_String",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_List_DestructHook_String",
-  	"snippet": "MUIV_List_DestructHook_String",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_List_Exchange_Active",
-  	"snippet": "MUIV_List_Exchange_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_List_Exchange_Bottom",
-  	"snippet": "MUIV_List_Exchange_Bottom",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_List_Exchange_Next",
-  	"snippet": "MUIV_List_Exchange_Next",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_List_Exchange_Previous",
-  	"snippet": "MUIV_List_Exchange_Previous",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_List_Exchange_Top",
-  	"snippet": "MUIV_List_Exchange_Top",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_List_Insert_Active",
-  	"snippet": "MUIV_List_Insert_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_List_Insert_Bottom",
-  	"snippet": "MUIV_List_Insert_Bottom",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_List_Insert_Sorted",
-  	"snippet": "MUIV_List_Insert_Sorted",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_List_Insert_Top",
-  	"snippet": "MUIV_List_Insert_Top",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_List_Move_Active",
-  	"snippet": "MUIV_List_Move_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_List_Move_Bottom",
-  	"snippet": "MUIV_List_Move_Bottom",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_List_Move_Next",
-  	"snippet": "MUIV_List_Move_Next",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_List_Move_Previous",
-  	"snippet": "MUIV_List_Move_Previous",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_List_Move_Top",
-  	"snippet": "MUIV_List_Move_Top",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_List_NextSelected_Start",
-  	"snippet": "MUIV_List_NextSelected_Start",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_List_Redraw_Active",
-  	"snippet": "MUIV_List_Redraw_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_List_Redraw_All",
-  	"snippet": "MUIV_List_Redraw_All",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_List_Remove_Active",
-  	"snippet": "MUIV_List_Remove_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_List_Remove_First",
-  	"snippet": "MUIV_List_Remove_First",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_List_Remove_Last",
-  	"snippet": "MUIV_List_Remove_Last",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_List_Remove_Selected",
-  	"snippet": "MUIV_List_Remove_Selected",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_List_Select_Active",
-  	"snippet": "MUIV_List_Select_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_List_Select_All",
-  	"snippet": "MUIV_List_Select_All",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_List_Select_Ask",
-  	"snippet": "MUIV_List_Select_Ask",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_List_Select_On",
-  	"snippet": "MUIV_List_Select_On",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_List_Select_Toggle",
-  	"snippet": "MUIV_List_Select_Toggle",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Listview_DragType_Immediate",
-  	"snippet": "MUIV_Listview_DragType_Immediate",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Listview_DragType_None",
-  	"snippet": "MUIV_Listview_DragType_None",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Listview_MultiSelect_Always",
-  	"snippet": "MUIV_Listview_MultiSelect_Always",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Listview_MultiSelect_Default",
-  	"snippet": "MUIV_Listview_MultiSelect_Default",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Listview_MultiSelect_None",
-  	"snippet": "MUIV_Listview_MultiSelect_None",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Listview_MultiSelect_Shifted",
-  	"snippet": "MUIV_Listview_MultiSelect_Shifted",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Listview_ScrollerPos_Default",
-  	"snippet": "MUIV_Listview_ScrollerPos_Default",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Listview_ScrollerPos_Left",
-  	"snippet": "MUIV_Listview_ScrollerPos_Left",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Listview_ScrollerPos_None",
-  	"snippet": "MUIV_Listview_ScrollerPos_None",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Listview_ScrollerPos_Right",
-  	"snippet": "MUIV_Listview_ScrollerPos_Right",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Menuitem_Shortcut_Check",
-  	"snippet": "MUIV_Menuitem_Shortcut_Check",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Notify_Application",
-  	"snippet": "MUIV_Notify_Application",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Notify_Self",
-  	"snippet": "MUIV_Notify_Self",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Notify_Window",
-  	"snippet": "MUIV_Notify_Window",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NotTriggerValue",
-  	"snippet": "MUIV_NotTriggerValue",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Palette_Entry_End",
-  	"snippet": "MUIV_Palette_Entry_End",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Prop_UseWinBorder_Bottom",
-  	"snippet": "MUIV_Prop_UseWinBorder_Bottom",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Prop_UseWinBorder_Left",
-  	"snippet": "MUIV_Prop_UseWinBorder_Left",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Prop_UseWinBorder_None",
-  	"snippet": "MUIV_Prop_UseWinBorder_None",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Prop_UseWinBorder_Right",
-  	"snippet": "MUIV_Prop_UseWinBorder_Right",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Scrollbar_Type_Bottom",
-  	"snippet": "MUIV_Scrollbar_Type_Bottom",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Scrollbar_Type_Default",
-  	"snippet": "MUIV_Scrollbar_Type_Default",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Scrollbar_Type_Sym",
-  	"snippet": "MUIV_Scrollbar_Type_Sym",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Scrollbar_Type_Top",
-  	"snippet": "MUIV_Scrollbar_Type_Top",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_String_Format_Center",
-  	"snippet": "MUIV_String_Format_Center",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_String_Format_Left",
-  	"snippet": "MUIV_String_Format_Left",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_String_Format_Right",
-  	"snippet": "MUIV_String_Format_Right",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_TriggerValue",
-  	"snippet": "MUIV_TriggerValue",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Window_ActiveObject_Next",
-  	"snippet": "MUIV_Window_ActiveObject_Next",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Window_ActiveObject_None",
-  	"snippet": "MUIV_Window_ActiveObject_None",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Window_ActiveObject_Prev",
-  	"snippet": "MUIV_Window_ActiveObject_Prev",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Window_AltHeight_MinMax",
-  	"snippet": "MUIV_Window_AltHeight_MinMax",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Window_AltHeight_Scaled",
-  	"snippet": "MUIV_Window_AltHeight_Scaled",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Window_AltHeight_Screen",
-  	"snippet": "MUIV_Window_AltHeight_Screen",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Window_AltHeight_Visible",
-  	"snippet": "MUIV_Window_AltHeight_Visible",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Window_AltLeftEdge_Centered",
-  	"snippet": "MUIV_Window_AltLeftEdge_Centered",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Window_AltLeftEdge_Moused",
-  	"snippet": "MUIV_Window_AltLeftEdge_Moused",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Window_AltLeftEdge_NoChange",
-  	"snippet": "MUIV_Window_AltLeftEdge_NoChange",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Window_AltTopEdge_Centered",
-  	"snippet": "MUIV_Window_AltTopEdge_Centered",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Window_AltTopEdge_Delta",
-  	"snippet": "MUIV_Window_AltTopEdge_Delta",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Window_AltTopEdge_Moused",
-  	"snippet": "MUIV_Window_AltTopEdge_Moused",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Window_AltTopEdge_NoChange",
-  	"snippet": "MUIV_Window_AltTopEdge_NoChange",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Window_AltWidth_MinMax",
-  	"snippet": "MUIV_Window_AltWidth_MinMax",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Window_AltWidth_Scaled",
-  	"snippet": "MUIV_Window_AltWidth_Scaled",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Window_AltWidth_Screen",
-  	"snippet": "MUIV_Window_AltWidth_Screen",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Window_AltWidth_Visible",
-  	"snippet": "MUIV_Window_AltWidth_Visible",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Window_Height_Default",
-  	"snippet": "MUIV_Window_Height_Default",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Window_Height_MinMax",
-  	"snippet": "MUIV_Window_Height_MinMax",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Window_Height_Scaled",
-  	"snippet": "MUIV_Window_Height_Scaled",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Window_Height_Screen",
-  	"snippet": "MUIV_Window_Height_Screen",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Window_Height_Visible",
-  	"snippet": "MUIV_Window_Height_Visible",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Window_LeftEdge_Centered",
-  	"snippet": "MUIV_Window_LeftEdge_Centered",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Window_LeftEdge_Moused",
-  	"snippet": "MUIV_Window_LeftEdge_Moused",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Window_Menu_NoMenu",
-  	"snippet": "MUIV_Window_Menu_NoMenu",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Window_TopEdge_Centered",
-  	"snippet": "MUIV_Window_TopEdge_Centered",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Window_TopEdge_Delta",
-  	"snippet": "MUIV_Window_TopEdge_Delta",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Window_TopEdge_Moused",
-  	"snippet": "MUIV_Window_TopEdge_Moused",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Window_Width_Default",
-  	"snippet": "MUIV_Window_Width_Default",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Window_Width_MinMax",
-  	"snippet": "MUIV_Window_Width_MinMax",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Window_Width_Scaled",
-  	"snippet": "MUIV_Window_Width_Scaled",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Window_Width_Screen",
-  	"snippet": "MUIV_Window_Width_Screen",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_Window_Width_Visible",
-  	"snippet": "MUIV_Window_Width_Visible",
-  	"type": "value"
-  },
+		"displayText": "MUIV_Application_Load_ENVARC",
+		"snippet": "MUIV_Application_Load_ENVARC",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Application_ReturnID_Quit",
+		"snippet": "MUIV_Application_ReturnID_Quit",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Application_Save_ENV",
+		"snippet": "MUIV_Application_Save_ENV",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Application_Save_ENVARC",
+		"snippet": "MUIV_Application_Save_ENVARC",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Cycle_Active_Next",
+		"snippet": "MUIV_Cycle_Active_Next",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Cycle_Active_Prev",
+		"snippet": "MUIV_Cycle_Active_Prev",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Dirlist_SortDirs_First",
+		"snippet": "MUIV_Dirlist_SortDirs_First",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Dirlist_SortDirs_Last",
+		"snippet": "MUIV_Dirlist_SortDirs_Last",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Dirlist_SortDirs_Mix",
+		"snippet": "MUIV_Dirlist_SortDirs_Mix",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Dirlist_SortType_Date",
+		"snippet": "MUIV_Dirlist_SortType_Date",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Dirlist_SortType_Name",
+		"snippet": "MUIV_Dirlist_SortType_Name",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Dirlist_SortType_Size",
+		"snippet": "MUIV_Dirlist_SortType_Size",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Dirlist_Status_Invalid",
+		"snippet": "MUIV_Dirlist_Status_Invalid",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Dirlist_Status_Reading",
+		"snippet": "MUIV_Dirlist_Status_Reading",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Dirlist_Status_Valid",
+		"snippet": "MUIV_Dirlist_Status_Valid",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_EveryTime",
+		"snippet": "MUIV_EveryTime",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Font_Big",
+		"snippet": "MUIV_Font_Big",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Font_Button",
+		"snippet": "MUIV_Font_Button",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Font_Fixed",
+		"snippet": "MUIV_Font_Fixed",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Font_Inherit",
+		"snippet": "MUIV_Font_Inherit",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Font_List",
+		"snippet": "MUIV_Font_List",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Font_Normal",
+		"snippet": "MUIV_Font_Normal",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Font_Tiny",
+		"snippet": "MUIV_Font_Tiny",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Font_Title",
+		"snippet": "MUIV_Font_Title",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Frame_Button",
+		"snippet": "MUIV_Frame_Button",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Frame_Count",
+		"snippet": "MUIV_Frame_Count",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Frame_Gauge",
+		"snippet": "MUIV_Frame_Gauge",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Frame_Group",
+		"snippet": "MUIV_Frame_Group",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Frame_ImageButton",
+		"snippet": "MUIV_Frame_ImageButton",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Frame_InputList",
+		"snippet": "MUIV_Frame_InputList",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Frame_None",
+		"snippet": "MUIV_Frame_None",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Frame_PopUp",
+		"snippet": "MUIV_Frame_PopUp",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Frame_Prop",
+		"snippet": "MUIV_Frame_Prop",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Frame_ReadList",
+		"snippet": "MUIV_Frame_ReadList",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Frame_Slider",
+		"snippet": "MUIV_Frame_Slider",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Frame_String",
+		"snippet": "MUIV_Frame_String",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Frame_Text",
+		"snippet": "MUIV_Frame_Text",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Frame_Virtual",
+		"snippet": "MUIV_Frame_Virtual",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Group_ActivePage_Advance",
+		"snippet": "MUIV_Group_ActivePage_Advance",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Group_ActivePage_First",
+		"snippet": "MUIV_Group_ActivePage_First",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Group_ActivePage_Last",
+		"snippet": "MUIV_Group_ActivePage_Last",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Group_ActivePage_Next",
+		"snippet": "MUIV_Group_ActivePage_Next",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Group_ActivePage_Prev",
+		"snippet": "MUIV_Group_ActivePage_Prev",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_InputMode_Immediate",
+		"snippet": "MUIV_InputMode_Immediate",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_InputMode_None",
+		"snippet": "MUIV_InputMode_None",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_InputMode_RelVerify",
+		"snippet": "MUIV_InputMode_RelVerify",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_InputMode_Toggle",
+		"snippet": "MUIV_InputMode_Toggle",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_List_Active_Bottom",
+		"snippet": "MUIV_List_Active_Bottom",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_List_Active_Down",
+		"snippet": "MUIV_List_Active_Down",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_List_Active_Off",
+		"snippet": "MUIV_List_Active_Off",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_List_Active_PageDown",
+		"snippet": "MUIV_List_Active_PageDown",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_List_Active_PageUp",
+		"snippet": "MUIV_List_Active_PageUp",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_List_Active_Top",
+		"snippet": "MUIV_List_Active_Top",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_List_Active_Up",
+		"snippet": "MUIV_List_Active_Up",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_List_ConstructHook_String",
+		"snippet": "MUIV_List_ConstructHook_String",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_List_DestructHook_String",
+		"snippet": "MUIV_List_DestructHook_String",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_List_Exchange_Active",
+		"snippet": "MUIV_List_Exchange_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_List_Exchange_Bottom",
+		"snippet": "MUIV_List_Exchange_Bottom",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_List_Exchange_Next",
+		"snippet": "MUIV_List_Exchange_Next",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_List_Exchange_Previous",
+		"snippet": "MUIV_List_Exchange_Previous",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_List_Exchange_Top",
+		"snippet": "MUIV_List_Exchange_Top",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_List_Insert_Active",
+		"snippet": "MUIV_List_Insert_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_List_Insert_Bottom",
+		"snippet": "MUIV_List_Insert_Bottom",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_List_Insert_Sorted",
+		"snippet": "MUIV_List_Insert_Sorted",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_List_Insert_Top",
+		"snippet": "MUIV_List_Insert_Top",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_List_Move_Active",
+		"snippet": "MUIV_List_Move_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_List_Move_Bottom",
+		"snippet": "MUIV_List_Move_Bottom",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_List_Move_Next",
+		"snippet": "MUIV_List_Move_Next",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_List_Move_Previous",
+		"snippet": "MUIV_List_Move_Previous",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_List_Move_Top",
+		"snippet": "MUIV_List_Move_Top",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_List_NextSelected_Start",
+		"snippet": "MUIV_List_NextSelected_Start",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_List_Redraw_Active",
+		"snippet": "MUIV_List_Redraw_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_List_Redraw_All",
+		"snippet": "MUIV_List_Redraw_All",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_List_Remove_Active",
+		"snippet": "MUIV_List_Remove_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_List_Remove_First",
+		"snippet": "MUIV_List_Remove_First",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_List_Remove_Last",
+		"snippet": "MUIV_List_Remove_Last",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_List_Remove_Selected",
+		"snippet": "MUIV_List_Remove_Selected",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_List_Select_Active",
+		"snippet": "MUIV_List_Select_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_List_Select_All",
+		"snippet": "MUIV_List_Select_All",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_List_Select_Ask",
+		"snippet": "MUIV_List_Select_Ask",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_List_Select_On",
+		"snippet": "MUIV_List_Select_On",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_List_Select_Toggle",
+		"snippet": "MUIV_List_Select_Toggle",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Listview_DragType_Immediate",
+		"snippet": "MUIV_Listview_DragType_Immediate",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Listview_DragType_None",
+		"snippet": "MUIV_Listview_DragType_None",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Listview_MultiSelect_Always",
+		"snippet": "MUIV_Listview_MultiSelect_Always",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Listview_MultiSelect_Default",
+		"snippet": "MUIV_Listview_MultiSelect_Default",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Listview_MultiSelect_None",
+		"snippet": "MUIV_Listview_MultiSelect_None",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Listview_MultiSelect_Shifted",
+		"snippet": "MUIV_Listview_MultiSelect_Shifted",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Listview_ScrollerPos_Default",
+		"snippet": "MUIV_Listview_ScrollerPos_Default",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Listview_ScrollerPos_Left",
+		"snippet": "MUIV_Listview_ScrollerPos_Left",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Listview_ScrollerPos_None",
+		"snippet": "MUIV_Listview_ScrollerPos_None",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Listview_ScrollerPos_Right",
+		"snippet": "MUIV_Listview_ScrollerPos_Right",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Menuitem_Shortcut_Check",
+		"snippet": "MUIV_Menuitem_Shortcut_Check",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Notify_Application",
+		"snippet": "MUIV_Notify_Application",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Notify_Self",
+		"snippet": "MUIV_Notify_Self",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Notify_Window",
+		"snippet": "MUIV_Notify_Window",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NotTriggerValue",
+		"snippet": "MUIV_NotTriggerValue",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Palette_Entry_End",
+		"snippet": "MUIV_Palette_Entry_End",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Prop_UseWinBorder_Bottom",
+		"snippet": "MUIV_Prop_UseWinBorder_Bottom",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Prop_UseWinBorder_Left",
+		"snippet": "MUIV_Prop_UseWinBorder_Left",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Prop_UseWinBorder_None",
+		"snippet": "MUIV_Prop_UseWinBorder_None",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Prop_UseWinBorder_Right",
+		"snippet": "MUIV_Prop_UseWinBorder_Right",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Scrollbar_Type_Bottom",
+		"snippet": "MUIV_Scrollbar_Type_Bottom",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Scrollbar_Type_Default",
+		"snippet": "MUIV_Scrollbar_Type_Default",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Scrollbar_Type_Sym",
+		"snippet": "MUIV_Scrollbar_Type_Sym",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Scrollbar_Type_Top",
+		"snippet": "MUIV_Scrollbar_Type_Top",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_String_Format_Center",
+		"snippet": "MUIV_String_Format_Center",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_String_Format_Left",
+		"snippet": "MUIV_String_Format_Left",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_String_Format_Right",
+		"snippet": "MUIV_String_Format_Right",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_TriggerValue",
+		"snippet": "MUIV_TriggerValue",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Window_ActiveObject_Next",
+		"snippet": "MUIV_Window_ActiveObject_Next",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Window_ActiveObject_None",
+		"snippet": "MUIV_Window_ActiveObject_None",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Window_ActiveObject_Prev",
+		"snippet": "MUIV_Window_ActiveObject_Prev",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Window_AltHeight_MinMax",
+		"snippet": "MUIV_Window_AltHeight_MinMax",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Window_AltHeight_Scaled",
+		"snippet": "MUIV_Window_AltHeight_Scaled",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Window_AltHeight_Screen",
+		"snippet": "MUIV_Window_AltHeight_Screen",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Window_AltHeight_Visible",
+		"snippet": "MUIV_Window_AltHeight_Visible",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Window_AltLeftEdge_Centered",
+		"snippet": "MUIV_Window_AltLeftEdge_Centered",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Window_AltLeftEdge_Moused",
+		"snippet": "MUIV_Window_AltLeftEdge_Moused",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Window_AltLeftEdge_NoChange",
+		"snippet": "MUIV_Window_AltLeftEdge_NoChange",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Window_AltTopEdge_Centered",
+		"snippet": "MUIV_Window_AltTopEdge_Centered",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Window_AltTopEdge_Delta",
+		"snippet": "MUIV_Window_AltTopEdge_Delta",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Window_AltTopEdge_Moused",
+		"snippet": "MUIV_Window_AltTopEdge_Moused",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Window_AltTopEdge_NoChange",
+		"snippet": "MUIV_Window_AltTopEdge_NoChange",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Window_AltWidth_MinMax",
+		"snippet": "MUIV_Window_AltWidth_MinMax",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Window_AltWidth_Scaled",
+		"snippet": "MUIV_Window_AltWidth_Scaled",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Window_AltWidth_Screen",
+		"snippet": "MUIV_Window_AltWidth_Screen",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Window_AltWidth_Visible",
+		"snippet": "MUIV_Window_AltWidth_Visible",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Window_Height_Default",
+		"snippet": "MUIV_Window_Height_Default",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Window_Height_MinMax",
+		"snippet": "MUIV_Window_Height_MinMax",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Window_Height_Scaled",
+		"snippet": "MUIV_Window_Height_Scaled",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Window_Height_Screen",
+		"snippet": "MUIV_Window_Height_Screen",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Window_Height_Visible",
+		"snippet": "MUIV_Window_Height_Visible",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Window_LeftEdge_Centered",
+		"snippet": "MUIV_Window_LeftEdge_Centered",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Window_LeftEdge_Moused",
+		"snippet": "MUIV_Window_LeftEdge_Moused",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Window_Menu_NoMenu",
+		"snippet": "MUIV_Window_Menu_NoMenu",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Window_TopEdge_Centered",
+		"snippet": "MUIV_Window_TopEdge_Centered",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Window_TopEdge_Delta",
+		"snippet": "MUIV_Window_TopEdge_Delta",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Window_TopEdge_Moused",
+		"snippet": "MUIV_Window_TopEdge_Moused",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Window_Width_Default",
+		"snippet": "MUIV_Window_Width_Default",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Window_Width_MinMax",
+		"snippet": "MUIV_Window_Width_MinMax",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Window_Width_Scaled",
+		"snippet": "MUIV_Window_Width_Scaled",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Window_Width_Screen",
+		"snippet": "MUIV_Window_Width_Screen",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_Window_Width_Visible",
+		"snippet": "MUIV_Window_Width_Visible",
+		"type": "value"
+	},
 	{
 		"displayText": "MUI_LPR_ABOVE",
 		"snippet": "MUI_LPR_ABOVE",
@@ -7658,1907 +7658,3461 @@
 		"descriptionMoreURL": ""
 	},
 	{
-  	"displayText": "MUIV_BetterString_DoAction_Copy",
-  	"snippet": "MUIV_BetterString_DoAction_Copy",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_BetterString_DoAction_Cut",
-  	"snippet": "MUIV_BetterString_DoAction_Cut",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_BetterString_DoAction_DecreaseNum",
-  	"snippet": "MUIV_BetterString_DoAction_DecreaseNum",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_BetterString_DoAction_DecToHex",
-  	"snippet": "MUIV_BetterString_DoAction_DecToHex",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_BetterString_DoAction_Delete",
-  	"snippet": "MUIV_BetterString_DoAction_Delete",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_BetterString_DoAction_HexToDec",
-  	"snippet": "MUIV_BetterString_DoAction_HexToDec",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_BetterString_DoAction_IncreaseNum",
-  	"snippet": "MUIV_BetterString_DoAction_IncreaseNum",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_BetterString_DoAction_NextFileComp",
-  	"snippet": "MUIV_BetterString_DoAction_NextFileComp",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_BetterString_DoAction_Paste",
-  	"snippet": "MUIV_BetterString_DoAction_Paste",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_BetterString_DoAction_PrevFileComp",
-  	"snippet": "MUIV_BetterString_DoAction_PrevFileComp",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_BetterString_DoAction_Redo",
-  	"snippet": "MUIV_BetterString_DoAction_Redo",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_BetterString_DoAction_Revert",
-  	"snippet": "MUIV_BetterString_DoAction_Revert",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_BetterString_DoAction_SelectAll",
-  	"snippet": "MUIV_BetterString_DoAction_SelectAll",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_BetterString_DoAction_SelectNone",
-  	"snippet": "MUIV_BetterString_DoAction_SelectNone",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_BetterString_DoAction_ToggleCase",
-  	"snippet": "MUIV_BetterString_DoAction_ToggleCase",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_BetterString_DoAction_ToggleCaseWord",
-  	"snippet": "MUIV_BetterString_DoAction_ToggleCaseWord",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_BetterString_DoAction_Undo",
-  	"snippet": "MUIV_BetterString_DoAction_Undo",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_BetterString_Insert_BufferPos",
-  	"snippet": "MUIV_BetterString_Insert_BufferPos",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_BetterString_Insert_EndOfString",
-  	"snippet": "MUIV_BetterString_Insert_EndOfString",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_BetterString_Insert_StartOfString",
-  	"snippet": "MUIV_BetterString_Insert_StartOfString",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NBalance_Pointer_Off",
-  	"snippet": "MUIV_NBalance_Pointer_Off",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NBalance_Pointer_Standard",
-  	"snippet": "MUIV_NBalance_Pointer_Standard",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NLCT_Failed",
-  	"snippet": "MUIV_NLCT_Failed",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NLCT_Success",
-  	"snippet": "MUIV_NLCT_Success",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NLCT_WriteErr",
-  	"snippet": "MUIV_NLCT_WriteErr",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Active_Bottom",
-  	"snippet": "MUIV_NList_Active_Bottom",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Active_Down",
-  	"snippet": "MUIV_NList_Active_Down",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Active_Off",
-  	"snippet": "MUIV_NList_Active_Off",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Active_PageDown",
-  	"snippet": "MUIV_NList_Active_PageDown",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Active_PageUp",
-  	"snippet": "MUIV_NList_Active_PageUp",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Active_Top",
-  	"snippet": "MUIV_NList_Active_Top",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Active_Up",
-  	"snippet": "MUIV_NList_Active_Up",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_AppValue",
-  	"snippet": "MUIV_NList_AppValue",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_ColWidth_All",
-  	"snippet": "MUIV_NList_ColWidth_All",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_ColWidth_Default",
-  	"snippet": "MUIV_NList_ColWidth_Default",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_ColWidth_Get",
-  	"snippet": "MUIV_NList_ColWidth_Get",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_ConstructHook_String",
-  	"snippet": "MUIV_NList_ConstructHook_String",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_ContextMenu_Always",
-  	"snippet": "MUIV_NList_ContextMenu_Always",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_ContextMenu_Default",
-  	"snippet": "MUIV_NList_ContextMenu_Default",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_ContextMenu_Never",
-  	"snippet": "MUIV_NList_ContextMenu_Never",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_ContextMenu_TopOnly",
-  	"snippet": "MUIV_NList_ContextMenu_TopOnly",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_CopyTo_Active",
-  	"snippet": "MUIV_NList_CopyTo_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_CopyTo_All",
-  	"snippet": "MUIV_NList_CopyTo_All",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_CopyTo_Entries",
-  	"snippet": "MUIV_NList_CopyTo_Entries",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_CopyTo_Entry",
-  	"snippet": "MUIV_NList_CopyTo_Entry",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_CopyTo_Selected",
-  	"snippet": "MUIV_NList_CopyTo_Selected",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_CopyToClip_Active",
-  	"snippet": "MUIV_NList_CopyToClip_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_CopyToClip_All",
-  	"snippet": "MUIV_NList_CopyToClip_All",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_CopyToClip_Entries",
-  	"snippet": "MUIV_NList_CopyToClip_Entries",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_CopyToClip_Entry",
-  	"snippet": "MUIV_NList_CopyToClip_Entry",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_CopyToClip_Selected",
-  	"snippet": "MUIV_NList_CopyToClip_Selected",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_CopyToClip_String",
-  	"snippet": "MUIV_NList_CopyToClip_String",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_CopyToClip_Strings",
-  	"snippet": "MUIV_NList_CopyToClip_Strings",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_DestructHook_String",
-  	"snippet": "MUIV_NList_DestructHook_String",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_DoMethod_Active",
-  	"snippet": "MUIV_NList_DoMethod_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_DoMethod_All",
-  	"snippet": "MUIV_NList_DoMethod_All",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_DoMethod_App",
-  	"snippet": "MUIV_NList_DoMethod_App",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_DoMethod_Entry",
-  	"snippet": "MUIV_NList_DoMethod_Entry",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_DoMethod_Selected",
-  	"snippet": "MUIV_NList_DoMethod_Selected",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_DoMethod_Self",
-  	"snippet": "MUIV_NList_DoMethod_Self",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_DragType_Borders",
-  	"snippet": "MUIV_NList_DragType_Borders",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_DragType_Default",
-  	"snippet": "MUIV_NList_DragType_Default",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_DragType_Immediate",
-  	"snippet": "MUIV_NList_DragType_Immediate",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_DragType_None",
-  	"snippet": "MUIV_NList_DragType_None",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_DragType_Qualifier",
-  	"snippet": "MUIV_NList_DragType_Qualifier",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_DropType_Above",
-  	"snippet": "MUIV_NList_DropType_Above",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_DropType_Below",
-  	"snippet": "MUIV_NList_DropType_Below",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_DropType_Mask",
-  	"snippet": "MUIV_NList_DropType_Mask",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_DropType_Onto",
-  	"snippet": "MUIV_NList_DropType_Onto",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_EntryPosValue",
-  	"snippet": "MUIV_NList_EntryPosValue",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_EntryValue",
-  	"snippet": "MUIV_NList_EntryValue",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Exchange_Active",
-  	"snippet": "MUIV_NList_Exchange_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Exchange_Bottom",
-  	"snippet": "MUIV_NList_Exchange_Bottom",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Exchange_Next",
-  	"snippet": "MUIV_NList_Exchange_Next",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Exchange_Previous",
-  	"snippet": "MUIV_NList_Exchange_Previous",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Exchange_Top",
-  	"snippet": "MUIV_NList_Exchange_Top",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Exports_Active",
-  	"snippet": "MUIV_NList_Exports_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Exports_All",
-  	"snippet": "MUIV_NList_Exports_All",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Exports_ColOrder",
-  	"snippet": "MUIV_NList_Exports_ColOrder",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Exports_Cols",
-  	"snippet": "MUIV_NList_Exports_Cols",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Exports_ColWidth",
-  	"snippet": "MUIV_NList_Exports_ColWidth",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Exports_First",
-  	"snippet": "MUIV_NList_Exports_First",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Exports_Selected",
-  	"snippet": "MUIV_NList_Exports_Selected",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_First_Bottom",
-  	"snippet": "MUIV_NList_First_Bottom",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_First_Down",
-  	"snippet": "MUIV_NList_First_Down",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_First_PageDown",
-  	"snippet": "MUIV_NList_First_PageDown",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_First_PageUp",
-  	"snippet": "MUIV_NList_First_PageUp",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_First_Top",
-  	"snippet": "MUIV_NList_First_Top",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_First_Up",
-  	"snippet": "MUIV_NList_First_Up",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Font_Fixed",
-  	"snippet": "MUIV_NList_Font_Fixed",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Font_Little",
-  	"snippet": "MUIV_NList_Font_Little",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_ForcePen_Default",
-  	"snippet": "MUIV_NList_ForcePen_Default",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_ForcePen_Off",
-  	"snippet": "MUIV_NList_ForcePen_Off",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_ForcePen_On",
-  	"snippet": "MUIV_NList_ForcePen_On",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_GetEntry_Active",
-  	"snippet": "MUIV_NList_GetEntry_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_GetEntryInfo_Line",
-  	"snippet": "MUIV_NList_GetEntryInfo_Line",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_GetPos_End",
-  	"snippet": "MUIV_NList_GetPos_End",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_GetPos_Start",
-  	"snippet": "MUIV_NList_GetPos_Start",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Imports_Active",
-  	"snippet": "MUIV_NList_Imports_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Imports_All",
-  	"snippet": "MUIV_NList_Imports_All",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Imports_ColOrder",
-  	"snippet": "MUIV_NList_Imports_ColOrder",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Imports_Cols",
-  	"snippet": "MUIV_NList_Imports_Cols",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Imports_ColWidth",
-  	"snippet": "MUIV_NList_Imports_ColWidth",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Imports_First",
-  	"snippet": "MUIV_NList_Imports_First",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Imports_Selected",
-  	"snippet": "MUIV_NList_Imports_Selected",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Insert_Active",
-  	"snippet": "MUIV_NList_Insert_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Insert_Bottom",
-  	"snippet": "MUIV_NList_Insert_Bottom",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Insert_Flag_Raw",
-  	"snippet": "MUIV_NList_Insert_Flag_Raw",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Insert_Sorted",
-  	"snippet": "MUIV_NList_Insert_Sorted",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Insert_Top",
-  	"snippet": "MUIV_NList_Insert_Top",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Jump_Active",
-  	"snippet": "MUIV_NList_Jump_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Jump_Active_Center",
-  	"snippet": "MUIV_NList_Jump_Active_Center",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Menu_Default_All",
-  	"snippet": "MUIV_NList_Menu_Default_All",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Menu_Default_This",
-  	"snippet": "MUIV_NList_Menu_Default_This",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Menu_DefOrder_All",
-  	"snippet": "MUIV_NList_Menu_DefOrder_All",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Menu_DefOrder_This",
-  	"snippet": "MUIV_NList_Menu_DefOrder_This",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Menu_DefWidth_All",
-  	"snippet": "MUIV_NList_Menu_DefWidth_All",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Menu_DefWidth_This",
-  	"snippet": "MUIV_NList_Menu_DefWidth_This",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Move_Active",
-  	"snippet": "MUIV_NList_Move_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Move_Bottom",
-  	"snippet": "MUIV_NList_Move_Bottom",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Move_Next",
-  	"snippet": "MUIV_NList_Move_Next",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Move_Previous",
-  	"snippet": "MUIV_NList_Move_Previous",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Move_Selected",
-  	"snippet": "MUIV_NList_Move_Selected",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Move_Top",
-  	"snippet": "MUIV_NList_Move_Top",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_MultiSelect_Always",
-  	"snippet": "MUIV_NList_MultiSelect_Always",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_MultiSelect_Default",
-  	"snippet": "MUIV_NList_MultiSelect_Default",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_MultiSelect_None",
-  	"snippet": "MUIV_NList_MultiSelect_None",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_MultiSelect_Shifted",
-  	"snippet": "MUIV_NList_MultiSelect_Shifted",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_NextSelected_End",
-  	"snippet": "MUIV_NList_NextSelected_End",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_NextSelected_Start",
-  	"snippet": "MUIV_NList_NextSelected_Start",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_PrevSelected_End",
-  	"snippet": "MUIV_NList_PrevSelected_End",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_PrevSelected_Start",
-  	"snippet": "MUIV_NList_PrevSelected_Start",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Quiet_None",
-  	"snippet": "MUIV_NList_Quiet_None",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Quiet_Visual",
-  	"snippet": "MUIV_NList_Quiet_Visual",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Redraw_Active",
-  	"snippet": "MUIV_NList_Redraw_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Redraw_All",
-  	"snippet": "MUIV_NList_Redraw_All",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Redraw_Title",
-  	"snippet": "MUIV_NList_Redraw_Title",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Remove_Active",
-  	"snippet": "MUIV_NList_Remove_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Remove_First",
-  	"snippet": "MUIV_NList_Remove_First",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Remove_Last",
-  	"snippet": "MUIV_NList_Remove_Last",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Remove_Selected",
-  	"snippet": "MUIV_NList_Remove_Selected",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Select_Active",
-  	"snippet": "MUIV_NList_Select_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Select_All",
-  	"snippet": "MUIV_NList_Select_All",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Select_Ask",
-  	"snippet": "MUIV_NList_Select_Ask",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Select_Off",
-  	"snippet": "MUIV_NList_Select_Off",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Select_On",
-  	"snippet": "MUIV_NList_Select_On",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Select_Toggle",
-  	"snippet": "MUIV_NList_Select_Toggle",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_SelectChange_Flag_Multi",
-  	"snippet": "MUIV_NList_SelectChange_Flag_Multi",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_SelfValue",
-  	"snippet": "MUIV_NList_SelfValue",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_SetActive_Entry",
-  	"snippet": "MUIV_NList_SetActive_Entry",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_SetActive_Jump_Center",
-  	"snippet": "MUIV_NList_SetActive_Jump_Center",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_SetColumnCol_Default",
-  	"snippet": "MUIV_NList_SetColumnCol_Default",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Sort3_SortType_1",
-  	"snippet": "MUIV_NList_Sort3_SortType_1",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Sort3_SortType_2",
-  	"snippet": "MUIV_NList_Sort3_SortType_2",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_Sort3_SortType_Both",
-  	"snippet": "MUIV_NList_Sort3_SortType_Both",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_SortTypeAdd_2Values",
-  	"snippet": "MUIV_NList_SortTypeAdd_2Values",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_SortTypeAdd_4Values",
-  	"snippet": "MUIV_NList_SortTypeAdd_4Values",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_SortTypeAdd_None",
-  	"snippet": "MUIV_NList_SortTypeAdd_None",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_SortTypeAdd_xxx",
-  	"snippet": "MUIV_NList_SortTypeAdd_xxx",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_SortTypeValue_Mask",
-  	"snippet": "MUIV_NList_SortTypeValue_Mask",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_TitleMark_Box",
-  	"snippet": "MUIV_NList_TitleMark_Box",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_TitleMark_Circle",
-  	"snippet": "MUIV_NList_TitleMark_Circle",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_TitleMark_Down",
-  	"snippet": "MUIV_NList_TitleMark_Down",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_TitleMark_None",
-  	"snippet": "MUIV_NList_TitleMark_None",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_TitleMark_Up",
-  	"snippet": "MUIV_NList_TitleMark_Up",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_TitleMark2_Box",
-  	"snippet": "MUIV_NList_TitleMark2_Box",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_TitleMark2_Circle",
-  	"snippet": "MUIV_NList_TitleMark2_Circle",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_TitleMark2_Down",
-  	"snippet": "MUIV_NList_TitleMark2_Down",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_TitleMark2_None",
-  	"snippet": "MUIV_NList_TitleMark2_None",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_TitleMark2_Up",
-  	"snippet": "MUIV_NList_TitleMark2_Up",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_TypeSelect_Char",
-  	"snippet": "MUIV_NList_TypeSelect_Char",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_TypeSelect_Line",
-  	"snippet": "MUIV_NList_TypeSelect_Line",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NList_UseImage_All",
-  	"snippet": "MUIV_NList_UseImage_All",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Active_First",
-  	"snippet": "MUIV_NListtree_Active_First",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Active_FirstVisible",
-  	"snippet": "MUIV_NListtree_Active_FirstVisible",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Active_LastVisible",
-  	"snippet": "MUIV_NListtree_Active_LastVisible",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Active_Off",
-  	"snippet": "MUIV_NListtree_Active_Off",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Active_Parent",
-  	"snippet": "MUIV_NListtree_Active_Parent",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_ActiveList_Off",
-  	"snippet": "MUIV_NListtree_ActiveList_Off",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_AutoVisible_Expand",
-  	"snippet": "MUIV_NListtree_AutoVisible_Expand",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_AutoVisible_FirstOpen",
-  	"snippet": "MUIV_NListtree_AutoVisible_FirstOpen",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_AutoVisible_Normal",
-  	"snippet": "MUIV_NListtree_AutoVisible_Normal",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_AutoVisible_Off",
-  	"snippet": "MUIV_NListtree_AutoVisible_Off",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Close_ListNode_Active",
-  	"snippet": "MUIV_NListtree_Close_ListNode_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Close_ListNode_Parent",
-  	"snippet": "MUIV_NListtree_Close_ListNode_Parent",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Close_ListNode_Root",
-  	"snippet": "MUIV_NListtree_Close_ListNode_Root",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Close_TreeNode_Active",
-  	"snippet": "MUIV_NListtree_Close_TreeNode_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Close_TreeNode_All",
-  	"snippet": "MUIV_NListtree_Close_TreeNode_All",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Close_TreeNode_Head",
-  	"snippet": "MUIV_NListtree_Close_TreeNode_Head",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Close_TreeNode_Tail",
-  	"snippet": "MUIV_NListtree_Close_TreeNode_Tail",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_CompareHook_Head",
-  	"snippet": "MUIV_NListtree_CompareHook_Head",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_CompareHook_LeavesBottom",
-  	"snippet": "MUIV_NListtree_CompareHook_LeavesBottom",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_CompareHook_LeavesMixed",
-  	"snippet": "MUIV_NListtree_CompareHook_LeavesMixed",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_CompareHook_LeavesTop",
-  	"snippet": "MUIV_NListtree_CompareHook_LeavesTop",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_CompareHook_Tail",
-  	"snippet": "MUIV_NListtree_CompareHook_Tail",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_ConstructHook_Flag_AutoCreate",
-  	"snippet": "MUIV_NListtree_ConstructHook_Flag_AutoCreate",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_ConstructHook_String",
-  	"snippet": "MUIV_NListtree_ConstructHook_String",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Copy_DestListNode_Active",
-  	"snippet": "MUIV_NListtree_Copy_DestListNode_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Copy_DestListNode_Root",
-  	"snippet": "MUIV_NListtree_Copy_DestListNode_Root",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Copy_DestTreeNode_Active",
-  	"snippet": "MUIV_NListtree_Copy_DestTreeNode_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Copy_DestTreeNode_Head",
-  	"snippet": "MUIV_NListtree_Copy_DestTreeNode_Head",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Copy_DestTreeNode_Sorted",
-  	"snippet": "MUIV_NListtree_Copy_DestTreeNode_Sorted",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Copy_DestTreeNode_Tail",
-  	"snippet": "MUIV_NListtree_Copy_DestTreeNode_Tail",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Copy_Flag_KeepStructure",
-  	"snippet": "MUIV_NListtree_Copy_Flag_KeepStructure",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Copy_SourceListNode_Active",
-  	"snippet": "MUIV_NListtree_Copy_SourceListNode_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Copy_SourceListNode_Root",
-  	"snippet": "MUIV_NListtree_Copy_SourceListNode_Root",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Copy_SourceTreeNode_Active",
-  	"snippet": "MUIV_NListtree_Copy_SourceTreeNode_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Copy_SourceTreeNode_Head",
-  	"snippet": "MUIV_NListtree_Copy_SourceTreeNode_Head",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Copy_SourceTreeNode_Tail",
-  	"snippet": "MUIV_NListtree_Copy_SourceTreeNode_Tail",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_CopyToClip_Active",
-  	"snippet": "MUIV_NListtree_CopyToClip_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_CopyToClipHook_Default",
-  	"snippet": "MUIV_NListtree_CopyToClipHook_Default",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_DestructHook_String",
-  	"snippet": "MUIV_NListtree_DestructHook_String",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_DoubleClick_All",
-  	"snippet": "MUIV_NListtree_DoubleClick_All",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_DoubleClick_NoTrigger",
-  	"snippet": "MUIV_NListtree_DoubleClick_NoTrigger",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_DoubleClick_Off",
-  	"snippet": "MUIV_NListtree_DoubleClick_Off",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_DoubleClick_Tree",
-  	"snippet": "MUIV_NListtree_DoubleClick_Tree",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_DropType_Above",
-  	"snippet": "MUIV_NListtree_DropType_Above",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_DropType_Below",
-  	"snippet": "MUIV_NListtree_DropType_Below",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_DropType_None",
-  	"snippet": "MUIV_NListtree_DropType_None",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_DropType_Onto",
-  	"snippet": "MUIV_NListtree_DropType_Onto",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Exchange_ListNode1_Active",
-  	"snippet": "MUIV_NListtree_Exchange_ListNode1_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Exchange_ListNode1_Root",
-  	"snippet": "MUIV_NListtree_Exchange_ListNode1_Root",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Exchange_ListNode2_Active",
-  	"snippet": "MUIV_NListtree_Exchange_ListNode2_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Exchange_ListNode2_Root",
-  	"snippet": "MUIV_NListtree_Exchange_ListNode2_Root",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Exchange_TreeNode1_Active",
-  	"snippet": "MUIV_NListtree_Exchange_TreeNode1_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Exchange_TreeNode1_Head",
-  	"snippet": "MUIV_NListtree_Exchange_TreeNode1_Head",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Exchange_TreeNode1_Tail",
-  	"snippet": "MUIV_NListtree_Exchange_TreeNode1_Tail",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Exchange_TreeNode2_Active",
-  	"snippet": "MUIV_NListtree_Exchange_TreeNode2_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Exchange_TreeNode2_Down",
-  	"snippet": "MUIV_NListtree_Exchange_TreeNode2_Down",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Exchange_TreeNode2_Head",
-  	"snippet": "MUIV_NListtree_Exchange_TreeNode2_Head",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Exchange_TreeNode2_Tail",
-  	"snippet": "MUIV_NListtree_Exchange_TreeNode2_Tail",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Exchange_TreeNode2_Up",
-  	"snippet": "MUIV_NListtree_Exchange_TreeNode2_Up",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_FindName_Flag_Activate",
-  	"snippet": "MUIV_NListtree_FindName_Flag_Activate",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_FindName_Flag_SameLevel",
-  	"snippet": "MUIV_NListtree_FindName_Flag_SameLevel",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_FindName_Flag_Selected",
-  	"snippet": "MUIV_NListtree_FindName_Flag_Selected",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_FindName_Flag_StartNode",
-  	"snippet": "MUIV_NListtree_FindName_Flag_StartNode",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_FindName_Flag_Visible",
-  	"snippet": "MUIV_NListtree_FindName_Flag_Visible",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_FindName_ListNode_Active",
-  	"snippet": "MUIV_NListtree_FindName_ListNode_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_FindName_ListNode_Root",
-  	"snippet": "MUIV_NListtree_FindName_ListNode_Root",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_FindName_SameLevel",
-  	"snippet": "MUIV_NListtree_FindName_SameLevel",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_FindName_Visible",
-  	"snippet": "MUIV_NListtree_FindName_Visible",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_FindNameHook_CaseInsensitive",
-  	"snippet": "MUIV_NListtree_FindNameHook_CaseInsensitive",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_FindNameHook_CaseSensitive",
-  	"snippet": "MUIV_NListtree_FindNameHook_CaseSensitive",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_FindNameHook_Part",
-  	"snippet": "MUIV_NListtree_FindNameHook_Part",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_FindNameHook_PartCaseInsensitive",
-  	"snippet": "MUIV_NListtree_FindNameHook_PartCaseInsensitive",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_FindNameHook_PointerCompare",
-  	"snippet": "MUIV_NListtree_FindNameHook_PointerCompare",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_FindUserData_Flag_Activate",
-  	"snippet": "MUIV_NListtree_FindUserData_Flag_Activate",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_FindUserData_Flag_SameLevel",
-  	"snippet": "MUIV_NListtree_FindUserData_Flag_SameLevel",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_FindUserData_Flag_Selected",
-  	"snippet": "MUIV_NListtree_FindUserData_Flag_Selected",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_FindUserData_Flag_StartNode",
-  	"snippet": "MUIV_NListtree_FindUserData_Flag_StartNode",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_FindUserData_Flag_Visible",
-  	"snippet": "MUIV_NListtree_FindUserData_Flag_Visible",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_FindUserData_ListNode_Active",
-  	"snippet": "MUIV_NListtree_FindUserData_ListNode_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_FindUserData_ListNode_Root",
-  	"snippet": "MUIV_NListtree_FindUserData_ListNode_Root",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_FindUserData_SameLevel",
-  	"snippet": "MUIV_NListtree_FindUserData_SameLevel",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_FindUserData_Visible",
-  	"snippet": "MUIV_NListtree_FindUserData_Visible",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_FindUserDataHook_CaseInsensitive",
-  	"snippet": "MUIV_NListtree_FindUserDataHook_CaseInsensitive",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_FindUserDataHook_CaseSensitive",
-  	"snippet": "MUIV_NListtree_FindUserDataHook_CaseSensitive",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_FindUserDataHook_Part",
-  	"snippet": "MUIV_NListtree_FindUserDataHook_Part",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_FindUserDataHook_PartCaseInsensitive",
-  	"snippet": "MUIV_NListtree_FindUserDataHook_PartCaseInsensitive",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_FindUserDataHook_PointerCompare",
-  	"snippet": "MUIV_NListtree_FindUserDataHook_PointerCompare",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_GetEntry_Flag_SameLevel",
-  	"snippet": "MUIV_NListtree_GetEntry_Flag_SameLevel",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_GetEntry_Flag_Visible",
-  	"snippet": "MUIV_NListtree_GetEntry_Flag_Visible",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_GetEntry_ListNode_Active",
-  	"snippet": "MUIV_NListtree_GetEntry_ListNode_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_GetEntry_ListNode_Root",
-  	"snippet": "MUIV_NListtree_GetEntry_ListNode_Root",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_GetEntry_Position_Active",
-  	"snippet": "MUIV_NListtree_GetEntry_Position_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_GetEntry_Position_Head",
-  	"snippet": "MUIV_NListtree_GetEntry_Position_Head",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_GetEntry_Position_Next",
-  	"snippet": "MUIV_NListtree_GetEntry_Position_Next",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_GetEntry_Position_Parent",
-  	"snippet": "MUIV_NListtree_GetEntry_Position_Parent",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_GetEntry_Position_Previous",
-  	"snippet": "MUIV_NListtree_GetEntry_Position_Previous",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_GetEntry_Position_Tail",
-  	"snippet": "MUIV_NListtree_GetEntry_Position_Tail",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_GetNr_Flag_CountAll",
-  	"snippet": "MUIV_NListtree_GetNr_Flag_CountAll",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_GetNr_Flag_CountLevel",
-  	"snippet": "MUIV_NListtree_GetNr_Flag_CountLevel",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_GetNr_Flag_CountList",
-  	"snippet": "MUIV_NListtree_GetNr_Flag_CountList",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_GetNr_Flag_ListEmpty",
-  	"snippet": "MUIV_NListtree_GetNr_Flag_ListEmpty",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_GetNr_Flag_Visible",
-  	"snippet": "MUIV_NListtree_GetNr_Flag_Visible",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_GetNr_TreeNode_Active",
-  	"snippet": "MUIV_NListtree_GetNr_TreeNode_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Insert_Flag_Active",
-  	"snippet": "MUIV_NListtree_Insert_Flag_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Insert_Flag_NextNode",
-  	"snippet": "MUIV_NListtree_Insert_Flag_NextNode",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Insert_ListNode_Active",
-  	"snippet": "MUIV_NListtree_Insert_ListNode_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Insert_ListNode_ActiveFallback",
-  	"snippet": "MUIV_NListtree_Insert_ListNode_ActiveFallback",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Insert_ListNode_LastInserted",
-  	"snippet": "MUIV_NListtree_Insert_ListNode_LastInserted",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Insert_ListNode_Root",
-  	"snippet": "MUIV_NListtree_Insert_ListNode_Root",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Insert_PrevNode_Active",
-  	"snippet": "MUIV_NListtree_Insert_PrevNode_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Insert_PrevNode_Head",
-  	"snippet": "MUIV_NListtree_Insert_PrevNode_Head",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Insert_PrevNode_Sorted",
-  	"snippet": "MUIV_NListtree_Insert_PrevNode_Sorted",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Insert_PrevNode_Tail",
-  	"snippet": "MUIV_NListtree_Insert_PrevNode_Tail",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Insert_Sort",
-  	"snippet": "MUIV_NListtree_Insert_Sort",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Move_Flag_KeepStructure",
-  	"snippet": "MUIV_NListtree_Move_Flag_KeepStructure",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Move_NewListNode_Active",
-  	"snippet": "MUIV_NListtree_Move_NewListNode_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Move_NewListNode_Root",
-  	"snippet": "MUIV_NListtree_Move_NewListNode_Root",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Move_NewTreeNode_Active",
-  	"snippet": "MUIV_NListtree_Move_NewTreeNode_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Move_NewTreeNode_Head",
-  	"snippet": "MUIV_NListtree_Move_NewTreeNode_Head",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Move_NewTreeNode_Sorted",
-  	"snippet": "MUIV_NListtree_Move_NewTreeNode_Sorted",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Move_NewTreeNode_Tail",
-  	"snippet": "MUIV_NListtree_Move_NewTreeNode_Tail",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Move_OldListNode_Active",
-  	"snippet": "MUIV_NListtree_Move_OldListNode_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Move_OldListNode_Root",
-  	"snippet": "MUIV_NListtree_Move_OldListNode_Root",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Move_OldTreeNode_Active",
-  	"snippet": "MUIV_NListtree_Move_OldTreeNode_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Move_OldTreeNode_Head",
-  	"snippet": "MUIV_NListtree_Move_OldTreeNode_Head",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Move_OldTreeNode_Tail",
-  	"snippet": "MUIV_NListtree_Move_OldTreeNode_Tail",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_MultiSelect_Always",
-  	"snippet": "MUIV_NListtree_MultiSelect_Always",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_MultiSelect_Default",
-  	"snippet": "MUIV_NListtree_MultiSelect_Default",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_MultiSelect_None",
-  	"snippet": "MUIV_NListtree_MultiSelect_None",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_MultiSelect_Shifted",
-  	"snippet": "MUIV_NListtree_MultiSelect_Shifted",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_NextSelected_End",
-  	"snippet": "MUIV_NListtree_NextSelected_End",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_NextSelected_Start",
-  	"snippet": "MUIV_NListtree_NextSelected_Start",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Open_ListNode_Active",
-  	"snippet": "MUIV_NListtree_Open_ListNode_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Open_ListNode_Parent",
-  	"snippet": "MUIV_NListtree_Open_ListNode_Parent",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Open_ListNode_Root",
-  	"snippet": "MUIV_NListtree_Open_ListNode_Root",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Open_TreeNode_Active",
-  	"snippet": "MUIV_NListtree_Open_TreeNode_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Open_TreeNode_All",
-  	"snippet": "MUIV_NListtree_Open_TreeNode_All",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Open_TreeNode_Head",
-  	"snippet": "MUIV_NListtree_Open_TreeNode_Head",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Open_TreeNode_Tail",
-  	"snippet": "MUIV_NListtree_Open_TreeNode_Tail",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_PrevSelected_End",
-  	"snippet": "MUIV_NListtree_PrevSelected_End",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_PrevSelected_Start",
-  	"snippet": "MUIV_NListtree_PrevSelected_Start",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Redraw_Active",
-  	"snippet": "MUIV_NListtree_Redraw_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Redraw_All",
-  	"snippet": "MUIV_NListtree_Redraw_All",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Redraw_Flag_Nr",
-  	"snippet": "MUIV_NListtree_Redraw_Flag_Nr",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Remove_ListNode_Active",
-  	"snippet": "MUIV_NListtree_Remove_ListNode_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Remove_ListNode_Root",
-  	"snippet": "MUIV_NListtree_Remove_ListNode_Root",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Remove_TreeNode_Active",
-  	"snippet": "MUIV_NListtree_Remove_TreeNode_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Remove_TreeNode_All",
-  	"snippet": "MUIV_NListtree_Remove_TreeNode_All",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Remove_TreeNode_Head",
-  	"snippet": "MUIV_NListtree_Remove_TreeNode_Head",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Remove_TreeNode_Selected",
-  	"snippet": "MUIV_NListtree_Remove_TreeNode_Selected",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Remove_TreeNode_Tail",
-  	"snippet": "MUIV_NListtree_Remove_TreeNode_Tail",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Rename_Flag_NoRefresh",
-  	"snippet": "MUIV_NListtree_Rename_Flag_NoRefresh",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Rename_Flag_User",
-  	"snippet": "MUIV_NListtree_Rename_Flag_User",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Rename_TreeNode_Active",
-  	"snippet": "MUIV_NListtree_Rename_TreeNode_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Select_Active",
-  	"snippet": "MUIV_NListtree_Select_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Select_All",
-  	"snippet": "MUIV_NListtree_Select_All",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Select_Ask",
-  	"snippet": "MUIV_NListtree_Select_Ask",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Select_Flag_Force",
-  	"snippet": "MUIV_NListtree_Select_Flag_Force",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Select_Off",
-  	"snippet": "MUIV_NListtree_Select_Off",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Select_On",
-  	"snippet": "MUIV_NListtree_Select_On",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Select_Toggle",
-  	"snippet": "MUIV_NListtree_Select_Toggle",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Select_Visible",
-  	"snippet": "MUIV_NListtree_Select_Visible",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Sort_Flag_RecursiveAll",
-  	"snippet": "MUIV_NListtree_Sort_Flag_RecursiveAll",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Sort_Flag_RecursiveOpen",
-  	"snippet": "MUIV_NListtree_Sort_Flag_RecursiveOpen",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Sort_ListNode_Active",
-  	"snippet": "MUIV_NListtree_Sort_ListNode_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Sort_ListNode_Root",
-  	"snippet": "MUIV_NListtree_Sort_ListNode_Root",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_Sort_TreeNode_Active",
-  	"snippet": "MUIV_NListtree_Sort_TreeNode_Active",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_TestPos_Result_Above",
-  	"snippet": "MUIV_NListtree_TestPos_Result_Above",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_TestPos_Result_Below",
-  	"snippet": "MUIV_NListtree_TestPos_Result_Below",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_TestPos_Result_Onto",
-  	"snippet": "MUIV_NListtree_TestPos_Result_Onto",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListtree_TestPos_Result_Sorted",
-  	"snippet": "MUIV_NListtree_TestPos_Result_Sorted",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListview_HSB_Always",
-  	"snippet": "MUIV_NListview_HSB_Always",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListview_HSB_Auto",
-  	"snippet": "MUIV_NListview_HSB_Auto",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListview_HSB_Default",
-  	"snippet": "MUIV_NListview_HSB_Default",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListview_HSB_FullAuto",
-  	"snippet": "MUIV_NListview_HSB_FullAuto",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListview_HSB_None",
-  	"snippet": "MUIV_NListview_HSB_None",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListview_HSB_Off",
-  	"snippet": "MUIV_NListview_HSB_Off",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListview_HSB_On",
-  	"snippet": "MUIV_NListview_HSB_On",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListview_VSB_Always",
-  	"snippet": "MUIV_NListview_VSB_Always",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListview_VSB_Auto",
-  	"snippet": "MUIV_NListview_VSB_Auto",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListview_VSB_Default",
-  	"snippet": "MUIV_NListview_VSB_Default",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListview_VSB_FullAuto",
-  	"snippet": "MUIV_NListview_VSB_FullAuto",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListview_VSB_Left",
-  	"snippet": "MUIV_NListview_VSB_Left",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListview_VSB_None",
-  	"snippet": "MUIV_NListview_VSB_None",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListview_VSB_Off",
-  	"snippet": "MUIV_NListview_VSB_Off",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_NListview_VSB_On",
-  	"snippet": "MUIV_NListview_VSB_On",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_TextEditor_ExportHook_EMail",
-  	"snippet": "MUIV_TextEditor_ExportHook_EMail",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_TextEditor_ExportHook_NoStyle",
-  	"snippet": "MUIV_TextEditor_ExportHook_NoStyle",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_TextEditor_Flow_Center",
-  	"snippet": "MUIV_TextEditor_Flow_Center",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_TextEditor_Flow_Justified",
-  	"snippet": "MUIV_TextEditor_Flow_Justified",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_TextEditor_Flow_Left",
-  	"snippet": "MUIV_TextEditor_Flow_Left",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_TextEditor_Flow_Right",
-  	"snippet": "MUIV_TextEditor_Flow_Right",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_TextEditor_ImportHook_EMail",
-  	"snippet": "MUIV_TextEditor_ImportHook_EMail",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_TextEditor_ImportHook_MIME",
-  	"snippet": "MUIV_TextEditor_ImportHook_MIME",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_TextEditor_ImportHook_MIMEQuoted",
-  	"snippet": "MUIV_TextEditor_ImportHook_MIMEQuoted",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_TextEditor_ImportHook_Plain",
-  	"snippet": "MUIV_TextEditor_ImportHook_Plain",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_TextEditor_InsertText_Bottom",
-  	"snippet": "MUIV_TextEditor_InsertText_Bottom",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_TextEditor_InsertText_Cursor",
-  	"snippet": "MUIV_TextEditor_InsertText_Cursor",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_TextEditor_InsertText_Top",
-  	"snippet": "MUIV_TextEditor_InsertText_Top",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_TextEditor_KeyAction_",
-  	"snippet": "MUIV_TextEditor_KeyAction_",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_TextEditor_MarkText_All",
-  	"snippet": "MUIV_TextEditor_MarkText_All",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_TextEditor_MarkText_None",
-  	"snippet": "MUIV_TextEditor_MarkText_None",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_TextEditor_SetBlock_Max",
-  	"snippet": "MUIV_TextEditor_SetBlock_Max",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_TextEditor_SetBlock_Min",
-  	"snippet": "MUIV_TextEditor_SetBlock_Min",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_TextEditor_TabSize_Default",
-  	"snippet": "MUIV_TextEditor_TabSize_Default",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_TextEditor_WrapMode_HardWrap",
-  	"snippet": "MUIV_TextEditor_WrapMode_HardWrap",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_TextEditor_WrapMode_NoWrap",
-  	"snippet": "MUIV_TextEditor_WrapMode_NoWrap",
-  	"type": "value"
-  },
-  {
-  	"displayText": "MUIV_TextEditor_WrapMode_SoftWrap",
-  	"snippet": "MUIV_TextEditor_WrapMode_SoftWrap",
-  	"type": "value"
-  }
+		"displayText": "MUIV_BetterString_DoAction_Copy",
+		"snippet": "MUIV_BetterString_DoAction_Copy",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_BetterString_DoAction_Cut",
+		"snippet": "MUIV_BetterString_DoAction_Cut",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_BetterString_DoAction_DecreaseNum",
+		"snippet": "MUIV_BetterString_DoAction_DecreaseNum",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_BetterString_DoAction_DecToHex",
+		"snippet": "MUIV_BetterString_DoAction_DecToHex",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_BetterString_DoAction_Delete",
+		"snippet": "MUIV_BetterString_DoAction_Delete",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_BetterString_DoAction_HexToDec",
+		"snippet": "MUIV_BetterString_DoAction_HexToDec",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_BetterString_DoAction_IncreaseNum",
+		"snippet": "MUIV_BetterString_DoAction_IncreaseNum",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_BetterString_DoAction_NextFileComp",
+		"snippet": "MUIV_BetterString_DoAction_NextFileComp",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_BetterString_DoAction_Paste",
+		"snippet": "MUIV_BetterString_DoAction_Paste",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_BetterString_DoAction_PrevFileComp",
+		"snippet": "MUIV_BetterString_DoAction_PrevFileComp",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_BetterString_DoAction_Redo",
+		"snippet": "MUIV_BetterString_DoAction_Redo",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_BetterString_DoAction_Revert",
+		"snippet": "MUIV_BetterString_DoAction_Revert",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_BetterString_DoAction_SelectAll",
+		"snippet": "MUIV_BetterString_DoAction_SelectAll",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_BetterString_DoAction_SelectNone",
+		"snippet": "MUIV_BetterString_DoAction_SelectNone",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_BetterString_DoAction_ToggleCase",
+		"snippet": "MUIV_BetterString_DoAction_ToggleCase",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_BetterString_DoAction_ToggleCaseWord",
+		"snippet": "MUIV_BetterString_DoAction_ToggleCaseWord",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_BetterString_DoAction_Undo",
+		"snippet": "MUIV_BetterString_DoAction_Undo",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_BetterString_Insert_BufferPos",
+		"snippet": "MUIV_BetterString_Insert_BufferPos",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_BetterString_Insert_EndOfString",
+		"snippet": "MUIV_BetterString_Insert_EndOfString",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_BetterString_Insert_StartOfString",
+		"snippet": "MUIV_BetterString_Insert_StartOfString",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NBalance_Pointer_Off",
+		"snippet": "MUIV_NBalance_Pointer_Off",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NBalance_Pointer_Standard",
+		"snippet": "MUIV_NBalance_Pointer_Standard",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NLCT_Failed",
+		"snippet": "MUIV_NLCT_Failed",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NLCT_Success",
+		"snippet": "MUIV_NLCT_Success",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NLCT_WriteErr",
+		"snippet": "MUIV_NLCT_WriteErr",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Active_Bottom",
+		"snippet": "MUIV_NList_Active_Bottom",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Active_Down",
+		"snippet": "MUIV_NList_Active_Down",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Active_Off",
+		"snippet": "MUIV_NList_Active_Off",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Active_PageDown",
+		"snippet": "MUIV_NList_Active_PageDown",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Active_PageUp",
+		"snippet": "MUIV_NList_Active_PageUp",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Active_Top",
+		"snippet": "MUIV_NList_Active_Top",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Active_Up",
+		"snippet": "MUIV_NList_Active_Up",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_AppValue",
+		"snippet": "MUIV_NList_AppValue",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_ColWidth_All",
+		"snippet": "MUIV_NList_ColWidth_All",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_ColWidth_Default",
+		"snippet": "MUIV_NList_ColWidth_Default",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_ColWidth_Get",
+		"snippet": "MUIV_NList_ColWidth_Get",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_ConstructHook_String",
+		"snippet": "MUIV_NList_ConstructHook_String",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_ContextMenu_Always",
+		"snippet": "MUIV_NList_ContextMenu_Always",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_ContextMenu_Default",
+		"snippet": "MUIV_NList_ContextMenu_Default",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_ContextMenu_Never",
+		"snippet": "MUIV_NList_ContextMenu_Never",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_ContextMenu_TopOnly",
+		"snippet": "MUIV_NList_ContextMenu_TopOnly",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_CopyTo_Active",
+		"snippet": "MUIV_NList_CopyTo_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_CopyTo_All",
+		"snippet": "MUIV_NList_CopyTo_All",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_CopyTo_Entries",
+		"snippet": "MUIV_NList_CopyTo_Entries",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_CopyTo_Entry",
+		"snippet": "MUIV_NList_CopyTo_Entry",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_CopyTo_Selected",
+		"snippet": "MUIV_NList_CopyTo_Selected",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_CopyToClip_Active",
+		"snippet": "MUIV_NList_CopyToClip_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_CopyToClip_All",
+		"snippet": "MUIV_NList_CopyToClip_All",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_CopyToClip_Entries",
+		"snippet": "MUIV_NList_CopyToClip_Entries",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_CopyToClip_Entry",
+		"snippet": "MUIV_NList_CopyToClip_Entry",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_CopyToClip_Selected",
+		"snippet": "MUIV_NList_CopyToClip_Selected",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_CopyToClip_String",
+		"snippet": "MUIV_NList_CopyToClip_String",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_CopyToClip_Strings",
+		"snippet": "MUIV_NList_CopyToClip_Strings",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_DestructHook_String",
+		"snippet": "MUIV_NList_DestructHook_String",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_DoMethod_Active",
+		"snippet": "MUIV_NList_DoMethod_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_DoMethod_All",
+		"snippet": "MUIV_NList_DoMethod_All",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_DoMethod_App",
+		"snippet": "MUIV_NList_DoMethod_App",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_DoMethod_Entry",
+		"snippet": "MUIV_NList_DoMethod_Entry",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_DoMethod_Selected",
+		"snippet": "MUIV_NList_DoMethod_Selected",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_DoMethod_Self",
+		"snippet": "MUIV_NList_DoMethod_Self",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_DragType_Borders",
+		"snippet": "MUIV_NList_DragType_Borders",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_DragType_Default",
+		"snippet": "MUIV_NList_DragType_Default",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_DragType_Immediate",
+		"snippet": "MUIV_NList_DragType_Immediate",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_DragType_None",
+		"snippet": "MUIV_NList_DragType_None",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_DragType_Qualifier",
+		"snippet": "MUIV_NList_DragType_Qualifier",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_DropType_Above",
+		"snippet": "MUIV_NList_DropType_Above",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_DropType_Below",
+		"snippet": "MUIV_NList_DropType_Below",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_DropType_Mask",
+		"snippet": "MUIV_NList_DropType_Mask",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_DropType_Onto",
+		"snippet": "MUIV_NList_DropType_Onto",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_EntryPosValue",
+		"snippet": "MUIV_NList_EntryPosValue",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_EntryValue",
+		"snippet": "MUIV_NList_EntryValue",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Exchange_Active",
+		"snippet": "MUIV_NList_Exchange_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Exchange_Bottom",
+		"snippet": "MUIV_NList_Exchange_Bottom",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Exchange_Next",
+		"snippet": "MUIV_NList_Exchange_Next",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Exchange_Previous",
+		"snippet": "MUIV_NList_Exchange_Previous",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Exchange_Top",
+		"snippet": "MUIV_NList_Exchange_Top",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Exports_Active",
+		"snippet": "MUIV_NList_Exports_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Exports_All",
+		"snippet": "MUIV_NList_Exports_All",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Exports_ColOrder",
+		"snippet": "MUIV_NList_Exports_ColOrder",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Exports_Cols",
+		"snippet": "MUIV_NList_Exports_Cols",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Exports_ColWidth",
+		"snippet": "MUIV_NList_Exports_ColWidth",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Exports_First",
+		"snippet": "MUIV_NList_Exports_First",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Exports_Selected",
+		"snippet": "MUIV_NList_Exports_Selected",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_First_Bottom",
+		"snippet": "MUIV_NList_First_Bottom",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_First_Down",
+		"snippet": "MUIV_NList_First_Down",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_First_PageDown",
+		"snippet": "MUIV_NList_First_PageDown",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_First_PageUp",
+		"snippet": "MUIV_NList_First_PageUp",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_First_Top",
+		"snippet": "MUIV_NList_First_Top",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_First_Up",
+		"snippet": "MUIV_NList_First_Up",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Font_Fixed",
+		"snippet": "MUIV_NList_Font_Fixed",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Font_Little",
+		"snippet": "MUIV_NList_Font_Little",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_ForcePen_Default",
+		"snippet": "MUIV_NList_ForcePen_Default",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_ForcePen_Off",
+		"snippet": "MUIV_NList_ForcePen_Off",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_ForcePen_On",
+		"snippet": "MUIV_NList_ForcePen_On",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_GetEntry_Active",
+		"snippet": "MUIV_NList_GetEntry_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_GetEntryInfo_Line",
+		"snippet": "MUIV_NList_GetEntryInfo_Line",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_GetPos_End",
+		"snippet": "MUIV_NList_GetPos_End",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_GetPos_Start",
+		"snippet": "MUIV_NList_GetPos_Start",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Imports_Active",
+		"snippet": "MUIV_NList_Imports_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Imports_All",
+		"snippet": "MUIV_NList_Imports_All",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Imports_ColOrder",
+		"snippet": "MUIV_NList_Imports_ColOrder",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Imports_Cols",
+		"snippet": "MUIV_NList_Imports_Cols",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Imports_ColWidth",
+		"snippet": "MUIV_NList_Imports_ColWidth",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Imports_First",
+		"snippet": "MUIV_NList_Imports_First",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Imports_Selected",
+		"snippet": "MUIV_NList_Imports_Selected",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Insert_Active",
+		"snippet": "MUIV_NList_Insert_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Insert_Bottom",
+		"snippet": "MUIV_NList_Insert_Bottom",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Insert_Flag_Raw",
+		"snippet": "MUIV_NList_Insert_Flag_Raw",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Insert_Sorted",
+		"snippet": "MUIV_NList_Insert_Sorted",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Insert_Top",
+		"snippet": "MUIV_NList_Insert_Top",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Jump_Active",
+		"snippet": "MUIV_NList_Jump_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Jump_Active_Center",
+		"snippet": "MUIV_NList_Jump_Active_Center",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Menu_Default_All",
+		"snippet": "MUIV_NList_Menu_Default_All",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Menu_Default_This",
+		"snippet": "MUIV_NList_Menu_Default_This",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Menu_DefOrder_All",
+		"snippet": "MUIV_NList_Menu_DefOrder_All",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Menu_DefOrder_This",
+		"snippet": "MUIV_NList_Menu_DefOrder_This",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Menu_DefWidth_All",
+		"snippet": "MUIV_NList_Menu_DefWidth_All",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Menu_DefWidth_This",
+		"snippet": "MUIV_NList_Menu_DefWidth_This",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Move_Active",
+		"snippet": "MUIV_NList_Move_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Move_Bottom",
+		"snippet": "MUIV_NList_Move_Bottom",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Move_Next",
+		"snippet": "MUIV_NList_Move_Next",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Move_Previous",
+		"snippet": "MUIV_NList_Move_Previous",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Move_Selected",
+		"snippet": "MUIV_NList_Move_Selected",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Move_Top",
+		"snippet": "MUIV_NList_Move_Top",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_MultiSelect_Always",
+		"snippet": "MUIV_NList_MultiSelect_Always",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_MultiSelect_Default",
+		"snippet": "MUIV_NList_MultiSelect_Default",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_MultiSelect_None",
+		"snippet": "MUIV_NList_MultiSelect_None",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_MultiSelect_Shifted",
+		"snippet": "MUIV_NList_MultiSelect_Shifted",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_NextSelected_End",
+		"snippet": "MUIV_NList_NextSelected_End",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_NextSelected_Start",
+		"snippet": "MUIV_NList_NextSelected_Start",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_PrevSelected_End",
+		"snippet": "MUIV_NList_PrevSelected_End",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_PrevSelected_Start",
+		"snippet": "MUIV_NList_PrevSelected_Start",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Quiet_None",
+		"snippet": "MUIV_NList_Quiet_None",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Quiet_Visual",
+		"snippet": "MUIV_NList_Quiet_Visual",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Redraw_Active",
+		"snippet": "MUIV_NList_Redraw_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Redraw_All",
+		"snippet": "MUIV_NList_Redraw_All",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Redraw_Title",
+		"snippet": "MUIV_NList_Redraw_Title",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Remove_Active",
+		"snippet": "MUIV_NList_Remove_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Remove_First",
+		"snippet": "MUIV_NList_Remove_First",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Remove_Last",
+		"snippet": "MUIV_NList_Remove_Last",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Remove_Selected",
+		"snippet": "MUIV_NList_Remove_Selected",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Select_Active",
+		"snippet": "MUIV_NList_Select_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Select_All",
+		"snippet": "MUIV_NList_Select_All",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Select_Ask",
+		"snippet": "MUIV_NList_Select_Ask",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Select_Off",
+		"snippet": "MUIV_NList_Select_Off",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Select_On",
+		"snippet": "MUIV_NList_Select_On",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Select_Toggle",
+		"snippet": "MUIV_NList_Select_Toggle",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_SelectChange_Flag_Multi",
+		"snippet": "MUIV_NList_SelectChange_Flag_Multi",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_SelfValue",
+		"snippet": "MUIV_NList_SelfValue",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_SetActive_Entry",
+		"snippet": "MUIV_NList_SetActive_Entry",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_SetActive_Jump_Center",
+		"snippet": "MUIV_NList_SetActive_Jump_Center",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_SetColumnCol_Default",
+		"snippet": "MUIV_NList_SetColumnCol_Default",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Sort3_SortType_1",
+		"snippet": "MUIV_NList_Sort3_SortType_1",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Sort3_SortType_2",
+		"snippet": "MUIV_NList_Sort3_SortType_2",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_Sort3_SortType_Both",
+		"snippet": "MUIV_NList_Sort3_SortType_Both",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_SortTypeAdd_2Values",
+		"snippet": "MUIV_NList_SortTypeAdd_2Values",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_SortTypeAdd_4Values",
+		"snippet": "MUIV_NList_SortTypeAdd_4Values",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_SortTypeAdd_None",
+		"snippet": "MUIV_NList_SortTypeAdd_None",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_SortTypeAdd_xxx",
+		"snippet": "MUIV_NList_SortTypeAdd_xxx",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_SortTypeValue_Mask",
+		"snippet": "MUIV_NList_SortTypeValue_Mask",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_TitleMark_Box",
+		"snippet": "MUIV_NList_TitleMark_Box",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_TitleMark_Circle",
+		"snippet": "MUIV_NList_TitleMark_Circle",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_TitleMark_Down",
+		"snippet": "MUIV_NList_TitleMark_Down",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_TitleMark_None",
+		"snippet": "MUIV_NList_TitleMark_None",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_TitleMark_Up",
+		"snippet": "MUIV_NList_TitleMark_Up",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_TitleMark2_Box",
+		"snippet": "MUIV_NList_TitleMark2_Box",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_TitleMark2_Circle",
+		"snippet": "MUIV_NList_TitleMark2_Circle",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_TitleMark2_Down",
+		"snippet": "MUIV_NList_TitleMark2_Down",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_TitleMark2_None",
+		"snippet": "MUIV_NList_TitleMark2_None",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_TitleMark2_Up",
+		"snippet": "MUIV_NList_TitleMark2_Up",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_TypeSelect_Char",
+		"snippet": "MUIV_NList_TypeSelect_Char",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_TypeSelect_Line",
+		"snippet": "MUIV_NList_TypeSelect_Line",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NList_UseImage_All",
+		"snippet": "MUIV_NList_UseImage_All",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Active_First",
+		"snippet": "MUIV_NListtree_Active_First",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Active_FirstVisible",
+		"snippet": "MUIV_NListtree_Active_FirstVisible",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Active_LastVisible",
+		"snippet": "MUIV_NListtree_Active_LastVisible",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Active_Off",
+		"snippet": "MUIV_NListtree_Active_Off",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Active_Parent",
+		"snippet": "MUIV_NListtree_Active_Parent",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_ActiveList_Off",
+		"snippet": "MUIV_NListtree_ActiveList_Off",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_AutoVisible_Expand",
+		"snippet": "MUIV_NListtree_AutoVisible_Expand",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_AutoVisible_FirstOpen",
+		"snippet": "MUIV_NListtree_AutoVisible_FirstOpen",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_AutoVisible_Normal",
+		"snippet": "MUIV_NListtree_AutoVisible_Normal",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_AutoVisible_Off",
+		"snippet": "MUIV_NListtree_AutoVisible_Off",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Close_ListNode_Active",
+		"snippet": "MUIV_NListtree_Close_ListNode_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Close_ListNode_Parent",
+		"snippet": "MUIV_NListtree_Close_ListNode_Parent",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Close_ListNode_Root",
+		"snippet": "MUIV_NListtree_Close_ListNode_Root",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Close_TreeNode_Active",
+		"snippet": "MUIV_NListtree_Close_TreeNode_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Close_TreeNode_All",
+		"snippet": "MUIV_NListtree_Close_TreeNode_All",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Close_TreeNode_Head",
+		"snippet": "MUIV_NListtree_Close_TreeNode_Head",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Close_TreeNode_Tail",
+		"snippet": "MUIV_NListtree_Close_TreeNode_Tail",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_CompareHook_Head",
+		"snippet": "MUIV_NListtree_CompareHook_Head",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_CompareHook_LeavesBottom",
+		"snippet": "MUIV_NListtree_CompareHook_LeavesBottom",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_CompareHook_LeavesMixed",
+		"snippet": "MUIV_NListtree_CompareHook_LeavesMixed",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_CompareHook_LeavesTop",
+		"snippet": "MUIV_NListtree_CompareHook_LeavesTop",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_CompareHook_Tail",
+		"snippet": "MUIV_NListtree_CompareHook_Tail",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_ConstructHook_Flag_AutoCreate",
+		"snippet": "MUIV_NListtree_ConstructHook_Flag_AutoCreate",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_ConstructHook_String",
+		"snippet": "MUIV_NListtree_ConstructHook_String",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Copy_DestListNode_Active",
+		"snippet": "MUIV_NListtree_Copy_DestListNode_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Copy_DestListNode_Root",
+		"snippet": "MUIV_NListtree_Copy_DestListNode_Root",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Copy_DestTreeNode_Active",
+		"snippet": "MUIV_NListtree_Copy_DestTreeNode_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Copy_DestTreeNode_Head",
+		"snippet": "MUIV_NListtree_Copy_DestTreeNode_Head",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Copy_DestTreeNode_Sorted",
+		"snippet": "MUIV_NListtree_Copy_DestTreeNode_Sorted",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Copy_DestTreeNode_Tail",
+		"snippet": "MUIV_NListtree_Copy_DestTreeNode_Tail",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Copy_Flag_KeepStructure",
+		"snippet": "MUIV_NListtree_Copy_Flag_KeepStructure",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Copy_SourceListNode_Active",
+		"snippet": "MUIV_NListtree_Copy_SourceListNode_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Copy_SourceListNode_Root",
+		"snippet": "MUIV_NListtree_Copy_SourceListNode_Root",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Copy_SourceTreeNode_Active",
+		"snippet": "MUIV_NListtree_Copy_SourceTreeNode_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Copy_SourceTreeNode_Head",
+		"snippet": "MUIV_NListtree_Copy_SourceTreeNode_Head",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Copy_SourceTreeNode_Tail",
+		"snippet": "MUIV_NListtree_Copy_SourceTreeNode_Tail",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_CopyToClip_Active",
+		"snippet": "MUIV_NListtree_CopyToClip_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_CopyToClipHook_Default",
+		"snippet": "MUIV_NListtree_CopyToClipHook_Default",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_DestructHook_String",
+		"snippet": "MUIV_NListtree_DestructHook_String",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_DoubleClick_All",
+		"snippet": "MUIV_NListtree_DoubleClick_All",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_DoubleClick_NoTrigger",
+		"snippet": "MUIV_NListtree_DoubleClick_NoTrigger",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_DoubleClick_Off",
+		"snippet": "MUIV_NListtree_DoubleClick_Off",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_DoubleClick_Tree",
+		"snippet": "MUIV_NListtree_DoubleClick_Tree",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_DropType_Above",
+		"snippet": "MUIV_NListtree_DropType_Above",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_DropType_Below",
+		"snippet": "MUIV_NListtree_DropType_Below",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_DropType_None",
+		"snippet": "MUIV_NListtree_DropType_None",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_DropType_Onto",
+		"snippet": "MUIV_NListtree_DropType_Onto",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Exchange_ListNode1_Active",
+		"snippet": "MUIV_NListtree_Exchange_ListNode1_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Exchange_ListNode1_Root",
+		"snippet": "MUIV_NListtree_Exchange_ListNode1_Root",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Exchange_ListNode2_Active",
+		"snippet": "MUIV_NListtree_Exchange_ListNode2_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Exchange_ListNode2_Root",
+		"snippet": "MUIV_NListtree_Exchange_ListNode2_Root",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Exchange_TreeNode1_Active",
+		"snippet": "MUIV_NListtree_Exchange_TreeNode1_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Exchange_TreeNode1_Head",
+		"snippet": "MUIV_NListtree_Exchange_TreeNode1_Head",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Exchange_TreeNode1_Tail",
+		"snippet": "MUIV_NListtree_Exchange_TreeNode1_Tail",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Exchange_TreeNode2_Active",
+		"snippet": "MUIV_NListtree_Exchange_TreeNode2_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Exchange_TreeNode2_Down",
+		"snippet": "MUIV_NListtree_Exchange_TreeNode2_Down",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Exchange_TreeNode2_Head",
+		"snippet": "MUIV_NListtree_Exchange_TreeNode2_Head",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Exchange_TreeNode2_Tail",
+		"snippet": "MUIV_NListtree_Exchange_TreeNode2_Tail",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Exchange_TreeNode2_Up",
+		"snippet": "MUIV_NListtree_Exchange_TreeNode2_Up",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_FindName_Flag_Activate",
+		"snippet": "MUIV_NListtree_FindName_Flag_Activate",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_FindName_Flag_SameLevel",
+		"snippet": "MUIV_NListtree_FindName_Flag_SameLevel",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_FindName_Flag_Selected",
+		"snippet": "MUIV_NListtree_FindName_Flag_Selected",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_FindName_Flag_StartNode",
+		"snippet": "MUIV_NListtree_FindName_Flag_StartNode",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_FindName_Flag_Visible",
+		"snippet": "MUIV_NListtree_FindName_Flag_Visible",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_FindName_ListNode_Active",
+		"snippet": "MUIV_NListtree_FindName_ListNode_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_FindName_ListNode_Root",
+		"snippet": "MUIV_NListtree_FindName_ListNode_Root",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_FindName_SameLevel",
+		"snippet": "MUIV_NListtree_FindName_SameLevel",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_FindName_Visible",
+		"snippet": "MUIV_NListtree_FindName_Visible",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_FindNameHook_CaseInsensitive",
+		"snippet": "MUIV_NListtree_FindNameHook_CaseInsensitive",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_FindNameHook_CaseSensitive",
+		"snippet": "MUIV_NListtree_FindNameHook_CaseSensitive",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_FindNameHook_Part",
+		"snippet": "MUIV_NListtree_FindNameHook_Part",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_FindNameHook_PartCaseInsensitive",
+		"snippet": "MUIV_NListtree_FindNameHook_PartCaseInsensitive",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_FindNameHook_PointerCompare",
+		"snippet": "MUIV_NListtree_FindNameHook_PointerCompare",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_FindUserData_Flag_Activate",
+		"snippet": "MUIV_NListtree_FindUserData_Flag_Activate",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_FindUserData_Flag_SameLevel",
+		"snippet": "MUIV_NListtree_FindUserData_Flag_SameLevel",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_FindUserData_Flag_Selected",
+		"snippet": "MUIV_NListtree_FindUserData_Flag_Selected",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_FindUserData_Flag_StartNode",
+		"snippet": "MUIV_NListtree_FindUserData_Flag_StartNode",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_FindUserData_Flag_Visible",
+		"snippet": "MUIV_NListtree_FindUserData_Flag_Visible",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_FindUserData_ListNode_Active",
+		"snippet": "MUIV_NListtree_FindUserData_ListNode_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_FindUserData_ListNode_Root",
+		"snippet": "MUIV_NListtree_FindUserData_ListNode_Root",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_FindUserData_SameLevel",
+		"snippet": "MUIV_NListtree_FindUserData_SameLevel",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_FindUserData_Visible",
+		"snippet": "MUIV_NListtree_FindUserData_Visible",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_FindUserDataHook_CaseInsensitive",
+		"snippet": "MUIV_NListtree_FindUserDataHook_CaseInsensitive",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_FindUserDataHook_CaseSensitive",
+		"snippet": "MUIV_NListtree_FindUserDataHook_CaseSensitive",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_FindUserDataHook_Part",
+		"snippet": "MUIV_NListtree_FindUserDataHook_Part",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_FindUserDataHook_PartCaseInsensitive",
+		"snippet": "MUIV_NListtree_FindUserDataHook_PartCaseInsensitive",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_FindUserDataHook_PointerCompare",
+		"snippet": "MUIV_NListtree_FindUserDataHook_PointerCompare",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_GetEntry_Flag_SameLevel",
+		"snippet": "MUIV_NListtree_GetEntry_Flag_SameLevel",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_GetEntry_Flag_Visible",
+		"snippet": "MUIV_NListtree_GetEntry_Flag_Visible",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_GetEntry_ListNode_Active",
+		"snippet": "MUIV_NListtree_GetEntry_ListNode_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_GetEntry_ListNode_Root",
+		"snippet": "MUIV_NListtree_GetEntry_ListNode_Root",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_GetEntry_Position_Active",
+		"snippet": "MUIV_NListtree_GetEntry_Position_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_GetEntry_Position_Head",
+		"snippet": "MUIV_NListtree_GetEntry_Position_Head",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_GetEntry_Position_Next",
+		"snippet": "MUIV_NListtree_GetEntry_Position_Next",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_GetEntry_Position_Parent",
+		"snippet": "MUIV_NListtree_GetEntry_Position_Parent",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_GetEntry_Position_Previous",
+		"snippet": "MUIV_NListtree_GetEntry_Position_Previous",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_GetEntry_Position_Tail",
+		"snippet": "MUIV_NListtree_GetEntry_Position_Tail",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_GetNr_Flag_CountAll",
+		"snippet": "MUIV_NListtree_GetNr_Flag_CountAll",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_GetNr_Flag_CountLevel",
+		"snippet": "MUIV_NListtree_GetNr_Flag_CountLevel",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_GetNr_Flag_CountList",
+		"snippet": "MUIV_NListtree_GetNr_Flag_CountList",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_GetNr_Flag_ListEmpty",
+		"snippet": "MUIV_NListtree_GetNr_Flag_ListEmpty",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_GetNr_Flag_Visible",
+		"snippet": "MUIV_NListtree_GetNr_Flag_Visible",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_GetNr_TreeNode_Active",
+		"snippet": "MUIV_NListtree_GetNr_TreeNode_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Insert_Flag_Active",
+		"snippet": "MUIV_NListtree_Insert_Flag_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Insert_Flag_NextNode",
+		"snippet": "MUIV_NListtree_Insert_Flag_NextNode",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Insert_ListNode_Active",
+		"snippet": "MUIV_NListtree_Insert_ListNode_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Insert_ListNode_ActiveFallback",
+		"snippet": "MUIV_NListtree_Insert_ListNode_ActiveFallback",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Insert_ListNode_LastInserted",
+		"snippet": "MUIV_NListtree_Insert_ListNode_LastInserted",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Insert_ListNode_Root",
+		"snippet": "MUIV_NListtree_Insert_ListNode_Root",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Insert_PrevNode_Active",
+		"snippet": "MUIV_NListtree_Insert_PrevNode_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Insert_PrevNode_Head",
+		"snippet": "MUIV_NListtree_Insert_PrevNode_Head",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Insert_PrevNode_Sorted",
+		"snippet": "MUIV_NListtree_Insert_PrevNode_Sorted",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Insert_PrevNode_Tail",
+		"snippet": "MUIV_NListtree_Insert_PrevNode_Tail",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Insert_Sort",
+		"snippet": "MUIV_NListtree_Insert_Sort",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Move_Flag_KeepStructure",
+		"snippet": "MUIV_NListtree_Move_Flag_KeepStructure",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Move_NewListNode_Active",
+		"snippet": "MUIV_NListtree_Move_NewListNode_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Move_NewListNode_Root",
+		"snippet": "MUIV_NListtree_Move_NewListNode_Root",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Move_NewTreeNode_Active",
+		"snippet": "MUIV_NListtree_Move_NewTreeNode_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Move_NewTreeNode_Head",
+		"snippet": "MUIV_NListtree_Move_NewTreeNode_Head",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Move_NewTreeNode_Sorted",
+		"snippet": "MUIV_NListtree_Move_NewTreeNode_Sorted",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Move_NewTreeNode_Tail",
+		"snippet": "MUIV_NListtree_Move_NewTreeNode_Tail",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Move_OldListNode_Active",
+		"snippet": "MUIV_NListtree_Move_OldListNode_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Move_OldListNode_Root",
+		"snippet": "MUIV_NListtree_Move_OldListNode_Root",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Move_OldTreeNode_Active",
+		"snippet": "MUIV_NListtree_Move_OldTreeNode_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Move_OldTreeNode_Head",
+		"snippet": "MUIV_NListtree_Move_OldTreeNode_Head",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Move_OldTreeNode_Tail",
+		"snippet": "MUIV_NListtree_Move_OldTreeNode_Tail",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_MultiSelect_Always",
+		"snippet": "MUIV_NListtree_MultiSelect_Always",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_MultiSelect_Default",
+		"snippet": "MUIV_NListtree_MultiSelect_Default",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_MultiSelect_None",
+		"snippet": "MUIV_NListtree_MultiSelect_None",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_MultiSelect_Shifted",
+		"snippet": "MUIV_NListtree_MultiSelect_Shifted",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_NextSelected_End",
+		"snippet": "MUIV_NListtree_NextSelected_End",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_NextSelected_Start",
+		"snippet": "MUIV_NListtree_NextSelected_Start",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Open_ListNode_Active",
+		"snippet": "MUIV_NListtree_Open_ListNode_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Open_ListNode_Parent",
+		"snippet": "MUIV_NListtree_Open_ListNode_Parent",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Open_ListNode_Root",
+		"snippet": "MUIV_NListtree_Open_ListNode_Root",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Open_TreeNode_Active",
+		"snippet": "MUIV_NListtree_Open_TreeNode_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Open_TreeNode_All",
+		"snippet": "MUIV_NListtree_Open_TreeNode_All",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Open_TreeNode_Head",
+		"snippet": "MUIV_NListtree_Open_TreeNode_Head",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Open_TreeNode_Tail",
+		"snippet": "MUIV_NListtree_Open_TreeNode_Tail",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_PrevSelected_End",
+		"snippet": "MUIV_NListtree_PrevSelected_End",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_PrevSelected_Start",
+		"snippet": "MUIV_NListtree_PrevSelected_Start",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Redraw_Active",
+		"snippet": "MUIV_NListtree_Redraw_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Redraw_All",
+		"snippet": "MUIV_NListtree_Redraw_All",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Redraw_Flag_Nr",
+		"snippet": "MUIV_NListtree_Redraw_Flag_Nr",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Remove_ListNode_Active",
+		"snippet": "MUIV_NListtree_Remove_ListNode_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Remove_ListNode_Root",
+		"snippet": "MUIV_NListtree_Remove_ListNode_Root",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Remove_TreeNode_Active",
+		"snippet": "MUIV_NListtree_Remove_TreeNode_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Remove_TreeNode_All",
+		"snippet": "MUIV_NListtree_Remove_TreeNode_All",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Remove_TreeNode_Head",
+		"snippet": "MUIV_NListtree_Remove_TreeNode_Head",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Remove_TreeNode_Selected",
+		"snippet": "MUIV_NListtree_Remove_TreeNode_Selected",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Remove_TreeNode_Tail",
+		"snippet": "MUIV_NListtree_Remove_TreeNode_Tail",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Rename_Flag_NoRefresh",
+		"snippet": "MUIV_NListtree_Rename_Flag_NoRefresh",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Rename_Flag_User",
+		"snippet": "MUIV_NListtree_Rename_Flag_User",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Rename_TreeNode_Active",
+		"snippet": "MUIV_NListtree_Rename_TreeNode_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Select_Active",
+		"snippet": "MUIV_NListtree_Select_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Select_All",
+		"snippet": "MUIV_NListtree_Select_All",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Select_Ask",
+		"snippet": "MUIV_NListtree_Select_Ask",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Select_Flag_Force",
+		"snippet": "MUIV_NListtree_Select_Flag_Force",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Select_Off",
+		"snippet": "MUIV_NListtree_Select_Off",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Select_On",
+		"snippet": "MUIV_NListtree_Select_On",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Select_Toggle",
+		"snippet": "MUIV_NListtree_Select_Toggle",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Select_Visible",
+		"snippet": "MUIV_NListtree_Select_Visible",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Sort_Flag_RecursiveAll",
+		"snippet": "MUIV_NListtree_Sort_Flag_RecursiveAll",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Sort_Flag_RecursiveOpen",
+		"snippet": "MUIV_NListtree_Sort_Flag_RecursiveOpen",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Sort_ListNode_Active",
+		"snippet": "MUIV_NListtree_Sort_ListNode_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Sort_ListNode_Root",
+		"snippet": "MUIV_NListtree_Sort_ListNode_Root",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_Sort_TreeNode_Active",
+		"snippet": "MUIV_NListtree_Sort_TreeNode_Active",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_TestPos_Result_Above",
+		"snippet": "MUIV_NListtree_TestPos_Result_Above",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_TestPos_Result_Below",
+		"snippet": "MUIV_NListtree_TestPos_Result_Below",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_TestPos_Result_Onto",
+		"snippet": "MUIV_NListtree_TestPos_Result_Onto",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListtree_TestPos_Result_Sorted",
+		"snippet": "MUIV_NListtree_TestPos_Result_Sorted",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListview_HSB_Always",
+		"snippet": "MUIV_NListview_HSB_Always",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListview_HSB_Auto",
+		"snippet": "MUIV_NListview_HSB_Auto",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListview_HSB_Default",
+		"snippet": "MUIV_NListview_HSB_Default",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListview_HSB_FullAuto",
+		"snippet": "MUIV_NListview_HSB_FullAuto",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListview_HSB_None",
+		"snippet": "MUIV_NListview_HSB_None",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListview_HSB_Off",
+		"snippet": "MUIV_NListview_HSB_Off",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListview_HSB_On",
+		"snippet": "MUIV_NListview_HSB_On",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListview_VSB_Always",
+		"snippet": "MUIV_NListview_VSB_Always",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListview_VSB_Auto",
+		"snippet": "MUIV_NListview_VSB_Auto",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListview_VSB_Default",
+		"snippet": "MUIV_NListview_VSB_Default",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListview_VSB_FullAuto",
+		"snippet": "MUIV_NListview_VSB_FullAuto",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListview_VSB_Left",
+		"snippet": "MUIV_NListview_VSB_Left",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListview_VSB_None",
+		"snippet": "MUIV_NListview_VSB_None",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListview_VSB_Off",
+		"snippet": "MUIV_NListview_VSB_Off",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_NListview_VSB_On",
+		"snippet": "MUIV_NListview_VSB_On",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_TextEditor_ExportHook_EMail",
+		"snippet": "MUIV_TextEditor_ExportHook_EMail",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_TextEditor_ExportHook_NoStyle",
+		"snippet": "MUIV_TextEditor_ExportHook_NoStyle",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_TextEditor_Flow_Center",
+		"snippet": "MUIV_TextEditor_Flow_Center",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_TextEditor_Flow_Justified",
+		"snippet": "MUIV_TextEditor_Flow_Justified",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_TextEditor_Flow_Left",
+		"snippet": "MUIV_TextEditor_Flow_Left",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_TextEditor_Flow_Right",
+		"snippet": "MUIV_TextEditor_Flow_Right",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_TextEditor_ImportHook_EMail",
+		"snippet": "MUIV_TextEditor_ImportHook_EMail",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_TextEditor_ImportHook_MIME",
+		"snippet": "MUIV_TextEditor_ImportHook_MIME",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_TextEditor_ImportHook_MIMEQuoted",
+		"snippet": "MUIV_TextEditor_ImportHook_MIMEQuoted",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_TextEditor_ImportHook_Plain",
+		"snippet": "MUIV_TextEditor_ImportHook_Plain",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_TextEditor_InsertText_Bottom",
+		"snippet": "MUIV_TextEditor_InsertText_Bottom",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_TextEditor_InsertText_Cursor",
+		"snippet": "MUIV_TextEditor_InsertText_Cursor",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_TextEditor_InsertText_Top",
+		"snippet": "MUIV_TextEditor_InsertText_Top",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_TextEditor_KeyAction_",
+		"snippet": "MUIV_TextEditor_KeyAction_",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_TextEditor_MarkText_All",
+		"snippet": "MUIV_TextEditor_MarkText_All",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_TextEditor_MarkText_None",
+		"snippet": "MUIV_TextEditor_MarkText_None",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_TextEditor_SetBlock_Max",
+		"snippet": "MUIV_TextEditor_SetBlock_Max",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_TextEditor_SetBlock_Min",
+		"snippet": "MUIV_TextEditor_SetBlock_Min",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_TextEditor_TabSize_Default",
+		"snippet": "MUIV_TextEditor_TabSize_Default",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_TextEditor_WrapMode_HardWrap",
+		"snippet": "MUIV_TextEditor_WrapMode_HardWrap",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_TextEditor_WrapMode_NoWrap",
+		"snippet": "MUIV_TextEditor_WrapMode_NoWrap",
+		"type": "value"
+	},
+	{
+		"displayText": "MUIV_TextEditor_WrapMode_SoftWrap",
+		"snippet": "MUIV_TextEditor_WrapMode_SoftWrap",
+		"type": "value"
+	},
+	{
+		"displayText": "__dummyXFC2__",
+		"type": "struct",
+		"description": "MUI private structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "BitMapImage",
+		"type": "struct",
+		"description": "MUI NList MCC BitMap structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L422"
+	},
+	{
+		"displayText": "ClickMessage",
+		"type": "struct",
+		"description": "MUI TextEditor MCC clicked position structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/texteditor/blob/master/include/mui/TextEditor_mcc.h#L216"
+	},
+	{
+		"displayText": "MUI_AreaData",
+		"type": "struct",
+		"description": "(partial) instance data of area class.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUI_BoopsiQuery",
+		"type": "struct",
+		"description": "MUIM_BoopsiQuery method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUI_Command",
+		"type": "struct",
+		"description": "ARexx command structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUI_CustomClass",
+		"type": "struct",
+		"description": "Custom class structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUI_EventHandlerNode",
+		"type": "struct",
+		"description": "Window event handler structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUI_GlobalInfo",
+		"type": "struct",
+		"description": "Global information structure for every object.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUI_InputHandlerNode",
+		"type": "struct",
+		"description": "Application input handler structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUI_LayoutMsg",
+		"type": "struct",
+		"description": "Hook message for custom layout.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUI_List_TestPos_Result",
+		"type": "struct",
+		"description": "List position test return structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUI_MinMax",
+		"type": "struct",
+		"description": "MUIM_AskMinMax method message structure for custom classes.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUI_NList_GetEntryInfo",
+		"type": "struct",
+		"description": "MUIM_NList_GetEntry method return structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L458"
+	},
+	{
+		"displayText": "MUI_NList_GetSelectInfo",
+		"type": "struct",
+		"description": "MUIM_NList_GetSelect method return structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L480"
+	},
+	{
+		"displayText": "MUI_NList_TestPos_Result",
+		"type": "struct",
+		"description": "MUIM_NList_TestPos method return structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L434"
+	},
+	{
+		"displayText": "MUI_NListtree_TestPos_Result",
+		"type": "struct",
+		"description": "MUIM_NListtree_TestPos method return structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L173"
+	},
+	{
+		"displayText": "MUI_NListtree_TreeNode",
+		"type": "struct",
+		"description": "NListtree MCC tree node structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L157"
+	},
+	{
+		"displayText": "MUI_NotifyData",
+		"type": "struct",
+		"description": "Instance data of notify class.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUI_Palette_Entry",
+		"type": "struct",
+		"description": "MUI palette entry structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUI_PenSpec",
+		"type": "struct",
+		"description": "Black box spec structure for pens.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUI_PubScreenDesc",
+		"type": "struct",
+		"description": "Public screen descriptor for PSI.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUI_RenderInfo",
+		"type": "struct",
+		"description": "Information on display environment.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUI_RGBcolor",
+		"type": "struct",
+		"description": "MUI RGB color structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Application_AboutMUI",
+		"type": "struct",
+		"description": "MUIM_Application_AboutMUI method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Application_AddInputHandler",
+		"type": "struct",
+		"description": "MUIM_Application_AddInputHandler method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Application_CheckRefresh",
+		"type": "struct",
+		"description": "MUIM_Application_CheckRefresh method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Application_GetMenuCheck",
+		"type": "struct",
+		"description": "MUIM_Application_GetMenuCheck method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Application_GetMenuState",
+		"type": "struct",
+		"description": "MUIM_Application_GetMenuState method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Application_Input",
+		"type": "struct",
+		"description": "MUIM_Application_Input method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Application_InputBuffered",
+		"type": "struct",
+		"description": "MUIM_Application_InputBuffered method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Application_Load",
+		"type": "struct",
+		"description": "MUIM_Application_Load method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Application_NewInput",
+		"type": "struct",
+		"description": "MUIM_Application_NewInput method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Application_OpenConfigWindow",
+		"type": "struct",
+		"description": "MUIM_Application_OpenConfigWindow method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Application_PushMethod",
+		"type": "struct",
+		"description": "MUIM_Application_PushMethod method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Application_RemInputHandler",
+		"type": "struct",
+		"description": "MUIM_Application_RemInputHandler method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Application_ReturnID",
+		"type": "struct",
+		"description": "MUIM_Application_ReturnID method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Application_Save",
+		"type": "struct",
+		"description": "MUIM_Application_Save method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Application_SetConfigItem",
+		"type": "struct",
+		"description": "MUIM_Application_SetConfigItem method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Application_SetMenuCheck",
+		"type": "struct",
+		"description": "MUIM_Application_SetMenuCheck method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Application_SetMenuState",
+		"type": "struct",
+		"description": "MUIM_Application_SetMenuState method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Application_ShowHelp",
+		"type": "struct",
+		"description": "MUIM_Application_ShowHelp method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_AskMinMax",
+		"type": "struct",
+		"description": "MUIM_AskMinMax method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_BetterString_ClearSelected",
+		"type": "struct",
+		"description": "MUIM_BetterString_ClearSelected method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/betterstring/blob/master/include/mui/BetterString_mcc.h#L109"
+	},
+	{
+		"displayText": "MUIP_BetterString_DoAction",
+		"type": "struct",
+		"description": "MUIM_BetterString_DoAction method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/betterstring/blob/master/include/mui/BetterString_mcc.h#L111"
+	},
+	{
+		"displayText": "MUIP_BetterString_FileNameStart",
+		"type": "struct",
+		"description": "MUIM_BetterString_FileNameStart method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/betterstring/blob/master/include/mui/BetterString_mcc.h#L110"
+	},
+	{
+		"displayText": "MUIP_BetterString_Insert",
+		"type": "struct",
+		"description": "MUIM_BetterString_Insert method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/betterstring/blob/master/include/mui/BetterString_mcc.h#L108"
+	},
+	{
+		"displayText": "MUIP_CallHook",
+		"type": "struct",
+		"description": "MUIM_CallHook method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Cleanup",
+		"type": "struct",
+		"description": "MUIM_Cleanup method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_ContextMenuBuild",
+		"type": "struct",
+		"description": "MUIM_ContextMenuBuild method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_ContextMenuChoice",
+		"type": "struct",
+		"description": "MUIM_ContextMenuChoice method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_CreateBubble",
+		"type": "struct",
+		"description": "MUIM_CreateBubble method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_CreateShortHelp",
+		"type": "struct",
+		"description": "MUIM_CreateShortHelp method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Dataspace_Add",
+		"type": "struct",
+		"description": "MUIM_Dataspace_Add method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Dataspace_Clear",
+		"type": "struct",
+		"description": "MUIM_Dataspace_Clear method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Dataspace_Find",
+		"type": "struct",
+		"description": "MUIM_Dataspace_Find method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Dataspace_Merge",
+		"type": "struct",
+		"description": "MUIM_Dataspace_Merge method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Dataspace_ReadIFF",
+		"type": "struct",
+		"description": "MUIM_Dataspace_ReadIFF method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Dataspace_Remove",
+		"type": "struct",
+		"description": "MUIM_Dataspace_Remove method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Dataspace_WriteIFF",
+		"type": "struct",
+		"description": "MUIM_Dataspace_WriteIFF method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_DeleteBubble",
+		"type": "struct",
+		"description": "MUIM_DeleteBubble method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_DeleteShortHelp",
+		"type": "struct",
+		"description": "MUIM_DeleteShortHelp method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Dirlist_ReRead",
+		"type": "struct",
+		"description": "MUIM_Dirlist_ReRead method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_DragBegin",
+		"type": "struct",
+		"description": "MUIM_DragBegin method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_DragDrop",
+		"type": "struct",
+		"description": "MUIM_DragDrop method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_DragFinish",
+		"type": "struct",
+		"description": "MUIM_DragFinish method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_DragQuery",
+		"type": "struct",
+		"description": "MUIM_DragQuery method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_DragReport",
+		"type": "struct",
+		"description": "MUIM_DragReport method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Draw",
+		"type": "struct",
+		"description": "MUIM_Draw method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_DrawBackground",
+		"type": "struct",
+		"description": "MUIM_DrawBackground method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Export",
+		"type": "struct",
+		"description": "MUIM_Export method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Family_AddHead",
+		"type": "struct",
+		"description": "MUIM_Family_AddHead method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Family_AddTail",
+		"type": "struct",
+		"description": "MUIM_Family_AddTail method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Family_Insert",
+		"type": "struct",
+		"description": "MUIM_Family_Insert method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Family_Remove",
+		"type": "struct",
+		"description": "MUIM_Family_Remove method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Family_Sort",
+		"type": "struct",
+		"description": "MUIM_Family_Sort method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Family_Transfer",
+		"type": "struct",
+		"description": "MUIM_Family_Transfer method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_FindUData",
+		"type": "struct",
+		"description": "MUIM_FindUData method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_GetConfigItem",
+		"type": "struct",
+		"description": "MUIM_GetConfigItem method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_GetUData",
+		"type": "struct",
+		"description": "MUIM_GetUData method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Group_ExitChange",
+		"type": "struct",
+		"description": "MUIM_Group_ExitChange method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Group_InitChange",
+		"type": "struct",
+		"description": "MUIM_Group_InitChange method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Group_Sort",
+		"type": "struct",
+		"description": "MUIM_Group_Sort method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_HandleEvent",
+		"type": "struct",
+		"description": "MUIM_HandleEvent method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_HandleInput",
+		"type": "struct",
+		"description": "MUIM_HandleInput method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Hide",
+		"type": "struct",
+		"description": "MUIM_Hide method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Import",
+		"type": "struct",
+		"description": "MUIM_Import method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_KillNotify",
+		"type": "struct",
+		"description": "MUIM_KillNotify method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_KillNotifyObj",
+		"type": "struct",
+		"description": "MUIM_KillNotifyObj method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_List_Clear",
+		"type": "struct",
+		"description": "MUIM_List_Clear method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_List_CreateImage",
+		"type": "struct",
+		"description": "MUIM_List_CreateImage method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_List_DeleteImage",
+		"type": "struct",
+		"description": "MUIM_List_DeleteImage method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_List_Exchange",
+		"type": "struct",
+		"description": "MUIM_List_Exchange method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_List_GetEntry",
+		"type": "struct",
+		"description": "MUIM_List_GetEntry method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_List_Insert",
+		"type": "struct",
+		"description": "MUIM_List_Insert method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_List_InsertSingle",
+		"type": "struct",
+		"description": "MUIM_List_InsertSingle method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_List_Jump",
+		"type": "struct",
+		"description": "MUIM_List_Jump method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_List_Move",
+		"type": "struct",
+		"description": "MUIM_List_Move method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_List_NextSelected",
+		"type": "struct",
+		"description": "MUIM_List_NextSelected method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_List_Redraw",
+		"type": "struct",
+		"description": "MUIM_List_Redraw method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_List_Remove",
+		"type": "struct",
+		"description": "MUIM_List_Remove method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_List_Select",
+		"type": "struct",
+		"description": "MUIM_List_Select method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_List_Sort",
+		"type": "struct",
+		"description": "MUIM_List_Sort method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_List_TestPos",
+		"type": "struct",
+		"description": "MUIM_List_TestPos method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_MultiSet",
+		"type": "struct",
+		"description": "MUIM_MultiSet method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_NFloattext_GetEntry",
+		"type": "struct",
+		"description": "MUIM_NFloattext_GetEntry method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_NList_Clear",
+		"type": "struct",
+		"description": "MUIM_NList_Clear method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L549"
+	},
+	{
+		"displayText": "MUIP_NList_ColToColumn",
+		"type": "struct",
+		"description": "MUIM_NList_ColToColumn method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L580"
+	},
+	{
+		"displayText": "MUIP_NList_ColumnToCol",
+		"type": "struct",
+		"description": "MUIM_NList_ColumnToCol method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L581"
+	},
+	{
+		"displayText": "MUIP_NList_ColWidth",
+		"type": "struct",
+		"description": "MUIM_NList_ColWidth method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L577"
+	},
+	{
+		"displayText": "MUIP_NList_Compare",
+		"type": "struct",
+		"description": "MUIM_NList_Compare method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L590"
+	},
+	{
+		"displayText": "MUIP_NList_Construct",
+		"type": "struct",
+		"description": "MUIM_NList_Construct method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L588"
+	},
+	{
+		"displayText": "MUIP_NList_ContextMenuBuild",
+		"type": "struct",
+		"description": "MUIM_NList_ContextMenuBuild method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L578"
+	},
+	{
+		"displayText": "MUIP_NList_CopyTo",
+		"type": "struct",
+		"description": "MUIM_NList_CopyTo method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L572"
+	},
+	{
+		"displayText": "MUIP_NList_CopyToClip",
+		"type": "struct",
+		"description": "MUIM_NList_CopyToClip method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L564"
+	},
+	{
+		"displayText": "MUIP_NList_CreateImage",
+		"type": "struct",
+		"description": "MUIM_NList_CreateImage method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L550"
+	},
+	{
+		"displayText": "MUIP_NList_DeleteImage",
+		"type": "struct",
+		"description": "MUIM_NList_DeleteImage method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L551"
+	},
+	{
+		"displayText": "MUIP_NList_Destruct",
+		"type": "struct",
+		"description": "MUIM_NList_Destruct method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L589"
+	},
+	{
+		"displayText": "MUIP_NList_Display",
+		"type": "struct",
+		"description": "MUIM_NList_Display method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L591"
+	},
+	{
+		"displayText": "MUIP_NList_DoMethod",
+		"type": "struct",
+		"description": "MUIM_NList_DoMethod method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L576"
+	},
+	{
+		"displayText": "MUIP_NList_DropDraw",
+		"type": "struct",
+		"description": "MUIM_NList_DropDraw method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L574"
+	},
+	{
+		"displayText": "MUIP_NList_DropEntryDrawErase",
+		"type": "struct",
+		"description": "MUIM_NList_DropEntryDrawErase method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L579"
+	},
+	{
+		"displayText": "MUIP_NList_DropType",
+		"type": "struct",
+		"description": "MUIM_NList_DropType method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L573"
+	},
+	{
+		"displayText": "MUIP_NList_Exchange",
+		"type": "struct",
+		"description": "MUIM_NList_Exchange method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L552"
+	},
+	{
+		"displayText": "MUIP_NList_GetEntry",
+		"type": "struct",
+		"description": "MUIM_NList_GetEntry method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L553"
+	},
+	{
+		"displayText": "MUIP_NList_GetEntryInfo",
+		"type": "struct",
+		"description": "MUIM_NList_GetEntryInfo method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L569"
+	},
+	{
+		"displayText": "MUIP_NList_GetPos",
+		"type": "struct",
+		"description": "MUIM_NList_GetPos method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L586"
+	},
+	{
+		"displayText": "MUIP_NList_GetSelectInfo",
+		"type": "struct",
+		"description": "MUIM_NList_GetSelectInfo method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L571"
+	},
+	{
+		"displayText": "MUIP_NList_GoActive",
+		"type": "struct",
+		"description": "MUIM_NList_GoActive method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L592"
+	},
+	{
+		"displayText": "MUIP_NList_GoInactive",
+		"type": "struct",
+		"description": "MUIM_NList_GoInactive method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L593"
+	},
+	{
+		"displayText": "MUIP_NList_Insert",
+		"type": "struct",
+		"description": "MUIM_NList_Insert method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L554"
+	},
+	{
+		"displayText": "MUIP_NList_InsertSingle",
+		"type": "struct",
+		"description": "MUIM_NList_InsertSingle method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L555"
+	},
+	{
+		"displayText": "MUIP_NList_InsertSingleWrap",
+		"type": "struct",
+		"description": "MUIM_NList_InsertSingleWrap method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L568"
+	},
+	{
+		"displayText": "MUIP_NList_InsertWrap",
+		"type": "struct",
+		"description": "MUIM_NList_InsertWrap method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L567"
+	},
+	{
+		"displayText": "MUIP_NList_Jump",
+		"type": "struct",
+		"description": "MUIM_NList_Jump method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L556"
+	},
+	{
+		"displayText": "MUIP_NList_Move",
+		"type": "struct",
+		"description": "MUIM_NList_Move method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L557"
+	},
+	{
+		"displayText": "MUIP_NList_NextSelected",
+		"type": "struct",
+		"description": "MUIM_NList_NextSelected method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L558"
+	},
+	{
+		"displayText": "MUIP_NList_PrevSelected",
+		"type": "struct",
+		"description": "MUIM_NList_PrevSelected method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L583"
+	},
+	{
+		"displayText": "MUIP_NList_QueryBeginning",
+		"type": "struct",
+		"description": "MUIM_NList_QueryBeginning method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L570"
+	},
+	{
+		"displayText": "MUIP_NList_Redraw",
+		"type": "struct",
+		"description": "MUIM_NList_Redraw method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L559"
+	},
+	{
+		"displayText": "MUIP_NList_RedrawEntry",
+		"type": "struct",
+		"description": "MUIM_NList_RedrawEntry method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L575"
+	},
+	{
+		"displayText": "MUIP_NList_Remove",
+		"type": "struct",
+		"description": "MUIM_NList_Remove method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L560"
+	},
+	{
+		"displayText": "MUIP_NList_ReplaceSingle",
+		"type": "struct",
+		"description": "MUIM_NList_ReplaceSingle method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L566"
+	},
+	{
+		"displayText": "MUIP_NList_Select",
+		"type": "struct",
+		"description": "MUIM_NList_Select method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L561"
+	},
+	{
+		"displayText": "MUIP_NList_SelectChange",
+		"type": "struct",
+		"description": "MUIM_NList_SelectChange method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L587"
+	},
+	{
+		"displayText": "MUIP_NList_SetActive",
+		"type": "struct",
+		"description": "MUIM_NList_SetActive method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L594"
+	},
+	{
+		"displayText": "MUIP_NList_SetColumnCol",
+		"type": "struct",
+		"description": "MUIM_NList_SetColumnCol method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L584"
+	},
+	{
+		"displayText": "MUIP_NList_Sort",
+		"type": "struct",
+		"description": "MUIM_NList_Sort method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L562"
+	},
+	{
+		"displayText": "MUIP_NList_Sort2",
+		"type": "struct",
+		"description": "MUIM_NList_Sort2 method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L582"
+	},
+	{
+		"displayText": "MUIP_NList_Sort3",
+		"type": "struct",
+		"description": "MUIM_NList_Sort3 method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L585"
+	},
+	{
+		"displayText": "MUIP_NList_TestPos",
+		"type": "struct",
+		"description": "MUIM_NList_TestPos method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L563"
+	},
+	{
+		"displayText": "MUIP_NList_UseImage",
+		"type": "struct",
+		"description": "MUIM_NList_UseImage method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L565"
+	},
+	{
+		"displayText": "MUIP_NListtree_Active",
+		"type": "struct",
+		"description": "MUIM_NListtree_Active method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L386"
+	},
+	{
+		"displayText": "MUIP_NListtree_Clear",
+		"type": "struct",
+		"description": "MUIM_NListtree_Clear method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L255"
+	},
+	{
+		"displayText": "MUIP_NListtree_Close",
+		"type": "struct",
+		"description": "MUIM_NListtree_Close method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L229"
+	},
+	{
+		"displayText": "MUIP_NListtree_CloseMessage",
+		"type": "struct",
+		"description": "NListtree close hook message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L666"
+	},
+	{
+		"displayText": "MUIP_NListtree_Compare",
+		"type": "struct",
+		"description": "MUIM_NListtree_Compare method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L459"
+	},
+	{
+		"displayText": "MUIP_NListtree_CompareMessage",
+		"type": "struct",
+		"description": "NListtree compare hook message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L672"
+	},
+	{
+		"displayText": "MUIP_NListtree_Construct",
+		"type": "struct",
+		"description": "MUIM_NListtree_Construct method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L432"
+	},
+	{
+		"displayText": "MUIP_NListtree_ConstructMessage",
+		"type": "struct",
+		"description": "NListtree construct hook message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L680"
+	},
+	{
+		"displayText": "MUIP_NListtree_Copy",
+		"type": "struct",
+		"description": "MUIM_NListtree_Copy method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L367"
+	},
+	{
+		"displayText": "MUIP_NListtree_CopyToClip",
+		"type": "struct",
+		"description": "MUIM_NListtree_CopyToClip method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L407"
+	},
+	{
+		"displayText": "MUIP_NListtree_CopyToClipMessage",
+		"type": "struct",
+		"description": "NListtree CopyToClip hook message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L707"
+	},
+	{
+		"displayText": "MUIP_NListtree_Destruct",
+		"type": "struct",
+		"description": "MUIM_NListtree_Destruct method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L441"
+	},
+	{
+		"displayText": "MUIP_NListtree_DestructMessage",
+		"type": "struct",
+		"description": "NListtree destruct hook message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L689"
+	},
+	{
+		"displayText": "MUIP_NListtree_Display",
+		"type": "struct",
+		"description": "MUIM_NListtree_Display method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L450"
+	},
+	{
+		"displayText": "MUIP_NListtree_DisplayMessage",
+		"type": "struct",
+		"description": "NListtree display hook message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L698"
+	},
+	{
+		"displayText": "MUIP_NListtree_DoubleClick",
+		"type": "struct",
+		"description": "MUIM_NListtree_DoubleClick method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L393"
+	},
+	{
+		"displayText": "MUIP_NListtree_DropDraw",
+		"type": "struct",
+		"description": "MUIM_NListtree_DropDraw method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_NListtree_DropType",
+		"type": "struct",
+		"description": "MUIM_NListtree_DropType method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L424"
+	},
+	{
+		"displayText": "MUIP_NListtree_Exchange",
+		"type": "struct",
+		"description": "MUIM_NListtree_Exchange method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L303"
+	},
+	{
+		"displayText": "MUIP_NListtree_FindName",
+		"type": "struct",
+		"description": "MUIM_NListtree_FindName method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L262"
+	},
+	{
+		"displayText": "MUIP_NListtree_FindNameMessage",
+		"type": "struct",
+		"description": "NListtree FindName hook message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L715"
+	},
+	{
+		"displayText": "MUIP_NListtree_FindUserData",
+		"type": "struct",
+		"description": "MUIM_NListtree_FindUserData method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L270"
+	},
+	{
+		"displayText": "MUIP_NListtree_FindUserDataMessage",
+		"type": "struct",
+		"description": "NListtree FindUserData hook message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L724"
+	},
+	{
+		"displayText": "MUIP_NListtree_GetEntry",
+		"type": "struct",
+		"description": "MUIM_NListtree_GetEntry method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L278"
+	},
+	{
+		"displayText": "MUIP_NListtree_GetNr",
+		"type": "struct",
+		"description": "MUIM_NListtree_GetNr method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L286"
+	},
+	{
+		"displayText": "MUIP_NListtree_Insert",
+		"type": "struct",
+		"description": "MUIM_NListtree_Insert method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L237"
+	},
+	{
+		"displayText": "MUIP_NListtree_InsertStruct",
+		"type": "struct",
+		"description": "MUIM_NListtree_InsertStruct method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L377"
+	},
+	{
+		"displayText": "MUIP_NListtree_Move",
+		"type": "struct",
+		"description": "MUIM_NListtree_Move method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L293"
+	},
+	{
+		"displayText": "MUIP_NListtree_MultiTest",
+		"type": "struct",
+		"description": "MUIM_NListtree_MultiTest method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L358"
+	},
+	{
+		"displayText": "MUIP_NListtree_MultiTestMessage",
+		"type": "struct",
+		"description": "NListtree MultiTest hook message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L739"
+	},
+	{
+		"displayText": "MUIP_NListtree_NextSelected",
+		"type": "struct",
+		"description": "MUIM_NListtree_NextSelected method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L352"
+	},
+	{
+		"displayText": "MUIP_NListtree_Open",
+		"type": "struct",
+		"description": "MUIM_NListtree_Open method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L221"
+	},
+	{
+		"displayText": "MUIP_NListtree_OpenMessage",
+		"type": "struct",
+		"description": "NListtree open hook message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L733"
+	},
+	{
+		"displayText": "MUIP_NListtree_PrevSelected",
+		"type": "struct",
+		"description": "MUIM_NListtree_PrevSelected method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L401"
+	},
+	{
+		"displayText": "MUIP_NListtree_Redraw",
+		"type": "struct",
+		"description": "MUIM_NListtree_Redraw method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L336"
+	},
+	{
+		"displayText": "MUIP_NListtree_Remove",
+		"type": "struct",
+		"description": "MUIM_NListtree_Remove method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L247"
+	},
+	{
+		"displayText": "MUIP_NListtree_Rename",
+		"type": "struct",
+		"description": "MUIM_NListtree_Rename method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L313"
+	},
+	{
+		"displayText": "MUIP_NListtree_Select",
+		"type": "struct",
+		"description": "MUIM_NListtree_Select method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L343"
+	},
+	{
+		"displayText": "MUIP_NListtree_Sort",
+		"type": "struct",
+		"description": "MUIM_NListtree_Sort method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L321"
+	},
+	{
+		"displayText": "MUIP_NListtree_TestPos",
+		"type": "struct",
+		"description": "MUIM_NListtree_TestPos method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListtree_mcc.h#L328"
+	},
+	{
+		"displayText": "MUIP_NListview_SetScrollers",
+		"type": "struct",
+		"description": "MUIM_NListview_SetScrollers method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NListview_mcc.h#L60"
+	},
+	{
+		"displayText": "MUIP_NoNotifySet",
+		"type": "struct",
+		"description": "MUIM_NoNotifySet method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Notify",
+		"type": "struct",
+		"description": "MUIM_Notify method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Numeric_Decrease",
+		"type": "struct",
+		"description": "MUIM_Numeric_Decrease method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Numeric_Increase",
+		"type": "struct",
+		"description": "MUIM_Numeric_Increase method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Numeric_ScaleToValue",
+		"type": "struct",
+		"description": "MUIM_Numeric_ScaleToValue method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Numeric_SetDefault",
+		"type": "struct",
+		"description": "MUIM_Numeric_SetDefault method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Numeric_Stringify",
+		"type": "struct",
+		"description": "MUIM_Numeric_Stringify method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Numeric_ValueToScale",
+		"type": "struct",
+		"description": "MUIM_Numeric_ValueToScale method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Pendisplay_SetColormap",
+		"type": "struct",
+		"description": "MUIM_Pendisplay_SetColormap method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Pendisplay_SetMUIPen",
+		"type": "struct",
+		"description": "MUIM_Pendisplay_SetMUIPen method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Pendisplay_SetRGB",
+		"type": "struct",
+		"description": "MUIM_Pendisplay_SetRGB method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Popstring_Close",
+		"type": "struct",
+		"description": "MUIM_Popstring_Close method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Popstring_Open",
+		"type": "struct",
+		"description": "MUIM_Popstring_Open method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Prop_Decrease",
+		"type": "struct",
+		"description": "MUIM_Prop_Decrease method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Prop_Increase",
+		"type": "struct",
+		"description": "MUIM_Prop_Increase method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Semaphore_Attempt",
+		"type": "struct",
+		"description": "MUIM_Semaphore_Attempt method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Semaphore_AttemptShared",
+		"type": "struct",
+		"description": "MUIM_Semaphore_AttemptShared method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Semaphore_Obtain",
+		"type": "struct",
+		"description": "MUIM_Semaphore_Obtain method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Semaphore_ObtainShared",
+		"type": "struct",
+		"description": "MUIM_Semaphore_ObtainShared method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Semaphore_Release",
+		"type": "struct",
+		"description": "MUIM_Semaphore_Release method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Set",
+		"type": "struct",
+		"description": "MUIM_Set method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_SetAsString",
+		"type": "struct",
+		"description": "MUIM_SetAsString method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Settingsgroup_ConfigToGadgets",
+		"type": "struct",
+		"description": "MUIM_Settingsgroup_ConfigToGadgets method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Settingsgroup_GadgetsToConfig",
+		"type": "struct",
+		"description": "MUIM_Settingsgroup_GadgetsToConfig method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_SetUData",
+		"type": "struct",
+		"description": "MUIM_SetUData method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_SetUDataOnce",
+		"type": "struct",
+		"description": "MUIM_SetUDataOnce method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Setup",
+		"type": "struct",
+		"description": "MUIM_Setup method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Show",
+		"type": "struct",
+		"description": "MUIM_Show method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_TextEditor_ARexxCmd",
+		"type": "struct",
+		"description": "MUIM_TextEditor_ARexxCmd method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/texteditor/blob/master/include/mui/TextEditor_mcc.h#L134"
+	},
+	{
+		"displayText": "MUIP_TextEditor_BlockInfo",
+		"type": "struct",
+		"description": "MUIM_TextEditor_BlockInfo method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/texteditor/blob/master/include/mui/TextEditor_mcc.h#L135"
+	},
+	{
+		"displayText": "MUIP_TextEditor_ClearText",
+		"type": "struct",
+		"description": "MUIM_TextEditor_ClearText method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/texteditor/blob/master/include/mui/TextEditor_mcc.h#L136"
+	},
+	{
+		"displayText": "MUIP_TextEditor_ExportBlock",
+		"type": "struct",
+		"description": "MUIM_TextEditor_ExportBlock method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/texteditor/blob/master/include/mui/TextEditor_mcc.h#L137"
+	},
+	{
+		"displayText": "MUIP_TextEditor_ExportText",
+		"type": "struct",
+		"description": "MUIM_TextEditor_ExportText method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/texteditor/blob/master/include/mui/TextEditor_mcc.h#L138"
+	},
+	{
+		"displayText": "MUIP_TextEditor_HandleError",
+		"type": "struct",
+		"description": "MUIM_TextEditor_HandleError method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/texteditor/blob/master/include/mui/TextEditor_mcc.h#L139"
+	},
+	{
+		"displayText": "MUIP_TextEditor_InsertText",
+		"type": "struct",
+		"description": "MUIM_TextEditor_InsertText method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/texteditor/blob/master/include/mui/TextEditor_mcc.h#L140"
+	},
+	{
+		"displayText": "MUIP_TextEditor_Keybinding",
+		"type": "struct",
+		"description": "MUIM_TextEditor_QueryKeyAction method return structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/texteditor/blob/master/include/mui/TextEditor_mcc.h#L280"
+	},
+	{
+		"displayText": "MUIP_TextEditor_MarkText",
+		"type": "struct",
+		"description": "MUIM_TextEditor_MarkText method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/texteditor/blob/master/include/mui/TextEditor_mcc.h#L143"
+	},
+	{
+		"displayText": "MUIP_TextEditor_QueryKeyAction",
+		"type": "struct",
+		"description": "MUIM_TextEditor_QueryKeyAction method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/texteditor/blob/master/include/mui/TextEditor_mcc.h#L144"
+	},
+	{
+		"displayText": "MUIP_TextEditor_Replace",
+		"type": "struct",
+		"description": "MUIM_TextEditor_Replace method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/texteditor/blob/master/include/mui/TextEditor_mcc.h#L141"
+	},
+	{
+		"displayText": "MUIP_TextEditor_Search",
+		"type": "struct",
+		"description": "MUIM_TextEditor_Search method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/texteditor/blob/master/include/mui/TextEditor_mcc.h#L142"
+	},
+	{
+		"displayText": "MUIP_TextEditor_SetBlock",
+		"type": "struct",
+		"description": "MUIM_TextEditor_SetBlock method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/texteditor/blob/master/include/mui/TextEditor_mcc.h#L145"
+	},
+	{
+		"displayText": "MUIP_TextEditor_CursorXYToIndex",
+		"snippet": "MUIP_TextEditor_CursorXYToIndex",
+		"type": "struct",
+		"leftLabel": "struct",
+		"description": "MUIM_TextEditor_CursorXYToIndex method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/texteditor/blob/master/include/mui/TextEditor_mcc.h#L146"
+	},
+	{
+		"displayText": "MUIP_TextEditor_IndexToCursorXY",
+		"snippet": "MUIP_TextEditor_IndexToCursorXY",
+		"type": "struct",
+		"leftLabel": "struct",
+		"description": "MUIM_TextEditor_IndexToCursorXY method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/texteditor/blob/master/include/mui/TextEditor_mcc.h#L147"
+	},
+	{
+		"displayText": "MUIP_TextEditor_Redraw",
+		"snippet": "MUIP_TextEditor_Redraw",
+		"type": "struct",
+		"leftLabel": "struct",
+		"description": "MUIM_TextEditor_Redraw method message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/texteditor/blob/master/include/mui/TextEditor_mcc.h#L148"
+	},
+	{
+		"displayText": "MUIP_Window_AddEventHandler",
+		"type": "struct",
+		"description": "MUIM_Window_AddEventHandler method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Window_GetMenuCheck",
+		"type": "struct",
+		"description": "MUIM_Window_GetMenuCheck method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Window_GetMenuState",
+		"type": "struct",
+		"description": "MUIM_Window_GetMenuState method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Window_RemEventHandler",
+		"type": "struct",
+		"description": "MUIM_Window_RemEventHandler method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Window_ScreenToBack",
+		"type": "struct",
+		"description": "MUIM_Window_ScreenToBack method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Window_ScreenToFront",
+		"type": "struct",
+		"description": "MUIM_Window_ScreenToFront method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Window_SetCycleChain",
+		"type": "struct",
+		"description": "MUIM_Window_SetCycleChain method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Window_SetMenuCheck",
+		"type": "struct",
+		"description": "MUIM_Window_SetMenuCheck method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Window_SetMenuState",
+		"type": "struct",
+		"description": "MUIM_Window_SetMenuState method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Window_Snapshot",
+		"type": "struct",
+		"description": "MUIM_Window_Snapshot method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Window_ToBack",
+		"type": "struct",
+		"description": "MUIM_Window_ToBack method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_Window_ToFront",
+		"type": "struct",
+		"description": "MUIM_Window_ToFront method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_WriteLong",
+		"type": "struct",
+		"description": "MUIM_WriteLong method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIP_WriteString",
+		"type": "struct",
+		"description": "MUIM_WriteString method message structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "MUIS_InfoClient",
+		"type": "struct",
+		"description": "Public screen client task structure.",
+		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+	},
+	{
+		"displayText": "NList_CompareMessage",
+		"type": "struct",
+		"description": "NList MCC compare hook message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L610"
+	},
+	{
+		"displayText": "NList_ConstructMessage",
+		"type": "struct",
+		"description": "NList MCC construct hook message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L618"
+	},
+	{
+		"displayText": "NList_CopyColumnToClipMessage",
+		"type": "struct",
+		"description": "NList MCC clipboard copy hook message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L651"
+	},
+	{
+		"displayText": "NList_CopyEntryToClipMessage",
+		"type": "struct",
+		"description": "NList MCC clipboard copy hook message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L638"
+	},
+	{
+		"displayText": "NList_DestructMessage",
+		"type": "struct",
+		"description": "NList MCC destruct hook message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L624"
+	},
+	{
+		"displayText": "NList_DisplayMessage",
+		"type": "struct",
+		"description": "NList MCC display hook message structure.",
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NList_mcc.h#L630"
+	}

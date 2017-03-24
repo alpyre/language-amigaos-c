@@ -3,7 +3,7 @@
     'name': 'macro.amigaos.Reaction.c'
   }
   { #Reaction structs
-    'match': '\\bstruct\\s+(?:ClassActPrefs|ClickMessage|ColorWheelHSB|ColorWheelRGB|ColumnInfo|gfileFreelist|gfileRequest|gfRequest|GP_TEXTEDITOR_ARexxCmd|GP_TEXTEDITOR_BlockInfo|GP_TEXTEDITOR_ClearText|GP_TEXTEDITOR_ExportText|GP_TEXTEDITOR_HandleError|GP_TEXTEDITOR_InsertText|GP_TEXTEDITOR_MarkText|GP_TEXTEDITOR_Replace|GP_TEXTEDITOR_Search|gpClipRect|gsmRequest|LayoutLimits|lbAddNode|LBDrawMsg|lbEditNode|lbHideChildren|lbRemNode|lbShowChildren|lbSort|LBSortMsg|SpecialPens|UIPrefs|WeightObject)\\b'
+    'match': '\\bstruct\\s+(?:ClassActPrefs|ClickMessage|ColorWheelHSB|ColorWheelRGB|ColumnInfo|gfileFreelist|gfileRequest|gfRequest|GP_TEXTEDITOR_ARexxCmd|GP_TEXTEDITOR_BlockInfo|GP_TEXTEDITOR_ClearText|GP_TEXTEDITOR_ExportText|GP_TEXTEDITOR_HandleError|GP_TEXTEDITOR_InsertText|GP_TEXTEDITOR_MarkText|GP_TEXTEDITOR_Replace|GP_TEXTEDITOR_Search|gpClipRect|gsmRequest|LayoutLimits|lbAddNode|LBDrawMsg|lbEditNode|lbHideChildren|lbRemNode|lbShowChildren|lbSort|LBSortMsg|ReactionPrefs|SpecialPens|UIPrefs|WeightObject)\\b'
     'name': 'struct.amigaos.Reaction.c'
   }
   { #OS4 Reaction Additional Defines

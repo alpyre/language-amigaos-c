@@ -1,0 +1,192 @@
+	{
+		"displayText": "ClassActPrefs",
+		"type": "struct",
+		"description": "Reaction UIPrefs structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node064D.html#line29"
+	},
+	{
+		"displayText": "ClickMessage",
+		"type": "struct",
+		"description": "texteditor.gadget clicked position message.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E7.html#line133"
+	},
+	{
+		"displayText": "ColorWheelHSB",
+		"type": "struct",
+		"description": "colorwheel.class HSB color structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05EE.html#line22"
+	},
+	{
+		"displayText": "ColorWheelRGB",
+		"type": "struct",
+		"description": "colorwheel.class RGB color structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05EE.html#line30"
+	},
+	{
+		"displayText": "ColumnInfo",
+		"type": "struct",
+		"description": "Information for columns of the list browser.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05EF.html#line284"
+	},
+	{
+		"displayText": "gfileFreelist",
+		"type": "struct",
+		"description": "getfile.gadget class GFILE_FREELIST method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0610.html#line131"
+	},
+	{
+		"displayText": "gfileRequest",
+		"type": "struct",
+		"description": "getfile.gadget class GFILE_REQUEST method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0610.html#line119"
+	},
+	{
+		"displayText": "gfRequest",
+		"type": "struct",
+		"description": "getfont.gadget class GFONT_REQUEST method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0611.html#line109"
+	},
+	{
+		"displayText": "GP_TEXTEDITOR_ARexxCmd",
+		"type": "struct",
+		"description": "texteditor class GM_TEXTEDITOR_ARexxCmd method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E7.html#line81"
+	},
+	{
+		"displayText": "GP_TEXTEDITOR_BlockInfo",
+		"type": "struct",
+		"description": "texteditor class GM_TEXTEDITOR_BlockInfo method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E7.html#line81"
+	},
+	{
+		"displayText": "GP_TEXTEDITOR_ClearText",
+		"type": "struct",
+		"description": "texteditor class GM_TEXTEDITOR_ClearText method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E7.html#line83"
+	},
+	{
+		"displayText": "GP_TEXTEDITOR_ExportText",
+		"type": "struct",
+		"description": "texteditor class GM_TEXTEDITOR_ExportText method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E7.html#line81"
+	},
+	{
+		"displayText": "GP_TEXTEDITOR_HandleError",
+		"type": "struct",
+		"description": "texteditor class GM_TEXTEDITOR_HandleError method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E7.html#line85"
+	},
+	{
+		"displayText": "GP_TEXTEDITOR_InsertText",
+		"type": "struct",
+		"description": "texteditor class GM_TEXTEDITOR_InsertText method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E7.html#line81"
+	},
+	{
+		"displayText": "GP_TEXTEDITOR_MarkText",
+		"type": "struct",
+		"description": "texteditor class GM_TEXTEDITOR_MarkText method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E7.html#line87"
+	},
+	{
+		"displayText": "GP_TEXTEDITOR_Replace",
+		"type": "struct",
+		"description": "texteditor class GM_TEXTEDITOR_Replace method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E7.html#line81"
+	},
+	{
+		"displayText": "GP_TEXTEDITOR_Search",
+		"type": "struct",
+		"description": "texteditor class GP_TEXTEDITOR_Search method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05E7.html#line89"
+	},
+	{
+		"displayText": "gsmRequest",
+		"type": "struct",
+		"description": "getscreenmode.gadget class GSM_REQUEST method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0616.html#line126"
+	},
+	{
+		"displayText": "gpClipRect",
+		"type": "struct",
+		"description": "reaction class GM_CLIPRECT method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0614.html#line39"
+	},
+	{
+		"displayText": "LayoutLimits",
+		"type": "struct",
+		"description": "OS4 Reaction structure filled by the LayoutLimits().",
+		"descriptionMoreURL": "http://david.cadenas.free.fr/FICHIER/dev/os-include/gadgets/layout.h"
+	},
+	{
+		"displayText": "lbAddNode",
+		"type": "struct",
+		"description": "listbrowser.gadget class LBM_ADDNODE method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05EF.html#line31"
+	},
+	{
+		"displayText": "LBDrawMsg",
+		"type": "struct",
+		"description": "listbrowser.gadget class LB_DRAW method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05EF.html#line247"
+	},
+	{
+		"displayText": "lbEditNode",
+		"type": "struct",
+		"description": "listbrowser.gadget class LBM_EDITNODE method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05EF.html#line59"
+	},
+	{
+		"displayText": "lbHideChildren",
+		"type": "struct",
+		"description": "listbrowser.gadget class LBM_HIDECHILDREN method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05EF.html#line99"
+	},
+	{
+		"displayText": "lbRemNode",
+		"type": "struct",
+		"description": "listbrowser.gadget class LBM_EDITNODE method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05EF.html#line46"
+	},
+	{
+		"displayText": "lbShowChildren",
+		"type": "struct",
+		"description": "listbrowser.gadget class LBM_SHOWCHILDREN method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05EF.html#line86"
+	},
+	{
+		"displayText": "lbSort",
+		"type": "struct",
+		"description": "listbrowser.gadget class LBM_SORT method message structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05EF.html#line72"
+	},
+	{
+		"displayText": "LBSortMsg",
+		"type": "struct",
+		"description": "listbrowser.gadget class sort hook data structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05EF.html#line259"
+	},
+	{
+		"displayText": "ReactionPrefs",
+		"type": "struct",
+		"description": "Reaction preferences structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0640.html#line27"
+	},
+	{
+		"displayText": "SpecialPens",
+		"type": "struct",
+		"description": "Reaction class private special pens structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0614.html#line19"
+	},
+	{
+		"displayText": "UIPrefs",
+		"type": "struct",
+		"description": "Reaction UIPrefs structure.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node064D.html#line29"
+	},
+	{
+		"displayText": "WeightObject",
+		"type": "struct",
+		"description": "OS4 Reaction filled in by layout.gadget for weighbar.",
+		"descriptionMoreURL": "http://david.cadenas.free.fr/FICHIER/dev/os-include/gadgets/layout.h"
+	}
