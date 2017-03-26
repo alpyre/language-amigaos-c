@@ -7,7 +7,7 @@
     'name': 'macro.amigaos.AHI.c'
   }
   { #AHI structs
-    'match': '\\bstruct\\s+(?:AHIAudioCtrl|AHIAudioCtrlDrv|AHIAudioModeRequester|AHIEffChannelInfo|AHIEffDSPEcho|AHIEffDSPMask|AHIEffMasterVolume|AHIEffOutputBuffer|AHIGlobalPrefs|AHIIFace|AHIRecordMessage|AHIRequest|AHISampleInfo|AHISoundMessage|AHIsubIFace|AHIUnitPrefs)\\b'
+    'match': '\\bstruct\\s+(?:AHIAudioCtrl|AHIAudioCtrlDrv|AHIAudioModeRequester|AHIDSPEcho|AHIEffChannelInfo|AHIEffDSPEcho|AHIEffDSPMask|AHIEffMasterVolume|AHIEffOutputBuffer|AHIGlobalPrefs|AHIIFace|AHIInterfaceData|AHIRecordMessage|AHIRequest|AHISampleInfo|AHISoundMessage|AHIsubIFace|AHIsubInterfaceData|AHIUnitPrefs)\\b'
     'name': 'struct.amigaos.AHI.c'
   }
   { #AHI function names (SAME SYMBOLS IN THE FNC FILE)

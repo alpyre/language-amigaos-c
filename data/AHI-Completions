@@ -341,4 +341,112 @@
 		"leftLabel": "ULONG",
 		"description": "",
 		"descriptionMoreURL": ""
+	},
+	{
+		"displayText": "AHIAudioCtrl",
+		"type": "struct",
+		"description": "AHIAudioCtrl structure.",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/AHI_structs.h#L27"
+	},
+	{
+		"displayText": "AHIAudioCtrlDrv",
+		"type": "struct",
+		"description": "AHIAudioCtrlDrv structure.",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/AHI_structs.h#L170"
+	},
+	{
+		"displayText": "AHIAudioModeRequester",
+		"type": "struct",
+		"description": "AHIAudioModeRequester structure.",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/AHI_structs.h#L56"
+	},
+	{
+		"displayText": "AHIEffChannelInfo",
+		"type": "struct",
+		"description": "AHIEffChannelInfo structure.",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/AHI_structs.h#L115"
+	},
+	{
+		"displayText": "AHIEffDSPEcho",
+		"type": "struct",
+		"description": "AHIEffDSPEcho structure.",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/AHI_structs.h#L105"
+	},
+	{
+		"displayText": "AHIEffDSPMask",
+		"type": "struct",
+		"description": "AHIEffDSPMask structure.",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/AHI_structs.h#L97"
+	},
+	{
+		"displayText": "AHIEffMasterVolume",
+		"type": "struct",
+		"description": "AHIEffMasterVolume structure.",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/AHI_structs.h#L79"
+	},
+	{
+		"displayText": "AHIEffOutputBuffer",
+		"type": "struct",
+		"description": "AHIEffOutputBuffer structure.",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/AHI_structs.h#L86"
+	},
+	{
+		"displayText": "AHIGlobalPrefs",
+		"type": "struct",
+		"description": "AHIGlobalPrefs structure.",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/AHI_structs.h#L141"
+	},
+	{
+		"displayText": "AHIIFace",
+		"type": "struct",
+		"description": "AHIIFace structure.",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/AHI_structs.h#L209"
+	},
+	{
+		"displayText": "AHIInterfaceData",
+		"type": "struct",
+		"description": "AHIInterfaceData structure.",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/AHI_structs.h#L204"
+	},
+	{
+		"displayText": "AHIRecordMessage",
+		"type": "struct",
+		"description": "AHIRecordMessage structure.",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/AHI_structs.h#L40"
+	},
+	{
+		"displayText": "AHIRequest",
+		"type": "struct",
+		"description": "AHIRequest structure.",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/AHI_structs.h#L155"
+	},
+	{
+		"displayText": "AHISampleInfo",
+		"type": "struct",
+		"description": "AHISampleInfo structure.",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/AHI_structs.h#L48"
+	},
+	{
+		"displayText": "AHISoundMessage",
+		"type": "struct",
+		"description": "AHISoundMessage structure.",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/AHI_structs.h#L34"
+	},
+	{
+		"displayText": "AHIsubIFace",
+		"type": "struct",
+		"description": "AHIsubIFace structure.",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/AHI_structs.h#L250"
+	},
+	{
+		"displayText": "AHIsubInterfaceData",
+		"type": "struct",
+		"description": "AHIsubInterfaceData structure.",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/AHI_structs.h#L245"
+	},
+	{
+		"displayText": "AHIUnitPrefs",
+		"type": "struct",
+		"description": "AHIUnitPrefs structure.",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/AHI_structs.h#L126"
 	}
