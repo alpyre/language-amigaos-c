@@ -10196,7 +10196,7 @@
 		"displayText": "MUIP_NFloattext_GetEntry",
 		"type": "struct",
 		"description": "MUIM_NFloattext_GetEntry method message structure.",
-		"descriptionMoreURL": "http://teleinfo.pb.edu.pl/krashan/u/mui_os4/libraries/mui.h"
+		"descriptionMoreURL": "https://github.com/amiga-mui/nlist/blob/master/include/mui/NFloattext_mcc.h#L73"
 	},
 	{
 		"displayText": "MUIP_NList_Clear",
