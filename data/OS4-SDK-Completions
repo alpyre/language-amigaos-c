@@ -4749,4 +4749,2068 @@
 		"leftLabel": "uint32",
 		"description": "Write prefs (==a prefs dictionary) to a file.",
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/application.doc.txt"
+	},
+	{
+		"displayText": "_CIAResource",
+		"type": "struct",
+		"description": "_CIAResource structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L7"
+	},
+	{
+		"displayText": "AATextFont",
+		"type": "struct",
+		"description": "AATextFont structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L16"
+	},
+	{
+		"displayText": "AddressAndSize",
+		"type": "struct",
+		"description": "AddressAndSize structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L37"
+	},
+	{
+		"displayText": "AIN_IFace",
+		"type": "struct",
+		"description": "AIN_IFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L45"
+	},
+	{
+		"displayText": "AlphaHookMsg",
+		"type": "struct",
+		"description": "AlphaHookMsg structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L72"
+	},
+	{
+		"displayText": "ALPOBinData",
+		"type": "struct",
+		"description": "ALPOBinData structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L83"
+	},
+	{
+		"displayText": "ALPOGetProcInfo",
+		"type": "struct",
+		"description": "ALPOGetProcInfo structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L91"
+	},
+	{
+		"displayText": "ALPOObjIndex",
+		"type": "struct",
+		"description": "ALPOObjIndex structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L104"
+	},
+	{
+		"displayText": "ALPOObjKey",
+		"type": "struct",
+		"description": "ALPOObjKey structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L112"
+	},
+	{
+		"displayText": "ALPOObjKeyIndex",
+		"type": "struct",
+		"description": "ALPOObjKeyIndex structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L120"
+	},
+	{
+		"displayText": "ALPOPutProcInfo",
+		"type": "struct",
+		"description": "ALPOPutProcInfo structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L129"
+	},
+	{
+		"displayText": "ALPOString",
+		"type": "struct",
+		"description": "ALPOString structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L141"
+	},
+	{
+		"displayText": "ALPOUniString",
+		"type": "struct",
+		"description": "ALPOUniString structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L149"
+	},
+	{
+		"displayText": "AmigaGuideIFace",
+		"type": "struct",
+		"description": "AmigaGuideIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L157"
+	},
+	{
+		"displayText": "AnchorPathOld",
+		"type": "struct",
+		"description": "AnchorPathOld structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L208"
+	},
+	{
+		"displayText": "ApplicationCustomMsg",
+		"type": "struct",
+		"description": "ApplicationCustomMsg structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L223"
+	},
+	{
+		"displayText": "ApplicationIconInfo",
+		"type": "struct",
+		"description": "ApplicationIconInfo structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L231"
+	},
+	{
+		"displayText": "ApplicationIFace",
+		"type": "struct",
+		"description": "ApplicationIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L244"
+	},
+	{
+		"displayText": "ApplicationMsg",
+		"type": "struct",
+		"description": "ApplicationMsg structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L277"
+	},
+	{
+		"displayText": "ApplicationNode",
+		"type": "struct",
+		"description": "ApplicationNode structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L286"
+	},
+	{
+		"displayText": "ApplicationOpenPrintDocMsg",
+		"type": "struct",
+		"description": "ApplicationOpenPrintDocMsg structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L295"
+	},
+	{
+		"displayText": "ARexxIFace",
+		"type": "struct",
+		"description": "ARexxIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L303"
+	},
+	{
+		"displayText": "AslIFace",
+		"type": "struct",
+		"description": "AslIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L316"
+	},
+	{
+		"displayText": "AssignNode",
+		"type": "struct",
+		"description": "AssignNode structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L342"
+	},
+	{
+		"displayText": "BackFillMessage",
+		"type": "struct",
+		"description": "BackFillMessage structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L358"
+	},
+	{
+		"displayText": "BattClockIFace",
+		"type": "struct",
+		"description": "BattClockIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L368"
+	},
+	{
+		"displayText": "BattMemIFace",
+		"type": "struct",
+		"description": "BattMemIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L385"
+	},
+	{
+		"displayText": "BevelIFace",
+		"type": "struct",
+		"description": "BevelIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L401"
+	},
+	{
+		"displayText": "BIOSVersionResource",
+		"type": "struct",
+		"description": "BIOSVersionResource structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L417"
+	},
+	{
+		"displayText": "BitMapIFace",
+		"type": "struct",
+		"description": "BitMapIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L433"
+	},
+	{
+		"displayText": "BlankerModuleIFace",
+		"type": "struct",
+		"description": "BlankerModuleIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L446"
+	},
+	{
+		"displayText": "BlankerPrefsWindowInfo",
+		"type": "struct",
+		"description": "BlankerPrefsWindowInfo structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L461"
+	},
+	{
+		"displayText": "BlankerPrefsWindowSetup",
+		"type": "struct",
+		"description": "BlankerPrefsWindowSetup structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L469"
+	},
+	{
+		"displayText": "BlankerPrefsWinGUIEvent",
+		"type": "struct",
+		"description": "BlankerPrefsWinGUIEvent structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L482"
+	},
+	{
+		"displayText": "BlankerPrefsWinIDCMPEvent",
+		"type": "struct",
+		"description": "BlankerPrefsWinIDCMPEvent structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L491"
+	},
+	{
+		"displayText": "BlankerRender",
+		"type": "struct",
+		"description": "BlankerRender structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L499"
+	},
+	{
+		"displayText": "BootstrapCodeBlock",
+		"type": "struct",
+		"description": "BootstrapCodeBlock structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L525"
+	},
+	{
+		"displayText": "BulletIFace",
+		"type": "struct",
+		"description": "BulletIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L538"
+	},
+	{
+		"displayText": "ButtonIFace",
+		"type": "struct",
+		"description": "ButtonIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L559"
+	},
+	{
+		"displayText": "CamdBase",
+		"type": "struct",
+		"description": "CamdBase structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L572"
+	},
+	{
+		"displayText": "CamdIFace",
+		"type": "struct",
+		"description": "CamdIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L581"
+	},
+	{
+		"displayText": "CapturedExpression",
+		"type": "struct",
+		"description": "CapturedExpression structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L633"
+	},
+	{
+		"displayText": "CardIFace",
+		"type": "struct",
+		"description": "CardIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L645"
+	},
+	{
+		"displayText": "CheckBoxIFace",
+		"type": "struct",
+		"description": "CheckBoxIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L674"
+	},
+	{
+		"displayText": "ChooserIFace",
+		"type": "struct",
+		"description": "ChooserIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L687"
+	},
+	{
+		"displayText": "CIAIFace",
+		"type": "struct",
+		"description": "CIAIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L707"
+	},
+	{
+		"displayText": "ClickTabIFace",
+		"type": "struct",
+		"description": "ClickTabIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L723"
+	},
+	{
+		"displayText": "ClusterNotifyNode",
+		"type": "struct",
+		"description": "ClusterNotifyNode structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L744"
+	},
+	{
+		"displayText": "cmLink",
+		"type": "struct",
+		"description": "cmLink structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L754"
+	},
+	{
+		"displayText": "ColorWheelIFace",
+		"type": "struct",
+		"description": "ColorWheelIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L762"
+	},
+	{
+		"displayText": "CommoditiesIFace",
+		"type": "struct",
+		"description": "CommoditiesIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L776"
+	},
+	{
+		"displayText": "ConsoleIFace",
+		"type": "struct",
+		"description": "ConsoleIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L818"
+	},
+	{
+		"displayText": "ConsoleKeyMapPointers",
+		"type": "struct",
+		"description": "ConsoleKeyMapPointers structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L836"
+	},
+	{
+		"displayText": "ConsoleWindowData",
+		"type": "struct",
+		"description": "ConsoleWindowData structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L847"
+	},
+	{
+		"displayText": "CW3FloppyIFace",
+		"type": "struct",
+		"description": "CW3FloppyIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L868"
+	},
+	{
+		"displayText": "CW3GameportIFace",
+		"type": "struct",
+		"description": "CW3GameportIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L882"
+	},
+	{
+		"displayText": "CW3KeyboardIFace",
+		"type": "struct",
+		"description": "CW3KeyboardIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L896"
+	},
+	{
+		"displayText": "CW3SIDIFace",
+		"type": "struct",
+		"description": "CW3SIDIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L910"
+	},
+	{
+		"displayText": "CWIFace",
+		"type": "struct",
+		"description": "CWIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L924"
+	},
+	{
+		"displayText": "CxBrokerCopy",
+		"type": "struct",
+		"description": "CxBrokerCopy structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L942"
+	},
+	{
+		"displayText": "CyberGfxIFace",
+		"type": "struct",
+		"description": "CyberGfxIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L955"
+	},
+	{
+		"displayText": "DataTypesIFace",
+		"type": "struct",
+		"description": "DataTypesIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1007"
+	},
+	{
+		"displayText": "DateBrowserIFace",
+		"type": "struct",
+		"description": "DateBrowserIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1078"
+	},
+	{
+		"displayText": "DeathMessage",
+		"type": "struct",
+		"description": "DeathMessage structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1094"
+	},
+	{
+		"displayText": "DebugIFace",
+		"type": "struct",
+		"description": "DebugIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1103"
+	},
+	{
+		"displayText": "DebugSymbol",
+		"type": "struct",
+		"description": "DebugSymbol structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1125"
+	},
+	{
+		"displayText": "DeviceManagerInterface",
+		"type": "struct",
+		"description": "DeviceManagerInterface structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1143"
+	},
+	{
+		"displayText": "DiskfontIFace",
+		"type": "struct",
+		"description": "DiskfontIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1174"
+	},
+	{
+		"displayText": "DMAEntry",
+		"type": "struct",
+		"description": "DMAEntry structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1210"
+	},
+	{
+		"displayText": "DockyAbsPosition",
+		"type": "struct",
+		"description": "DockyAbsPosition structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1218"
+	},
+	{
+		"displayText": "DockyAttention",
+		"type": "struct",
+		"description": "DockyAttention structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1226"
+	},
+	{
+		"displayText": "DockyCategoryInfo",
+		"type": "struct",
+		"description": "DockyCategoryInfo structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1234"
+	},
+	{
+		"displayText": "DockyCategoryMove",
+		"type": "struct",
+		"description": "DockyCategoryMove structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1242"
+	},
+	{
+		"displayText": "DockyCategoryNr",
+		"type": "struct",
+		"description": "DockyCategoryNr structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1251"
+	},
+	{
+		"displayText": "DockyDebug",
+		"type": "struct",
+		"description": "DockyDebug structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1259"
+	},
+	{
+		"displayText": "DockyDockBackground",
+		"type": "struct",
+		"description": "DockyDockBackground structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1275"
+	},
+	{
+		"displayText": "DockyDockFont",
+		"type": "struct",
+		"description": "DockyDockFont structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1283"
+	},
+	{
+		"displayText": "DockyDockInfo",
+		"type": "struct",
+		"description": "DockyDockInfo structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1294"
+	},
+	{
+		"displayText": "DockyDockMove",
+		"type": "struct",
+		"description": "DockyDockMove structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1302"
+	},
+	{
+		"displayText": "DockyDockPosition",
+		"type": "struct",
+		"description": "DockyDockPosition structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1310"
+	},
+	{
+		"displayText": "DockyDockSize",
+		"type": "struct",
+		"description": "DockyDockSize structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1318"
+	},
+	{
+		"displayText": "DockyDockState",
+		"type": "struct",
+		"description": "DockyDockState structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1326"
+	},
+	{
+		"displayText": "DockyDockType",
+		"type": "struct",
+		"description": "DockyDockType structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1334"
+	},
+	{
+		"displayText": "DockyDockyDND",
+		"type": "struct",
+		"description": "DockyDockyDND structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1342"
+	},
+	{
+		"displayText": "DockyIFace",
+		"type": "struct",
+		"description": "DockyIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1350"
+	},
+	{
+		"displayText": "DockyObjectClick",
+		"type": "struct",
+		"description": "DockyObjectClick structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1365"
+	},
+	{
+		"displayText": "DockyObjectDND",
+		"type": "struct",
+		"description": "DockyObjectDND structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1373"
+	},
+	{
+		"displayText": "DockyObjectInfo",
+		"type": "struct",
+		"description": "DockyObjectInfo structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1381"
+	},
+	{
+		"displayText": "DockyObjectMove",
+		"type": "struct",
+		"description": "DockyObjectMove structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1391"
+	},
+	{
+		"displayText": "DockyObjectNr",
+		"type": "struct",
+		"description": "DockyObjectNr structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1400"
+	},
+	{
+		"displayText": "DockyPosition",
+		"type": "struct",
+		"description": "DockyPosition structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1409"
+	},
+	{
+		"displayText": "DockyPosSize",
+		"type": "struct",
+		"description": "DockyPosSize structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1416"
+	},
+	{
+		"displayText": "DockyRenderDestination",
+		"type": "struct",
+		"description": "DockyRenderDestination structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1424"
+	},
+	{
+		"displayText": "DockyRunWB",
+		"type": "struct",
+		"description": "DockyRunWB structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1446"
+	},
+	{
+		"displayText": "DockySize",
+		"type": "struct",
+		"description": "DockySize structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1454"
+	},
+	{
+		"displayText": "DockyUnHideAnim",
+		"type": "struct",
+		"description": "DockyUnHideAnim structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1461"
+	},
+	{
+		"displayText": "DosEventMsg",
+		"type": "struct",
+		"description": "DosEventMsg structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1469"
+	},
+	{
+		"displayText": "DOSIFace",
+		"type": "struct",
+		"description": "DOSIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1484"
+	},
+	{
+		"displayText": "DosPacket64",
+		"type": "struct",
+		"description": "DosPacket64 structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1797"
+	},
+	{
+		"displayText": "DOSPrefs",
+		"type": "struct",
+		"description": "DOSPrefs structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1818"
+	},
+	{
+		"displayText": "DosResidentSeg",
+		"type": "struct",
+		"description": "DosResidentSeg structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1834"
+	},
+	{
+		"displayText": "DrawListIFace",
+		"type": "struct",
+		"description": "DrawListIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1844"
+	},
+	{
+		"displayText": "DTClassIFace",
+		"type": "struct",
+		"description": "DTClassIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1857"
+	},
+	{
+		"displayText": "DTMethod",
+		"type": "struct",
+		"description": "DTMethod structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1870"
+	},
+	{
+		"displayText": "EGlyphEngine",
+		"type": "struct",
+		"description": "EGlyphEngine structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1879"
+	},
+	{
+		"displayText": "Elf32_SymbolQuery",
+		"type": "struct",
+		"description": "Elf32_SymbolQuery structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1888"
+	},
+	{
+		"displayText": "ElfHookMsg",
+		"type": "struct",
+		"description": "ElfHookMsg structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1901"
+	},
+	{
+		"displayText": "ElfIFace",
+		"type": "struct",
+		"description": "ElfIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1911"
+	},
+	{
+		"displayText": "EmulatorResource",
+		"type": "struct",
+		"description": "EmulatorResource structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1952"
+	},
+	{
+		"displayText": "EmuTrap",
+		"type": "struct",
+		"description": "EmuTrap structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1968"
+	},
+	{
+		"displayText": "ExamineData",
+		"type": "struct",
+		"description": "ExamineData structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L1980"
+	},
+	{
+		"displayText": "ExceptionContext",
+		"type": "struct",
+		"description": "ExceptionContext structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L2013"
+	},
+	{
+		"displayText": "ExecIFace",
+		"type": "struct",
+		"description": "ExecIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L2036"
+	},
+	{
+		"displayText": "ExpansionIFace",
+		"type": "struct",
+		"description": "ExpansionIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L2288"
+	},
+	{
+		"displayText": "ExtendedDeadKey",
+		"type": "struct",
+		"description": "ExtendedDeadKey structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L2324"
+	},
+	{
+		"displayText": "ExtendedLibrary",
+		"type": "struct",
+		"description": "ExtendedLibrary structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L2337"
+	},
+	{
+		"displayText": "FDNResource",
+		"type": "struct",
+		"description": "FDNResource structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L2350"
+	},
+	{
+		"displayText": "FileSystemData",
+		"type": "struct",
+		"description": "FileSystemData structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L2376"
+	},
+	{
+		"displayText": "FileSystemVectorPort",
+		"type": "struct",
+		"description": "FileSystemVectorPort structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L2390"
+	},
+	{
+		"displayText": "FileSystemVectors",
+		"type": "struct",
+		"description": "FileSystemVectors structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L2398"
+	},
+	{
+		"displayText": "FillerIFace",
+		"type": "struct",
+		"description": "FillerIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L2628"
+	},
+	{
+		"displayText": "FindTrackedAddressMsg",
+		"type": "struct",
+		"description": "FindTrackedAddressMsg structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L2641"
+	},
+	{
+		"displayText": "FReadLineData",
+		"type": "struct",
+		"description": "FReadLineData structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L2658"
+	},
+	{
+		"displayText": "FuelGaugeIFace",
+		"type": "struct",
+		"description": "FuelGaugeIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L2667"
+	},
+	{
+		"displayText": "GadgetGeometryMsg",
+		"type": "struct",
+		"description": "GadgetGeometryMsg structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L2680"
+	},
+	{
+		"displayText": "GadToolsIFace",
+		"type": "struct",
+		"description": "GadToolsIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L2693"
+	},
+	{
+		"displayText": "gcRequest",
+		"type": "struct",
+		"description": "gcRequest structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L2738"
+	},
+	{
+		"displayText": "GetColorIFace",
+		"type": "struct",
+		"description": "GetColorIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L2748"
+	},
+	{
+		"displayText": "GetFileIFace",
+		"type": "struct",
+		"description": "GetFileIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L2761"
+	},
+	{
+		"displayText": "GetFontIFace",
+		"type": "struct",
+		"description": "GetFontIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L2774"
+	},
+	{
+		"displayText": "GetScreenModeIFace",
+		"type": "struct",
+		"description": "GetScreenModeIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L2787"
+	},
+	{
+		"displayText": "GlyphIFace",
+		"type": "struct",
+		"description": "GlyphIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L2800"
+	},
+	{
+		"displayText": "GlyphWidthEntry32",
+		"type": "struct",
+		"description": "GlyphWidthEntry32 structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L2813"
+	},
+	{
+		"displayText": "gpExtent",
+		"type": "struct",
+		"description": "gpExtent structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L2823"
+	},
+	{
+		"displayText": "gpQuery",
+		"type": "struct",
+		"description": "gpQuery structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L2836"
+	},
+	{
+		"displayText": "GradientSpec",
+		"type": "struct",
+		"description": "GradientSpec structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L2847"
+	},
+	{
+		"displayText": "GraphicsIFace",
+		"type": "struct",
+		"description": "GraphicsIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L2869"
+	},
+	{
+		"displayText": "GroupInfo",
+		"type": "struct",
+		"description": "GroupInfo structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L3067"
+	},
+	{
+		"displayText": "GUIPlugin",
+		"type": "struct",
+		"description": "GUIPlugin structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L3075"
+	},
+	{
+		"displayText": "GUIPrefs",
+		"type": "struct",
+		"description": "GUIPrefs structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L3090"
+	},
+	{
+		"displayText": "HunkIFace",
+		"type": "struct",
+		"description": "HunkIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L3189"
+	},
+	{
+		"displayText": "HunkMessage",
+		"type": "struct",
+		"description": "HunkMessage structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L3205"
+	},
+	{
+		"displayText": "IconIFace",
+		"type": "struct",
+		"description": "IconIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L3223"
+	},
+	{
+		"displayText": "IconModuleIFace",
+		"type": "struct",
+		"description": "IconModuleIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L3272"
+	},
+	{
+		"displayText": "IconScaleRequest",
+		"type": "struct",
+		"description": "IconScaleRequest structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L3298"
+	},
+	{
+		"displayText": "IDKeyboardDeviceNotifyMsg",
+		"type": "struct",
+		"description": "IDKeyboardDeviceNotifyMsg structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L3309"
+	},
+	{
+		"displayText": "IDMouseDeviceNotifyMsg",
+		"type": "struct",
+		"description": "IDMouseDeviceNotifyMsg structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L3321"
+	},
+	{
+		"displayText": "IDMousePortNotifyMsg",
+		"type": "struct",
+		"description": "IDMousePortNotifyMsg structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L3333"
+	},
+	{
+		"displayText": "IDMouseTriggerNotifyMsg",
+		"type": "struct",
+		"description": "IDMouseTriggerNotifyMsg structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L3344"
+	},
+	{
+		"displayText": "IDMouseTypeNotifyMsg",
+		"type": "struct",
+		"description": "IDMouseTypeNotifyMsg structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L3353"
+	},
+	{
+		"displayText": "IDPeriodNotifyMsg",
+		"type": "struct",
+		"description": "IDPeriodNotifyMsg structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L3363"
+	},
+	{
+		"displayText": "IDThresholdNotifyMsg",
+		"type": "struct",
+		"description": "IDThresholdNotifyMsg structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L3371"
+	},
+	{
+		"displayText": "IFFParseIFace",
+		"type": "struct",
+		"description": "IFFParseIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L3379"
+	},
+	{
+		"displayText": "ImageGeometryMsg",
+		"type": "struct",
+		"description": "ImageGeometryMsg structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L3431"
+	},
+	{
+		"displayText": "InputDeviceOption",
+		"type": "struct",
+		"description": "InputDeviceOption structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L3444"
+	},
+	{
+		"displayText": "InputIFace",
+		"type": "struct",
+		"description": "InputIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L3453"
+	},
+	{
+		"displayText": "IntegerIFace",
+		"type": "struct",
+		"description": "IntegerIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L3466"
+	},
+	{
+		"displayText": "Interface",
+		"type": "struct",
+		"description": "Interface structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L3479"
+	},
+	{
+		"displayText": "InterfaceData",
+		"type": "struct",
+		"description": "InterfaceData structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L3491"
+	},
+	{
+		"displayText": "IntuiRawKeyData",
+		"type": "struct",
+		"description": "IntuiRawKeyData structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L3510"
+	},
+	{
+		"displayText": "IntuitionIFace",
+		"type": "struct",
+		"description": "IntuitionIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L3521"
+	},
+	{
+		"displayText": "IntuiWheelData",
+		"type": "struct",
+		"description": "IntuiWheelData structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L3763"
+	},
+	{
+		"displayText": "IOSana2Req",
+		"type": "struct",
+		"description": "IOSana2Req structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L3773"
+	},
+	{
+		"displayText": "impExtent",
+		"type": "struct",
+		"description": "impExtent structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L3789"
+	},
+	{
+		"displayText": "KeymapIFace",
+		"type": "struct",
+		"description": "KeymapIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L3804"
+	},
+	{
+		"displayText": "LabelIFace",
+		"type": "struct",
+		"description": "LabelIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L3829"
+	},
+	{
+		"displayText": "LayerComposeMsg",
+		"type": "struct",
+		"description": "LayerComposeMsg structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L3842"
+	},
+	{
+		"displayText": "LayersIFace",
+		"type": "struct",
+		"description": "LayersIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L3852"
+	},
+	{
+		"displayText": "LayoutIFace",
+		"type": "struct",
+		"description": "LayoutIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L3923"
+	},
+	{
+		"displayText": "LibraryManagerInterface",
+		"type": "struct",
+		"description": "LibraryManagerInterface structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L3944"
+	},
+	{
+		"displayText": "ListBrowserIFace",
+		"type": "struct",
+		"description": "ListBrowserIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L3964"
+	},
+	{
+		"displayText": "ListLabelNode",
+		"type": "struct",
+		"description": "ListLabelNode structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L3998"
+	},
+	{
+		"displayText": "lmAddChild",
+		"type": "struct",
+		"description": "lmAddChild structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4024"
+	},
+	{
+		"displayText": "lmAddImage",
+		"type": "struct",
+		"description": "lmAddImage structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4034"
+	},
+	{
+		"displayText": "lmModifyChild",
+		"type": "struct",
+		"description": "lmModifyChild structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4044"
+	},
+	{
+		"displayText": "lmRemoveChild",
+		"type": "struct",
+		"description": "lmRemoveChild structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4054"
+	},
+	{
+		"displayText": "LocaleIFace",
+		"type": "struct",
+		"description": "LocaleIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4063"
+	},
+	{
+		"displayText": "Lock",
+		"type": "struct",
+		"description": "Lock structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4106"
+	},
+	{
+		"displayText": "LowLevelIFace",
+		"type": "struct",
+		"description": "LowLevelIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4133"
+	},
+	{
+		"displayText": "MessageDigest_SHA",
+		"type": "struct",
+		"description": "MessageDigest_SHA structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4165"
+	},
+	{
+		"displayText": "MidiCluster",
+		"type": "struct",
+		"description": "MidiCluster structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4173"
+	},
+	{
+		"displayText": "MidiDeviceData",
+		"type": "struct",
+		"description": "MidiDeviceData structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4186"
+	},
+	{
+		"displayText": "MidiLink",
+		"type": "struct",
+		"description": "MidiLink structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4208"
+	},
+	{
+		"displayText": "MidiNode",
+		"type": "struct",
+		"description": "MidiNode structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4232"
+	},
+	{
+		"displayText": "MidiPortData",
+		"type": "struct",
+		"description": "MidiPortData structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4259"
+	},
+	{
+		"displayText": "MidiPrefs",
+		"type": "struct",
+		"description": "MidiPrefs structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4266"
+	},
+	{
+		"displayText": "MidiUnitDef",
+		"type": "struct",
+		"description": "MidiUnitDef structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4275"
+	},
+	{
+		"displayText": "MiscIFace",
+		"type": "struct",
+		"description": "MiscIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4290"
+	},
+	{
+		"displayText": "MMUIFace",
+		"type": "struct",
+		"description": "MMUIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4304"
+	},
+	{
+		"displayText": "MultiAssign",
+		"type": "struct",
+		"description": "MultiAssign structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4322"
+	},
+	{
+		"displayText": "NIPCBuff",
+		"type": "struct",
+		"description": "NIPCBuff structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4330"
+	},
+	{
+		"displayText": "NIPCBuffEntry",
+		"type": "struct",
+		"description": "NIPCBuffEntry structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4340"
+	},
+	{
+		"displayText": "NotifyHookMsg",
+		"type": "struct",
+		"description": "NotifyHookMsg structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4353"
+	},
+	{
+		"displayText": "NSDeviceQueryResult",
+		"type": "struct",
+		"description": "NSDeviceQueryResult structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4362"
+	},
+	{
+		"displayText": "NVIFace",
+		"type": "struct",
+		"description": "NVIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4382"
+	},
+	{
+		"displayText": "OpenFirmwareIFace",
+		"type": "struct",
+		"description": "OpenFirmwareIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4404"
+	},
+	{
+		"displayText": "OutlineFont",
+		"type": "struct",
+		"description": "OutlineFont structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4436"
+	},
+	{
+		"displayText": "OverlayHunk",
+		"type": "struct",
+		"description": "OverlayHunk structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4449"
+	},
+	{
+		"displayText": "P96IFace",
+		"type": "struct",
+		"description": "P96IFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4463"
+	},
+	{
+		"displayText": "P96Mode",
+		"type": "struct",
+		"description": "P96Mode structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4514"
+	},
+	{
+		"displayText": "PaletteIFace",
+		"type": "struct",
+		"description": "PaletteIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4526"
+	},
+	{
+		"displayText": "PartitionIFace",
+		"type": "struct",
+		"description": "PartitionIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4539"
+	},
+	{
+		"displayText": "PathNode",
+		"type": "struct",
+		"description": "PathNode structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4559"
+	},
+	{
+		"displayText": "PBoxDrawMsg",
+		"type": "struct",
+		"description": "PBoxDrawMsg structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4567"
+	},
+	{
+		"displayText": "PCIDevice",
+		"type": "struct",
+		"description": "PCIDevice structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4580"
+	},
+	{
+		"displayText": "PCIIFace",
+		"type": "struct",
+		"description": "PCIIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4627"
+	},
+	{
+		"displayText": "PCIResourceRange",
+		"type": "struct",
+		"description": "PCIResourceRange structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4644"
+	},
+	{
+		"displayText": "PenMapIFace",
+		"type": "struct",
+		"description": "PenMapIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4659"
+	},
+	{
+		"displayText": "PerformanceMonitorIFace",
+		"type": "struct",
+		"description": "PerformanceMonitorIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4672"
+	},
+	{
+		"displayText": "pgpAddNode",
+		"type": "struct",
+		"description": "pgpAddNode structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4703"
+	},
+	{
+		"displayText": "pgpEditNode",
+		"type": "struct",
+		"description": "pgpEditNode structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4712"
+	},
+	{
+		"displayText": "pgpGetZoneBounds",
+		"type": "struct",
+		"description": "pgpGetZoneBounds structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4722"
+	},
+	{
+		"displayText": "pgpGetZoneInfo",
+		"type": "struct",
+		"description": "pgpGetZoneInfo structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4734"
+	},
+	{
+		"displayText": "pgpMakeNode",
+		"type": "struct",
+		"description": "pgpMakeNode structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4748"
+	},
+	{
+		"displayText": "pgpRemNode",
+		"type": "struct",
+		"description": "pgpRemNode structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4758"
+	},
+	{
+		"displayText": "PictureIFace",
+		"type": "struct",
+		"description": "PictureIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4767"
+	},
+	{
+		"displayText": "PixieIFace",
+		"type": "struct",
+		"description": "PixieIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4781"
+	},
+	{
+		"displayText": "PixieRenderMsg",
+		"type": "struct",
+		"description": "PixieRenderMsg structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4807"
+	},
+	{
+		"displayText": "pmChangeState",
+		"type": "struct",
+		"description": "pmChangeState structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4820"
+	},
+	{
+		"displayText": "pmCheckAbort",
+		"type": "struct",
+		"description": "pmCheckAbort structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4829"
+	},
+	{
+		"displayText": "pmFindItem",
+		"type": "struct",
+		"description": "pmFindItem structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4837"
+	},
+	{
+		"displayText": "pmHandleInput",
+		"type": "struct",
+		"description": "pmHandleInput structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4845"
+	},
+	{
+		"displayText": "pmInsert",
+		"type": "struct",
+		"description": "pmInsert structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4853"
+	},
+	{
+		"displayText": "pmLayout",
+		"type": "struct",
+		"description": "pmLayout structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4862"
+	},
+	{
+		"displayText": "pmLocaleHookMsg",
+		"type": "struct",
+		"description": "pmLocaleHookMsg structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4871"
+	},
+	{
+		"displayText": "pmOpen",
+		"type": "struct",
+		"description": "pmOpen structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4878"
+	},
+	{
+		"displayText": "PNDrawMsg",
+		"type": "struct",
+		"description": "PNDrawMsg structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4886"
+	},
+	{
+		"displayText": "PNQueryMsg",
+		"type": "struct",
+		"description": "PNQueryMsg structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4897"
+	},
+	{
+		"displayText": "PopupMenuIFace",
+		"type": "struct",
+		"description": "PopupMenuIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4909"
+	},
+	{
+		"displayText": "PopupMenuPrefs",
+		"type": "struct",
+		"description": "PopupMenuPrefs structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4928"
+	},
+	{
+		"displayText": "PotgoIFace",
+		"type": "struct",
+		"description": "PotgoIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4963"
+	},
+	{
+		"displayText": "PrefsObjectsIFace",
+		"type": "struct",
+		"description": "PrefsObjectsIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L4978"
+	},
+	{
+		"displayText": "PRIVATE_ExamineDirContext",
+		"type": "struct",
+		"description": "PRIVATE_ExamineDirContext structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5015"
+	},
+	{
+		"displayText": "PseudoSegList",
+		"type": "struct",
+		"description": "PseudoSegList structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5039"
+	},
+	{
+		"displayText": "radeon_dev_t",
+		"type": "struct",
+		"description": "radeon_dev_t structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5053"
+	},
+	{
+		"displayText": "RadeonCPRes",
+		"type": "struct",
+		"description": "RadeonCPRes structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5063"
+	},
+	{
+		"displayText": "RadioButtonIFace",
+		"type": "struct",
+		"description": "RadioButtonIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5088"
+	},
+	{
+		"displayText": "RamdriveIFace",
+		"type": "struct",
+		"description": "RamdriveIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5108"
+	},
+	{
+		"displayText": "RandomState",
+		"type": "struct",
+		"description": "RandomState structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5122"
+	},
+	{
+		"displayText": "RastPortExtra",
+		"type": "struct",
+		"description": "RastPortExtra structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5130"
+	},
+	{
+		"displayText": "RealTimeIFace",
+		"type": "struct",
+		"description": "RealTimeIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5139"
+	},
+	{
+		"displayText": "RecordLock32",
+		"type": "struct",
+		"description": "RecordLock32 structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5164"
+	},
+	{
+		"displayText": "RenderInfo",
+		"type": "struct",
+		"description": "RenderInfo structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5174"
+	},
+	{
+		"displayText": "RenderMsg",
+		"type": "struct",
+		"description": "RenderMsg structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5184"
+	},
+	{
+		"displayText": "RequesterIFace",
+		"type": "struct",
+		"description": "RequesterIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5198"
+	},
+	{
+		"displayText": "ResourceIFace",
+		"type": "struct",
+		"description": "ResourceIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5211"
+	},
+	{
+		"displayText": "RexxSysIFace",
+		"type": "struct",
+		"description": "RexxSysIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5233"
+	},
+	{
+		"displayText": "S2LogMessage",
+		"type": "struct",
+		"description": "S2LogMessage structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5326"
+	},
+	{
+		"displayText": "Sana2Connection",
+		"type": "struct",
+		"description": "Sana2Connection structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5336"
+	},
+	{
+		"displayText": "Sana2ConnectionMessage",
+		"type": "struct",
+		"description": "Sana2ConnectionMessage structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5349"
+	},
+	{
+		"displayText": "Sana2ConnectionOption",
+		"type": "struct",
+		"description": "Sana2ConnectionOption structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5359"
+	},
+	{
+		"displayText": "SANA2CopyHookMsg",
+		"type": "struct",
+		"description": "SANA2CopyHookMsg structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5368"
+	},
+	{
+		"displayText": "Sana2DeviceQuery",
+		"type": "struct",
+		"description": "Sana2DeviceQuery structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5380"
+	},
+	{
+		"displayText": "Sana2DeviceStats",
+		"type": "struct",
+		"description": "Sana2DeviceStats structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5404"
+	},
+	{
+		"displayText": "Sana2ExtDeviceStats",
+		"type": "struct",
+		"description": "Sana2ExtDeviceStats structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5418"
+	},
+	{
+		"displayText": "Sana2Hook",
+		"type": "struct",
+		"description": "Sana2Hook structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5438"
+	},
+	{
+		"displayText": "SANA2HookMsg",
+		"type": "struct",
+		"description": "SANA2HookMsg structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5446"
+	},
+	{
+		"displayText": "SANA2LogHookMsg",
+		"type": "struct",
+		"description": "SANA2LogHookMsg structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5454"
+	},
+	{
+		"displayText": "Sana2PacketTypeStats",
+		"type": "struct",
+		"description": "Sana2PacketTypeStats structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5466"
+	},
+	{
+		"displayText": "Sana2SpecialStatHeader",
+		"type": "struct",
+		"description": "Sana2SpecialStatHeader structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5477"
+	},
+	{
+		"displayText": "Sana2SpecialStatRecord",
+		"type": "struct",
+		"description": "Sana2SpecialStatRecord structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5486"
+	},
+	{
+		"displayText": "Sana2ThroughputStats",
+		"type": "struct",
+		"description": "Sana2ThroughputStats structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5495"
+	},
+	{
+		"displayText": "sbSetNodeAttrs",
+		"type": "struct",
+		"description": "sbSetNodeAttrs structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5512"
+	},
+	{
+		"displayText": "ScanVarsMsg",
+		"type": "struct",
+		"description": "ScanVarsMsg structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5523"
+	},
+	{
+		"displayText": "ScreenBlankerIFace",
+		"type": "struct",
+		"description": "ScreenBlankerIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5536"
+	},
+	{
+		"displayText": "ScreenBlankerNotificationTask",
+		"type": "struct",
+		"description": "ScreenBlankerNotificationTask structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5556"
+	},
+	{
+		"displayText": "ScreenDefinition",
+		"type": "struct",
+		"description": "ScreenDefinition structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5564"
+	},
+	{
+		"displayText": "ScreenNotifyMessage",
+		"type": "struct",
+		"description": "ScreenNotifyMessage structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5588"
+	},
+	{
+		"displayText": "ScreensPrefs",
+		"type": "struct",
+		"description": "ScreensPrefs structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5607"
+	},
+	{
+		"displayText": "ScrollerIFace",
+		"type": "struct",
+		"description": "ScrollerIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5616"
+	},
+	{
+		"displayText": "ScrollHook",
+		"type": "struct",
+		"description": "ScrollHook structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5629"
+	},
+	{
+		"displayText": "ScrollMsg",
+		"type": "struct",
+		"description": "ScrollMsg structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5645"
+	},
+	{
+		"displayText": "SearchCmdPathListMsg",
+		"type": "struct",
+		"description": "SearchCmdPathListMsg structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5657"
+	},
+	{
+		"displayText": "ShapeHookMsg",
+		"type": "struct",
+		"description": "ShapeHookMsg structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5666"
+	},
+	{
+		"displayText": "SizedBuffer",
+		"type": "struct",
+		"description": "SizedBuffer structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5677"
+	},
+	{
+		"displayText": "SketchBoardIFace",
+		"type": "struct",
+		"description": "SketchBoardIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5685"
+	},
+	{
+		"displayText": "SkipList",
+		"type": "struct",
+		"description": "SkipList structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5698"
+	},
+	{
+		"displayText": "SkipNode",
+		"type": "struct",
+		"description": "SkipNode structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5705"
+	},
+	{
+		"displayText": "SliderIFace",
+		"type": "struct",
+		"description": "SliderIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5713"
+	},
+	{
+		"displayText": "SNMMessage",
+		"type": "struct",
+		"description": "SNMMessage structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5726"
+	},
+	{
+		"displayText": "SpaceIFace",
+		"type": "struct",
+		"description": "SpaceIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5737"
+	},
+	{
+		"displayText": "SpeedBarIFace",
+		"type": "struct",
+		"description": "SpeedBarIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5750"
+	},
+	{
+		"displayText": "spGeneral",
+		"type": "struct",
+		"description": "spGeneral structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5770"
+	},
+	{
+		"displayText": "SplayNode",
+		"type": "struct",
+		"description": "SplayNode structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5778"
+	},
+	{
+		"displayText": "SplayTree",
+		"type": "struct",
+		"description": "SplayTree structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5785"
+	},
+	{
+		"displayText": "spScrollRaster",
+		"type": "struct",
+		"description": "spScrollRaster structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5792"
+	},
+	{
+		"displayText": "StackFrameMsg",
+		"type": "struct",
+		"description": "StackFrameMsg structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5802"
+	},
+	{
+		"displayText": "StandardPacket64",
+		"type": "struct",
+		"description": "StandardPacket64 structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5812"
+	},
+	{
+		"displayText": "StringIFace",
+		"type": "struct",
+		"description": "StringIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5820"
+	},
+	{
+		"displayText": "SubStyle",
+		"type": "struct",
+		"description": "SubStyle structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5833"
+	},
+	{
+		"displayText": "SymbolMsg",
+		"type": "struct",
+		"description": "SymbolMsg structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5842"
+	},
+	{
+		"displayText": "SysIPlugin",
+		"type": "struct",
+		"description": "SysIPlugin structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5851"
+	},
+	{
+		"displayText": "TBGadgetData",
+		"type": "struct",
+		"description": "TBGadgetData structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5870"
+	},
+	{
+		"displayText": "TextClipIFace",
+		"type": "struct",
+		"description": "TextClipIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5884"
+	},
+	{
+		"displayText": "TextEditorIFace",
+		"type": "struct",
+		"description": "TextEditorIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5899"
+	},
+	{
+		"displayText": "TimePrefs",
+		"type": "struct",
+		"description": "TimePrefs structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5912"
+	},
+	{
+		"displayText": "TimeRequest",
+		"type": "struct",
+		"description": "TimeRequest structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5923"
+	},
+	{
+		"displayText": "TimerIFace",
+		"type": "struct",
+		"description": "TimerIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5931"
+	},
+	{
+		"displayText": "TimesyncIFace",
+		"type": "struct",
+		"description": "TimesyncIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5950"
+	},
+	{
+		"displayText": "TimeVal",
+		"type": "struct",
+		"description": "TimeVal structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5964"
+	},
+	{
+		"displayText": "TimezoneIFace",
+		"type": "struct",
+		"description": "TimezoneIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5972"
+	},
+	{
+		"displayText": "TimezonePrefs",
+		"type": "struct",
+		"description": "TimezonePrefs structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L5990"
+	},
+	{
+		"displayText": "Trackable",
+		"type": "struct",
+		"description": "Trackable structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6003"
+	},
+	{
+		"displayText": "Transaction",
+		"type": "struct",
+		"description": "Transaction structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6014"
+	},
+	{
+		"displayText": "TrueColorInfo",
+		"type": "struct",
+		"description": "TrueColorInfo structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6039"
+	},
+	{
+		"displayText": "USBBusCfgDsc",
+		"type": "struct",
+		"description": "USBBusCfgDsc structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6047"
+	},
+	{
+		"displayText": "USBBusDevDsc",
+		"type": "struct",
+		"description": "USBBusDevDsc structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6062"
+	},
+	{
+		"displayText": "USBBusDscHead",
+		"type": "struct",
+		"description": "USBBusDscHead structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6087"
+	},
+	{
+		"displayText": "USBBusEPDsc",
+		"type": "struct",
+		"description": "USBBusEPDsc structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6095"
+	},
+	{
+		"displayText": "USBBusHubDsc",
+		"type": "struct",
+		"description": "USBBusHubDsc structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6108"
+	},
+	{
+		"displayText": "USBBusHubPortStatus",
+		"type": "struct",
+		"description": "USBBusHubPortStatus structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6123"
+	},
+	{
+		"displayText": "USBBusHubStatus",
+		"type": "struct",
+		"description": "USBBusHubStatus structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6131"
+	},
+	{
+		"displayText": "USBBusIntDsc",
+		"type": "struct",
+		"description": "USBBusIntDsc structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6139"
+	},
+	{
+		"displayText": "USBBusSetupData",
+		"type": "struct",
+		"description": "USBBusSetupData structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6156"
+	},
+	{
+		"displayText": "UsbEndPoint",
+		"type": "struct",
+		"description": "UsbEndPoint structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6167"
+	},
+	{
+		"displayText": "USBFDIFace",
+		"type": "struct",
+		"description": "USBFDIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6174"
+	},
+	{
+		"displayText": "USBFDStartupMsg",
+		"type": "struct",
+		"description": "USBFDStartupMsg structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6190"
+	},
+	{
+		"displayText": "UsbFunction",
+		"type": "struct",
+		"description": "UsbFunction structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6217"
+	},
+	{
+		"displayText": "USBHCDIFace",
+		"type": "struct",
+		"description": "USBHCDIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6224"
+	},
+	{
+		"displayText": "USBHCDQuery",
+		"type": "struct",
+		"description": "USBHCDQuery structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6247"
+	},
+	{
+		"displayText": "UsbInterface",
+		"type": "struct",
+		"description": "UsbInterface structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6259"
+	},
+	{
+		"displayText": "USBIOReq",
+		"type": "struct",
+		"description": "USBIOReq structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6266"
+	},
+	{
+		"displayText": "USBIOReqHCD",
+		"type": "struct",
+		"description": "USBIOReqHCD structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6293"
+	},
+	{
+		"displayText": "USBNotifyMsg",
+		"type": "struct",
+		"description": "USBNotifyMsg structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6328"
+	},
+	{
+		"displayText": "UsbRawFunction",
+		"type": "struct",
+		"description": "UsbRawFunction structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6338"
+	},
+	{
+		"displayText": "UsbRawInterface",
+		"type": "struct",
+		"description": "UsbRawInterface structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6345"
+	},
+	{
+		"displayText": "USBResourceIFace",
+		"type": "struct",
+		"description": "USBResourceIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6352"
+	},
+	{
+		"displayText": "USBSysIFace",
+		"type": "struct",
+		"description": "USBSysIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6384"
+	},
+	{
+		"displayText": "UserInfo",
+		"type": "struct",
+		"description": "UserInfo structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6458"
+	},
+	{
+		"displayText": "UtilityIFace",
+		"type": "struct",
+		"description": "UtilityIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6468"
+	},
+	{
+		"displayText": "Vector",
+		"type": "struct",
+		"description": "Vector structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6541"
+	},
+	{
+		"displayText": "VectorInfo",
+		"type": "struct",
+		"description": "VectorInfo structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6553"
+	},
+	{
+		"displayText": "VirtualIFace",
+		"type": "struct",
+		"description": "VirtualIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6565"
+	},
+	{
+		"displayText": "VolumeNode",
+		"type": "struct",
+		"description": "VolumeNode structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6580"
+	},
+	{
+		"displayText": "Warp3DIFace",
+		"type": "struct",
+		"description": "Warp3DIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6597"
+	},
+	{
+		"displayText": "WindowIFace",
+		"type": "struct",
+		"description": "WindowIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6704"
+	},
+	{
+		"displayText": "wmActivateGadget",
+		"type": "struct",
+		"description": "wmActivateGadget structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6720"
+	},
+	{
+		"displayText": "wmSnapshot",
+		"type": "struct",
+		"description": "wmSnapshot structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6728"
+	},
+	{
+		"displayText": "WordColorEntry",
+		"type": "struct",
+		"description": "WordColorEntry structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6736"
+	},
+	{
+		"displayText": "WorkbenchIFace",
+		"type": "struct",
+		"description": "WorkbenchIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6743"
+	},
+	{
+		"displayText": "WorkbenchPreviewCachePrefs",
+		"type": "struct",
+		"description": "WorkbenchPreviewCachePrefs structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6785"
+	},
+	{
+		"displayText": "WorkbenchTitleFormatPrefs",
+		"type": "struct",
+		"description": "WorkbenchTitleFormatPrefs structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6792"
+	},
+	{
+		"displayText": "XenaIFace",
+		"type": "struct",
+		"description": "XenaIFace structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6799"
+	},
+	{
+		"displayText": "YUVRenderInfo",
+		"type": "struct",
+		"description": "YUVRenderInfo structure. (v50)",
+		"descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/master/structs/OS4_Structs.h#L6813"
 	}
