@@ -1,4 +1,44 @@
 	{
+		"displayText": "gfRequestFile(obj, win)",
+		"snippet": "gfRequestFile(${1:struct Object *obj}, ${2:struct Window *win})${3:}",
+		"type": "function",
+		"leftLabel": "ULONG",
+		"description": "Opens a file requester.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0610.html#line116"
+	},
+	{
+		"displayText": "gfRequestDir(obj, win)",
+		"snippet": "gfRequestDir(${1:struct Object *obj}, ${2:struct Window *win})${3:}",
+		"type": "function",
+		"leftLabel": "ULONG",
+		"description": "Opens a dir requester.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0610.html#line116"
+	},
+	{
+		"displayText": "gfFreeFilelist(obj, list)",
+		"snippet": "gfFreeFilelist(${1:struct Object *obj}, ${2:struct List *list})${3:}",
+		"type": "function",
+		"leftLabel": "ULONG",
+		"description": "Free the list of struct Node structures.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0610.html#line126"
+	},
+	{
+		"displayText": "gfRequestFont(obj, win)",
+		"snippet": "gfRequestFont(${1:struct Object *obj}, ${2:struct Window *win})${3:}",
+		"type": "function",
+		"leftLabel": "ULONG",
+		"description": "Opens a font requester.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0611.html#line106"
+	},
+	{
+		"displayText": "RequestScreenMode(obj, win)",
+		"snippet": "RequestScreenMode(${1:struct Object *obj}, ${2:struct Window *win})${3:}",
+		"type": "function",
+		"leftLabel": "ULONG",
+		"description": "Opens a screen mode requester.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0616.html#line123"
+	},
+	{
 		"displayText": "ClassActPrefs",
 		"type": "struct",
 		"description": "Reaction UIPrefs structure.",

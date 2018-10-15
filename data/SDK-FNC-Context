@@ -1,0 +1,1875 @@
+	{
+		"name": ["ActivateCxObj", "GT_EndRefresh", "CardResetRemove", "EndRefresh", "EndUpdate", "FreeRemember", "GetNVList"],
+	  "arguments": [
+	    {
+	      "num": ["2"],
+	      "type": "bool",
+	      "suggestions": ["TRUE", "FALSE"]
+	    }
+	  ]
+	},
+	{
+		"name": ["AddBootNode", "AddDosNode"],
+	  "arguments": [
+	    {
+	      "num": ["2"],
+	      "type": "flag",
+	      "suggestions": ["ADNB_STARTPROC", "ADNF_STARTPROC"]
+	    }
+	  ]
+	},
+	{
+		"name": ["Alert"],
+	  "arguments": [
+	    {
+	      "num": ["1"],
+	      "type": "macro",
+	      "suggestions": ["ACPU_BusErr", "ACPU_AddressErr", "ACPU_InstErr", "ACPU_DivZero", "ACPU_CHK", "ACPU_TRAPV", "ACPU_PrivErr", "ACPU_Trace", "ACPU_LineA", "ACPU_LineF", "ACPU_Format", "ACPU_Spurious", "ACPU_AutoVec1", "ACPU_AutoVec2", "ACPU_AutoVec3", "ACPU_AutoVec4", "ACPU_AutoVec5", "ACPU_AutoVec6", "ACPU_AutoVec7", "AT_DeadEnd", "AT_Recovery", "AG_NoMemory", "AG_MakeLib", "AG_OpenLib", "AG_OpenDev", "AG_OpenRes", "AG_IOError", "AG_NoSignal", "AG_BadParm", "AG_CloseLib", "AG_CloseDev", "AG_ProcCreate", "AO_ExecLib", "AO_GraphicsLib", "AO_LayersLib", "AO_Intuition", "AO_MathLib", "AO_DOSLib", "AO_RAMLib", "AO_IconLib", "AO_ExpansionLib", "AO_DiskfontLib", "AO_UtilityLib", "AO_KeyMapLib", "AO_AudioDev", "AO_ConsoleDev", "AO_GamePortDev", "AO_KeyboardDev", "AO_TrackDiskDev", "AO_TimerDev", "AO_CIARsrc", "AO_DiskRsrc", "AO_MiscRsrc", "AO_BootStrap", "AO_Workbench", "AO_DiskCopy", "AO_GadTools", "AO_Unknown", "AN_ExecLib", "AN_ExcptVect", "AN_BaseChkSum", "AN_LibChkSum", "AN_MemCorrupt", "AN_IntrMem", "AN_InitAPtr", "AN_SemCorrupt", "AN_FreeTwice", "AN_BogusExcpt", "AN_IOUsedTwice", "AN_MemoryInsane", "AN_IOAfterClose", "AN_StackProbe", "AN_BadFreeAddr", "AN_BadSemaphore", "AN_GraphicsLib", "AN_GfxNoMem", "AN_GfxNoMemMspc", "AN_LongFrame", "AN_ShortFrame", "AN_TextTmpRas", "AN_BltBitMap", "AN_RegionMemory", "AN_MakeVPort", "AN_GfxNewError", "AN_GfxFreeError", "AN_GfxNoLCM", "AN_ObsoleteFont", "AN_LayersLib", "AN_LayersNoMem", "AN_Intuition", "AN_GadgetType", "AN_BadGadget", "AN_CreatePort", "AN_ItemAlloc", "AN_SubAlloc", "AN_PlaneAlloc", "AN_ItemBoxTop", "AN_OpenScreen", "AN_OpenScrnRast", "AN_SysScrnType", "AN_AddSWGadget", "AN_OpenWindow", "AN_BadState", "AN_BadMessage", "AN_WeirdEcho", "AN_NoConsole", "AN_NoISem", "AN_ISemOrder", "AN_MathLib", "AN_DOSLib", "AN_StartMem", "AN_EndTask", "AN_QPktFail", "AN_AsyncPkt", "AN_FreeVec", "AN_DiskBlkSeq", "AN_BitMap", "AN_KeyFree", "AN_BadChkSum", "AN_DiskError", "AN_KeyRange", "AN_BadOverlay", "AN_BadInitFunc", "AN_FileReclosed", "AN_RAMLib", "AN_BadSegList", "AN_IconLib", "AN_ExpansionLib", "AN_BadExpansionFree", "AN_DiskfontLib", "AN_AudioDev", "AN_ConsoleDev", "AN_NoWindow", "AN_GamePortDev", "AN_KeyboardDev", "AN_TrackDiskDev", "AN_TDCalibSeek", "AN_TDDelay", "AN_TimerDev", "AN_TMBadReq", "AN_TMBadSupply", "AN_CIARsrc", "AN_DiskRsrc", "AN_DRHasDisk", "AN_DRIntNoAct", "AN_MiscRsrc", "AN_BootStrap", "AN_BootError", "AN_Workbench", "AN_NoFonts", "AN_WBBadStartupMsg1", "AN_WBBadStartupMsg2", "AN_WBBadIOMsg", "AN_WBReLayoutToolMenu", "AN_DiskCopy", "AN_GadTools", "AN_UtilityLib", "AN_Unknown"]
+	    }
+	  ]
+	},
+	{
+		"name": ["AllocAslRequest"],
+	  "arguments": [
+	    {
+	      "num": ["1"],
+	      "type": "macro",
+	      "suggestions": ["ASL_FileRequest", "ASL_FontRequest", "ASL_ScreenModeRequest"]
+	    }
+	  ]
+	},
+	{
+		"name": ["AllocBitMap"],
+	  "arguments": [
+	    {
+	      "num": ["4"],
+	      "type": "flag",
+	      "suggestions": ["BMF_CLEAR", "BMF_DISPLAYABLE", "BMF_INTERLEAVED", "BMF_STANDARD", "BMF_MINPLANES"]
+	    }
+	  ]
+	},
+	{
+		"name": ["AllocDosObject", "FreeDosObject"],
+	  "arguments": [
+	    {
+	      "num": ["1"],
+	      "type": "macro",
+	      "suggestions": ["DOS_FILEHANDLE", "DOS_EXALLCONTROL", "DOS_FIB", "DOS_STDPKT", "DOS_CLI", "DOS_RDARGS"]
+	    }
+	  ]
+	},
+	{
+		"name": ["AllocLocalItem"],
+	  "arguments": [
+	    {
+	      "num": ["1", "2"],
+	      "type": "id",
+	      "suggestions": ["ID_8SVX", "ID_AHIG", "ID_AHIM", "ID_AHIU", "ID_ANHD", "ID_ANIM", "ID_ASL", "ID_AUDD", "ID_AUDM", "ID_AUDN", "ID_BMHD", "ID_BODY", "ID_CAMG", "ID_CAT", "ID_CHAN", "ID_CHRS", "ID_CMAP", "ID_CODE", "ID_CRNG", "ID_CTRY", "ID_DEST", "ID_DLTA", "ID_DTHD", "ID_DTYP", "ID_FONT", "ID_FORM", "ID_FTXT", "ID_GRAB", "ID_ICTL", "ID_ILBM", "ID_INPT", "ID_LCLE", "ID_LIST", "ID_NAME", "ID_NULL", "ID_OSCN", "ID_PALT", "ID_PDEV", "ID_PGFX", "ID_PNTR", "ID_PREF", "ID_PRHD", "ID_PROP", "ID_PSPD", "ID_PTRN", "ID_PTXT", "ID_PUNT", "ID_RACT", "ID_SCRM", "ID_SERL", "ID_SOND", "ID_SPRT", "ID_TAGS", "ID_TOOL", "ID_VHDR", "ID_WBHD", "ID_WBNC"]
+	    }
+	  ]
+	},
+	{
+		"name": ["AllocMem", "AllocVec"],
+	  "arguments": [
+	    {
+	      "num": ["2"],
+	      "type": "flag",
+	      "suggestions": ["MEMF_ANY", "MEMF_PUBLIC", "MEMF_CHIP", "MEMF_FAST", "MEMF_LOCAL", "MEMF_24BITDMA", "MEMF_KICK", "MEMF_CLEAR", "MEMF_REVERSE", "MEMF_NO_EXPUNGE"]
+	    }
+	  ]
+	},
+	{
+		"name": ["AllocMiscResource"],
+	  "arguments": [
+	    {
+	      "num": ["1"],
+	      "type": "macro",
+	      "suggestions": ["MR_SERIALPORT", "MR_SERIALBITS", "MR_PARALLELPORT", "MR_PARALLELBITS"]
+	    }
+	  ]
+	},
+	{
+		"name": ["AllocNamedObject"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["ANO_NameSpace", "BOOL", "ANO_UserSpace", "ULONG", "ANO_Priority", "BYTE", "ANO_Flags", "ULONG", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["ANO_Flags"],
+	          "type": "flag",
+	          "suggestions": ["NSF_NODUPS", "NSF_CASE"]
+	        }
+	      ]
+	    }
+	  ]
+	},
+	{
+		"name": ["AllocRadioButtonNode", "GetRadioButtonNodeAttrs", "SetRadioButtonNodeAttrs"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["RBNA_Labels", "STRPTR", "RBNA_UserData", "APTR", "TAG_END"]
+	    }
+	  ]
+	},
+	{
+		"name": ["AllocRemember"],
+	  "arguments": [
+	    {
+	      "num": ["3"],
+	      "type": "flag",
+	      "suggestions": ["MEMF_ANY", "MEMF_PUBLIC", "MEMF_CHIP", "MEMF_FAST", "MEMF_LOCAL", "MEMF_24BITDMA", "MEMF_KICK", "MEMF_CLEAR", "MEMF_REVERSE", "MEMF_NO_EXPUNGE"]
+	    }
+	  ]
+	},
+	{
+		"name": ["AllocScreenBuffer"],
+	  "arguments": [
+	    {
+	      "num": ["3"],
+	      "type": "flag",
+	      "suggestions": ["SB_SCREEN_BITMAP", "SB_COPY_BITMAP"]
+	    }
+	  ]
+	},
+	{
+		"name": ["AllocSpeedButtonNode", "SetSpeedButtonNodeAttrs"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["SBNA_Left", "WORD", "SBNA_Top", "WORD", "SBNA_Width", "WORD", "SBNA_Height", "WORD", "SBNA_UserData", "APTR", "SBNA_Enabled", "BOOL", "SBNA_Spacing", "WORD", "SBNA_Highlight", "see below", "SBNA_Image", "struct Image*", "SBNA_SelImage", "struct Image*", "SBNA_Help", "UBYTE *", "SBNA_Toggle", "BOOL", "SBNA_Selected", "BOOL", "SBNA_MXGroup", "BOOL", "SBNA_Disabled", "BOOL", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["SBNA_Highlight"],
+	          "type": "flag",
+	          "suggestions": ["SBH_NONE", "SBH_BACKFILL", "SBH_RECESS", "SBH_IMAGE"]
+	        },
+	        {
+	          "tag": ["SBNA_Enabled", "SBNA_Toggle", "SBNA_Selected", "SBNA_MXGroup", "SBNA_Disabled"],
+	          "type": "bool",
+	          "suggestions": ["TRUE", "FALSE"]
+	        }
+	      ]
+	    }
+	  ]
+	},
+	{
+		"name": ["AllocSpriteData"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["SPRITEA_Width", "UBYTE", "SPRITEA_XReplication", "BYTE", "SPRITEA_YReplication", "BYTE", "SPRITEA_OutputHeight", "ULONG", "SPRITEA_Attached", "BOOL", "SPRITEA_OldDataFormat", "BOOL", "TAG_END"]
+	    }
+	  ]
+	},
+	{
+		"name": ["AttemptLockDosList", "LockDosList", "UnLockDosList"],
+	  "arguments": [
+	    {
+	      "num": ["1"],
+	      "type": "flag",
+	      "suggestions": ["LDF_DEVICES", "LDF_VOLUMES", "LDF_ASSIGNS", "LDF_ENTRY", "LDF_DELETE", "LDF_READ", "LDF_WRITE", "LDF_ALL"]
+	    }
+	  ]
+	},
+	{
+		"name": ["AutoRequest"],
+	  "arguments": [
+	    {
+	      "num": ["5", "6"],
+	      "type": "flag",
+	      "suggestions": ["IDCMP_SIZEVERIFY", "IDCMP_NEWSIZE", "IDCMP_REFRESHWINDOW", "IDCMP_MOUSEBUTTONS", "IDCMP_MOUSEMOVE", "IDCMP_GADGETDOWN", "IDCMP_GADGETUP", "IDCMP_REQSET", "IDCMP_MENUPICK", "IDCMP_CLOSEWINDOW", "IDCMP_RAWKEY", "IDCMP_REQVERIFY", "IDCMP_REQCLEAR", "IDCMP_MENUVERIFY", "IDCMP_NEWPREFS", "IDCMP_DISKINSERTED", "IDCMP_DISKREMOVED", "IDCMP_WBENCHMESSAGE", "IDCMP_ACTIVEWINDOW", "IDCMP_INACTIVEWINDOW", "IDCMP_DELTAMOVE", "IDCMP_VANILLAKEY", "IDCMP_INTUITICKS", "IDCMP_IDCMPUPDATE", "IDCMP_MENUHELP", "IDCMP_CHANGEWINDOW", "IDCMP_GADGETHELP"]
+	    }
+	  ]
+	},
+	{
+		"name": ["AvailFonts"],
+	  "arguments": [
+	    {
+	      "num": ["3"],
+	      "type": "flag",
+	      "suggestions": ["AFF_MEMORY", "AFF_DISK", "AFF_SCALED", "AFF_BITMAP", "AFF_TAGGED"]
+	    }
+	  ]
+	},
+	{
+		"name": ["AvailMem"],
+	  "arguments": [
+	    {
+	      "num": ["1"],
+	      "type": "flag",
+	      "suggestions": ["MEMF_ANY", "MEMF_PUBLIC", "MEMF_CHIP", "MEMF_FAST", "MEMF_LOCAL", "MEMF_24BITDMA", "MEMF_KICK", "MEMF_LARGEST", "MEMF_TOTAL"]
+	    }
+	  ]
+	},
+	{
+		"name": ["BestModeID"],
+		"tagStrt": "1",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["BIDTAG_DIPFMustHave", "ULONG", "BIDTAG_DIPFMustNotHave", "ULONG", "BIDTAG_ViewPort", "struct ViewPort*", "BIDTAG_NominalWidth", "UWORD", "BIDTAG_NominalHeight", "UWORD", "BIDTAG_DesiredWidth", "UWORD", "BIDTAG_DesiredHeight", "UWORD", "BIDTAG_Depth", "UBYTE", "BIDTAG_MonitorID", "ULONG", "BIDTAG_SourceID", "ULONG", "BIDTAG_RedBits", "UBYTE", "BIDTAG_BlueBits", "UBYTE", "BIDTAG_GreenBits", "UBYTE", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["BIDTAG_DIPFMustHave", "BIDTAG_DIPFMustNotHave"],
+	          "type": "flag",
+	          "suggestions": ["DIPF_IS_LACE", "DIPF_IS_DUALPF", "DIPF_IS_PF2PRI", "DIPF_IS_HAM", "DIPF_IS_ECS", "DIPF_IS_AA", "DIPF_IS_PAL", "DIPF_IS_SPRITES", "DIPF_IS_GENLOCK", "DIPF_IS_WB", "DIPF_IS_DRAGGABLE", "DIPF_IS_PANELLED", "DIPF_IS_BEAMSYNC", "DIPF_IS_EXTRAHALFBRITE", "DIPF_IS_SPRITES_ATT", "DIPF_IS_SPRITES_CHNG_RES", "DIPF_IS_SPRITES_BORDER", "DIPF_IS_SCANDBL", "DIPF_IS_SPRITES_CHNG_BASE", "DIPF_IS_SPRITES_CHNG_PRI", "DIPF_IS_DBUFFER", "DIPF_IS_PROGBEAM", "DIPF_IS_FOREIGN", "SPECIAL_FLAGS"]
+	        }
+	      ]
+	    }
+	  ]
+	},
+	{
+		"name": ["BuildSysRequest"],
+	  "arguments": [
+	    {
+	      "num": ["5"],
+	      "type": "flag",
+	      "suggestions": ["IDCMP_SIZEVERIFY", "IDCMP_NEWSIZE", "IDCMP_REFRESHWINDOW", "IDCMP_MOUSEBUTTONS", "IDCMP_MOUSEMOVE", "IDCMP_GADGETDOWN", "IDCMP_GADGETUP", "IDCMP_REQSET", "IDCMP_MENUPICK", "IDCMP_CLOSEWINDOW", "IDCMP_RAWKEY", "IDCMP_REQVERIFY", "IDCMP_REQCLEAR", "IDCMP_MENUVERIFY", "IDCMP_NEWPREFS", "IDCMP_DISKINSERTED", "IDCMP_DISKREMOVED", "IDCMP_WBENCHMESSAGE", "IDCMP_ACTIVEWINDOW", "IDCMP_INACTIVEWINDOW", "IDCMP_DELTAMOVE", "IDCMP_VANILLAKEY", "IDCMP_INTUITICKS", "IDCMP_IDCMPUPDATE", "IDCMP_MENUHELP", "IDCMP_CHANGEWINDOW", "IDCMP_GADGETHELP"]
+	    }
+	  ]
+	},
+	{
+		"name": ["CacheClearE"],
+	  "arguments": [
+	    {
+	      "num": ["3"],
+	      "type": "flag",
+	      "suggestions": ["CACRF_ClearI", "CACRF_ClearD"]
+	    }
+	  ]
+	},
+	{
+		"name": ["CachePostDMA"],
+	  "arguments": [
+	    {
+	      "num": ["3"],
+	      "type": "flag",
+	      "suggestions": ["DMA_NoModify", "DMA_ReadFromRAM"]
+	    }
+	  ]
+	},
+	{
+		"name": ["CachePreDMA"],
+	  "arguments": [
+	    {
+	      "num": ["3"],
+	      "type": "flag",
+	      "suggestions": ["DMA_Continue", "DMA_ReadFromRAM"]
+	    }
+	  ]
+	},
+	{
+		"name": ["CardMiscControl"],
+	  "arguments": [
+	    {
+	      "num": ["2"],
+	      "type": "flag",
+	      "suggestions": ["CARD_ENABLEF_DIGAUDIO", "CARD_DISABLEF_WP", "CARD_INTF_SETCLR", "CARD_INTF_BVD1", "CARD_INTF_SC", "CARD_INTF_BVD2", "CARD_INTF_DA", "CARD_INTF_BSY", "CARD_INTF_IRQ"]
+	    }
+	  ]
+	},
+	{
+		"name": ["CardProgramVoltage"],
+	  "arguments": [
+	    {
+	      "num": ["2"],
+	      "type": "macro",
+	      "suggestions": ["CARD_VOLTAGE_0V", "CARD_VOLTAGE_5V", "CARD_VOLTAGE_12V"]
+	    }
+	  ]
+	},
+	{
+		"name": ["ChangeExtSprite"],
+		"tagStrt": "4",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["GSTAG_SCANDOUBLED", "BOOL", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["GSTAG_SCANDOUBLED"],
+	          "type": "flag",
+	          "suggestions": ["TRUE", "FALSE"]
+	        }
+	      ]
+	    }
+	  ]
+	},
+	{
+		"name": ["ChangeMode"],
+	  "arguments": [
+	    {
+	      "num": ["1"],
+	      "type": "macro",
+	      "suggestions": ["CHANGE_FH", "CHANGE_LOCK"]
+	    },
+	    {
+	      "num": ["3"],
+	      "first": "CHANGE_FH",
+	      "type": "macro",
+	      "suggestions": ["MODE_OLDFILE", "MODE_NEWFILE", "MODE_READWRITE"]
+	    },
+	    {
+	      "num": ["3"],
+	      "first": "CHANGE_LOCK",
+	      "type": "macro",
+	      "suggestions": ["SHARED_LOCK", "EXCLUSIVE_LOCK"]
+	    }
+	  ]
+	},
+	{
+		"name": ["CoerceMode"],
+	  "arguments": [
+	    {
+	      "num": ["2"],
+	      "type": "macro",
+	      "suggestions": ["DEFAULT_MONITOR_ID", "NTSC_MONITOR_ID", "PAL_MONITOR_ID", "VGA_MONITOR_ID", "A2024_MONITOR_ID", "EURO72_MONITOR_ID", "EURO36_MONITOR_ID", "SUPER72_MONITOR_ID", "DBLNTSC_MONITOR_ID", "DBLPAL_MONITOR_ID", "MONITOR_ID_MASK"]
+	    },
+	    {
+	      "num": ["3"],
+	      "type": "flag",
+	      "suggestions": ["PRESERVE_COLORS", "AVOID_FLICKER", "IGNORE_MCOMPAT"]
+	    }
+	  ]
+	},
+	{
+		"name": ["CollectionChunk", "EntryHandler", "ExitHandler", "FindCollection", "FindLocalItem", "FindProp", "PropChunk", "PushChunk", "StopChunk", "StopOnExit"],
+	  "arguments": [
+	    {
+	      "num": ["2", "3"],
+	      "type": "id",
+	      "suggestions": ["ID_8SVX", "ID_AHIG", "ID_AHIM", "ID_AHIU", "ID_ANHD", "ID_ANIM", "ID_ASL", "ID_AUDD", "ID_AUDM", "ID_AUDN", "ID_BMHD", "ID_BODY", "ID_CAMG", "ID_CAT", "ID_CHAN", "ID_CHRS", "ID_CMAP", "ID_CODE", "ID_CRNG", "ID_CTRY", "ID_DEST", "ID_DLTA", "ID_DTHD", "ID_DTYP", "ID_FONT", "ID_FORM", "ID_FTXT", "ID_GRAB", "ID_ICTL", "ID_ILBM", "ID_INPT", "ID_LCLE", "ID_LIST", "ID_NAME", "ID_NULL", "ID_OSCN", "ID_PALT", "ID_PDEV", "ID_PGFX", "ID_PNTR", "ID_PREF", "ID_PRHD", "ID_PROP", "ID_PSPD", "ID_PTRN", "ID_PTXT", "ID_PUNT", "ID_RACT", "ID_SCRM", "ID_SERL", "ID_SOND", "ID_SPRT", "ID_TAGS", "ID_TOOL", "ID_VHDR", "ID_WBHD", "ID_WBNC"]
+	    }
+	  ]
+	},
+	{
+		"name": ["CreateBehindHookLayer", "CreateBehindLayer", "CreateUpfrontLayer"],
+	  "arguments": [
+	    {
+	      "num": ["7"],
+	      "type": "flag",
+	      "suggestions": ["LAYERSIMPLE", "LAYERSMART", "LAYERSUPER", "LAYERBACKDROP"]
+	    }
+	  ]
+	},
+	{
+		"name": ["CreateGadget"],
+	  "tagStrt": "4",
+	  "arguments": [
+	    {
+	      "num": ["1"],
+	      "type": "macro",
+	      "suggestions": ["GENERIC_KIND", "BUTTON_KIND", "CHECKBOX_KIND", "INTEGER_KIND", "LISTVIEW_KIND", "MX_KIND", "NUMBER_KIND", "CYCLE_KIND", "PALETTE_KIND", "SCROLLER_KIND", "SLIDER_KIND", "STRING_KIND", "TEXT_KIND"]
+	    },
+	    {
+	      "first": "BUTTON_KIND",
+	      "type": "tag",
+	      "suggestions": ["GA_Disabled", "BOOL", "GA_Immediate", "BOOL", "GT_Underscore", "UBYTE", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["GA_Disabled", "GA_Immediate"],
+	          "type": "bool",
+	          "suggestions": ["TRUE", "FALSE"]
+	        }
+	      ]
+	    },
+	    {
+	      "first": "CHECKBOX_KIND",
+	      "type": "tag",
+	      "suggestions": ["GA_Disabled", "BOOL", "GTCB_Checked", "BOOL", "GTCB_Scaled", "BOOL", "GT_Underscore", "UBYTE", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["GA_Disabled", "GTCB_Checked", "GTCB_Scaled"],
+	          "type": "bool",
+	          "suggestions": ["TRUE", "FALSE"]
+	        }
+	      ]
+	    },
+	    {
+	      "first": "INTEGER_KIND",
+	      "type": "tag",
+	      "suggestions": ["GA_Disabled", "BOOL", "GA_Immediate", "BOOL", "GA_TabCycle", "BOOL", "GTIN_Number", "LONG", "GTIN_MaxChars", "UWORD", "GTIN_EditHook", "struct Hook*", "STRINGA_ExitHelp", "BOOL", "STRINGA_Justification", "ULONG", "STRINGA_ReplaceMode", "BOOL", "GT_Underscore", "UBYTE", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["GA_Disabled", "GA_Immediate", "GA_TabCycle", "STRINGA_ExitHelp", "STRINGA_ReplaceMode"],
+	          "type": "bool",
+	          "suggestions": ["TRUE", "FALSE"]
+	        },
+	        {
+	          "tag": ["STRINGA_Justification"],
+	          "type": "macro",
+	          "suggestions": ["GACT_STRINGLEFT", "GACT_STRINGRIGHT", "GACT_STRINGCENTER"]
+	        }
+	      ]
+	    },
+	    {
+	      "first": "LISTVIEW_KIND",
+	      "type": "tag",
+	      "suggestions": ["GA_Disabled", "BOOL", "GTLV_Top", "WORD", "GTLV_MakeVisible", "WORD", "GTLV_Labels", "struct List*", "GTLV_ReadOnly", "BOOL", "GTLV_ScrollWidth", "UWORD", "GTLV_ShowSelected", "struct Gadget*", "GTLV_Selected", "UWORD", "LAYOUTA_Spacing", "UWORD", "GTLV_ItemHeight", "UWORD", "GTLV_CallBack", "struct Hook*", "GTLV_MaxPen", "UWORD", "GT_Underscore", "UBYTE", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["GA_Disabled", "GTLV_ReadOnly"],
+	          "type": "bool",
+	          "suggestions": ["TRUE", "FALSE"]
+	        }
+	      ]
+	    },
+	    {
+	      "first": "MX_KIND",
+	      "type": "tag",
+	      "suggestions": ["GA_Disabled", "BOOL", "GTMX_Labels", "STRPTR*", "GTMX_Active", "UWORD", "GTMX_Spacing", "UWORD", "GTMX_Scaled", "BOOL", "GTMX_TitlePlace", "ULONG", "GT_Underscore", "UBYTE", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["GA_Disabled", "GTMX_Scaled"],
+	          "type": "bool",
+	          "suggestions": ["TRUE", "FALSE"]
+	        },
+	        {
+	          "tag": ["GTMX_TitlePlace"],
+	          "type": "macro",
+	          "suggestions": ["PLACETEXT_LEFT", "PLACETEXT_RIGHT", "PLACETEXT_ABOVE", "PLACETEXT_BELOW"]
+	        }
+	      ]
+	    },
+	    {
+	      "first": "NUMBER_KIND",
+	      "type": "tag",
+	      "suggestions": ["GTNM_Number", "LONG", "GTNM_Border", "BOOL", "GTNM_FrontPen", "UBYTE", "GTNM_BackPen", "UBYTE", "GTNM_Justification", "UBYTE", "GTNM_Format", "STRPTR", "GTNM_MaxNumberLen", "ULONG", "GTNM_Clipped", "BOOL", "GT_Underscore", "UBYTE", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["GTNM_Border", "GTNM_Clipped"],
+	          "type": "bool",
+	          "suggestions": ["TRUE", "FALSE"]
+	        },
+	        {
+	          "tag": ["GTNM_Justification"],
+	          "type": "macro",
+	          "suggestions": ["GTJ_LEFT", "GTJ_RIGHT", "GTJ_CENTER"]
+	        }
+	      ]
+	    },
+	    {
+	      "first": "CYCLE_KIND",
+	      "type": "tag",
+	      "suggestions": ["GA_Disabled", "BOOL", "GTCY_Labels", "STRPTR*", "GTCY_Active", "UWORD", "GT_Underscore", "UBYTE", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["GA_Disabled"],
+	          "type": "bool",
+	          "suggestions": ["TRUE", "FALSE"]
+	        }
+	      ]
+	    },
+	    {
+	      "first": "PALETTE_KIND",
+	      "type": "tag",
+	      "suggestions": ["GA_Disabled", "BOOL", "GTPA_Depth", "UWORD", "GTPA_Color", "UBYTE", "GTPA_ColorOffset", "UBYTE", "GTPA_IndicatorWidth", "UWORD", "GTPA_IndicatorHeight", "UWORD", "GTPA_ColorTable", "UBYTE*", "GTPA_NumColors", "UWORD", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["GA_Disabled"],
+	          "type": "bool",
+	          "suggestions": ["TRUE", "FALSE"]
+	        }
+	      ]
+	    },
+	    {
+	      "first": "SCROLLER_KIND",
+	      "type": "tag",
+	      "suggestions": ["GA_Disabled", "BOOL", "GA_RelVerify", "BOOL", "GA_Immediate", "BOOL", "GTSC_Top", "WORD", "GTSC_Total", "WORD", "GTSC_Visible", "WORD", "GTSC_Arrows", "UWORD", "PGA_Freedom", "ULONG", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["GA_Disabled", "GA_RelVerify", "GA_Immediate"],
+	          "type": "bool",
+	          "suggestions": ["TRUE", "FALSE"]
+	        },
+	        {
+	          "tag": ["PGA_Freedom"],
+	          "type": "macro",
+	          "suggestions": ["LORIENT_VERT", "LORIENT_HORIZ"]
+	        }
+	      ]
+	    },
+	    {
+	      "first": "SLIDER_KIND",
+	      "type": "tag",
+	      "suggestions": ["GA_Disabled", "BOOL", "GA_RelVerify", "BOOL", "GA_Immediate", "BOOL", "GTSL_Min", "WORD", "GTSL_Max", "WORD", "GTSL_Level", "WORD", "GTSL_MaxLevelLen", "UWORD", "GTSL_LevelFormat", "STRPTR", "GTSL_LevelPlace", "ULONG", "GTSL_DispFunc", "(*function)", "GTSL_MaxPixelLen", "ULONG", "GTSL_Justification", "UBYTE", "PGA_Freedom", "UBYTE", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["GA_Disabled", "GA_RelVerify", "GA_Immediate"],
+	          "type": "bool",
+	          "suggestions": ["TRUE", "FALSE"]
+	        },
+	        {
+	          "tag": ["GTSL_LevelPlace"],
+	          "type": "macro",
+	          "suggestions": ["PLACETEXT_LEFT", "PLACETEXT_RIGHT", "PLACETEXT_ABOVE", "PLACETEXT_BELOW"]
+	        },
+	        {
+	          "tag": ["GTSL_Justification"],
+	          "type": "macro",
+	          "suggestions": ["GTJ_LEFT", "GTJ_RIGHT", "GTJ_CENTER"]
+	        },
+	        {
+	          "tag": ["PGA_Freedom"],
+	          "type": "macro",
+	          "suggestions": ["LORIENT_VERT", "LORIENT_HORIZ"]
+	        }
+	      ]
+	    },
+	    {
+	      "first": "STRING_KIND",
+	      "type": "tag",
+	      "suggestions": ["GA_Disabled", "BOOL", "GA_Immediate", "BOOL", "GA_TabCycle", "BOOL", "GTST_String", "STRPTR", "GTST_MaxChars", "UWORD", "GTST_EditHook", "struct Hook*", "STRINGA_ExitHelp", "BOOL", "STRINGA_Justification", "ULONG", "STRINGA_ReplaceMode", "BOOL", "GT_Underscore", "UBYTE", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["GA_Disabled", "GA_Immediate", "GA_TabCycle", "STRINGA_ExitHelp", "STRINGA_ReplaceMode"],
+	          "type": "bool",
+	          "suggestions": ["TRUE", "FALSE"]
+	        },
+	        {
+	          "tag": ["STRINGA_Justification"],
+	          "type": "macro",
+	          "suggestions": ["GACT_STRINGLEFT", "GACT_STRINGRIGHT", "GACT_STRINGCENTER"]
+	        }
+	      ]
+	    },
+	    {
+	      "first": "TEXT_KIND",
+	      "type": "tag",
+	      "suggestions": ["GTTX_Text", "STRPTR", "GTTX_CopyText", "BOOL", "GTTX_Border", "BOOL", "GTTX_FrontPen", "UBYTE", "GTTX_BackPen", "UBYTE", "GTTX_Justification", "UBYTE", "GTTX_Clipped", "BOOL", "GT_Underscore", "UBYTE", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["GTTX_CopyText", "GTTX_Border", "GTTX_Clipped"],
+	          "type": "bool",
+	          "suggestions": ["TRUE", "FALSE"]
+	        },
+	        {
+	          "tag": ["GTTX_Justification"],
+	          "type": "macro",
+	          "suggestions": ["GTJ_LEFT", "GTJ_RIGHT", "GTJ_CENTER"]
+	        }
+	      ]
+	    }
+	  ]
+	},
+	{
+		"name": ["CreateMenus"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["GTMN_FrontPen", "UBYTE", "GTMN_FullMenu", "BOOL", "GTMN_SecondaryError", "ULONG*", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["GTMN_FullMenu"],
+	          "type": "bool",
+	          "suggestions": ["TRUE", "FALSE"]
+	        }
+	      ]
+	    }
+	  ]
+	},
+	{
+		"name": ["CreateNewProcTags"],
+		"tagStrt": "1",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["NP_Seglist", "APTR", "NP_FreeSeglist", "BOOL", "NP_Entry", "(*function)", "NP_Input", "BPTR", "NP_Output", "BPTR", "NP_CloseInput", "BOOL", "NP_CloseOutput", "BOOL", "NP_Error", "BPTR", "NP_CloseError", "BOOL", "NP_CurrentDir", "BPTR", "NP_StackSize", "ULONG", "NP_Name", "STRPTR", "NP_Priority", "LONG", "NP_ConsoleTask", "struct Task*", "NP_WindowPtr", "struct Window*", "NP_HomeDir", "BPTR", "NP_CopyVars", "BOOL", "NP_Cli", "BOOL", "NP_Path", "BPTR", "NP_CommandName", "STRPTR", "NP_Arguments", "STRPTR", "NP_NotifyOnDeath", "BOOL", "NP_Synchronous", "BOOL", "NP_ExitCode", "APTR", "NP_ExitData", "LONG", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["NP_FreeSeglist", "NP_CloseInput", "NP_CloseOutput", "NP_CloseError", "NP_CopyVars", "NP_Cli", "NP_NotifyOnDeath", "NP_Synchronous"],
+	          "type": "bool",
+	          "suggestions": ["TRUE", "FALSE"]
+	        }
+	      ]
+	    }
+	  ]
+	},
+	{
+		"name": ["CreatePlayer", "SetPlayerAttrs"],
+		"tagStrt": "1",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["PLAYER_Name", "STRPTR", "PLAYER_Hook", "struct Hook*", "PLAYER_Priority", "BYTE", "PLAYER_Conductor", "STRPTR", "PLAYER_Ready", "BOOL", "PLAYER_AlarmTime", "LONG", "PLAYER_Alarm", "BOOL", "PLAYER_AlarmSigTask", "struct Task*", "PLAYER_AlarmSigBit", "BYTE", "PLAYER_Quiet", "BOOL", "PLAYER_UserData", "VOID*", "PLAYER_ID", "UWORD", "PLAYER_Conducted", "BOOL", "PLAYER_ExtSync", "BOOL", "PLAYER_ErrorCode", "LONG*", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["PLAYER_Ready", "PLAYER_Alarm", "PLAYER_Quiet", "PLAYER_Conducted", "PLAYER_ExtSync"],
+	          "type": "bool",
+	          "suggestions": ["TRUE", "FALSE"]
+	        }
+	      ]
+	    }
+	  ]
+	},
+	{
+		"name": ["CreatePool"],
+	  "arguments": [
+	    {
+	      "num": ["1"],
+	      "type": "flag",
+	      "suggestions": ["MEMF_ANY", "MEMF_PUBLIC", "MEMF_CHIP", "MEMF_FAST", "MEMF_LOCAL", "MEMF_24BITDMA", "MEMF_KICK", "MEMF_CLEAR", "MEMF_REVERSE", "MEMF_NO_EXPUNGE"]
+	    }
+	  ]
+	},
+	{
+		"name": ["DeleteNV", "FilterTagChanges", "FindSegment", "FreeGBuffers", "GetCopyNV", "MakeLink", "SetPrefs", "StartTimerInt"],
+	  "arguments": [
+	    {
+	      "num": ["3"],
+	      "type": "bool",
+	      "suggestions": ["TRUE", "FALSE"]
+	    }
+	  ]
+	},
+	{
+		"name": ["DeleteVar"],
+	  "arguments": [
+	    {
+	      "num": ["2"],
+	      "type": "flag",
+	      "suggestions": ["GVF_GLOBAL_ONLY", "GVF_LOCAL_ONLY"]
+	    }
+	  ]
+	},
+	{
+		"name": ["DisplayAlert"],
+	  "arguments": [
+	    {
+	      "num": ["1"],
+	      "type": "macro",
+	      "suggestions": ["RECOVERY_ALERT", "DEADEND_ALERT"]
+	    }
+	  ]
+	},
+	{
+		"name": ["DrawBevelBox"],
+		"tagStrt": "6",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["GTBB_Recessed", "BOOL", "GTBB_FrameType", "ULONG", "GT_VisualInfo", "APTR", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["GTBB_Recessed"],
+	          "type": "bool",
+	          "suggestions": ["TRUE", "FALSE"]
+	        },
+	        {
+	          "tag": ["GTBB_FrameType"],
+	          "type": "macro",
+	          "suggestions": ["BBFT_BUTTON", "BBFT_RIDGE", "BBFT_ICONDROPBOX"]
+	        }
+	      ]
+	    }
+	  ]
+	},
+	{
+		"name": ["DrawIconState", "GetIconRectangle"],
+		"tagStrt": "7",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["ICONDRAWA_DrawInfo", "struct DrawInfo*", "ICONDRAWA_Frameless", "BOOL", "ICONDRAWA_EraseBackground", "BOOL", "ICONDRAWA_Borderless", "BOOL", "ICONDRAWA_IsLink", "BOOL",  "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["ICONDRAWA_Frameless", "ICONDRAWA_EraseBackground", "ICONDRAWA_Borderless", "ICONDRAWA_IsLink"],
+	          "type": "bool",
+	          "suggestions": ["TRUE", "FALSE"]
+	        }
+	      ]
+	    }
+	  ]
+	},
+	{
+		"name": ["DupDiskObject"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["ICONDUPA_DuplicateDrawerData", "BOOL", "ICONDUPA_DuplicateImages", "BOOL", "ICONDUPA_DuplicateImageData", "BOOL", "ICONDUPA_DuplicateDefaultTool", "BOOL", "ICONDUPA_DuplicateToolTypes", "BOOL", "ICONDUPA_DuplicateToolWindow", "BOOL", "ICONDUPA_ActivateImageData", "BOOL", "ICONA_ErrorCode", "LONG*", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["ICONDUPA_DuplicateDrawerData", "ICONDUPA_DuplicateImages", "ICONDUPA_DuplicateImageData", "ICONDUPA_DuplicateDefaultTool", "ICONDUPA_DuplicateToolTypes", "ICONDUPA_DuplicateToolWindow", "ICONDUPA_ActivateImageData"],
+	          "type": "bool",
+	          "suggestions": ["TRUE", "FALSE"]
+	        }
+	      ]
+	    }
+	  ]
+	},
+	{
+		"name": ["ExtendFontTags"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["TA_DeviceDPI", "TAG_END"]
+	    }
+	  ]
+
+	},
+	{
+		"name": ["FilterTagItems"],
+	  "arguments": [
+	    {
+	      "num": ["3"],
+	      "type": "macro",
+	      "suggestions": ["TAGFILTER_AND", "TAGFILTER_NOT"]
+	    }
+	  ]
+	},
+	{
+		"name": ["FindDisplayInfo", "ModeNotAvailable"],
+	  "arguments": [
+	    {
+	      "num": ["1"],
+	      "type": "flag",
+	      "suggestions": ["INVALID_ID", "DEFAULT_MONITOR_ID", "NTSC_MONITOR_ID", "PAL_MONITOR_ID", "VGA_MONITOR_ID", "A2024_MONITOR_ID", "EURO72_MONITOR_ID", "EURO36_MONITOR_ID", "SUPER72_MONITOR_ID", "DBLNTSC_MONITOR_ID", "DBLPAL_MONITOR_ID", "LORES_KEY", "HIRES_KEY", "SUPER_KEY", "HAM_KEY", "LORESLACE_KEY", "HIRESLACE_KEY", "SUPERLACE_KEY", "HAMLACE_KEY", "LORESDPF_KEY", "HIRESDPF_KEY", "SUPERDPF_KEY", "LORESLACEDPF_KEY", "HIRESLACEDPF_KEY", "SUPERLACEDPF_KEY", "LORESDPF2_KEY", "HIRESDPF2_KEY", "SUPERDPF2_KEY", "LORESLACEDPF2_KEY", "HIRESLACEDPF2_KEY", "SUPERLACEDPF2_KEY", "EXTRAHALFBRITE_KEY", "EXTRAHALFBRITELACE_KEY", "HIRESHAM_KEY", "SUPERHAM_KEY", "HIRESEHB_KEY", "SUPEREHB_KEY", "HIRESHAMLACE_KEY", "SUPERHAMLACE_KEY", "HIRESEHBLACE_KEY", "SUPEREHBLACE_KEY", "LORESSDBL_KEY", "LORESHAMSDBL_KEY", "LORESEHBSDBL_KEY", "HIRESHAMSDBL_KEY", "VGAEXTRALORES_KEY", "VGALORES_KEY", "VGAPRODUCT_KEY", "VGAHAM_KEY", "VGAEXTRALORESLACE_KEY", "VGALORESLACE_KEY", "VGAPRODUCTLACE_KEY", "VGAHAMLACE_KEY", "VGAEXTRALORESDPF_KEY", "VGALORESDPF_KEY", "VGAPRODUCTDPF_KEY", "VGAEXTRALORESLACEDPF_KEY", "VGALORESLACEDPF_KEY", "VGAPRODUCTLACEDPF_KEY", "VGAEXTRALORESDPF2_KEY", "VGALORESDPF2_KEY", "VGAPRODUCTDPF2_KEY", "VGAEXTRALORESLACEDPF2_KEY", "VGALORESLACEDPF2_KEY", "VGAPRODUCTLACEDPF2_KEY", "VGAEXTRAHALFBRITE_KEY", "VGAEXTRAHALFBRITELACE_KEY", "VGAPRODUCTHAM_KEY", "VGALORESHAM_KEY", "VGAEXTRALORESHAM_KEY", "VGAPRODUCTHAMLACE_KEY", "VGALORESHAMLACE_KEY", "VGAEXTRALORESHAMLACE_KEY", "VGAEXTRALORESEHB_KEY", "VGAEXTRALORESEHBLACE_KEY", "VGALORESEHB_KEY", "VGALORESEHBLACE_KEY", "VGAEHB_KEY", "VGAEHBLACE_KEY", "VGAEXTRALORESDBL_KEY", "VGALORESDBL_KEY", "VGAPRODUCTDBL_KEY", "VGAEXTRALORESHAMDBL_KEY", "VGALORESHAMDBL_KEY", "VGAPRODUCTHAMDBL_KEY", "VGAEXTRALORESEHBDBL_KEY", "VGALORESEHBDBL_KEY", "VGAPRODUCTEHBDBL_KEY", "A2024TENHERTZ_KEY", "A2024FIFTEENHERTZ_KEY", "EURO72EXTRALORES_KEY", "EURO72LORES_KEY", "EURO72PRODUCT_KEY", "EURO72HAM_KEY", "EURO72EXTRALORESLACE_KEY", "EURO72LORESLACE_KEY", "EURO72PRODUCTLACE_KEY", "EURO72HAMLACE_KEY", "EURO72EXTRALORESDPF_KEY", "EURO72LORESDPF_KEY", "EURO72PRODUCTDPF_KEY", "EURO72EXTRALORESLACEDPF_KEY", "EURO72LORESLACEDPF_KEY", "EURO72PRODUCTLACEDPF_KEY", "EURO72EXTRALORESDPF2_KEY", "EURO72LORESDPF2_KEY", "EURO72PRODUCTDPF2_KEY", "EURO72EXTRALORESLACEDPF2_KEY", "EURO72LORESLACEDPF2_KEY", "EURO72PRODUCTLACEDPF2_KEY", "EURO72EXTRAHALFBRITE_KEY", "EURO72EXTRAHALFBRITELACE_KEY", "EURO72PRODUCTHAM_KEY", "EURO72PRODUCTHAMLACE_KEY", "EURO72LORESHAM_KEY", "EURO72LORESHAMLACE_KEY", "EURO72EXTRALORESHAM_KEY", "EURO72EXTRALORESHAMLACE_KEY", "EURO72EXTRALORESEHB_KEY", "EURO72EXTRALORESEHBLACE_KEY", "EURO72LORESEHB_KEY", "EURO72LORESEHBLACE_KEY", "EURO72EHB_KEY", "EURO72EHBLACE_KEY", "EURO72EXTRALORESDBL_KEY", "EURO72LORESDBL_KEY", "EURO72PRODUCTDBL_KEY", "EURO72EXTRALORESHAMDBL_KEY", "EURO72LORESHAMDBL_KEY", "EURO72PRODUCTHAMDBL_KEY", "EURO72EXTRALORESEHBDBL_KEY", "EURO72LORESEHBDBL_KEY", "EURO72PRODUCTEHBDBL_KEY", "SUPER72LORESDBL_KEY", "SUPER72HIRESDBL_KEY", "SUPER72SUPERDBL_KEY", "SUPER72LORESHAMDBL_KEY", "SUPER72HIRESHAMDBL_KEY", "SUPER72SUPERHAMDBL_KEY", "SUPER72LORESEHBDBL_KEY", "SUPER72HIRESEHBDBL_KEY", "SUPER72SUPEREHBDBL_KEY", "DBLNTSCLORES_KEY", "DBLNTSCLORESFF_KEY", "DBLNTSCLORESHAM_KEY", "DBLNTSCLORESHAMFF_KEY", "DBLNTSCLORESEHB_KEY", "DBLNTSCLORESEHBFF_KEY", "DBLNTSCLORESLACE_KEY", "DBLNTSCLORESHAMLACE_KEY", "DBLNTSCLORESEHBLACE_KEY", "DBLNTSCLORESDPF_KEY", "DBLNTSCLORESDPFFF_KEY", "DBLNTSCLORESDPFLACE_KEY", "DBLNTSCLORESDPF2_KEY", "DBLNTSCLORESDPF2FF_KEY", "DBLNTSCLORESDPF2LACE_KEY", "DBLNTSCHIRES_KEY", "DBLNTSCHIRESFF_KEY", "DBLNTSCHIRESHAM_KEY", "DBLNTSCHIRESHAMFF_KEY", "DBLNTSCHIRESLACE_KEY", "DBLNTSCHIRESHAMLACE_KEY", "DBLNTSCHIRESEHB_KEY", "DBLNTSCHIRESEHBFF_KEY", "DBLNTSCHIRESEHBLACE_KEY", "DBLNTSCHIRESDPF_KEY", "DBLNTSCHIRESDPFFF_KEY", "DBLNTSCHIRESDPFLACE_KEY", "DBLNTSCHIRESDPF2_KEY", "DBLNTSCHIRESDPF2FF_KEY", "DBLNTSCHIRESDPF2LACE_KEY", "DBLNTSCEXTRALORES_KEY", "DBLNTSCEXTRALORESHAM_KEY", "DBLNTSCEXTRALORESEHB_KEY", "DBLNTSCEXTRALORESDPF_KEY", "DBLNTSCEXTRALORESDPF2_KEY", "DBLNTSCEXTRALORESFF_KEY", "DBLNTSCEXTRALORESHAMFF_KEY", "DBLNTSCEXTRALORESEHBFF_KEY", "DBLNTSCEXTRALORESDPFFF_KEY", "DBLNTSCEXTRALORESDPF2FF_KEY", "DBLNTSCEXTRALORESLACE_KEY", "DBLNTSCEXTRALORESHAMLACE_KEY", "DBLNTSCEXTRALORESEHBLACE_KEY", "DBLNTSCEXTRALORESDPFLACE_KEY", "DBLNTSCEXTRALORESDPF2LACE_KEY", "DBLPALLORES_KEY", "DBLPALLORESFF_KEY", "DBLPALLORESHAM_KEY", "DBLPALLORESHAMFF_KEY", "DBLPALLORESEHB_KEY", "DBLPALLORESEHBFF_KEY", "DBLPALLORESLACE_KEY", "DBLPALLORESHAMLACE_KEY", "DBLPALLORESEHBLACE_KEY", "DBLPALLORESDPF_KEY", "DBLPALLORESDPFFF_KEY", "DBLPALLORESDPFLACE_KEY", "DBLPALLORESDPF2_KEY", "DBLPALLORESDPF2FF_KEY", "DBLPALLORESDPF2LACE_KEY", "DBLPALHIRES_KEY", "DBLPALHIRESFF_KEY", "DBLPALHIRESHAM_KEY", "DBLPALHIRESHAMFF_KEY", "DBLPALHIRESLACE_KEY", "DBLPALHIRESHAMLACE_KEY", "DBLPALHIRESEHB_KEY", "DBLPALHIRESEHBFF_KEY", "DBLPALHIRESEHBLACE_KEY", "DBLPALHIRESDPF_KEY", "DBLPALHIRESDPFFF_KEY", "DBLPALHIRESDPFLACE_KEY", "DBLPALHIRESDPF2_KEY", "DBLPALHIRESDPF2FF_KEY", "DBLPALHIRESDPF2LACE_KEY", "DBLPALEXTRALORES_KEY", "DBLPALEXTRALORESHAM_KEY", "DBLPALEXTRALORESEHB_KEY", "DBLPALEXTRALORESDPF_KEY", "DBLPALEXTRALORESDPF2_KEY", "DBLPALEXTRALORESFF_KEY", "DBLPALEXTRALORESHAMFF_KEY", "DBLPALEXTRALORESEHBFF_KEY", "DBLPALEXTRALORESDPFFF_KEY", "DBLPALEXTRALORESDPF2FF_KEY", "DBLPALEXTRALORESLACE_KEY", "DBLPALEXTRALORESHAMLACE_KEY", "DBLPALEXTRALORESEHBLACE_KEY", "DBLPALEXTRALORESDPFLACE_KEY", "DBLPALEXTRALORESDPF2LACE_KEY"]
+	    }
+	  ]
+	},
+	{
+		"name": ["FindDosEntry"],
+	  "arguments": [
+	    {
+	      "num": ["3"],
+	      "type": "flag",
+	      "suggestions": ["LDF_DEVICES", "LDF_VOLUMES", "LDF_ASSIGNS", "LDF_ENTRY", "LDF_DELETE", "LDF_ALL"]
+	    }
+	  ]
+	},
+	{
+		"name": ["FindVar"],
+	  "arguments": [
+	    {
+	      "num": ["2"],
+	      "type": "flag",
+	      "suggestions": ["GVF_GLOBAL_ONLY", "GVF_LOCAL_ONLY", "GVF_BINARY_VAR"]
+	    }
+	  ]
+	},
+	{
+		"name": ["GetAmigaGuideAttr"],
+	  "arguments": [
+	    {
+	      "num": ["1"],
+	      "type": "macro",
+	      "suggestions": ["AGA_Path", "AGA_XRefList", "AGA_Activate", "AGA_Context", "AGA_HelpGroup", "AGA_ARexxPort", "AGA_ARexxPortName", "AGA_Secure"]
+	    }
+	  ]
+	},
+	{
+		"name": ["GetBitMapAttr"],
+	  "arguments": [
+	    {
+	      "num": ["2"],
+	      "type": "macro",
+	      "suggestions": ["BMA_HEIGHT", "BMA_DEPTH", "BMA_WIDTH", "BMA_FLAGS"]
+	    }
+	  ]
+	},
+	{
+		"name": ["GetChooserNodeAttrs"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["CNA_Text", "STRPTR", "CNA_Image", "struct Image*", "CNA_SelImage", "struct Image*", "CNA_UserData", "APRR", "CNA_Separator", "BOOL", "CNA_Disabled", "BOOL", "CNA_BGPen", "WORD", "CNA_FGPen", "WORD", "CNA_ReadOnly", "BOOL", "TAG_END"]
+	    }
+	  ]
+	},
+	{
+		"name": ["GetClickTabNodeAttrs"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["TNA_UserData", "APTR", "TNA_Image", "struct Image*", "TNA_SelImage", "struct Image*", "TNA_Text", "STRPTR", "TNA_Number", "WORD", "TNA_TextPen", "WORD", "TNA_Disabled", "BOOL", "TAG_END"]
+	    }
+	  ]
+	},
+	{
+		"name": ["GetDefDiskObject", "NewDiskObject"],
+	  "arguments": [
+	    {
+	      "num": ["1"],
+	      "type": "macro",
+	      "suggestions": ["WBDISK", "WBDRAWER", "WBTOOL", "WBPROJECT", "WBGARBAGE", "WBDEVICE", "WBKICK", "WBAPPICON"]
+	    }
+	  ]
+	},
+	{
+		"name": ["GetDisplayInfoData"],
+	  "arguments": [
+	    {
+	      "num": ["4"],
+	      "type": "macro",
+	      "suggestions": ["DTAG_DISP", "DTAG_DIMS", "DTAG_MNTR", "DTAG_NAME"]
+	    }
+	  ]
+	},
+	{
+		"name": ["GetDTAttrs"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["DTA_TextAttr", "struct TextAttr*", "DTA_TopVert", "LONG", "DTA_VisibleVert", "LONG", "DTA_TotalVert", "LONG", "DTA_VertUnit", "LONG", "DTA_TopHoriz", "LONG", "DTA_VisibleHoriz", "LONG", "DTA_TotalHoriz", "LONG", "DTA_HorizUnit", "LONG", "DTA_NodeName", "UBYTE*", "DTA_Title", "UBYTE*", "DTA_TriggerMethods", "struct DTMethod*", "DTA_Data", "APTR", "DTA_TextFont", "struct TextFont*", "DTA_Methods", "ULONG*", "DTA_PrinterStatus", "LONG", "DTA_Busy", "BOOL", "DTA_Sync", "BOOL", "DTA_BaseName", "STRPTR", "DTA_GroupID", "ULONG", "DTA_ErrorLevel", "ULONG", "DTA_ErrorNumber", "ULONG", "DTA_ErrorString", "STRPTR", "DTA_Conductor", "UBYTE*", "DTA_ControlPanel", "BOOL", "DTA_Immediate", "BOOL", "DTA_Repeat", "BOOL", "DTA_SourceAddress", "APTR", "DTA_SourceSize", "ULONG", "DTA_Name", "STRPTR", "DTA_SourceType", "ULONG", "DTA_Handle", "BPTR", "DTA_DataType", "struct DataType*", "DTA_Domain", "struct IBox*", "GA_Left", "LONG", "GA_Top", "LONG", "GA_Width", "LONG", "GA_Height", "LONG", "DTA_ObjName", "STRPTR", "DTA_ObjAuthor", "STRPTR", "DTA_ObjAnnotation", "STRPTR", "DTA_ObjCopyright", "STRPTR", "DTA_ObjVersion", "STRPTR", "DTA_ObjectID", "ULONG", "DTA_UserData", "APTR", "DTA_FrameInfo", "struct FrameInfo*", "GA_RelRight", "LONG", "GA_RelBottom", "LONG", "GA_RelWidth", "LONG", "GA_RelHeight", "LONG", "DTA_SelectDomain", "struct IBox*", "DTA_TotalPVert", "LONG", "DTA_TotalPHoriz", "LONG", "DTA_NominalVert", "LONG", "DTA_NominalHoriz", "LONG", "DTA_DestCols", "LONG", "DTA_DestRows", "LONG", "DTA_Special", "UWORD", "DTA_RastPort", "struct RastPort*", "DTA_ARexxPortName", "STRPTR", "TAG_END"]
+	    }
+	  ]
+	},
+	{
+		"name": ["GetExtSprite"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["GSTAG_SPRITE_NUM", "UBYTE", "GSTAG_ATTACHED", "struct ExtSprite*", "GSTAG_SOFTSPRITE", "BOOL", "GSTAG_SCANDOUBLED", "BOOL", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["GSTAG_SCANDOUBLED", "GSTAG_SOFTSPRITE"],
+	          "type": "flag",
+	          "suggestions": ["TRUE", "FALSE"]
+	        }
+	      ]
+	    }
+	  ]
+	},
+	{
+		"name": ["GetIconTags"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["ICONGETA_GetDefaultType", "LONG", "ICONGETA_GetDefaultName", "STRPTR", "ICONGETA_FailIfUnavailable", "BOOL", "ICONGETA_GetPaletteMappedIcon", "BOOL", "ICONGETA_IsDefaultIcon", "BOOL*", "ICONGETA_RemapIcon", "BOOL", "ICONGETA_GenerateImageMasks", "BOOL", "ICONGETA_Label", "STRPTR", "ICONGETA_Screen", "struct Screen*", "ICONA_ErrorCode", "LONG*", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["ICONGETA_FailIfUnavailable", "ICONGETA_GetPaletteMappedIcon", "ICONGETA_IsDefaultIcon", "ICONGETA_RemapIcon", "ICONGETA_GenerateImageMasks"],
+	          "type": "bool",
+	          "suggestions": ["TRUE", "FALSE"]
+	        },
+	        {
+	          "tag": ["ICONGETA_GetDefaultType"],
+	          "type": "bool",
+	          "suggestions": ["WBDISK", "WBDRAWER", "WBTOOL", "WBPROJECT", "WBGARBAGE", "WBDEVICE", "WBKICK", "WBAPPICON"]
+	        }
+	      ]
+	    }
+	  ]
+	},
+	{
+		"name": ["GetListBrowserNodeAttrs"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["LBNA_Selected", "BOOL", "LBNA_Flags", "ULONG", "LBNA_UserData", "ULONG", "LBNA_Column", "WORD", "LBNCA_Text", "STRPTR", "LBNCA_Integer", "LONG*", "LBNCA_FGPen", "WORD", "LBNCA_BGPen", "WORD", "LBNCA_Image", "struct Image*", "LBNCA_SelImage", "struct Image*", "LBNCA_HorizJustify", "ULONG", "LBNCA_VertJustify", "ULONG", "LBNA_Generation", "WORD", "LBNCA_Editable", "BOOL", "LBNCA_MaxChars", "WORD", "LBNCA_CopyText", "BOOL", "LBNA_CheckBox", "BOOL", "LBNA_Checked", "BOOL", "LBNA_NodeSize", "ULONG", "LBNCA_EditTags", "struct TagItem*", "LBNCA_RenderHook", "struct Hook*", "LBNCA_HookHeight", "WORD", "LBNA_MemPool", "APTR", "LBNA_NumColumns", "WORD", "LBNA_Priority", "UBYTE", "LBNCA_CopyInteger", "BOOL", "LBNCA_WordWrap", "BOOL", "TAG_END"]
+	    }
+	  ]
+	},
+	{
+		"name": ["GetNVInfo"],
+	  "arguments": [
+	    {
+	      "num": ["1"],
+	      "type": "bool",
+	      "suggestions": ["TRUE", "FALSE"]
+	    }
+	  ]
+	},
+	{
+		"name": ["GetPlayerAttrs"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["PLAYER_Name", "STRPTR", "PLAYER_Hook", "struct Hook*", "PLAYER_Priority", "BYTE", "PLAYER_Conductor", "STRPTR", "PLAYER_Ready", "BOOL", "PLAYER_AlarmTime", "LONG", "PLAYER_Alarm", "BOOL", "PLAYER_AlarmSigTask", "struct Task*", "PLAYER_AlarmSigBit", "BYTE", "PLAYER_Quiet", "BOOL", "PLAYER_UserData", "VOID*", "PLAYER_ID", "UWORD", "PLAYER_Conducted", "BOOL", "PLAYER_ExtSync", "BOOL", "PLAYER_ErrorCode", "LONG*", "TAG_END"]
+	    }
+	  ]
+	},
+	{
+		"name": ["GetRPAttrs", "SetRPAttrs"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["RPTAG_Font", "UBYTE", "RPTAG_SoftStyle", "ULONG", "RPTAG_APen", "UBYTE", "RPTAG_BPen", "UBYTE", "RPTAG_DrMd", "UBYTE", "RPTAG_OutlinePen", "UBYTE", "RPTAG_WriteMask", "ULONG", "RPTAG_MaxPen", "ULONG", "RPTAG_DrawBounds", "struct Rectangle*", "TAG_END"]
+	    }
+	  ]
+	},
+	{
+		"name": ["GetScreenData"],
+	  "arguments": [
+	    {
+	      "num": ["3"],
+	      "type": "macro",
+	      "suggestions": ["WBENCHSCREEN", "PUBLICSCREEN", "CUSTOMSCREEN"]
+	    }
+	  ]
+	},
+	{
+		"name": ["GetSpeedButtonNodeAttrs"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["SBNA_Left", "WORD", "SBNA_Top", "WORD", "SBNA_Width", "WORD", "SBNA_Height", "WORD", "SBNA_UserData", "APTR", "SBNA_Enabled", "BOOL", "SBNA_Spacing", "WORD", "SBNA_Highlight", "WORD", "SBNA_Image", "struct Image*", "SBNA_SelImage", "struct Image*", "SBNA_Help", "UBYTE*", "SBNA_Toggle", "BOOL", "SBNA_Selected", "BOOL", "SBNA_MXGroup", "BOOL", "SBNA_Disabled", "BOOL", "TAG_END"]
+	    }
+	  ]
+	},
+	{
+		"name": ["GetVar"],
+	  "arguments": [
+	    {
+	      "num": ["4"],
+	      "type": "flag",
+	      "suggestions": ["GVF_GLOBAL_ONLY", "GVF_LOCAL_ONLY", "GVF_BINARY_VAR", "GVF_SAVE_VAR", "GVF_DONT_NULL_TERM"]
+	    }
+	  ]
+	},
+	{
+		"name": ["GfxNew"],
+	  "arguments": [
+	    {
+	      "num": ["1"],
+	      "type": "macro",
+	      "suggestions": ["VIEW_EXTRA_TYPE", "VIEWPORT_EXTRA_TYPE", "SPECIAL_MONITOR_TYPE", "MONITOR_SPEC_TYPE"]
+	    }
+	  ]
+	},
+	{
+		"name": ["GT_GetGadgetAttrs"],
+		"tagStrt": "4",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["GA_Disabled", "BOOL", "GTCB_Checked", "BOOL", "GTCY_Active", "UWORD", "GTCY_Labels", "STRPTR*", "GTIN_Number", "ULONG", "GTLV_Top", "WORD", "GTLV_Labels", "struct List*", "GTLV_Selected", "UWORD", "GTMX_Active", "UWORD", "GTNM_Number", "LONG", "GTPA_Color", "UBYTE", "GTPA_ColorOffset", "UBYTE", "GTPA_ColorTable", "UBYTE*", "GTSC_Top", "WORD", "GTSC_Total", "WORD", "GTSC_Visible", "WORD", "GTSL_Min", "WORD", "GTSL_Max", "WORD", "GTSL_Level", "WORD", "GTST_String", "STRPTR", "GTTX_Text", "STRPTR", "TAG_END"]
+	    }
+	  ]
+	},
+	{
+		"name": ["GT_SetGadgetAttrs"],
+		"tagStrt": "4",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["GA_Disabled", "BOOL", "GTCB_Checked", "BOOL", "GTCY_Active", "UWORD", "GTCY_Labels", "STRPTR*", "GTIN_Number", "ULONG", "GTLV_Top", "WORD", "GTLV_MakeVisible", "WORD", "GTLV_Labels", "struct List*", "GTLV_Selected", "UWORD", "GTMX_Active", "UWORD", "GTNM_Number", "LONG", "GTNM_FrontPen", "UBYTE", "GTNM_BackPen", "UBYTE", "GTNM_Justification", "UBYTE", "GTNM_Format", "STRPTR", "GTPA_Color", "UBYTE", "GTPA_ColorOffset", "UBYTE", "GTPA_ColorTable", "UBYTE*", "GTSC_Top", "WORD", "GTSC_Total", "WORD", "GTSC_Visible", "WORD", "GTSL_Min", "WORD", "GTSL_Max", "WORD", "GTSL_Level", "WORD", "GTSL_LevelFormat", "STRPTR", "GTSL_DispFunc", "(*function", "GTSL_Justification", "UBYTE", "GTST_String", "STRPTR", "GTTX_Text", "STRPTR", "GTTX_FrontPen", "UBYTE", "GTTX_BackPen", "UBYTE", "GTTX_Justification", "UBYTE", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["GA_Disabled", "GTCB_Checked"],
+	          "type": "bool",
+	          "suggestions": ["TRUE", "FALSE"]
+	        },
+	        {
+	          "tag": ["GTNM_Justification", "GTSL_Justification", "GTTX_Justification"],
+	          "type": "macro",
+	          "suggestions": ["GTJ_LEFT", "GTJ_RIGHT", "GTJ_CENTER"]
+	        }
+	      ]
+	    }
+	  ]
+	},
+	{
+		"name": ["HelpControl"],
+	  "arguments": [
+	    {
+	      "num": ["2"],
+	      "type": "flag",
+	      "suggestions": ["HC_GADGETHELP"]
+	    }
+	  ]
+	},
+	{
+		"name": ["IconControl"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["ICONCTRLA_SetGlobalScreen", "struct Screen*", "ICONCTRLA_GetGlobalScreen", "struct Screen*", "ICONCTRLA_SetGlobalPrecision", "LONG", "ICONCTRLA_GetGlobalPrecision", "LONG", "ICONCTRLA_SetGlobalEmbossRect", "struct Rectangle*", "ICONCTRLA_GetGlobalEmbossRect", "struct Rectangle*", "ICONCTRLA_SetGlobalFrameless", "BOOL", "ICONCTRLA_GetGlobalFrameless", "BOOL", "ICONCTRLA_SetGlobalNewIconsSupport", "BOOL", "ICONCTRLA_GetGlobalNewIconsSupport", "BOOL", "ICONCTRLA_SetGlobalColorIconSupport", "BOOL", "ICONCTRLA_GetGlobalColorIconSupport", "BOOL", "ICONCTRLA_SetGlobalIdentifyHook", "struct Hook*", "ICONCTRLA_GetGlobalIdentifyHook", "struct Hook*", "ICONCTRLA_SetGlobalMaxNameLength", "LONG", "ICONCTRLA_GetGlobalMaxNameLength", "LONG", "ICONCTRLA_GetImageMask1", "PLANEPTR", "ICONCTRLA_GetImageMask2", "PLANEPTR", "ICONCTRLA_SetTransparentColor1", "LONG", "ICONCTRLA_GetTransparentColor1", "LONG", "ICONCTRLA_SetTransparentColor2", "LONG", "ICONCTRLA_GetTransparentColor2", "LONG", "ICONCTRLA_SetPalette1", "struct ColorRegister*", "ICONCTRLA_GetPalette1", "struct ColorRegister*", "ICONCTRLA_SetPalette2", "struct ColorRegister*", "ICONCTRLA_GetPalette2", "struct ColorRegister*", "ICONCTRLA_SetPaletteSize1", "LONG", "ICONCTRLA_GetPaletteSize1", "LONG", "ICONCTRLA_SetPaletteSize2", "LONG", "ICONCTRLA_GetPaletteSize2", "LONG", "ICONCTRLA_SetImageData1", "UBYTE*", "ICONCTRLA_GetImageData1", "UBYTE*", "ICONCTRLA_SetImageData2", "UBYTE*", "ICONCTRLA_GetImageData2", "UBYTE*", "ICONCTRLA_SetFrameless", "BOOL", "ICONCTRLA_GetFrameless", "BOOL", "ICONCTRLA_SetNewIconsSupport", "BOOL", "ICONCTRLA_GetNewIconsSupport", "BOOL", "ICONCTRLA_SetAspectRatio", "UBYTE*", "ICONCTRLA_GetAspectRatio", "UBYTE*", "ICONCTRLA_SetWidth", "LONG", "ICONCTRLA_GetWidth", "LONG", "ICONCTRLA_SetHeight", "LONG", "ICONCTRLA_GetHeight", "LONG", "ICONCTRLA_IsPaletteMapped", "BOOL*", "ICONCTRLA_GetScreen", "struct Screen**", "ICONCTRLA_HasRealImage2", "LONG*", "ICONCTRLA_IsNewIcon", "BOOL*", "ICONCTRLA_IsNativeIcon", "BOOL*", "ICONGETA_IsDefaultIcon", "BOOL*", "ICONA_ErrorCode", "LONG*", "ICONA_ErrorTagItem", "struct TagItem**", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["ICONCTRLA_SetGlobalFrameless", "ICONCTRLA_SetGlobalNewIconsSupport", "ICONCTRLA_SetGlobalColorIconSupport", "ICONCTRLA_SetFrameless", "ICONCTRLA_SetNewIconsSupport"],
+	          "type": "bool",
+	          "suggestions": ["TRUE", "FALSE"]
+	        },
+	        {
+	          "tag": ["ICONCTRLA_SetGlobalPrecision"],
+	          "type": "macro",
+	          "suggestions": ["PRECISION_EXACT", "PRECISION_IMAGE", "PRECISION_ICON", "PRECISION_GUI"]
+	        },
+	        {
+	          "tag": ["ICONCTRLA_SetAspectRatio"],
+	          "type": "macro",
+	          "suggestions": ["ICON_ASPECT_RATIO_UNKNOWN", "PACK_ICON_ASPECT_RATIO(num, den)"]
+	        }
+	      ]
+	    }
+	  ]
+	},
+	{
+		"name": ["Inhibit"],
+	  "arguments": [
+	    {
+	      "num": ["2"],
+	      "type": "flag",
+	      "suggestions": ["DOSTRUE", "FALSE"]
+	    }
+	  ]
+	},
+	{
+		"name": ["InitIFF"],
+	  "arguments": [
+	    {
+	      "num": ["2"],
+	      "type": "macro",
+	      "suggestions": ["IFFCMD_INIT", "IFFCMD_CLEANUP", "IFFCMD_READ", "IFFCMD_WRITE", "IFFCMD_SEEK"]
+	    }
+	  ]
+	},
+	{
+		"name": ["LayoutIcon"],
+		"tagStrt": "3",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["OBP_Precision", "LONG", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["OBP_Precision"],
+	          "type": "macro",
+	          "suggestions": ["PRECISION_EXACT", "PRECISION_IMAGE", "PRECISION_ICON", "PRECISION_GUI"]
+	        }
+	      ]
+	    }
+	  ]
+	},
+	{
+		"name": ["LayoutMenuItems"],
+		"tagStrt": "3",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["GTMN_Menu", "struct Menu*", "GTMN_TextAttr", "struct TextAttr*", "GTMN_NewLookMenus", "BOOL", "GTMN_Checkmark", "struct Image*", "GTMN_AmigaKey", "struct Image*", "GTMN_FrontPen", "ULONG", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["GTMN_NewLookMenus"],
+	          "type": "bool",
+	          "suggestions": ["TRUE", "FALSE"]
+	        }
+	      ]
+	    }
+	  ]
+	},
+	{
+		"name": ["LayoutMenus"],
+		"tagStrt": "3",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["GTMN_TextAttr", "struct TextAttr*", "GTMN_NewLookMenus", "BOOL", "GTMN_Checkmark", "struct Image*", "GTMN_AmigaKey", "struct Image*", "GTMN_FrontPen", "ULONG", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["GTMN_NewLookMenus"],
+	          "type": "bool",
+	          "suggestions": ["TRUE", "FALSE"]
+	        }
+	      ]
+	    }
+	  ]
+	},
+	{
+		"name": ["LBAddNode", "LBEditNode"],
+		"tagStrt": "5",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["LBNA_Selected", "BOOL", "LBNA_Flags", "ULONG", "LBNA_UserData", "ULONG", "LBNA_Column", "WORD", "LBNCA_Text", "STRPTR", "LBNCA_Integer", "LONG*", "LBNCA_FGPen", "WORD", "LBNCA_BGPen", "WORD", "LBNCA_Image", "struct Image*", "LBNCA_SelImage", "struct Image*", "LBNCA_HorizJustify", "ULONG", "LBNCA_VertJustify", "ULONG", "LBNA_Generation", "WORD", "LBNCA_Editable", "BOOL", "LBNCA_MaxChars", "WORD", "LBNCA_CopyText", "BOOL", "LBNA_CheckBox", "BOOL", "LBNA_Checked", "BOOL", "LBNA_NodeSize", "ULONG", "LBNCA_EditTags", "struct TagItem*", "LBNCA_RenderHook", "struct Hook*", "LBNCA_HookHeight", "WORD", "LBNA_MemPool", "APTR", "LBNA_NumColumns", "WORD", "LBNA_Priority", "UBYTE", "LBNCA_CopyInteger", "BOOL", "LBNCA_WordWrap", "BOOL", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["LBNA_Selected", "LBNCA_Editable", "LBNCA_CopyText", "LBNA_CheckBox", "LBNA_Checked", "LBNCA_CopyInteger"],
+	          "type": "bool",
+	          "suggestions": ["TRUE", "FALSE"]
+	        },
+	        {
+	          "tag": ["LBNA_Flags"],
+	          "type": "flag",
+	          "suggestions": ["LBFLG_READONLY", "LBFLG_CUSTOMPENS", "LBFLG_HASCHILDREN", "LBFLG_SHOWCHILDREN", "LBFLG_HIDDEN"]
+	        },
+	        {
+	          "tag": ["LBNCA_HorizJustify"],
+	          "type": "macro",
+	          "suggestions": ["LCJ_LEFT", "LCJ_CENTER", "LCJ_RIGHT"]
+	        },
+	        {
+	          "tag": ["LBNCA_VertJustify"],
+	          "type": "macro",
+	          "suggestions": ["LRJ_BOTTOM", "LRJ_CENTER", "LRJ_TOP"]
+	        }
+	      ]
+	    }
+	  ]
+	},
+	{
+		"name": ["LibDoGadgetMethod"],
+	  "arguments": [
+	    {
+	      "num": ["4"],
+	      "type": "id",
+	      "suggestions": ["OM_NEW", "OM_DISPOSE", "OM_SET", "OM_GET", "OM_ADDTAIL", "OM_REMOVE", "OM_NOTIFY", "OM_UPDATE", "OM_ADDMEMBER", "OM_REMMEMBER"]
+	    }
+	  ]
+	},
+	{
+		"name": ["Lock"],
+	  "arguments": [
+	    {
+	      "num": ["2"],
+	      "type": "macro",
+	      "suggestions": ["SHARED_LOCK", "ACCESS_READ", "EXCLUSIVE_LOCK", "ACCESS_WRITE"]
+	    }
+	  ]
+	},
+	{
+		"name": ["LockRecord"],
+	  "arguments": [
+	    {
+	      "num": ["4"],
+	      "type": "macro",
+	      "suggestions": ["REC_EXCLUSIVE", "REC_EXCLUSIVE_IMMED", "REC_SHARED", "REC_SHARED_IMMED"]
+	    }
+	  ]
+	},
+	{
+		"name": ["MakeDosEntry", "NextDosEntry"],
+	  "arguments": [
+	    {
+	      "num": ["2"],
+	      "type": "flag",
+	      "suggestions": ["LDF_DEVICES", "LDF_VOLUMES", "LDF_ASSIGNS", "LDF_ENTRY", "LDF_DELETE", "LDF_READ", "LDF_WRITE", "LDF_ALL"]
+	    }
+	  ]
+	},
+	{
+		"name": ["MapTags"],
+	  "arguments": [
+	    {
+	      "num": ["3"],
+	      "type": "macro",
+	      "suggestions": ["MAP_KEEP_NOT_FOUND", "MAP_REMOVE_NOT_FOUND"]
+	    }
+	  ]
+	},
+	{
+		"name": ["ModifyIDCMP"],
+	  "arguments": [
+	    {
+	      "num": ["2"],
+	      "type": "flag",
+	      "suggestions": ["IDCMP_SIZEVERIFY", "IDCMP_NEWSIZE", "IDCMP_REFRESHWINDOW", "IDCMP_MOUSEBUTTONS", "IDCMP_MOUSEMOVE", "IDCMP_GADGETDOWN", "IDCMP_GADGETUP", "IDCMP_REQSET", "IDCMP_MENUPICK", "IDCMP_CLOSEWINDOW", "IDCMP_RAWKEY", "IDCMP_REQVERIFY", "IDCMP_REQCLEAR", "IDCMP_MENUVERIFY", "IDCMP_NEWPREFS", "IDCMP_DISKINSERTED", "IDCMP_DISKREMOVED", "IDCMP_WBENCHMESSAGE", "IDCMP_ACTIVEWINDOW", "IDCMP_INACTIVEWINDOW", "IDCMP_DELTAMOVE", "IDCMP_VANILLAKEY", "IDCMP_INTUITICKS", "IDCMP_IDCMPUPDATE", "IDCMP_MENUHELP", "IDCMP_CHANGEWINDOW", "IDCMP_GADGETHELP"]
+	    }
+	  ]
+	},
+	{
+		"name": ["ModifyProp", "NewModifyProp"],
+	  "arguments": [
+	    {
+	      "num": ["4"],
+	      "type": "flag",
+	      "suggestions": ["AUTOKNOB", "FREEHORIZ", "FREEVERT", "PROPBORDERLESS", "KNOBHIT", "PROPNEWLOOK"]
+	    }
+	  ]
+	},
+	{
+		"name": ["NewDTObject"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["DTA_SourceType", "ULONG", "DTA_Handle", "BPTR", "DTA_DataType", "struct DataType*", "DTA_GroupID", "ULONG", "DTA_SourceAddress", "APTR", "DTA_SourceSize", "ULONG", "GA_Left", "LONG", "GA_Top", "LONG", "GA_Width", "LONG", "GA_Height", "LONG", "GA_RelRight", "LONG", "GA_RelBottom", "LONG", "GA_RelWidth", "LONG", "GA_RelHeight", "LONG", "GA_ID", "ULONG", "GA_UserData", "APTR", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["GA_ID"],
+	          "type": "id",
+	          "suggestions": ["ID_8SVX", "ID_AHIG", "ID_AHIM", "ID_AHIU", "ID_ANHD", "ID_ANIM", "ID_ASL", "ID_AUDD", "ID_AUDM", "ID_AUDN", "ID_BMHD", "ID_BODY", "ID_CAMG", "ID_CAT", "ID_CHAN", "ID_CHRS", "ID_CMAP", "ID_CODE", "ID_CRNG", "ID_CTRY", "ID_DEST", "ID_DLTA", "ID_DTHD", "ID_DTYP", "ID_FONT", "ID_FORM", "ID_FTXT", "ID_GRAB", "ID_ICTL", "ID_ILBM", "ID_INPT", "ID_LCLE", "ID_LIST", "ID_NAME", "ID_NULL", "ID_OSCN", "ID_PALT", "ID_PDEV", "ID_PGFX", "ID_PNTR", "ID_PREF", "ID_PRHD", "ID_PROP", "ID_PSPD", "ID_PTRN", "ID_PTXT", "ID_PUNT", "ID_RACT", "ID_SCRM", "ID_SERL", "ID_SOND", "ID_SPRT", "ID_TAGS", "ID_TOOL", "ID_VHDR", "ID_WBHD", "ID_WBNC"]
+	        },
+	        {
+	          "tag": ["DTA_GroupID"],
+	          "type": "id",
+	          "suggestions": ["GID_SYSTEM", "GID_TEXT", "GID_DOCUMENT", "GID_SOUND", "GID_INSTRUMENT", "GID_MUSIC", "GID_PICTURE", "GID_ANIMATION", "GID_MOVIE"]
+	        },
+	        {
+	          "tag": ["DTA_SourceType"],
+	          "type": "macro",
+	          "suggestions": ["DTST_RAM", "DTST_FILE", "DTST_CLIPBOARD", "DTST_HOTLINK", "DTST_MEMORY"]
+	        }
+	      ]
+	    }
+	  ]
+	},
+	{
+		"name": ["ObtainBestPen"],
+		"tagStrt": "5",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["OBP_Precision", "LONG", "OBP_FailIfBad", "BOOL", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["OBP_Precision"],
+	          "type": "macro",
+	          "suggestions": ["PRECISION_EXACT", "PRECISION_IMAGE", "PRECISION_ICON", "PRECISION_GUI"]
+	        },
+	        {
+	          "tag": ["OBP_FailIfBad"],
+	          "type": "bool",
+	          "suggestions": ["TRUE", "FALSE"]
+	        }
+	      ]
+	    }
+	  ]
+	},
+	{
+		"name": ["ObtainDataType"],
+	  "tagStrt": "3",
+	  "arguments": [
+	    {
+	      "num": ["1"],
+	      "type": "macro",
+	      "suggestions": ["DTST_FILE", "DTST_CLIPBOARD", "DTST_MEMORY"]
+	    },
+	    {
+	      "first": "DTST_MEMORY",
+	      "type": "tag",
+	      "suggestions": ["DTA_SourceAddress", "APTR", "DTA_SourceSize", "ULONG", "TAG_END"]
+	    }
+	  ]
+	},
+	{
+		"name": ["ObtainDataTypeA"],
+	  "arguments": [
+	    {
+	      "num": ["1"],
+	      "type": "macro",
+	      "suggestions": ["DTST_FILE", "DTST_CLIPBOARD", "DTST_MEMORY"]
+	    }
+	  ]
+	},
+	{
+		"name": ["ObtainInfo", "ReleaseInfo"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["OT_GlyphMap", "struct GlyphMap**", "OT_WidthList", "struct MinList**", "OT_TextKernPair", "LONG*", "OT_DesignKernPair", "LONG*", "OT_UnderLined", "UWORD*", "OT_StrikeThrough", "BOOL*", "TAG_END"]
+	    }
+	  ]
+	},
+	{
+		"name": ["ObtainPen"],
+	  "arguments": [
+	    {
+	      "num": ["6"],
+	      "type": "flag",
+	      "suggestions": ["PENF_NO_SETCOLOR", "PENF_EXCLUSIVE"]
+	    }
+	  ]
+	},
+	{
+		"name": ["Open"],
+	  "arguments": [
+	    {
+	      "num": ["2"],
+	      "type": "macro",
+	      "suggestions": ["MODE_OLDFILE", "MODE_NEWFILE", "MODE_READWRITE"]
+	    }
+	  ]
+	},
+	{
+		"name": ["OpenAmigaGuide", "OpenAmigaGuideAsync"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["AGA_HelpGroup", "ULONG", "TAG_END"]
+	    }
+	  ]
+	},
+	{
+		"name": ["OpenCatalog"],
+		"tagStrt": "3",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["OC_BuiltInLanguage", "STRPTR", "OC_BuiltInCodeSet", "ULONG", "OC_Language", "STRPTR", "OC_Version", "UWORD", "TAG_END"]
+	    }
+	  ]
+	},
+	{
+		"name": ["OpenClipboard"],
+	  "arguments": [
+	    {
+	      "num": ["1"],
+	      "type": "macro",
+	      "suggestions": ["PRIMARY_CLIP"]
+	    }
+	  ]
+	},
+	{
+		"name": ["OpenIFF"],
+	  "arguments": [
+	    {
+	      "num": ["2"],
+	      "type": "macro",
+	      "suggestions": ["IFFF_READ", "IFFF_WRITE"]
+	    }
+	  ]
+	},
+	{
+		"name": ["OpenLayoutWindowTags", "OpenWindowTags"],
+		"tagStrt": "3",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["WA_Left", "LONG", "WA_Top", "LONG", "WA_Width", "LONG", "WA_Height", "LONG", "WA_MinWidth", "LONG", "WA_MinHeight", "LONG", "WA_MaxWidth", "LONG", "WA_MaxHeight", "LONG", "WA_DetailPen", "LONG", "WA_BlockPen", "LONG", "WA_IDCMP", "ULONG", "WA_Flags", "ULONG", "WA_Gadgets", "struct Gadget*", "WA_Title", "STRPTR", "WA_CustomScreen", "struct Screen*", "WA_SuperBitMap", "BOOL", "WA_SizeGadget", "BOOL", "WA_DragBar", "BOOL", "WA_DepthGadget", "BOOL", "WA_CloseGadget", "BOOL", "WA_Backdrop", "BOOL", "WA_ReportMouse", "BOOL", "WA_NoCareRefresh", "BOOL", "WA_Borderless", "BOOL", "WA_Activate", "BOOL", "WA_RMBTrap", "BOOL", "WA_WBenchWindow", "BOOL", "WA_SimpleRefresh", "BOOL", "WA_SmartRefresh", "BOOL", "WA_SizeBRight", "BOOL", "WA_SizeBBottom", "BOOL", "WA_GimmeZeroZero", "BOOL", "WA_NewLookMenus", "BOOL", "WA_ScreenTitle", "STRPTR", "WA_AutoAdjust", "BOOL", "WA_InnerWidth", "LONG", "WA_InnerHeight", "LONG", "WA_PubScreenName", "STRPTR", "WA_PubScreen", "struct Screen*", "WA_PubScreenFallBack", "BOOL", "WA_Zoom", "WORD*", "WA_MouseQueue", "UWORD", "WA_RptQueue", "UWORD", "WA_BackFill", "struct Hook*", "WA_MenuHelp", "BOOL", "WA_NotifyDepth", "BOOL", "WA_Checkmark", "struct Image*", "WA_AmigaKey", "struct Image*", "WA_Pointer", "APTR", "WA_BusyPointer", "BOOL", "WA_PointerDelay", "BOOL", "WA_HelpGroup", "ULONG", "WA_HelpGroupWindow", "struct Window*", "WA_TabletMessages", "BOOL", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["WA_IDCMP"],
+	          "type": "flag",
+	          "suggestions": ["IDCMP_SIZEVERIFY", "IDCMP_NEWSIZE", "IDCMP_REFRESHWINDOW", "IDCMP_MOUSEBUTTONS", "IDCMP_MOUSEMOVE", "IDCMP_GADGETDOWN", "IDCMP_GADGETUP", "IDCMP_REQSET", "IDCMP_MENUPICK", "IDCMP_CLOSEWINDOW", "IDCMP_RAWKEY", "IDCMP_REQVERIFY", "IDCMP_REQCLEAR", "IDCMP_MENUVERIFY", "IDCMP_NEWPREFS", "IDCMP_DISKINSERTED", "IDCMP_DISKREMOVED", "IDCMP_WBENCHMESSAGE", "IDCMP_ACTIVEWINDOW", "IDCMP_INACTIVEWINDOW", "IDCMP_DELTAMOVE", "IDCMP_VANILLAKEY", "IDCMP_INTUITICKS", "IDCMP_IDCMPUPDATE", "IDCMP_MENUHELP", "IDCMP_CHANGEWINDOW", "IDCMP_GADGETHELP"]
+	        },
+	        {
+	          "tag": ["WA_Flags"],
+	          "type": "flag",
+	          "suggestions": ["WFLG_SIZEGADGET", "WFLG_DRAGBAR", "WFLG_DEPTHGADGET", "WFLG_CLOSEGADGET", "WFLG_SIZEBRIGHT", "WFLG_SIZEBBOTTOM", "WFLG_SMART_REFRESH", "WFLG_SIMPLE_REFRESH", "WFLG_SUPER_BITMAP", "WFLG_OTHER_REFRESH", "WFLG_BACKDROP", "WFLG_REPORTMOUSE", "WFLG_GIMMEZEROZERO", "WFLG_BORDERLESS", "WFLG_ACTIVATE", "WFLG_RMBTRAP", "WFLG_NOCAREREFRESH", "WFLG_NW_EXTENDED", "WFLG_NEWLOOKMENUS"]
+	        },
+	        {
+	          "tag": ["WA_MouseQueue"],
+	          "type": "macro",
+	          "suggestions": ["DEFAULTMOUSEQUEUE"]
+	        }
+	      ]
+	    }
+	  ]
+	},
+	{
+		"name": ["OpenLibrary"],
+	  "arguments": [
+	    {
+	      "num": ["1"],
+	      "type": "string",
+	      "suggestions": ["amigaguide.library", "aml.library", "asl.library", "bullet.library", "commodities.library", "datatypes.library", "diskfont.library", "expansion.library", "gadtools.library", "graphics.library", "hdwrench.library", "icon.library", "iffparse.library", "intuition.library", "keymap.library", "layers.library", "locale.library", "lowlevel.library", "mathffp.library", "mathieeedoubbas.library", "mathieeedoubtrans.library", "mathieeesingbas.library", "mathieeesingtrans.library", "mathtrans.library", "newicon.library", "nonvolatile.library", "realtime.library", "resource.library", "rexxmathlib.library", "rexxsupport.library", "rexxsyslib.library", "translator.library", "utility.library", "version.library", "vnc.library", "wizard.library", "workbench.library", "xadmaster.library"]
+	    }
+	  ]
+	},
+	{
+		"name": ["OpenMonitor"],
+	  "arguments": [
+	    {
+	      "num": ["2"],
+	      "type": "flag",
+	      "suggestions": ["INVALID_ID", "DEFAULT_MONITOR_ID", "NTSC_MONITOR_ID", "PAL_MONITOR_ID", "VGA_MONITOR_ID", "A2024_MONITOR_ID", "EURO72_MONITOR_ID", "EURO36_MONITOR_ID", "SUPER72_MONITOR_ID", "DBLNTSC_MONITOR_ID", "DBLPAL_MONITOR_ID", "LORES_KEY", "HIRES_KEY", "SUPER_KEY", "HAM_KEY", "LORESLACE_KEY", "HIRESLACE_KEY", "SUPERLACE_KEY", "HAMLACE_KEY", "LORESDPF_KEY", "HIRESDPF_KEY", "SUPERDPF_KEY", "LORESLACEDPF_KEY", "HIRESLACEDPF_KEY", "SUPERLACEDPF_KEY", "LORESDPF2_KEY", "HIRESDPF2_KEY", "SUPERDPF2_KEY", "LORESLACEDPF2_KEY", "HIRESLACEDPF2_KEY", "SUPERLACEDPF2_KEY", "EXTRAHALFBRITE_KEY", "EXTRAHALFBRITELACE_KEY", "HIRESHAM_KEY", "SUPERHAM_KEY", "HIRESEHB_KEY", "SUPEREHB_KEY", "HIRESHAMLACE_KEY", "SUPERHAMLACE_KEY", "HIRESEHBLACE_KEY", "SUPEREHBLACE_KEY", "LORESSDBL_KEY", "LORESHAMSDBL_KEY", "LORESEHBSDBL_KEY", "HIRESHAMSDBL_KEY", "VGAEXTRALORES_KEY", "VGALORES_KEY", "VGAPRODUCT_KEY", "VGAHAM_KEY", "VGAEXTRALORESLACE_KEY", "VGALORESLACE_KEY", "VGAPRODUCTLACE_KEY", "VGAHAMLACE_KEY", "VGAEXTRALORESDPF_KEY", "VGALORESDPF_KEY", "VGAPRODUCTDPF_KEY", "VGAEXTRALORESLACEDPF_KEY", "VGALORESLACEDPF_KEY", "VGAPRODUCTLACEDPF_KEY", "VGAEXTRALORESDPF2_KEY", "VGALORESDPF2_KEY", "VGAPRODUCTDPF2_KEY", "VGAEXTRALORESLACEDPF2_KEY", "VGALORESLACEDPF2_KEY", "VGAPRODUCTLACEDPF2_KEY", "VGAEXTRAHALFBRITE_KEY", "VGAEXTRAHALFBRITELACE_KEY", "VGAPRODUCTHAM_KEY", "VGALORESHAM_KEY", "VGAEXTRALORESHAM_KEY", "VGAPRODUCTHAMLACE_KEY", "VGALORESHAMLACE_KEY", "VGAEXTRALORESHAMLACE_KEY", "VGAEXTRALORESEHB_KEY", "VGAEXTRALORESEHBLACE_KEY", "VGALORESEHB_KEY", "VGALORESEHBLACE_KEY", "VGAEHB_KEY", "VGAEHBLACE_KEY", "VGAEXTRALORESDBL_KEY", "VGALORESDBL_KEY", "VGAPRODUCTDBL_KEY", "VGAEXTRALORESHAMDBL_KEY", "VGALORESHAMDBL_KEY", "VGAPRODUCTHAMDBL_KEY", "VGAEXTRALORESEHBDBL_KEY", "VGALORESEHBDBL_KEY", "VGAPRODUCTEHBDBL_KEY", "A2024TENHERTZ_KEY", "A2024FIFTEENHERTZ_KEY", "EURO72EXTRALORES_KEY", "EURO72LORES_KEY", "EURO72PRODUCT_KEY", "EURO72HAM_KEY", "EURO72EXTRALORESLACE_KEY", "EURO72LORESLACE_KEY", "EURO72PRODUCTLACE_KEY", "EURO72HAMLACE_KEY", "EURO72EXTRALORESDPF_KEY", "EURO72LORESDPF_KEY", "EURO72PRODUCTDPF_KEY", "EURO72EXTRALORESLACEDPF_KEY", "EURO72LORESLACEDPF_KEY", "EURO72PRODUCTLACEDPF_KEY", "EURO72EXTRALORESDPF2_KEY", "EURO72LORESDPF2_KEY", "EURO72PRODUCTDPF2_KEY", "EURO72EXTRALORESLACEDPF2_KEY", "EURO72LORESLACEDPF2_KEY", "EURO72PRODUCTLACEDPF2_KEY", "EURO72EXTRAHALFBRITE_KEY", "EURO72EXTRAHALFBRITELACE_KEY", "EURO72PRODUCTHAM_KEY", "EURO72PRODUCTHAMLACE_KEY", "EURO72LORESHAM_KEY", "EURO72LORESHAMLACE_KEY", "EURO72EXTRALORESHAM_KEY", "EURO72EXTRALORESHAMLACE_KEY", "EURO72EXTRALORESEHB_KEY", "EURO72EXTRALORESEHBLACE_KEY", "EURO72LORESEHB_KEY", "EURO72LORESEHBLACE_KEY", "EURO72EHB_KEY", "EURO72EHBLACE_KEY", "EURO72EXTRALORESDBL_KEY", "EURO72LORESDBL_KEY", "EURO72PRODUCTDBL_KEY", "EURO72EXTRALORESHAMDBL_KEY", "EURO72LORESHAMDBL_KEY", "EURO72PRODUCTHAMDBL_KEY", "EURO72EXTRALORESEHBDBL_KEY", "EURO72LORESEHBDBL_KEY", "EURO72PRODUCTEHBDBL_KEY", "SUPER72LORESDBL_KEY", "SUPER72HIRESDBL_KEY", "SUPER72SUPERDBL_KEY", "SUPER72LORESHAMDBL_KEY", "SUPER72HIRESHAMDBL_KEY", "SUPER72SUPERHAMDBL_KEY", "SUPER72LORESEHBDBL_KEY", "SUPER72HIRESEHBDBL_KEY", "SUPER72SUPEREHBDBL_KEY", "DBLNTSCLORES_KEY", "DBLNTSCLORESFF_KEY", "DBLNTSCLORESHAM_KEY", "DBLNTSCLORESHAMFF_KEY", "DBLNTSCLORESEHB_KEY", "DBLNTSCLORESEHBFF_KEY", "DBLNTSCLORESLACE_KEY", "DBLNTSCLORESHAMLACE_KEY", "DBLNTSCLORESEHBLACE_KEY", "DBLNTSCLORESDPF_KEY", "DBLNTSCLORESDPFFF_KEY", "DBLNTSCLORESDPFLACE_KEY", "DBLNTSCLORESDPF2_KEY", "DBLNTSCLORESDPF2FF_KEY", "DBLNTSCLORESDPF2LACE_KEY", "DBLNTSCHIRES_KEY", "DBLNTSCHIRESFF_KEY", "DBLNTSCHIRESHAM_KEY", "DBLNTSCHIRESHAMFF_KEY", "DBLNTSCHIRESLACE_KEY", "DBLNTSCHIRESHAMLACE_KEY", "DBLNTSCHIRESEHB_KEY", "DBLNTSCHIRESEHBFF_KEY", "DBLNTSCHIRESEHBLACE_KEY", "DBLNTSCHIRESDPF_KEY", "DBLNTSCHIRESDPFFF_KEY", "DBLNTSCHIRESDPFLACE_KEY", "DBLNTSCHIRESDPF2_KEY", "DBLNTSCHIRESDPF2FF_KEY", "DBLNTSCHIRESDPF2LACE_KEY", "DBLNTSCEXTRALORES_KEY", "DBLNTSCEXTRALORESHAM_KEY", "DBLNTSCEXTRALORESEHB_KEY", "DBLNTSCEXTRALORESDPF_KEY", "DBLNTSCEXTRALORESDPF2_KEY", "DBLNTSCEXTRALORESFF_KEY", "DBLNTSCEXTRALORESHAMFF_KEY", "DBLNTSCEXTRALORESEHBFF_KEY", "DBLNTSCEXTRALORESDPFFF_KEY", "DBLNTSCEXTRALORESDPF2FF_KEY", "DBLNTSCEXTRALORESLACE_KEY", "DBLNTSCEXTRALORESHAMLACE_KEY", "DBLNTSCEXTRALORESEHBLACE_KEY", "DBLNTSCEXTRALORESDPFLACE_KEY", "DBLNTSCEXTRALORESDPF2LACE_KEY", "DBLPALLORES_KEY", "DBLPALLORESFF_KEY", "DBLPALLORESHAM_KEY", "DBLPALLORESHAMFF_KEY", "DBLPALLORESEHB_KEY", "DBLPALLORESEHBFF_KEY", "DBLPALLORESLACE_KEY", "DBLPALLORESHAMLACE_KEY", "DBLPALLORESEHBLACE_KEY", "DBLPALLORESDPF_KEY", "DBLPALLORESDPFFF_KEY", "DBLPALLORESDPFLACE_KEY", "DBLPALLORESDPF2_KEY", "DBLPALLORESDPF2FF_KEY", "DBLPALLORESDPF2LACE_KEY", "DBLPALHIRES_KEY", "DBLPALHIRESFF_KEY", "DBLPALHIRESHAM_KEY", "DBLPALHIRESHAMFF_KEY", "DBLPALHIRESLACE_KEY", "DBLPALHIRESHAMLACE_KEY", "DBLPALHIRESEHB_KEY", "DBLPALHIRESEHBFF_KEY", "DBLPALHIRESEHBLACE_KEY", "DBLPALHIRESDPF_KEY", "DBLPALHIRESDPFFF_KEY", "DBLPALHIRESDPFLACE_KEY", "DBLPALHIRESDPF2_KEY", "DBLPALHIRESDPF2FF_KEY", "DBLPALHIRESDPF2LACE_KEY", "DBLPALEXTRALORES_KEY", "DBLPALEXTRALORESHAM_KEY", "DBLPALEXTRALORESEHB_KEY", "DBLPALEXTRALORESDPF_KEY", "DBLPALEXTRALORESDPF2_KEY", "DBLPALEXTRALORESFF_KEY", "DBLPALEXTRALORESHAMFF_KEY", "DBLPALEXTRALORESEHBFF_KEY", "DBLPALEXTRALORESDPFFF_KEY", "DBLPALEXTRALORESDPF2FF_KEY", "DBLPALEXTRALORESLACE_KEY", "DBLPALEXTRALORESHAMLACE_KEY", "DBLPALEXTRALORESEHBLACE_KEY", "DBLPALEXTRALORESDPFLACE_KEY", "DBLPALEXTRALORESDPF2LACE_KEY"]
+	    }
+	  ]
+	},
+	{
+		"name": ["OpenScreenTags"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["SA_Left", "LONG", "SA_Top", "LONG", "SA_Width", "LONG", "SA_Height", "LONG", "SA_Depth", "UBYTE", "SA_DetailPen", "LONG", "SA_BlockPen", "LONG", "SA_Title", "STRPTR", "SA_Colors", "struct ColorSpec*", "SA_ErrorCode", "ULONG*", "SA_Font", "struct TextAttr*", "SA_SysFont", "BOOL", "SA_Type", "ULONG", "SA_BitMap", "struct BitMap*", "SA_PubName", "STRPTR", "SA_PubSig", "UBYTE", "SA_PubTask", "struct Task*", "SA_DisplayID", "ULONG", "SA_DClip", "struct Rectangle*", "SA_Overscan", "ULONG", "SA_ShowTitle", "BOOL", "SA_Behind", "BOOL", "SA_Quiet", "BOOL", "SA_AutoScroll", "BOOL", "SA_Pens", "UWORD*", "SA_FullPalette", "BOOL", "SA_ColorMapEntries", "UWORD", "SA_Parent", "struct Screen*", "SA_Draggable", "BOOL", "SA_Exclusive", "BOOL", "SA_SharePens", "BOOL", "SA_BackFill", "struct Hook*", "SA_Interleaved", "BOOL", "SA_Colors32", "ULONG*", "SA_VideoControl", "struct TagItem*", "SA_FrontChild", "struct Screen*", "SA_BackChild", "struct Screen*", "SA_LikeWorkbench", "BOOL", "SA_MinimizeISG", "BOOL", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["SA_SysFont", "SA_ShowTitle", "SA_Behind", "SA_Quiet", "SA_AutoScroll", "SA_FullPalette", "SA_Draggable", "SA_Exclusive", "SA_SharePens", "SA_Interleaved", "SA_LikeWorkbench"],
+	          "type": "bool",
+	          "suggestions": ["TRUE", "FALSE"]
+	        },
+	        {
+	          "tag": ["SA_Type"],
+	          "type": "bool",
+	          "suggestions": ["PUBLICSCREEN", "CUSTOMSCREEN"]
+	        },
+	        {
+	          "tag": ["SA_Overscan"],
+	          "type": "macro",
+	          "suggestions": ["OSCAN_TEXT", "OSCAN_STANDARD", "OSCAN_MAX", "OSCAN_VIDEO"]
+	        },
+	        {
+	          "tag": ["SA_DisplayID"],
+	          "type": "id",
+	          "suggestions": ["INVALID_ID", "DEFAULT_MONITOR_ID", "NTSC_MONITOR_ID", "PAL_MONITOR_ID", "VGA_MONITOR_ID", "A2024_MONITOR_ID", "EURO72_MONITOR_ID", "EURO36_MONITOR_ID", "SUPER72_MONITOR_ID", "DBLNTSC_MONITOR_ID", "DBLPAL_MONITOR_ID", "LORES_KEY", "HIRES_KEY", "SUPER_KEY", "HAM_KEY", "LORESLACE_KEY", "HIRESLACE_KEY", "SUPERLACE_KEY", "HAMLACE_KEY", "LORESDPF_KEY", "HIRESDPF_KEY", "SUPERDPF_KEY", "LORESLACEDPF_KEY", "HIRESLACEDPF_KEY", "SUPERLACEDPF_KEY", "LORESDPF2_KEY", "HIRESDPF2_KEY", "SUPERDPF2_KEY", "LORESLACEDPF2_KEY", "HIRESLACEDPF2_KEY", "SUPERLACEDPF2_KEY", "EXTRAHALFBRITE_KEY", "EXTRAHALFBRITELACE_KEY", "HIRESHAM_KEY", "SUPERHAM_KEY", "HIRESEHB_KEY", "SUPEREHB_KEY", "HIRESHAMLACE_KEY", "SUPERHAMLACE_KEY", "HIRESEHBLACE_KEY", "SUPEREHBLACE_KEY", "LORESSDBL_KEY", "LORESHAMSDBL_KEY", "LORESEHBSDBL_KEY", "HIRESHAMSDBL_KEY", "VGAEXTRALORES_KEY", "VGALORES_KEY", "VGAPRODUCT_KEY", "VGAHAM_KEY", "VGAEXTRALORESLACE_KEY", "VGALORESLACE_KEY", "VGAPRODUCTLACE_KEY", "VGAHAMLACE_KEY", "VGAEXTRALORESDPF_KEY", "VGALORESDPF_KEY", "VGAPRODUCTDPF_KEY", "VGAEXTRALORESLACEDPF_KEY", "VGALORESLACEDPF_KEY", "VGAPRODUCTLACEDPF_KEY", "VGAEXTRALORESDPF2_KEY", "VGALORESDPF2_KEY", "VGAPRODUCTDPF2_KEY", "VGAEXTRALORESLACEDPF2_KEY", "VGALORESLACEDPF2_KEY", "VGAPRODUCTLACEDPF2_KEY", "VGAEXTRAHALFBRITE_KEY", "VGAEXTRAHALFBRITELACE_KEY", "VGAPRODUCTHAM_KEY", "VGALORESHAM_KEY", "VGAEXTRALORESHAM_KEY", "VGAPRODUCTHAMLACE_KEY", "VGALORESHAMLACE_KEY", "VGAEXTRALORESHAMLACE_KEY", "VGAEXTRALORESEHB_KEY", "VGAEXTRALORESEHBLACE_KEY", "VGALORESEHB_KEY", "VGALORESEHBLACE_KEY", "VGAEHB_KEY", "VGAEHBLACE_KEY", "VGAEXTRALORESDBL_KEY", "VGALORESDBL_KEY", "VGAPRODUCTDBL_KEY", "VGAEXTRALORESHAMDBL_KEY", "VGALORESHAMDBL_KEY", "VGAPRODUCTHAMDBL_KEY", "VGAEXTRALORESEHBDBL_KEY", "VGALORESEHBDBL_KEY", "VGAPRODUCTEHBDBL_KEY", "A2024TENHERTZ_KEY", "A2024FIFTEENHERTZ_KEY", "EURO72EXTRALORES_KEY", "EURO72LORES_KEY", "EURO72PRODUCT_KEY", "EURO72HAM_KEY", "EURO72EXTRALORESLACE_KEY", "EURO72LORESLACE_KEY", "EURO72PRODUCTLACE_KEY", "EURO72HAMLACE_KEY", "EURO72EXTRALORESDPF_KEY", "EURO72LORESDPF_KEY", "EURO72PRODUCTDPF_KEY", "EURO72EXTRALORESLACEDPF_KEY", "EURO72LORESLACEDPF_KEY", "EURO72PRODUCTLACEDPF_KEY", "EURO72EXTRALORESDPF2_KEY", "EURO72LORESDPF2_KEY", "EURO72PRODUCTDPF2_KEY", "EURO72EXTRALORESLACEDPF2_KEY", "EURO72LORESLACEDPF2_KEY", "EURO72PRODUCTLACEDPF2_KEY", "EURO72EXTRAHALFBRITE_KEY", "EURO72EXTRAHALFBRITELACE_KEY", "EURO72PRODUCTHAM_KEY", "EURO72PRODUCTHAMLACE_KEY", "EURO72LORESHAM_KEY", "EURO72LORESHAMLACE_KEY", "EURO72EXTRALORESHAM_KEY", "EURO72EXTRALORESHAMLACE_KEY", "EURO72EXTRALORESEHB_KEY", "EURO72EXTRALORESEHBLACE_KEY", "EURO72LORESEHB_KEY", "EURO72LORESEHBLACE_KEY", "EURO72EHB_KEY", "EURO72EHBLACE_KEY", "EURO72EXTRALORESDBL_KEY", "EURO72LORESDBL_KEY", "EURO72PRODUCTDBL_KEY", "EURO72EXTRALORESHAMDBL_KEY", "EURO72LORESHAMDBL_KEY", "EURO72PRODUCTHAMDBL_KEY", "EURO72EXTRALORESEHBDBL_KEY", "EURO72LORESEHBDBL_KEY", "EURO72PRODUCTEHBDBL_KEY", "SUPER72LORESDBL_KEY", "SUPER72HIRESDBL_KEY", "SUPER72SUPERDBL_KEY", "SUPER72LORESHAMDBL_KEY", "SUPER72HIRESHAMDBL_KEY", "SUPER72SUPERHAMDBL_KEY", "SUPER72LORESEHBDBL_KEY", "SUPER72HIRESEHBDBL_KEY", "SUPER72SUPEREHBDBL_KEY", "DBLNTSCLORES_KEY", "DBLNTSCLORESFF_KEY", "DBLNTSCLORESHAM_KEY", "DBLNTSCLORESHAMFF_KEY", "DBLNTSCLORESEHB_KEY", "DBLNTSCLORESEHBFF_KEY", "DBLNTSCLORESLACE_KEY", "DBLNTSCLORESHAMLACE_KEY", "DBLNTSCLORESEHBLACE_KEY", "DBLNTSCLORESDPF_KEY", "DBLNTSCLORESDPFFF_KEY", "DBLNTSCLORESDPFLACE_KEY", "DBLNTSCLORESDPF2_KEY", "DBLNTSCLORESDPF2FF_KEY", "DBLNTSCLORESDPF2LACE_KEY", "DBLNTSCHIRES_KEY", "DBLNTSCHIRESFF_KEY", "DBLNTSCHIRESHAM_KEY", "DBLNTSCHIRESHAMFF_KEY", "DBLNTSCHIRESLACE_KEY", "DBLNTSCHIRESHAMLACE_KEY", "DBLNTSCHIRESEHB_KEY", "DBLNTSCHIRESEHBFF_KEY", "DBLNTSCHIRESEHBLACE_KEY", "DBLNTSCHIRESDPF_KEY", "DBLNTSCHIRESDPFFF_KEY", "DBLNTSCHIRESDPFLACE_KEY", "DBLNTSCHIRESDPF2_KEY", "DBLNTSCHIRESDPF2FF_KEY", "DBLNTSCHIRESDPF2LACE_KEY", "DBLNTSCEXTRALORES_KEY", "DBLNTSCEXTRALORESHAM_KEY", "DBLNTSCEXTRALORESEHB_KEY", "DBLNTSCEXTRALORESDPF_KEY", "DBLNTSCEXTRALORESDPF2_KEY", "DBLNTSCEXTRALORESFF_KEY", "DBLNTSCEXTRALORESHAMFF_KEY", "DBLNTSCEXTRALORESEHBFF_KEY", "DBLNTSCEXTRALORESDPFFF_KEY", "DBLNTSCEXTRALORESDPF2FF_KEY", "DBLNTSCEXTRALORESLACE_KEY", "DBLNTSCEXTRALORESHAMLACE_KEY", "DBLNTSCEXTRALORESEHBLACE_KEY", "DBLNTSCEXTRALORESDPFLACE_KEY", "DBLNTSCEXTRALORESDPF2LACE_KEY", "DBLPALLORES_KEY", "DBLPALLORESFF_KEY", "DBLPALLORESHAM_KEY", "DBLPALLORESHAMFF_KEY", "DBLPALLORESEHB_KEY", "DBLPALLORESEHBFF_KEY", "DBLPALLORESLACE_KEY", "DBLPALLORESHAMLACE_KEY", "DBLPALLORESEHBLACE_KEY", "DBLPALLORESDPF_KEY", "DBLPALLORESDPFFF_KEY", "DBLPALLORESDPFLACE_KEY", "DBLPALLORESDPF2_KEY", "DBLPALLORESDPF2FF_KEY", "DBLPALLORESDPF2LACE_KEY", "DBLPALHIRES_KEY", "DBLPALHIRESFF_KEY", "DBLPALHIRESHAM_KEY", "DBLPALHIRESHAMFF_KEY", "DBLPALHIRESLACE_KEY", "DBLPALHIRESHAMLACE_KEY", "DBLPALHIRESEHB_KEY", "DBLPALHIRESEHBFF_KEY", "DBLPALHIRESEHBLACE_KEY", "DBLPALHIRESDPF_KEY", "DBLPALHIRESDPFFF_KEY", "DBLPALHIRESDPFLACE_KEY", "DBLPALHIRESDPF2_KEY", "DBLPALHIRESDPF2FF_KEY", "DBLPALHIRESDPF2LACE_KEY", "DBLPALEXTRALORES_KEY", "DBLPALEXTRALORESHAM_KEY", "DBLPALEXTRALORESEHB_KEY", "DBLPALEXTRALORESDPF_KEY", "DBLPALEXTRALORESDPF2_KEY", "DBLPALEXTRALORESFF_KEY", "DBLPALEXTRALORESHAMFF_KEY", "DBLPALEXTRALORESEHBFF_KEY", "DBLPALEXTRALORESDPFFF_KEY", "DBLPALEXTRALORESDPF2FF_KEY", "DBLPALEXTRALORESLACE_KEY", "DBLPALEXTRALORESHAMLACE_KEY", "DBLPALEXTRALORESEHBLACE_KEY", "DBLPALEXTRALORESDPFLACE_KEY", "DBLPALEXTRALORESDPF2LACE_KEY"]
+	        }
+	      ]
+	    }
+	  ]
+	},
+	{
+		"name": ["OpenWorkbenchObject"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["WBOPENA_ArgLock", "BPTR", "WBOPENA_ArgName", "STRPTR", "TAG_END"]
+	    }
+	  ]
+	},
+	{
+		"name": ["PubScreenStatus"],
+	  "arguments": [
+	    {
+	      "num": ["2"],
+	      "type": "flag",
+	      "suggestions": ["PSNF_PRIVATE"]
+	    }
+	  ]
+	},
+	{
+		"name": ["PutIconTags"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["ICONPUTA_NotifyWorkbench", "BOOL", "ICONPUTA_PutDefaultType", "LONG", "ICONPUTA_PutDefaultName", "STRPTR", "ICONPUTA_DropPlanarIconImage", "BOOL", "ICONPUTA_DropChunkyIconImage", "BOOL", "ICONPUTA_DropNewIconToolTypes", "BOOL", "ICONPUTA_OptimizeImageSpace", "BOOL", "ICONPUTA_OnlyUpdatePosition", "BOOL", "ICONPUTA_PreserveOldIconImages", "BOOL", "ICONA_ErrorCode", "LONG *", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["ICONPUTA_NotifyWorkbench", "ICONPUTA_DropPlanarIconImage", "ICONPUTA_DropChunkyIconImage", "ICONPUTA_DropNewIconToolTypes", "ICONPUTA_OptimizeImageSpace", "ICONPUTA_OnlyUpdatePosition", "ICONPUTA_PreserveOldIconImages"],
+	          "type": "bool",
+	          "suggestions": ["TRUE", "FALSE"]
+	        },
+	        {
+	          "tag": ["ICONPUTA_PutDefaultType"],
+	          "type": "bool",
+	          "suggestions": ["WBDISK", "WBDRAWER", "WBTOOL", "WBPROJECT", "WBGARBAGE", "WBDEVICE", "WBKICK"]
+	        }
+	      ]
+	    }
+	  ]
+	},
+	{
+		"name": ["QueryOverscan"],
+	  "arguments": [
+	    {
+	      "num": ["3"],
+	      "type": "macro",
+	      "suggestions": ["OSCAN_TEXT", "OSCAN_STANDARD", "OSCAN_MAX", "OSCAN_VIDEO"]
+	    }
+	  ]
+	},
+	{
+		"name": ["ReleaseCard"],
+	  "arguments": [
+	    {
+	      "num": ["2"],
+	      "type": "flag",
+	      "suggestions": ["CARDB_REMOVEHANDLE"]
+	    }
+	  ]
+	},
+	{
+		"name": ["RethinkLayout", "SetNVProtection"],
+	  "arguments": [
+	    {
+	      "num": ["4"],
+	      "type": "bool",
+	      "suggestions": ["TRUE", "FALSE"]
+	    }
+	  ]
+	},
+	{
+		"name": ["ScreenDepth"],
+	  "arguments": [
+	    {
+	      "num": ["2"],
+	      "type": "flag",
+	      "suggestions": ["SDEPTH_TOFRONT", "SDEPTH_TOBACK", "SDEPTH_INFAMILY"]
+	    }
+	  ]
+	},
+	{
+		"name": ["SetAmigaGuideAttrs"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["AGA_Activate", "BOOL", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["AGA_Activate"],
+	          "type": "bool",
+	          "suggestions": ["TRUE", "FALSE"]
+	        }
+	      ]
+	    }
+	  ]
+	},
+	{
+		"name": ["SetChooserNodeAttrs"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["CNA_Text", "STRPTR", "CNA_Image", "struct Image*", "CNA_SelImage", "struct Image*", "CNA_UserData", "APTR", "CNA_Separator", "BOOL", "CNA_Disabled", "BOOL", "CNA_BGPen", "WORD", "CNA_FGPen", "WORD", "CNA_ReadOnly", "BOOL", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["CNA_Separator", "CNA_Disabled", "CNA_ReadOnly"],
+	          "type": "bool",
+	          "suggestions": ["TRUE", "FALSE"]
+	        }
+	      ]
+	    }
+	  ]
+	},
+	{
+		"name": ["SetClickTabNodeAttrs"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["TNA_UserData", "APTR", "TNA_Image", "struct Image*", "TNA_SelImage", "struct Image*", "TNA_Text", "STRPTR", "TNA_Number", "WORD", "TNA_TextPen", "WORD", "TNA_Disabled", "BOOL", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["TNA_Disabled"],
+	          "type": "macro",
+	          "suggestions": ["TRUE", "FALSE"]
+	        }
+	      ]
+	    }
+	  ]
+	},
+	{
+		"name": ["SetConductorState"],
+	  "arguments": [
+	    {
+	      "num": ["2"],
+	      "type": "macro",
+	      "suggestions": ["CONDSTATE_STOPPED", "CONDSTATE_PAUSED", "CONDSTATE_LOCATE", "CONDSTATE_RUNNING", "CONDSTATE_METRIC", "CONDSTATE_SHUTTLE", "CONDSTATE_LOCATE_SET"]
+	    }
+	  ]
+	},
+	{
+		"name": ["SetDrMd"],
+	  "arguments": [
+	    {
+	      "num": ["2"],
+	      "type": "macro",
+	      "suggestions": ["JAM1", "JAM2", "COMPLEMENT", "INVERSVID"]
+	    }
+	  ]
+	},
+	{
+		"name": ["SetDTAttrs"],
+		"tagStrt": "4",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["DTA_TextAttr", "struct TextAttr*", "DTA_TopVert", "LONG", "DTA_VisibleVert", "LONG", "DTA_TotalVert", "LONG", "DTA_VertUnit", "LONG", "DTA_TopHoriz", "LONG", "DTA_VisibleHoriz", "LONG", "DTA_TotalHoriz", "LONG", "DTA_HorizUnit", "LONG", "DTA_NodeName", "UBYTE*", "DTA_Title", "UBYTE*", "DTA_TriggerMethods", "struct DTMethod*", "DTA_Data", "APTR", "DTA_TextFont", "struct TextFont*", "DTA_Methods", "ULONG*", "DTA_PrinterStatus", "LONG", "DTA_Busy", "BOOL", "DTA_Sync", "BOOL", "DTA_BaseName", "STRPTR", "DTA_GroupID", "ULONG", "DTA_Conductor", "UBYTE*", "DTA_ControlPanel", "BOOL", "DTA_Immediate", "BOOL", "DTA_Repeat", "BOOL", "DTA_SourceAddress", "APTR", "DTA_SourceSize", "ULONG", "DTA_Name", "STRPTR", "DTA_SourceType", "ULONG", "DTA_Handle", "BPTR", "DTA_DataType", "struct DataType*", "DTA_Domain", "struct IBox*", "GA_Left", "LONG", "GA_Top", "LONG", "GA_Width", "LONG", "GA_Height", "LONG", "DTA_ObjName", "STRPTR", "DTA_ObjAuthor", "STRPTR", "DTA_ObjAnnotation", "STRPTR", "DTA_ObjCopyright", "STRPTR", "DTA_ObjVersion", "STRPTR", "DTA_ObjectID", "ULONG", "DTA_UserData", "APTR", "DTA_FrameInfo", "struct FrameInfo*", "GA_RelRight", "LONG", "GA_RelBottom", "LONG", "GA_RelWidth", "LONG", "GA_RelHeight", "LONG", "DTA_SelectDomain", "struct IBox*", "DTA_TotalPVert", "LONG", "DTA_TotalPHoriz", "LONG", "DTA_NominalVert", "LONG", "DTA_NominalHoriz", "LONG", "DTA_DestCols", "LONG", "DTA_DestRows", "LONG", "DTA_Special", "UWORD", "DTA_RastPort", "struct RastPort*", "DTA_ARexxPortName", "STRPTR", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["DTA_Busy", "DTA_Sync", "DTA_ControlPanel", "DTA_Immediate", "DTA_Repeat"],
+	          "type": "bool",
+	          "suggestions": ["TRUE", "FALSE"]
+	        },
+	        {
+	          "tag": ["DTA_GroupID"],
+	          "type": "id",
+	          "suggestions": ["GID_SYSTEM", "GID_TEXT", "GID_DOCUMENT", "GID_SOUND", "GID_INSTRUMENT", "GID_MUSIC", "GID_PICTURE", "GID_ANIMATION", "GID_MOVIE"]
+	        },
+	        {
+	          "tag": ["DTA_SourceType"],
+	          "type": "macro",
+	          "suggestions": ["DTST_RAM", "DTST_FILE", "DTST_CLIPBOARD", "DTST_HOTLINK", "DTST_MEMORY"]
+	        },
+	        {
+	          "tag": ["DTA_Special"],
+	          "type": "flag",
+	          "suggestions": ["DTSIF_LAYOUT", "DTSIF_NEWSIZE", "DTSIF_DRAGGING", "DTSIF_DRAGSELECT", "DTSIF_HIGHLIGHT", "DTSIF_PRINTING", "DTSIF_LAYOUTPROC"]
+	        }
+	      ]
+	    }
+	  ]
+	},
+	{
+		"name": ["SetFileSize"],
+	  "arguments": [
+	    {
+	      "num": ["3"],
+	      "type": "macro",
+	      "suggestions": ["OFFSET_BEGINNING", "OFFSET_CURRENT", "OFFSET_END"]
+	    }
+	  ]
+	},
+	{
+		"name": ["SetInfo"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["OT_DeviceDPI", "ULONG", "OT_DotSize", "ULONG", "OT_PointHeight", "ULONG", "OT_SetFactor", "ULONG", "OT_ShearSin", "ULONG", "OT_ShearCos", "ULONG", "OT_RotateSin", "ULONG", "OT_RotateCos", "ULONG", "OT_EmboldenX", "ULONG", "OT_EmboldenY", "ULONG", "OT_PointSize", "ULONG", "OT_GlyphCode", "ULONG", "OT_GlyphCode2", "ULONG", "OT_GlyphWidth", "ULONG", "OT_OTagPath", "STRPTR", "OT_OTagList", "APTR", "TAG_END"]
+	    }
+	  ]
+	},
+	{
+		"name": ["SetJoyPortAttrs"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["SJA_Type", "ULONG", "SJA_Reinitialize", "VOID", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["SJA_Type"],
+	          "type": "macro",
+	          "suggestions": ["SJA_TYPE_GAMECTLR", "SJA_TYPE_MOUSE", "SJA_TYPE_JOYSTK", "SJA_TYPE_AUTOSENSE"]
+	        }
+	      ]
+	    }
+	  ]
+	},
+	{
+		"name": ["SetListBrowserNodeAttrs"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["LBNA_Selected", "BOOL", "LBNA_Flags", "ULONG", "LBNA_UserData", "ULONG", "LBNA_Column", "WORD", "LBNCA_Text", "STRPTR", "LBNCA_Integer", "LONG*", "LBNCA_FGPen", "WORD", "LBNCA_BGPen", "WORD", "LBNCA_Image", "struct Image*", "LBNCA_SelImage", "struct Image*", "LBNCA_HorizJustify", "ULONG", "LBNCA_VertJustify", "ULONG", "LBNA_Generation", "WORD", "LBNCA_Editable", "BOOL", "LBNCA_MaxChars", "WORD", "LBNCA_CopyText", "BOOL", "LBNA_CheckBox", "BOOL", "LBNA_Checked", "BOOL", "LBNA_NodeSize", "ULONG", "LBNCA_EditTags", "struct TagItem*", "LBNCA_RenderHook", "struct Hook*", "LBNCA_HookHeight", "WORD", "LBNA_MemPool", "APTR", "LBNA_NumColumns", "WORD", "LBNA_Priority", "UBYTE", "LBNCA_CopyInteger", "BOOL", "LBNCA_WordWrap", "BOOL", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["LBNA_Selected", "LBNCA_Editable", "LBNCA_CopyText", "LBNA_CheckBox", "LBNA_Checked", "LBNCA_CopyInteger"],
+	          "type": "bool",
+	          "suggestions": ["TRUE", "FALSE"]
+	        },
+	        {
+	          "tag": ["LBNA_Flags"],
+	          "type": "flag",
+	          "suggestions": ["LBFLG_READONLY", "LBFLG_CUSTOMPENS", "LBFLG_HASCHILDREN", "LBFLG_SHOWCHILDREN", "LBFLG_HIDDEN"]
+	        },
+	        {
+	          "tag": ["LBNCA_HorizJustify"],
+	          "type": "macro",
+	          "suggestions": ["LCJ_LEFT", "LCJ_CENTER", "LCJ_RIGHT"]
+	        },
+	        {
+	          "tag": ["LBNCA_VertJustify"],
+	          "type": "macro",
+	          "suggestions": ["LRJ_BOTTOM", "LRJ_CENTER", "LRJ_TOP"]
+	        }
+	      ]
+	    }
+	  ]
+	},
+	{
+		"name": ["SetMouseQueue"],
+	  "arguments": [
+	    {
+	      "num": ["2"],
+	      "type": "macro",
+	      "suggestions": ["DEFAULTMOUSEQUEUE"]
+	    }
+	  ]
+	},
+	{
+		"name": ["SetProtection"],
+	  "arguments": [
+	    {
+	      "num": ["2"],
+	      "type": "flag",
+	      "suggestions": ["FIBF_READ", "FIBF_WRITE", "FIBF_EXECUTE", "FIBF_DELETE", "FIBF_SCRIPT", "FIBF_PURE", "FIBF_ARCHIVE", "FIBF_GRP_READ", "FIBF_GRP_WRITE", "FIBF_GRP_EXECUTE", "FIBF_GRP_DELETE", "FIBF_OTR_READ", "FIBF_OTR_WRITE", "FIBF_OTR_EXECUTE", "FIBF_OTR_DELETE"]
+	    }
+	  ]
+	},
+	{
+		"name": ["SetPubScreenModes"],
+	  "arguments": [
+	    {
+	      "num": ["1"],
+	      "type": "flag",
+	      "suggestions": ["SHANGHAI", "POPPUBSCREEN"]
+	    }
+	  ]
+	},
+	{
+		"name": ["SetSoftStyle"],
+	  "arguments": [
+	    {
+	      "num": ["3"],
+	      "type": "flag",
+	      "suggestions": ["FS_NORMAL", "FSF_UNDERLINED", "FSF_BOLD", "FSF_ITALIC", "FSF_EXTENDED", "FSF_COLORFONT", "FSF_TAGGED"]
+	    }
+	  ]
+	},
+	{
+		"name": ["SetVar"],
+	  "arguments": [
+	    {
+	      "num": ["4"],
+	      "type": "flag",
+	      "suggestions": ["GVF_GLOBAL_ONLY", "GVF_LOCAL_ONLY", "GVF_BINARY_VAR", "GVF_DONT_NULL_TERM", "GVF_SAVE_VAR"]
+	    }
+	  ]
+	},
+	{
+		"name": ["SetVBuf"],
+	  "arguments": [
+	    {
+	      "num": ["3"],
+	      "type": "macro",
+	      "suggestions": ["BUF_LINE", "BUF_FULL", "BUF_NONE"]
+	    }
+	  ]
+	},
+	{
+		"name": ["SetWindowPointer"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["WA_Pointer", "APTR", "WA_BusyPointer", "BOOL", "WA_PointerDelay", "BOOL", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["WA_BusyPointer", "WA_PointerDelay"],
+	          "type": "bool",
+	          "suggestions": ["TRUE", "FALSE"]
+	        }
+	      ]
+	    }
+	  ]
+	},
+	{
+		"name": ["StoreNV"],
+	  "arguments": [
+	    {
+	      "num": ["5"],
+	      "type": "bool",
+	      "suggestions": ["TRUE", "FALSE"]
+	    }
+	  ]
+	},
+	{
+		"name": ["StrConvert", "StrnCmp"],
+	  "arguments": [
+	    {
+	      "num": ["5"],
+	      "type": "macro",
+	      "suggestions": ["SC_ASCII", "SC_COLLATE1", "SC_COLLATE2"]
+	    }
+	  ]
+	},
+	{
+		"name": ["SystemControl"],
+		"tagStrt": "1",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["SCON_TakeOverSys", "BOOL", "SCON_KillReq", "BOOL", "SCON_CDReboot", "ULONG", "SCON_StopInput", "BOOL", "SCON_AddCreateKeys", "ULONG", "SCON_RemCreateKeys", "ULONG", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["SCON_TakeOverSys", "SCON_KillReq", "SCON_StopInput"],
+	          "type": "bool",
+	          "suggestions": ["TRUE", "FALSE"]
+	        },
+	        {
+	          "tag": ["SCON_CDReboot"],
+	          "type": "macro",
+	          "suggestions": ["CDReboot_On", "CDReboot_Off", "CDReboot_Default" ]
+	        }
+	      ]
+	    }
+	  ]
+	},
+	{
+		"name": ["SystemTags"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["SYS_Input", "BPTR", "SYS_Output", "BPTR", "SYS_Asynch", "BOOL", "SYS_UserShell", "BOOL", "SYS_CustomShell", "STRPTR", "NP_Seglist", "APTR", "NP_FreeSeglist", "BOOL", "NP_Entry", "(*function)", "NP_Input", "BPTR", "NP_Output", "BPTR", "NP_CloseInput", "BOOL", "NP_CloseOutput", "BOOL", "NP_Error", "BPTR", "NP_CloseError", "BOOL", "NP_CurrentDir", "BPTR", "NP_StackSize", "ULONG", "NP_Name", "STRPTR", "NP_Priority", "LONG", "NP_ConsoleTask", "struct Task*", "NP_WindowPtr", "struct Window*", "NP_HomeDir", "BPTR", "NP_CopyVars", "BOOL", "NP_Cli", "BOOL", "NP_Path", "BPTR", "NP_CommandName", "STRPTR", "NP_Arguments", "STRPTR", "NP_NotifyOnDeath", "BOOL", "NP_Synchronous", "BOOL", "NP_ExitCode", "APTR", "NP_ExitData", "LONG", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["SYS_Asynch", "SYS_UserShell", "NP_FreeSeglist", "NP_CloseInput", "NP_CloseOutput", "NP_CloseError", "NP_CopyVars", "NP_Cli", "NP_NotifyOnDeath", "NP_Synchronous"],
+	          "type": "bool",
+	          "suggestions": ["TRUE", "FALSE"]
+	        }
+	      ]
+	    }
+	  ]
+	},
+	{
+		"name": ["TextFit"],
+	  "arguments": [
+	    {
+	      "num": ["6"],
+	      "type": "value",
+	      "suggestions": ["1", "-1"]
+	    }
+	  ]
+	},
+	{
+		"name": ["VideoControlTags"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["VTAG_ATTACH_CM_SET", "struct ViewPort*", "VTAG_ATTACH_CM_GET", "struct ViewPort*", "VTAG_VIEWPORTEXTRA_GET", "struct ViewPortExtra*", "VTAG_VIEWPORTEXTRA_SET", "struct ViewPortExtra*", "VTAG_NORMAL_DISP_GET", "APTR", "VTAG_NORMAL_DISP_SET", "APTR", "VTAG_COERCE_DISP_GET", "APTR", "VTAG_COERCE_DISP_SET", "APTR", "VTAG_PF1_BASE_GET", "UBYTE", "VTAG_PF1_BASE_SET", "UBYTE", "VTAG_PF2_BASE_GET", "UBYTE", "VTAG_PF2_BASE_SET", "UBYTE", "VTAG_SPODD_BASE_GET", "UBYTE", "VTAG_SPODD_BASE_SET", "UBYTE", "VTAG_SPEVEN_BASE_GET", "UBYTE", "VTAG_SPEVEN_BASE_SET", "UBYTE", "VTAG_BORDERSPRITE_GET", "BOOL", "VTAG_BORDERSPRITE_SET", "BOOL", "VTAG_BORDERSPRITE_CLR", "BOOL", "VTAG_SPRITERESN_GET", "ULONG", "VTAG_SPRITERESN_SET", "ULONG", "VTAG_PF1_TO_SPRITEPRI_SET", "LONG", "VTAG_PF1_TO_SPRITEPRI_GET", "LONG", "VTAG_PF2_TO_SPRITEPRI_SET", "LONG", "VTAG_PF2_TO_SPRITEPRI_GET", "LONG", "VTAG_BORDERBLANK_GET", "BOOL", "VTAG_BORDERBLANK_SET", "BOOL", "VTAG_BORDERBLANK_CLR", "BOOL", "VTAG_BORDERNOTRANS_GET", "BOOL", "VTAG_BORDERNOTRANS_SET", "BOOL", "VTAG_BORDERNOTRANS_CLR", "BOOL", "VTAG_CHROMAKEY_GET", "BOOL", "VTAG_CHROMAKEY_SET", "BOOL", "VTAG_CHROMAKEY_CLR", "BOOL", "VTAG_BITPLANEKEY_GET", "BOOL", "VTAG_BITPLANEKEY_SET", "BOOL", "VTAG_BITPLANEKEY_CLR", "BOOL", "VTAG_CHROMA_PEN_GET", "UWORD", "VTAG_CHROMA_PEN_SET", "UWORD", "VTAG_CHROMA_PEN_CLR", "UWORD", "VTAG_CHROMA_PLANE_GET", "UWORD", "VTAG_CHROMA_PLANE_SET", "UWORD", "VTAG_IMMEDIATE", "LONG*", "VTAG_FULLPALETTE_SET", "BOOL", "VTAG_FULLPALETTE_GET", "BOOL", "VTAG_FULLPALETTE_CLR", "BOOL", "VC_IntermediateCLUpdate", "BOOL", "VC_IntermediateCLUpdate_Query", "BOOL", "VC_NoColorPaletteLoad", "BOOL", "VC_NoColorPaletteLoad_Query", "BOOL", "VC_DUALPF_Disable", "BOOL", "VC_DUALPF_Disable_Query", "BOOL", "VTAG_USERCLIP_GET", "BOOL", "VTAG_USERCLIP_SET", "BOOL", "VTAG_USERCLIP_CLR", "BOOL", "VTAG_BATCH_CM_GET", "BOOL", "VTAG_BATCH_CM_SET", "BOOL", "VTAG_BATCH_CM_CLR", "BOOL", "VTAG_BATCH_ITEMS_GET", "struct TagItem*", "VTAG_BATCH_ITEMS_SET", "struct TagItem*", "VTAG_BATCH_ITEMS_ADD", "struct TagItem*", "VTAG_DEFSPRITERESN_SET", "ULONG", "VTAG_DEFSPRITERESN_GET", "ULONG", "VTAG_NEXTBUF_CM", "struct TagItem*", "TAG_END"],
+	      "values": [
+	        {
+	          "tag": ["VC_IntermediateCLUpdate", "VC_NoColorPaletteLoad", "VC_DUALPF_Disable"],
+	          "type": "bool",
+	          "suggestions": ["TRUE", "FALSE"]
+	        },
+	        {
+	          "tag": ["VTAG_SPRITERESN", "VTAG_DEFSPRITERESN_SET"],
+	          "type": "macro",
+	          "suggestions": ["SPRITERESN_DEFAULT", "SPRITERESN_ECS", "SPRITERESN_140NS", "SPRITERESN_70NS", "SPRITERESN_35NS"]
+	        }
+	      ]
+	    }
+	  ]
+	},
+	{
+		"name": ["WorkbenchControl"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"type": "tag",
+	      "suggestions": ["WBCTRLA_IsOpen", "LONG*", "WBCTRLA_DuplicateSearchPath", "BPTR*", "WBCTRLA_FreeSearchPath", "BPTR", "WBCTRLA_GetDefaultStackSize", "ULONG*", "WBCTRLA_SetDefaultStackSize", "ULONG", "WBCTRLA_RedrawAppIcon", "struct AppIcon*", "WBCTRLA_GetProgramList", "struct List**", "WBCTRLA_FreeProgramList", "struct List*", "WBCTRLA_GetSelectedIconList", "struct List**", "WBCTRLA_FreeSelectedIconList", "struct List*", "WBCTRLA_GetOpenDrawerList", "struct List**", "WBCTRLA_FreeOpenDrawerList", "struct List*", "WBCTRLA_AddHiddenDeviceName", "STRPTR", "WBCTRLA_RemoveHiddenDeviceName", "STRPTR", "WBCTRLA_GetHiddenDeviceList", "struct List**", "WBCTRLA_FreeHiddenDeviceList", "struct List*", "WBCTRLA_GetTypeRestartTime", "ULONG*", "WBCTRLA_SetTypeRestartTime", "ULONG", "WBCTRLA_GetCopyHook", "struct Hook*", "WBCTRLA_SetCopyHook", "struct Hook*", "WBCTRLA_GetDeleteHook", "struct Hook*", "WBCTRLA_SetDeleteHook", "struct Hook*", "WBCTRLA_GetTextInputHook", "struct Hook*", "WBCTRLA_SetTextInputHook", "struct Hook*", "WBCTRLA_AddSetupCleanupHook", "struct Hook*", "WBCTRLA_RemSetupCleanupHook", "struct Hook*", "TAG_END"]
+	    }
+	  ]
+	},
+	{
+		"name": ["WriteExpansionByte"],
+	  "arguments": [
+	    {
+	      "num": ["2"],
+	      "type": "macro",
+	      "suggestions": ["EROFFSET", "ECOFFSET"]
+	    }
+	  ]
+	},
+	{
+		"name": ["EROFFSET"],
+	  "arguments": [
+	    {
+	      "num": ["1"],
+	      "type": "member",
+	      "suggestions": ["er_Type", "er_Product", "er_Flags", "er_Manufacturer", "er_SerialNumber", "er_InitDiagVec"]
+	    }
+	  ]
+	},
+	{
+		"name": ["ECOFFSET"],
+	  "arguments": [
+	    {
+	      "num": ["1"],
+	      "type": "member",
+	      "suggestions": ["ec_Interrupt", "ec_Z3_HighBase", "ec_BaseAddress", "ec_Shutup"]
+	    }
+	  ]
+	}

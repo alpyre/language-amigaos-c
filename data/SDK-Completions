@@ -48,7 +48,7 @@
 	},
 	{
 		"displayText": "ActivateCxObj(cxObject, switch)",
-		"snippet": "ActivateCxObj(${1:CxObj *co}, ${2:LONG switch})${3:}",
+		"snippet": "ActivateCxObj(${1:CxObj *co}, ${2:BOOL switch})${3:}",
 		"type": "function",
 		"leftLabel": "LONG",
 		"description": "Change the activation state of a commodity object. (V36)",
@@ -911,14 +911,6 @@
 		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node02AD.html"
 	},
 	{
-		"displayText": "AslRequest(requester, tagList)",
-		"snippet": "AslRequest(${1:APTR requester}, ${2:struct TagItem *tagList})${3:}",
-		"type": "function",
-		"leftLabel": "BOOL",
-		"description": "Get input from user using an ASL requester. (V36)",
-		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node005B.html"
-	},
-	{
 		"displayText": "AssignAdd(name, lock)",
 		"snippet": "AssignAdd(${1:CONST_STRPTR name}, ${2:BPTR lock})${3:}",
 		"type": "function",
@@ -1760,7 +1752,7 @@
 	},
 	{
 		"displayText": "CloseWorkbenchObject(name, ...)",
-		"snippet": "CloseWorkbenchObject(${1:STRPTR name}, ${2:...})${3:}",
+		"snippet": "CloseWorkbenchObject(${1:STRPTR name}, ${2:Tag1}, ${3:...})${4:}",
 		"type": "function",
 		"leftLabel": "BOOL",
 		"description": "Close a drawer window. (V44)",
@@ -2017,6 +2009,14 @@
 	{
 		"displayText": "CreateNewProc(tags)",
 		"snippet": "CreateNewProc(${1:CONST struct TagItem *tags})${2:}",
+		"type": "function",
+		"leftLabel": "struct Process*",
+		"description": "Create a new process. (V36)",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node014C.html"
+	},
+	{
+		"displayText": "CreateNewProcTags(tag1, ...)",
+		"snippet": "CreateNewProcTags(${1:Tag tag1}, ${2:...})${3:}",
 		"type": "function",
 		"leftLabel": "struct Process*",
 		"description": "Create a new process. (V36)",
@@ -2304,7 +2304,7 @@
 	},
 	{
 		"displayText": "DeleteNV(appName, itemName, killRequesters)",
-		"snippet": "DeleteNV(${1:CONST_STRPTR appName}, ${2:CONST_STRPTR itemName}, ${3:LONG killReqs})${4:}",
+		"snippet": "DeleteNV(${1:CONST_STRPTR appName}, ${2:CONST_STRPTR itemName}, ${3:BOOL killReqs})${4:}",
 		"type": "function",
 		"leftLabel": "BOOL",
 		"description": "Remove an entry from nonvoltatile storage. (V40)",
@@ -2728,7 +2728,7 @@
 	},
 	{
 		"displayText": "DrawIconState(rastPort, icon, label, leftOffset, topOffset, state, ...)",
-		"snippet": "DrawIconState(${1:struct RastPort *rp}, ${2:CONST struct DiskObject *icon}, ${3:CONST STRPTR label}, ${4:LONG leftOffset}, ${5:LONG topOffset}, ${6:ULONG state}, ${7:...})${8:}",
+		"snippet": "DrawIconState(${1:struct RastPort *rp}, ${2:CONST struct DiskObject *icon}, ${3:CONST STRPTR label}, ${4:LONG leftOffset}, ${5:LONG topOffset}, ${6:ULONG state}, ${7:Tag tag1}, ${8:...})${9:}",
 		"type": "function",
 		"leftLabel": "void",
 		"description": "Draw an icon as if it were an image. (V44)",
@@ -2840,7 +2840,7 @@
 	},
 	{
 		"displayText": "EndRefresh(window, complete)",
-		"snippet": "EndRefresh(${1:struct Window *win}, ${2:LONG complete})${3:}",
+		"snippet": "EndRefresh(${1:struct Window *win}, ${2:BOOL complete})${3:}",
 		"type": "function",
 		"leftLabel": "void",
 		"description": "End the optimized refresh state of the window.",
@@ -2983,6 +2983,15 @@
 		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node02D1.html"
 	},
 	{
+		"displayText": "ExtendFontTags(font, ...)",
+		"snippet": "ExtendFontTags(${1:struct TextFont *font}, ${2:Tag tag1}, ${3:...})${4:}",
+		"type": "function",
+		"leftLabel": "ULONG",
+		"description": "Ensure tf_Extension has been built for a font. (V36)",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node02D1.html"
+
+	},
+	{
 		"displayText": "ExternalSync(player, minTime, maxTime)",
 		"snippet": "ExternalSync(${1:struct Player *player}, ${2:LONG minTime}, ${3:LONG maxTime})${4:}",
 		"type": "function",
@@ -3048,7 +3057,7 @@
 	},
 	{
 		"displayText": "FilterTagChanges(changeList, originalList, apply)",
-		"snippet": "FilterTagChanges(${1:struct TagItem *changeList}, ${2:struct TagItem *originalList}, ${3:ULONG apply})${4:}",
+		"snippet": "FilterTagChanges(${1:struct TagItem *changeList}, ${2:struct TagItem *originalList}, ${3:BOOL apply})${4:}",
 		"type": "function",
 		"leftLabel": "void",
 		"description": "Eliminate tags which specify no change. (V36)",
@@ -3184,7 +3193,7 @@
 	},
 	{
 		"displayText": "FindSegment(name, seg, system)",
-		"snippet": "FindSegment(${1:CONST_STRPTR name}, ${2:CONST struct Segment *seg}, ${3:LONG system})${4:}",
+		"snippet": "FindSegment(${1:CONST_STRPTR name}, ${2:CONST struct Segment *seg}, ${3:BOOL system})${4:}",
 		"type": "function",
 		"leftLabel": "struct Segment*",
 		"description": "Finds a segment on the resident list. (V36)",
@@ -3319,8 +3328,8 @@
 		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node016D.html"
 	},
 	{
-		"displayText": "FRead(fh, block, blocklen, number)",
-		"snippet": "FRead(${1:BPTR fh}, ${2:APTR block}, ${3:ULONG blocklen}, ${4:ULONG number})${5:}",
+		"displayText": "FRead(fh, buf, blocklen, blocks)",
+		"snippet": "FRead(${1:BPTR fh}, ${2:APTR buf}, ${3:ULONG blocklen}, ${4:ULONG blocks})${5:}",
 		"type": "function",
 		"leftLabel": "LONG",
 		"description": "Reads a number of blocks from an input  (buffered). (V36)",
@@ -3640,7 +3649,7 @@
 	},
 	{
 		"displayText": "FreeRemember(rememberKey, reallyForget)",
-		"snippet": "FreeRemember(${1:struct Remember **rememberKey}, ${2:LONG reallyForget})${3:}",
+		"snippet": "FreeRemember(${1:struct Remember **rememberKey}, ${2:BOOL reallyForget})${3:}",
 		"type": "function",
 		"leftLabel": "void",
 		"description": "Free memory allocated by calls to AllocRemember().",
@@ -3759,8 +3768,8 @@
 		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0272.html"
 	},
 	{
-		"displayText": "FWrite(fileHandle, block, blockLen, number)",
-		"snippet": "FWrite(${1:BPTR fh}, ${2:CONST APTR block}, ${3:ULONG blocklen}, ${4:ULONG number})${5:}",
+		"displayText": "FWrite(fileHandle, buf, blockLen, blocks)",
+		"snippet": "FWrite(${1:BPTR fh}, ${2:CONST APTR buf}, ${3:ULONG blocklen}, ${4:ULONG blocks})${5:}",
 		"type": "function",
 		"leftLabel": "LONG",
 		"description": "Writes a number of blocks to an output  (buffered). (V36)",
@@ -3928,7 +3937,7 @@
 	},
 	{
 		"displayText": "GetCopyNV(appName, itemName, killRequesters)",
-		"snippet": "GetCopyNV(${1:CONST_STRPTR appName}, ${2:CONST_STRPTR itemName}, ${3:LONG killRequesters})${4:}",
+		"snippet": "GetCopyNV(${1:CONST_STRPTR appName}, ${2:CONST_STRPTR itemName}, ${3:BOOL killRequesters})${4:}",
 		"type": "function",
 		"leftLabel": "APTR",
 		"description": "Return a copy of an item stored in nonvolatile storage. (V40)",
@@ -4127,6 +4136,14 @@
 		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0350.html"
 	},
 	{
+		"displayText": "GetIconTags(name, ...)",
+		"snippet": "GetIconTagList(${1:CONST STRPTR name}, ${2:...})${3:}",
+		"type": "function",
+		"leftLabel": "struct DiskObject*",
+		"description": "Retrieve an icon. (V44)",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0350.html"
+	},
+	{
 		"displayText": "GetKey()",
 		"snippet": "GetKey()",
 		"type": "function",
@@ -4176,7 +4193,7 @@
 	},
 	{
 		"displayText": "GetNVInfo(killRequesters)",
-		"snippet": "GetNVInfo(${1:LONG killRequesters})${2:}",
+		"snippet": "GetNVInfo(${1:BOOL killRequesters})${2:}",
 		"type": "function",
 		"leftLabel": "struct NVInfo*",
 		"description": "Report information on the current nonvolatile storage. (V40)",
@@ -4184,11 +4201,19 @@
 	},
 	{
 		"displayText": "GetNVList(appName, killRequesters)",
-		"snippet": "GetNVList(${1:CONST_STRPTR appName}, ${2:LONG killRequesters})${3:}",
+		"snippet": "GetNVList(${1:CONST_STRPTR appName}, ${2:BOOL killRequesters})${3:}",
 		"type": "function",
 		"leftLabel": "struct MinList*",
 		"description": "Return a list of the items stored in nonvolatile storage. (V40)",
 		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node04E0.html"
+	},
+	{
+		"displayText": "GetOPen(rastPort)",
+		"snippet": "GetOPen(${1:struct RastPort *rp})${2:}",
+		"type": "function",
+		"leftLabel": "ULONG",
+		"description": "Get the O Pen value for a RastPort (V39)",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node02E8.html"
 	},
 	{
 		"displayText": "GetPlayerAttrs(player, tag1, ...)",
@@ -4277,6 +4302,22 @@
 		"leftLabel": "ULONG",
 		"description": "Inquire value of entry in ColorMap.",
 		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node02EA.html"
+	},
+	{
+		"displayText": "GetRPAttrs(rastPort, ...)",
+		"snippet": "GetRPAttrs(${1:struct RastPort *rp}, ${2:...})${3:}",
+		"type": "function",
+		"leftLabel": "void",
+		"description": "Examine rastport settings via a tag list.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node02EB.html"
+	},
+	{
+		"displayText": "GetRPAttrsA(rastPort, tags)",
+		"snippet": "GetRPAttrs(${1:struct RastPort *rp}, ${2:struct TagItem *tags})${3:}",
+		"type": "function",
+		"leftLabel": "void",
+		"description": "Examine rastport settings via a tag list.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node02EB.html"
 	},
 	{
 		"displayText": "GetScreenData(buffer, size, type, screen)",
@@ -4472,7 +4513,7 @@
 	},
 	{
 		"displayText": "GT_EndRefresh(window, complete)",
-		"snippet": "GT_EndRefresh(${1:struct Window *win}, ${2:LONG complete})${3:}",
+		"snippet": "GT_EndRefresh(${1:struct Window *win}, ${2:BOOL complete})${3:}",
 		"type": "function",
 		"leftLabel": "void",
 		"description": "Bnd refreshing friendly to GadTools. (V36)",
@@ -5143,8 +5184,8 @@
 		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node02F5.html"
 	},
 	{
-		"displayText": "InitIFF(iffHandle, flags, streamHook)",
-		"snippet": "InitIFF(${1:struct IFFHandle *iff}, ${2:LONG flags}, ${3:CONST struct Hook *streamHook})${4:}",
+		"displayText": "InitIFF(iffHandle, cmd, streamHook)",
+		"snippet": "InitIFF(${1:struct IFFHandle *iff}, ${2:LONG cmd}, ${3:CONST struct Hook *streamHook})${4:}",
 		"type": "function",
 		"leftLabel": "void",
 		"description": "Initialize an IFFHandle structure as a user stream. (V36)",
@@ -5399,22 +5440,6 @@
 		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0125.html"
 	},
 	{
-		"displayText": "KGetChar()",
-		"snippet": "KGetChar()",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Get a character from the console.",
-		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0125.html"
-	},
-	{
-		"displayText": "KGetNum()",
-		"snippet": "KGetNum()",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Get a number from the console.",
-		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0126.html"
-	},
-	{
 		"displayText": "KGetNum()",
 		"snippet": "KGetNum()",
 		"type": "function",
@@ -5437,22 +5462,6 @@
 		"leftLabel": "void",
 		"description": "Print formatted data to the console.",
 		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0128.html"
-	},
-	{
-		"displayText": "KPrintF(formatString, ...)",
-		"snippet": "KPrintF(${1:CONST_STRPTR formatString}, ${2:...})${3:}",
-		"type": "function",
-		"leftLabel": "void",
-		"description": "Print formatted data to the console.",
-		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0128.html"
-	},
-	{
-		"displayText": "KPutChar(character)",
-		"snippet": "KPutChar(${1:LONG ch})${2:}",
-		"type": "function",
-		"leftLabel": "void",
-		"description": "Put a character to the console.",
-		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0129.html"
 	},
 	{
 		"displayText": "KPutChar(character)",
@@ -5631,8 +5640,8 @@
 		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0045.html"
 	},
 	{
-		"displayText": "LibDoGadgetMethod(gadget, window, requester, tag1, ...)",
-		"snippet": "LibDoGadgetMethod(${1:struct Gadget *gad}, ${2:struct Window *win}, ${3:struct Requester *req}, ${4:Tag tag1}, ${5:...})${6:}",
+		"displayText": "LibDoGadgetMethod(gadget, window, requester, methodID, ...)",
+		"snippet": "LibDoGadgetMethod(${1:struct Gadget *gad}, ${2:struct Window *win}, ${3:struct Requester *req}, ${4:ULONG methlodID}, ${5:...})${6:}",
 		"type": "function",
 		"leftLabel": "ULONG",
 		"description": "DoGadgetMethodA for V37 machines.",
@@ -5856,7 +5865,7 @@
 	},
 	{
 		"displayText": "MakeLink(name, dest, soft)",
-		"snippet": "MakeLink(${1:CONST_STRPTR name}, ${2:LONG dest}, ${3:LONG soft})${4:}",
+		"snippet": "MakeLink(${1:CONST_STRPTR name}, ${2:LONG dest}, ${3:BOOL soft})${4:}",
 		"type": "function",
 		"leftLabel": "LONG",
 		"description": "Creates a filesystem link. (V36)",
@@ -6519,6 +6528,14 @@
 		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0530.html"
 	},
 	{
+		"displayText": "OpenLayoutWindowTags(gadget, screen, ...)",
+		"snippet": "OpenLayoutWindowTags(${1:struct Gadget *gad}, ${2:struct Screen *scr}, ${3:...})${4:}",
+		"type": "function",
+		"leftLabel": "struct Window*",
+		"description": "Open a window at a suitable size for layout.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0530.html"
+	},
+	{
 		"displayText": "OpenLibrary(libName, version)",
 		"snippet": "OpenLibrary(${1:CONST_STRPTR libName}, ${2:ULONG version})${3:}",
 		"type": "function",
@@ -6552,7 +6569,7 @@
 	},
 	{
 		"displayText": "OpenScreen(newScreen)",
-		"snippet": "OpenScreen(${1:CONST struct NewScreen *scr})${2:}",
+		"snippet": "OpenScreen(${1:CONST struct NewScreen *ns})${2:}",
 		"type": "function",
 		"leftLabel": "struct Screen*",
 		"description": "Open an Intuition screen.",
@@ -6560,7 +6577,15 @@
 	},
 	{
 		"displayText": "OpenScreenTagList(newScreen, tagList)",
-		"snippet": "OpenScreenTagList(${1:CONST struct NewScreen *scr}, ${2:CONST struct TagItem *tagList})${3:}",
+		"snippet": "OpenScreenTagList(${1:CONST struct NewScreen *ns}, ${2:CONST struct TagItem *tagList})${3:}",
+		"type": "function",
+		"leftLabel": "struct Screen*",
+		"description": "OpenScreen() with TagItem extension array. (V36)",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node03D4.html"
+	},
+	{
+		"displayText": "OpenScreenTags(newScreen, ...)",
+		"snippet": "OpenScreenTags(${1:CONST struct NewScreen *ns}, ${2:...})${3:}",
 		"type": "function",
 		"leftLabel": "struct Screen*",
 		"description": "OpenScreen() with TagItem extension array. (V36)",
@@ -6568,7 +6593,7 @@
 	},
 	{
 		"displayText": "OpenWindow(newWindow)",
-		"snippet": "OpenWindow(${1:CONST struct NewWindow *win})${2:}",
+		"snippet": "OpenWindow(${1:CONST struct NewWindow *nw})${2:}",
 		"type": "function",
 		"leftLabel": "struct Window*",
 		"description": "Open an Intuition window.",
@@ -6576,7 +6601,15 @@
 	},
 	{
 		"displayText": "OpenWindowTagList(newWindow, tagList)",
-		"snippet": "OpenWindowTagList(${1:CONST struct NewWindow *win}, ${2:CONST struct TagItem *tagList})${3:}",
+		"snippet": "OpenWindowTagList(${1:CONST struct NewWindow *nw}, ${2:CONST struct TagItem *tagList})${3:}",
+		"type": "function",
+		"leftLabel": "struct Window*",
+		"description": "OpenWindow() with TagItem extension. (V36)",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node03D6.html"
+	},
+	{
+		"displayText": "OpenWindowTags(newWindow, ...)",
+		"snippet": "OpenWindowTags(${1:CONST struct NewWindow *nw}, ${2:...})${3:}",
 		"type": "function",
 		"leftLabel": "struct Window*",
 		"description": "OpenWindow() with TagItem extension. (V36)",
@@ -6905,6 +6938,14 @@
 	{
 		"displayText": "PutIconTagList(name, icon, tags)",
 		"snippet": "PutIconTagList(${1:CONST STRPTR name}, ${2:CONST struct DiskObject *icon}, ${3:CONST struct TagItem *tags})${4:}",
+		"type": "function",
+		"leftLabel": "BOOL",
+		"description": "Store an icon. (V44)",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0357.html"
+	},
+	{
+		"displayText": "PutIconTags(name, icon, ...)",
+		"snippet": "PutIconTags(${1:CONST STRPTR name}, ${2:CONST struct DiskObject *icon}, ${3:...})${4:}",
 		"type": "function",
 		"leftLabel": "BOOL",
 		"description": "Store an icon. (V44)",
@@ -7264,7 +7305,7 @@
 	},
 	{
 		"displayText": "ReleaseInfo(glyphEngine, tag1, ...)",
-		"snippet": "ReleaseInfo(${1:struct GlyphEngine *glyphEngine}, ${2:Tag tag1}, ${3:...})${4:}",
+		"snippet": "ReleaseInfo(${1:struct GlyphEngine *ge}, ${2:Tag tag1}, ${3:...})${4:}",
 		"type": "function",
 		"leftLabel": "ULONG",
 		"description": "Release data obtained with ObtainInfo().",
@@ -7680,7 +7721,7 @@
 	},
 	{
 		"displayText": "RethinkLayout(gadget, window, requester, refresh)",
-		"snippet": "RethinkLayout(${1:struct Gadget *gad}, ${2:struct Window *win}, ${3:struct Requester *req}, ${4:LONG refresh})${5:}",
+		"snippet": "RethinkLayout(${1:struct Gadget *gad}, ${2:struct Window *win}, ${3:struct Requester *req}, ${4:BOOL refresh})${5:}",
 		"type": "function",
 		"leftLabel": "BOOL",
 		"description": "Relayout and render the layout. (V39)",
@@ -7775,8 +7816,8 @@
 		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node00F5.html"
 	},
 	{
-		"displayText": "RunCommand(seg, stack, paramptr, paramlen)",
-		"snippet": "RunCommand(${1:BPTR seg}, ${2:LONG stack}, ${3:CONST_STRPTR paramptr}, ${4:LONG paramlen})${5:}",
+		"displayText": "RunCommand(seg, stack, param, paramLen)",
+		"snippet": "RunCommand(${1:BPTR seg}, ${2:LONG stack}, ${3:CONST_STRPTR param}, ${4:LONG paramLen})${5:}",
 		"type": "function",
 		"leftLabel": "LONG",
 		"description": "Runs a program using the current process. (V36)",
@@ -8088,7 +8129,7 @@
 	},
 	{
 		"displayText": "SetCollision(vectorNum, routine)",
-		"snippet": "SetCollision(${1:ULONG vectorNum}, ${2:void (*routine})${3:}",
+		"snippet": "SetCollision(${1:ULONG vectorNum}, ${2:void (*routine)})${3:}",
 		"type": "function",
 		"leftLabel": "void",
 		"description": "Set a pointer to a user collision routine.",
@@ -8104,7 +8145,7 @@
 	},
 	{
 		"displayText": "SetConductorState(player, state, time)",
-		"snippet": "SetConductorState(${1:struct Player *player}, ${2:ULONG state}, ${3:LONG time})${4:}",
+		"snippet": "SetConductorState(${1:struct Player *player}, ${2:LONG state}, ${3:LONG time})${4:}",
 		"type": "function",
 		"leftLabel": "LONG",
 		"description": "Change the play state of a player's conductor. (V37)",
@@ -8392,7 +8433,7 @@
 	},
 	{
 		"displayText": "SetNVProtection(appName, itemName, mask, killRequesters)",
-		"snippet": "SetNVProtection(${1:CONST_STRPTR appName}, ${2:CONST_STRPTR itemName}, ${3:LONG mask}, ${4:LONG killRequesters})${5:}",
+		"snippet": "SetNVProtection(${1:CONST_STRPTR appName}, ${2:CONST_STRPTR itemName}, ${3:LONG mask}, ${4:BOOL killRequesters})${5:}",
 		"type": "function",
 		"leftLabel": "BOOL",
 		"description": "Set the protection flags. (V40)",
@@ -8448,7 +8489,7 @@
 	},
 	{
 		"displayText": "SetPrefs(preferences, size, inform)",
-		"snippet": "SetPrefs(${1:CONST struct Preferences *prefs}, ${2:LONG size}, ${3:LONG inform})${4:}",
+		"snippet": "SetPrefs(${1:CONST struct Preferences *prefs}, ${2:LONG size}, ${3:BOOL inform})${4:}",
 		"type": "function",
 		"leftLabel": "struct Preferences*",
 		"description": "Set Intuition preferences data.",
@@ -8479,8 +8520,8 @@
 		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node01BD.html"
 	},
 	{
-		"displayText": "SetProtection(name, protect)",
-		"snippet": "SetProtection(${1:CONST_STRPTR name}, ${2:LONG protect})${3:}",
+		"displayText": "SetProtection(name, mask)",
+		"snippet": "SetProtection(${1:CONST_STRPTR name}, ${2:ULONG mask})${3:}",
 		"type": "function",
 		"leftLabel": "LONG",
 		"description": "Set protection for a file or directory.",
@@ -8488,7 +8529,7 @@
 	},
 	{
 		"displayText": "SetPubScreenModes(modes)",
-		"snippet": "SetPubScreenModes(${1:ULONG modes})${2:}",
+		"snippet": "SetPubScreenModes(${1:UWORD modes})${2:}",
 		"type": "function",
 		"leftLabel": "UWORD",
 		"description": "Establish global public screen behavior. (V36)",
@@ -8557,6 +8598,22 @@
 		"leftLabel": "void",
 		"description": "Set one color register for this ColorMap.",
 		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node032B.html"
+	},
+	{
+		"displayText": "SetRPAttrs(rastPort, ...)",
+		"snippet": "SetRPAttrs(${1:struct RastPort *rp}, ${2:...})${3:}",
+		"type": "function",
+		"leftLabel": "void",
+		"description": "Modify rastport settings via a tag list.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node032C.html"
+	},
+	{
+		"displayText": "SetRPAttrsA(rastPort, tags)",
+		"snippet": "SetRPAttrs(${1:struct RastPort *rp}, ${2:struct TagItem *tags})${3:}",
+		"type": "function",
+		"leftLabel": "void",
+		"description": "Modify rastport settings via a tag list.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node032C.html"
 	},
 	{
 		"displayText": "SetSignal(newSignals, signalSet)",
@@ -8688,7 +8745,7 @@
 	},
 	{
 		"displayText": "ShowTitle(screen, showIt)",
-		"snippet": "ShowTitle(${1:struct Screen *scr}, ${2:LONG showIt})${3:}",
+		"snippet": "ShowTitle(${1:struct Screen *scr}, ${2:BOOL showIt})${3:}",
 		"type": "function",
 		"leftLabel": "void",
 		"description": "Set the screen title bar display mode.",
@@ -9016,7 +9073,7 @@
 	},
 	{
 		"displayText": "StartTimerInt(intHandle, timeInterval, continuous)",
-		"snippet": "StartTimerInt(${1:APTR intHandle}, ${2:ULONG timeInterval}, ${3:LONG continuous})${4:}",
+		"snippet": "StartTimerInt(${1:APTR intHandle}, ${2:ULONG timeInterval}, ${3:BOOL continuous})${4:}",
 		"type": "function",
 		"leftLabel": "void",
 		"description": "Start the timer associated with the timer interrupt.",
@@ -9072,7 +9129,7 @@
 	},
 	{
 		"displayText": "StoreNV(appName, itemName, data, length, killRequesters)",
-		"snippet": "StoreNV(${1:CONST_STRPTR appName}, ${2:CONST_STRPTR itemName}, ${3:CONST APTR data}, ${4:ULONG length}, ${5:LONG killReqs})${6:}",
+		"snippet": "StoreNV(${1:CONST_STRPTR appName}, ${2:CONST_STRPTR itemName}, ${3:CONST APTR data}, ${4:ULONG length}, ${5:BOOL killReqs})${6:}",
 		"type": "function",
 		"leftLabel": "UWORD",
 		"description": "Store data in nonvolatile storage. (V40)",
@@ -9139,7 +9196,7 @@
 		"snippet": "StrToLong(${1:CONST_STRPTR str}, ${2:LONG *value})${3:}",
 		"type": "function",
 		"leftLabel": "LONG",
-		"description": "String to long value  (decimal). (V36)",
+		"description": "String to long value (decimal). (V36)",
 		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node01C4.html"
 	},
 	{
@@ -9225,6 +9282,14 @@
 	{
 		"displayText": "SystemTagList(command, tags)",
 		"snippet": "SystemTagList(${1:CONST_STRPTR command}, ${2:CONST struct TagItem *tags})${3:}",
+		"type": "function",
+		"leftLabel": "LONG",
+		"description": "Have a shell execute a command line. (V36)",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node01C5.html"
+	},
+	{
+		"displayText": "SystemTags(command, ...)",
+		"snippet": "SystemTags(${1:CONST_STRPTR command}, ${2:...})${3:}",
 		"type": "function",
 		"leftLabel": "LONG",
 		"description": "Have a shell execute a command line. (V36)",
@@ -9543,6 +9608,14 @@
 		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0338.html"
 	},
 	{
+		"displayText": "VideoControlTags(colorMap, ...)",
+		"snippet": "VideoControlTags(${1:struct ColorMap *cm}, ${2:...})${3:}",
+		"type": "function",
+		"leftLabel": "BOOL",
+		"description": "Modify the operation of a ViewPort's ColorMap. (V36)",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0338.html"
+	},
+	{
 		"displayText": "ViewAddress()",
 		"snippet": "ViewAddress()",
 		"type": "function",
@@ -9792,7 +9865,7 @@
 	},
 	{
 		"displayText": "WritePotgo(word, mask)",
-		"snippet": "WritePotgo(${1:ULONG word}, ${2:ULONG mask})${3:}",
+		"snippet": "WritePotgo(${1:UWORD word}, ${2:UWORD mask})${3:}",
 		"type": "function",
 		"leftLabel": "void",
 		"description": "Write to the hardware potgo register.",
@@ -9821,6 +9894,22 @@
 		"leftLabel": "void",
 		"description": "Change window to \"alternate\" position and dimensions. (V36)",
 		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0407.html"
+	},
+	{
+		"displayText": "EROFFSET(member)",
+		"snippet": "EROFFSET(${1:member})${2:}",
+		"type": "macro",
+		"leftLabel": "ULONG",
+		"description": "A kludge to get the byte offset of the ExpansionRom struct member.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05FE.html#line203"
+	},
+	{
+		"displayText": "ECOFFSET(member)",
+		"snippet": "ECOFFSET(${1:member})${2:}",
+		"type": "macro",
+		"leftLabel": "ULONG",
+		"description": "A kludge to get the byte offset of the ExpansionControl struct member.",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node05FE.html#line204"
 	},
 	{
 		"displayText": "AChain",
