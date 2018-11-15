@@ -1,0 +1,12 @@
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'AmigaOS'
+      'submenu': [
+        { 'label': 'New Project',  'command': 'lang-amigaos:new-project'  }
+        { 'label': 'New Subclass', 'command': 'lang-amigaos:new-subclass' }
+      ]
+    ]
+  }
+]
