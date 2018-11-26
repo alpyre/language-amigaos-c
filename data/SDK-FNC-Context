@@ -711,10 +711,9 @@
 		"arguments": [
 			{
 				"type": "tag",
-	      "suggestions": ["TA_DeviceDPI", "TAG_END"]
+	      "suggestions": ["TA_DeviceDPI", "ULONG", "TAG_END"]
 	    }
 	  ]
-
 	},
 	{
 		"name": ["FilterTagItems"],
@@ -931,7 +930,7 @@
 	    {
 	      "num": ["4"],
 	      "type": "flag",
-	      "suggestions": ["GVF_GLOBAL_ONLY", "GVF_LOCAL_ONLY", "GVF_BINARY_VAR", "GVF_SAVE_VAR", "GVF_DONT_NULL_TERM"]
+	      "suggestions": ["LV_VAR", "LV_ALIAS", "LVF_IGNORE", "GVF_GLOBAL_ONLY", "GVF_LOCAL_ONLY", "GVF_BINARY_VAR", "GVF_DONT_NULL_TERM"]
 	    }
 	  ]
 	},
@@ -1340,6 +1339,11 @@
 				"type": "tag",
 	      "suggestions": ["WA_Left", "LONG", "WA_Top", "LONG", "WA_Width", "LONG", "WA_Height", "LONG", "WA_MinWidth", "LONG", "WA_MinHeight", "LONG", "WA_MaxWidth", "LONG", "WA_MaxHeight", "LONG", "WA_DetailPen", "LONG", "WA_BlockPen", "LONG", "WA_IDCMP", "ULONG", "WA_Flags", "ULONG", "WA_Gadgets", "struct Gadget*", "WA_Title", "STRPTR", "WA_CustomScreen", "struct Screen*", "WA_SuperBitMap", "BOOL", "WA_SizeGadget", "BOOL", "WA_DragBar", "BOOL", "WA_DepthGadget", "BOOL", "WA_CloseGadget", "BOOL", "WA_Backdrop", "BOOL", "WA_ReportMouse", "BOOL", "WA_NoCareRefresh", "BOOL", "WA_Borderless", "BOOL", "WA_Activate", "BOOL", "WA_RMBTrap", "BOOL", "WA_WBenchWindow", "BOOL", "WA_SimpleRefresh", "BOOL", "WA_SmartRefresh", "BOOL", "WA_SizeBRight", "BOOL", "WA_SizeBBottom", "BOOL", "WA_GimmeZeroZero", "BOOL", "WA_NewLookMenus", "BOOL", "WA_ScreenTitle", "STRPTR", "WA_AutoAdjust", "BOOL", "WA_InnerWidth", "LONG", "WA_InnerHeight", "LONG", "WA_PubScreenName", "STRPTR", "WA_PubScreen", "struct Screen*", "WA_PubScreenFallBack", "BOOL", "WA_Zoom", "WORD*", "WA_MouseQueue", "UWORD", "WA_RptQueue", "UWORD", "WA_BackFill", "struct Hook*", "WA_MenuHelp", "BOOL", "WA_NotifyDepth", "BOOL", "WA_Checkmark", "struct Image*", "WA_AmigaKey", "struct Image*", "WA_Pointer", "APTR", "WA_BusyPointer", "BOOL", "WA_PointerDelay", "BOOL", "WA_HelpGroup", "ULONG", "WA_HelpGroupWindow", "struct Window*", "WA_TabletMessages", "BOOL", "TAG_END"],
 	      "values": [
+					{
+						"tag": ["WA_SuperBitMap", "WA_SizeGadget", "WA_DragBar", "WA_DepthGadget", "WA_CloseGadget", "WA_Backdrop", "WA_ReportMouse", "WA_NoCareRefresh", "WA_Borderless", "WA_Activate", "WA_RMBTrap", "WA_WBenchWindow", "WA_SimpleRefresh", "WA_SmartRefresh", "WA_SizeBRight", "WA_SizeBBottom", "WA_GimmeZeroZero", "WA_NewLookMenus", "WA_AutoAdjust", "WA_PubScreenFallBack", "WA_MenuHelp", "WA_NotifyDepth", "WA_BusyPointer", "WA_PointerDelay", "WA_TabletMessages"],
+						"type": "bool",
+						"suggestions": ["TRUE", "FALSE"]
+					},
 	        {
 	          "tag": ["WA_IDCMP"],
 	          "type": "flag",
@@ -1711,7 +1715,7 @@
 	    {
 	      "num": ["4"],
 	      "type": "flag",
-	      "suggestions": ["GVF_GLOBAL_ONLY", "GVF_LOCAL_ONLY", "GVF_BINARY_VAR", "GVF_DONT_NULL_TERM", "GVF_SAVE_VAR"]
+	      "suggestions": ["LV_VAR", "LV_ALIAS", "LVF_IGNORE", "GVF_GLOBAL_ONLY", "GVF_LOCAL_ONLY", "GVF_BINARY_VAR", "GVF_SAVE_VAR"]
 	    }
 	  ]
 	},

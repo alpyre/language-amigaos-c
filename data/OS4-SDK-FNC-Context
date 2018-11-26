@@ -1,0 +1,2243 @@
+  {
+    "name": ["AddCmdPathNode"],
+    "arguments": [
+      {
+        "num": ["3"],
+        "type": "macro",
+        "suggestions": ["ADDCMDPATHNODE_HEAD", "ADDCMDPATHNODE_TAIL"]
+      }
+    ]
+  },
+  {
+    "name": ["AddInterfaceTags"],
+    "tagStrt": "4",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["IFA_IPType", "LONG", "IFA_ARPType", "LONG", "IFA_NumReadRequests", "LONG", "IFA_NumWriteRequests", "LONG", "IFA_NumARPRequests", "LONG", "IFA_PacketFilterMode", "LONG", "IFA_PointToPoint", "BOOL", "IFA_Multicast", "BOOL", "IFA_DownGoesOffline", "BOOL", "IFA_ReportOffline", "BOOL", "IFA_RequiresInitDelay", "BOOL", "IFA_CopyMode", "LONG", "IFA_HardwareAddress", "struct InterfaceHardwareAddress *", "IFA_SetDebugMode", "BOOL", "IFA_LimitMTU", "ULONG", "TAG_END"],
+        "values": [
+          {
+            "tag": ["IFA_PointToPoint", "IFA_Multicast", "IFA_DownGoesOffline", "IFA_ReportOffline", "IFA_RequiresInitDelay", "IFA_SetDebugMode"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          },
+          {
+            "tag": ["IFA_PacketFilterMode"],
+            "type": "macro",
+            "suggestions": ["PFM_Nothing", "PFM_Local", "PFM_IPandARP", "PFM_Everything"]
+          },
+          {
+            "tag": ["IFA_CopyMode"],
+            "type": "macro",
+            "suggestions": ["CM_SlowWordCopy", "CM_FastWordCopy"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["AddNetMonitorHookTagList", "AddNetMonitorHookTags"],
+    "arguments": [
+      {
+        "num": ["1"],
+        "type": "macro",
+        "suggestions": ["MHT_ICMP", "MHT_UDP", "MHT_TCP_Connect", "MHT_Connect", "MHT_Send", "MHT_Packet", "MHT_Bind"]
+      }
+    ]
+  },
+  {
+    "name": ["AddRouteTags"],
+    "tagStrt": "1",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["RTA_Destination", "STRPTR", "RTA_Gateway", "STRPTR", "RTA_DefaultGateway", "STRPTR", "RTA_DestinationHost", "STRPTR", "RTA_DestinationNet", "STRPTR", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["AddTaskTags"],
+    "tagStrt": "4",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["AT_Param", "1-8", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["AIN_CreateContext"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["AINCC_Port", "struct MsgPort *",	"AINCC_Window", "struct Window *", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["AIN_GetErrorString"],
+    "arguments": [
+      {
+        "num": ["1"],
+        "type": "macro",
+        "suggestions": ["AINERR_NOERROR", "AINERR_INACTIVE", "AINERR_NOTSUPPORTED_API", "AINERR_UNKNOWN_DEVICEID", "AINERR_UNKNOWN_PARAMETER", "AINERR_UNKNOWN_ARG", "AINERR_UNKNOWN_TAG", "AINERR_NOMEMORY", "AINERR_ZEROPOINTER", "AINERR_EMPTYCONTEXTLIST", "AINERR_SMALLBUFFER", "AINERR_DOUBLEOBTAIN", "AINERR_NOHANDLE", "AINERR_NO_EVENTMODE", "AINERR_NO_PORT", "AINERR_DRIVERINIT_FAIL", "AINERR_READERROR", "AINERR_OUTOFRANGE", "AINERR_UNSUPPORTED_PARAMETER", "AINERR_WINDOWINCACTIVE", "AINERR_INVALID_ID", "AINERR_NO_DEVICES"]
+      }
+    ]
+  },
+  {
+    "name": ["AIN_Query"],
+    "arguments": [
+      {
+        "num": ["3"],
+        "type": "macro",
+        "suggestions": ["AINQ_NUMAXES", "AINQ_NUMBUTTONS", "AINQ_NUMHATS", "AINQ_AXISNAME", "AINQ_BUTTONNAME", "AINQ_HATNAME", "AINQ_POLLED", "AINQ_AXIS_SYMMETRIC", "AINQ_SUBCLASS", "AINQ_DRIVERVERSION", "AINQ_AXIS_CLASS", "AINQ_AXIS_OFFSET", "AINQ_BUTTON_OFFSET", "AINQ_HAT_OFFSET", "AINQ_LAYOUT_CLASS", "AINQ_DEVNAME", "AINQ_DESCRIPTION", "AINQ_CONNECTED", "AINQ_UNITS", "AINLC_UNKNOWN", "AINLC_MOUSE", "AINLC_KEYBOARD", "AINLC_JOYSTICK", "AINLC_FLIGHTSTICK", "AINLC_COMPLEXSTICK", "AINSUB_UNKNOWN", "AINSUB_NOSUBCLASS", "AINSUB_JOYPAD", "AINSUB_DIGITAL_STICK", "AINSUB_FLIGHTSTICK", "AINSUB_WHEEL", "AINSUB_LIGHTGUN", "AINAS_XAXIS", "AINAS_YAXIS", "AINAS_ZAXIS", "AINAS_THRUST", "AINAS_WHEEL", "AINAS_ACCEL", "AINAS_BRAKE"]
+      }
+    ]
+  },
+  {
+    "name": ["AIN_Set"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["AINCC_Port", "struct MsgPort *", "AINCC_Window", "struct Window *", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["AIN_SetDeviceParameter"],
+    "arguments": [
+      {
+        "num": ["3"],
+        "type": "macro",
+        "suggestions": ["AINDP_ACTIVE", "AINDP_EVENT"]
+      }
+    ]
+  },
+  {
+    "name": ["AllocPartitionNode"],
+    "tagStrt": "1",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["PARTNA_Start", "uint32", "PARTNA_End", "uint32", "PARTNA_UserData", "APTR", "PARTNA_Color", "uint16", "PARTNA_Pattern", "uint16 *", "PARTNA_PatternSize", "uint16", "PARTNA_RenderHook", "struct Hook *", "PARTNA_NodeSize", "uint32", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["AllocSegList"],
+    "arguments": [
+      {
+        "num": ["4"],
+        "type": "macro",
+        "suggestions": ["PSIKEY_INIT", "PSIKEY_NOFREE", "PSIKEY_ELF32", "PSIKEY_NFSYS"]
+      }
+    ]
+  },
+  {
+    "name": ["AllocSysObject", "FreeSysObject"],
+    "arguments": [
+      {
+        "num": ["1"],
+        "type": "macro",
+        "suggestions": ["ASOT_IOREQUEST", "ASOT_HOOK", "ASOT_INTERRUPT", "ASOT_LIST", "ASOT_DMAENTRY", "ASOT_NODE", "ASOT_PORT", "ASOT_MESSAGE", "ASOT_SEMAPHORE", "ASOT_TAGLIST", "ASOT_MEMPOOL", "ASOT_ITEMPOOL", "ASOT_RMAP", "ASOT_MUTEX"]
+      }
+    ]
+  },
+  {
+    "name": ["AllocSysObjectTags"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "num": ["1"],
+        "type": "macro",
+        "suggestions": ["ASOT_IOREQUEST", "ASOT_HOOK", "ASOT_INTERRUPT", "ASOT_LIST", "ASOT_DMAENTRY", "ASOT_NODE", "ASOT_PORT", "ASOT_MESSAGE", "ASOT_SEMAPHORE", "ASOT_TAGLIST", "ASOT_MEMPOOL", "ASOT_ITEMPOOL", "ASOT_RMAP", "ASOT_MUTEX"]
+      },
+      {
+        "type": "tag",
+        "suggestions": ["ASO_NoTrack", "BOOL", "ASO_MemoryOvr", "ULONG", "TAG_END"],
+        "values": [
+          {
+            "tag": ["ASO_NoTrack"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          },
+          {
+            "tag": ["ASO_MemoryOvr"],
+            "type": "flag",
+            "suggestions": ["MEMF_ANY", "MEMF_PUBLIC", "MEMF_CHIP", "MEMF_FAST", "MEMF_VIRTUAL", "MEMF_EXECUTABLE", "MEMF_LOCAL", "MEMF_24BITDMA", "MEMF_KICK", "MEMF_PRIVATE", "MEMF_SHARED", "MEMF_CLEAR", "MEMF_REVERSE", "MEMF_HWALIGNED", "MEMF_DELAYED", "MEMF_NO_EXPUNGE"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["BitMapInstanceControl"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["BMICTRL_GetBitMap", "struct BitMap **", "BMICTRL_GetHook", "struct Hook **", "BMICTRL_GetOffsets", "ULONG *", "BMICTRL_SetOffsets", "ULONG", "BMICTRL_GetWidth", "ULONG *", "BMICTRL_GetHeight", "ULONG *", "BMICTRL_GetBrightBitMap", "struct BitMap **", "BMICTRL_GetHalfBrightBitMap", "struct BitMap **", "BMICTRL_GetHalfDarkBitMap", "struct BitMap **", "BMICTRL_GetDarkBitMap", "struct BitMap **", "BMICTRL_GetMaskBitMap", "struct BitMap **", "BMICTRL_GetOutlineBitMap", "struct BitMap **", "BMICTRL_GetShineMap", "UBYTE **", "BMICTRL_GetShadowMap", "UBYTE **", "BMICTRL_GetAlphaMap", "UBYTE **", "BMICTRL_GetOutlineMap", "UBYTE **", "BMICTRL_GetShadeMaskBitMap", "struct BitMap **", "BMICTRL_GetScreen", "struct Screen **", "BMICTRL_GetBitMapSource", "APTR *", "BMICTRL_GetGradientSpec", "GRADSPEC **", "BMICTRL_SetGradientSpec", "GRADSPEC *", "BMICTRL_GetReferencePen", "ULONG *", "BMICTRL_SetReferencePen", "ULONG", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["bpf_ioctl", "ipf_ioctl"],
+    "arguments": [
+      {
+        "num": ["2"],
+        "type": "macro",
+        "suggestions": ["FIONREAD", "SIOCGIFADDR", "BIOCSBLEN", "BIOCSETF", "BIOCFLUSH", "BIOCGDLT", "BIOCGETIF", "BIOCSETIF", "BIOCSRTIMEOUT", "BIOCGRTIMEOUT", "BIOCGSTATS", "BIOCIMMEDIATE", "BIOCVERSION"]
+      }
+    ]
+  },
+  {
+    "name": ["BrokerCommand"],
+    "arguments": [
+      {
+        "num": ["2"],
+        "type": "macro",
+        "suggestions": ["CXCMD_DISABLE", "CXCMD_ENABLE", "CXCMD_APPEAR", "CXCMD_DISAPPEAR", "CXCMD_KILL", "CXCMD_LIST_CHG", "CXCMD_UNIQUE"]
+      }
+    ]
+  },
+  {
+    "name": ["CapturePattern"],
+    "arguments": [
+      {
+        "num": ["3"],
+        "type": "bool",
+        "suggestions": ["TRUE", "FALSE"]
+      }
+    ]
+  },
+  {
+    "name": ["ChangeFilePosition", "ChangeFileSize"],
+    "arguments": [
+      {
+        "num": ["3"],
+        "type": "macro",
+        "suggestions": ["OFFSET_BEGINNING", "OFFSET_CURRENT", "OFFSET_END"]
+      }
+    ]
+  },
+  {
+    "name": ["CloseElfTags"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["CET_CloseInput", "BOOL", "CET_UnloadSeg", "BOOL", "CET_FreeUnneeded", "BOOL", "CET_CloseAll", "BOOL", "TAG_END"],
+        "values": [
+          {
+            "tag": ["CET_CloseInput", "CET_UnloadSeg", "CET_FreeUnneeded", "CET_CloseAll"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["ConfigureInterfaceTags"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["IFC_Address", "STRPTR", "IFC_NetMask", "STRPTR", "IFC_DestinationAddress", "STRPTR", "IFC_BroadcastAddress", "STRPTR", "IFC_Metric", "LONG", "IFC_AddAliasAddress", "STRPTR", "IFC_DeleteAliasAddress", "STRPTR", "IFC_State", "LONG", "IFC_GetPeerAddress", "BOOL", "IFC_GetDNS", "BOOL", "IFC_AssociatedRoute", "BOOL", "IFC_AssociatedDNS", "BOOL", "IFC_ReleaseAddress", "BOOL", "IFC_SetDebugMode", "BOOL", "IFC_Complete", "BOOL", "IFC_LimitMTU", "ULONG", "TAG_END"],
+        "values": [
+          {
+            "tag": ["IFC_GetPeerAddress", "IFC_GetDNS", "IFC_AssociatedRoute", "IFC_AssociatedDNS", "IFC_ReleaseAddress", "IFC_SetDebugMode", "IFC_Complete"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          },
+          {
+            "tag": ["IFC_State"],
+            "type": "macro",
+            "suggestions": ["SM_Down", "SM_Up", "SM_Offline", "SM_Online"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["CreateAddrAllocMessage"],
+    "tagStrt": "5",
+    "arguments": [
+      {
+        "num": ["1"],
+        "type": "macro",
+        "suggestions": ["AAM_VERSION"]
+      },
+      {
+        "num": ["2"],
+        "type": "macro",
+        "suggestions": ["AAMP_BOOTP", "AAMP_DHCP", "AAMP_SLOWAUTO", "AAMP_FASTAUTO"]
+      },
+      {
+        "type": "tag",
+        "suggestions": ["CAAMTA_Timeout", "ULONG", "CAAMTA_LeaseTime", "ULONG", "CAAMTA_RequestedAddress", "ULONG", "CAAMTA_ClientIdentifier", "STRPTR", "CAAMTA_NAKMessageSize", "LONG", "CAAMTA_RouterTableSize", "LONG", "CAAMTA_DNSTableSize", "LONG", "CAAMTA_StaticRouteTableSize", "LONG", "CAAMTA_HostNameSize", "LONG", "CAAMTA_DomainNameSize", "LONG", "CAAMTA_BOOTPMessageSize", "LONG", "CAAMTA_RecordLeaseExpiration", "BOOL", "CAAMTA_ReplyPort", "struct MsgPort *", "TAG_END"],
+        "values": [
+          {
+            "tag": ["CAAMTA_RecordLeaseExpiration"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          },
+          {
+            "tag": ["CAAMTA_LeaseTime"],
+            "type": "macro",
+            "suggestions": ["DHCP_DEFAULT_LEASE_TIME", "DHCP_INFINITE_LEASE_TIME"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["CreateAddrAllocMessageA"],
+    "arguments": [
+      {
+        "num": ["1"],
+        "type": "macro",
+        "suggestions": ["AAM_VERSION"]
+      },
+      {
+        "num": ["2"],
+        "type": "macro",
+        "suggestions": ["AAMP_BOOTP", "AAMP_DHCP", "AAMP_SLOWAUTO", "AAMP_FASTAUTO"]
+      }
+    ]
+  },
+  {
+    "name": ["CreateBackFillHook"],
+    "tagStrt": "1",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["BFHA_APen", "UWORD", "BFHA_BPen", "UWORD", "BFHA_DrMd", "UWORD", "BFHA_Pattern", "UWORD *", "BFHA_PatSize", "WORD", "BFHA_BitMap", "struct BitMap *", "BFHA_Width", "UWORD", "BFHA_Height", "UWORD", "BFHA_OffsetX", "UWORD", "BFHA_OffsetY", "UWORD", "TAG_END"],
+        "values": [
+          {
+            "tag": ["BFHA_DrMd"],
+            "type": "macro",
+            "suggestions": ["JAM1", "JAM2", "COMPLEMENT", "INVERSVID"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["CreateLayer"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["LAYA_BitMap", "struct BitMap *", "LAYA_MinX", "WORD", "LAYA_MinY", "WORD", "LAYA_MaxX", "WORD", "LAYA_MaxY", "WORD", "LAYA_SimpleRefresh", "BOOL", "LAYA_SmartRefresh", "BOOL", "LAYA_SuperBitMap", "struct BitMap *", "LAYA_BackFillHook", "Hook *", "LAYA_Behind", "BOOL", "LAYA_Hidden", "BOOL", "LAYA_Flags", "ULONG", "LAYA_Backdrop", "BOOL", "LAYA_ShapeRegion", "struct Region *", "LAYA_ShapeHook", "struct Hook *", "LAYA_AlphaClips", "struct ClipRect *", "LAYA_AlphaHook", "struct Hook *", "LAYA_Opaqueness", "UBYTE", "LAYA_Padding", "WORD *", "LAYA_Window", "struct Window *", "LAYA_InFrontOf", "struct Layer *", "LAYA_StayTop", "BOOL", "TAG_END"],
+        "values": [
+          {
+            "tag": ["LAYA_SimpleRefresh", "LAYA_SmartRefresh", "LAYA_Behind", "LAYA_Hidden", "LAYA_Backdrop", "LAYA_StayTop"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          },
+          {
+            "tag": ["LAYA_BackFillHook"],
+            "type": "macro",
+            "suggestions": ["LAYERS_BACKFILL", "LAYERS_NOBACKFILL"]
+          },
+          {
+            "tag": ["LAYA_Flags"],
+            "type": "flag",
+            "suggestions": ["LAYERSIMPLE", "LAYERSMART", "LAYERSUPER", "LAYEROFFSCREEN", "LAYERUPDATING", "LAYERBACKDROP", "LAYERREFRESH", "LAYER_CLIPRECTS_LOST", "LAYERIREFRESH", "LAYERIREFRESH2", "LAYERSAVEBACK", "LAYERHIDDEN", "LAYERSTAYTOP", "LAYERMOVECHANGESSHAPE", "LAYERBACKUP"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["CreateLibraryTags"],
+    "tagStrt": "1",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["CLT_Vector68K", "APTR", "CLT_Legacy", "STRPTR", "CLT_NoLegacyIFace", "BOOL", "CLT_InitData", "APTR", "CLT_InitFunc", "APTR", "CLT_Seglist", "APTR", "CLT_Interfaces", "struct TagItem **", "CLT_DataSize", "ULONG", "TAG_END"],
+        "values": [
+          {
+            "tag": ["CLT_NoLegacyIFace"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["DeleteRouteTags"],
+    "tagStrt": "1",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["RTA_Destination", "STRPTR", "RTA_DefaultGateway", "STRPTR", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["DevNameFromFH", "DevNameFromLock"],
+    "arguments": [
+      {
+        "num": ["4"],
+        "type": "macro",
+        "suggestions": ["DN_FULLPATH", "DN_DEVICEONLY", "DN_ROOTPATH"]
+      }
+    ]
+  },
+  {
+    "name": ["DictGetBoolForKey"],
+    "arguments": [
+      {
+        "num": ["3"],
+        "type": "bool",
+        "suggestions": ["TRUE", "FALSE"]
+      }
+    ]
+  },
+  {
+    "name": ["DisableTemplate"],
+    "arguments": [
+      {
+        "num": ["8"],
+        "type": "macro",
+        "suggestions": ["TT_BITPLANE", "TT_ALPHA8", "TT_ALPHA16", "TT_ALPHA24", "TT_ALPHA32"]
+      },
+      {
+        "num": ["10"],
+        "type": "flag",
+        "suggestions": ["BT_BACKGROUND", "BT_DRIPEN", "BT_WINBORDER", "BT_GADGET", "BT_PROPKNOB", "BT_PROPBG", "BT_WINPROPKNOB", "BT_WINPROPBG", "BT_MENU", "BT_SCREENBAR", "BT_WINDOWBAR", "BT_WINDOWBG", "BT_REQUESTERBG", "BT_TABPAGE"]
+      }
+    ]
+  },
+  {
+    "name": ["DismountDevice"],
+    "arguments": [
+      {
+        "num": ["2"],
+        "type": "flag",
+        "suggestions": ["DMDF_KEEPDEVICE", "DMDF_REMOVEDEVICE", "DMDF_FORCE_DISMOUNT"]
+      }
+    ]
+  },
+  {
+    "name": ["DockyGet"],
+    "arguments": [
+      {
+        "num": ["1"],
+        "type": "macro",
+        "suggestions": ["DOCKYGET_Version", "DOCKYGET_GetSize", "DOCKYGET_FrameDelay", "DOCKYGET_RenderMode", "DOCKYGET_Notifications", "DOCKYGET_Name", "DOCKYGET_DockyPrefs", "DOCKYGET_InvisibleProcess", "DOCKYGET_Icon", "DOCKYGET_ContextMenu", "DOCKYGET_NeedsAttention", "DOCKYGET_ShowsName", "DOCKYGET_AllowsRename", "DOCKYGET_AllowsIconChange"]
+      }
+    ]
+  },
+  {
+    "name": ["DockySet"],
+    "arguments": [
+      {
+        "num": ["1"],
+        "type": "macro",
+        "suggestions": ["DOCKYSET_RenderDestination", "DOCKYSET_Window", "DOCKYSET_Screen", "DOCKYSET_DockyPrefs", "DOCKYSET_DockyChange", "DOCKYSET_DockyRemove", "DOCKYSET_DockyRemoveExit", "DOCKYSET_AmiDockFlashOnClickChange", "DOCKYSET_AmiDockQuitsNow", "DOCKYSET_RedrawNow", "DOCKYSET_FileName", "DOCKYSET_HotKey", "DOCKYSET_DockyDebug", "DOCKYSET_ContextMenuResult", "DOCKYSET_DockyAttention", "DOCKYSET_MouseMove", "DOCKYSET_MouseIsOverDocky", "DOCKYSET_SelectChange", "DOCKYSET_SingleClick", "DOCKYSET_DoubleClick", "DOCKYSET_DNDMouseOver", "DOCKYSET_DockyDND", "DOCKYSET_ObjectDND", "DOCKYSET_DockyVisibleChange", "DOCKYSET_DockHide", "DOCKYSET_DockyRawKey", "DOCKYSET_DockRawKey", "DOCKYSET_DockClick", "DOCKYSET_ObjectClick", "DOCKYSET_DockWinMove", "DOCKYSET_DockResize", "DOCKYSET_DockMinimizeChange", "DOCKYSET_DockMinimizeableChange", "DOCKYSET_DockCategoryChange", "DOCKYSET_DockOrientationChange", "DOCKYSET_DockSnapToChange", "DOCKYSET_DockIconNameLinesChange", "DOCKYSET_DockBarBackChange", "DOCKYSET_DockIconBackChange", "DOCKYSET_DockTypeChange", "DOCKYSET_DockFontChange", "DOCKYSET_DockScaleFactor", "DOCKYSET_DockAdd", "DOCKYSET_CategoryAdd", "DOCKYSET_ObjectAdd", "DOCKYSET_DockRemove", "DOCKYSET_CategoryRemove", "DOCKYSET_ObjectRemove", "DOCKYSET_DockRename", "DOCKYSET_CategoryRename", "DOCKYSET_ObjectRename", "DOCKYSET_DockMove", "DOCKYSET_CategoryMove", "DOCKYSET_ObjectMove", "DOCKYSET_ObjectIconChange"]
+      }
+    ]
+  },
+  {
+    "name": ["DoRender"],
+    "arguments": [
+      {
+        "num": ["3"],
+        "type": "macro",
+        "suggestions": ["GREDRAW_UPDATE", "GREDRAW_REDRAW", "GREDRAW_TOGGLE"]
+      }
+    ]
+  },
+  {
+    "name": ["DosControlTags"],
+    "tagStrt": "1",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["DC_WildStarR", "int32 *", "DC_WildStarW", "int32; boolean", "DC_FHBufferR", "int32 *", "DC_FHBufferW", "int32", "DC_WarnPostTimeR", "int32 *", "DC_WarnPostTimeW", "int32", "DC_WarnWaitTimeR", "int32 *", "DC_WarnWaitTimeW", "int32", "DC_MinProcStackR", "int32 *", "DC_MinProcStackW", "int32", "DC_AssignMountR", "int32 *", "DC_AssignMountW", "int32; boolean", "DC_BootCliFontSizeR", "int32 *", "DC_BootCliFontSizeW", "int32", "DC_BootCliCloseGadgetR", "int32 *", "DC_BootCliCloseGadgetW", "int32; boolean", "DC_Reload68KApplistW", "int32", "DC_LocaleBaseR", "struct LocaleBase **", "DC_LocaleBaseW", "struct LocaleBase *", "TAG_END"],
+        "values": [
+          {
+            "tag": ["DC_WildStarW", "DC_BootCliCloseGadgetW"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          },
+          {
+            "tag": ["DC_BootCliFontSizeW"],
+            "type": "macro",
+            "suggestions": ["TOPAZ_SIXTY", "TOPAZ_EIGHTY"]
+          },
+          {
+            "tag": ["DC_Reload68KApplistW"],
+            "type": "macro",
+            "suggestions": ["DOSTRUE", "DOSFALSE"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["DoScrollHook"],
+    "arguments": [
+      {
+        "num": ["2"],
+        "type": "macro",
+        "suggestions": ["DSHM_Smooth", "DSHM_Jump"]
+      }
+    ]
+  },
+  {
+    "name": ["ElfLoadSegTags"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["ELS_Offset", "LONG", "ELS_FreeUnneeded", "BOOL", "ELS_ProgramEntry", "APTR", "TAG_END"],
+        "values": [
+          {
+            "tag": ["ELS_FreeUnneeded"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["EmbossDisableRect"],
+    "arguments": [
+      {
+        "num": ["6"],
+        "type": "macro",
+        "suggestions": ["BT_BACKGROUND", "BT_DRIPEN", "BT_WINBORDER", "BT_GADGET", "BT_PROPKNOB", "BT_PROPBG", "BT_WINPROPKNOB", "BT_WINPROPBG", "BT_MENU", "BT_SCREENBAR", "BT_WINDOWBAR", "BT_WINDOWBG", "BT_REQUESTERBG", "BT_TABPAGE"]
+      }
+    ]
+  },
+  {
+    "name": ["EmbossDisableText"],
+    "arguments": [
+      {
+        "num": ["4"],
+        "type": "macro",
+        "suggestions": ["BT_BACKGROUND", "BT_DRIPEN", "BT_WINBORDER", "BT_GADGET", "BT_PROPKNOB", "BT_PROPBG", "BT_WINPROPKNOB", "BT_WINPROPBG", "BT_MENU", "BT_SCREENBAR", "BT_WINDOWBAR", "BT_WINDOWBG", "BT_REQUESTERBG", "BT_TABPAGE"]
+      }
+    ]
+  },
+  {
+    "name": ["EmulateTags"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["ET_RegisterD0", "LONG", "ET_RegisterD1", "LONG", "ET_RegisterD2", "LONG", "ET_RegisterD3", "LONG", "ET_RegisterD4", "LONG", "ET_RegisterD5", "LONG", "ET_RegisterD6", "LONG", "ET_RegisterD7", "LONG", "ET_RegisterA0", "LONG", "ET_RegisterA1", "LONG", "ET_RegisterA2", "LONG", "ET_RegisterA3", "LONG", "ET_RegisterA4", "LONG", "ET_RegisterA5", "LONG", "ET_RegisterA6", "LONG", "ET_RegisterA7", "LONG", "ET_NoJIT", "BOOL", "ET_FPRegisters", "double *", "ET_FPRegisterMask", "ULONG", "ET_SuperState", "BOOL", "ET_Offset", "LONG", "ET_StackPtr", "APTR", "ET_SaveRegs", "BOOL", "ET_SaveParamRegs", "BOOL", "TAG_END"],
+        "values": [
+          {
+            "tag": ["ET_NoJIT", "ET_SuperState", "ET_SaveRegs", "ET_SaveParamRegs"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["EndDMA"],
+    "arguments": [
+      {
+        "num": ["3"],
+        "type": "flag",
+        "suggestions": ["DMAF_ReadFromRAM", "DMAF_NoModify"]
+      }
+    ]
+  },
+  {
+    "name": ["EObtainInfo", "EReleaseInfo"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["OT_GlyphMap", "struct GlyphMap**", "OT_GlyphMap8Bit", "struct GlyphMap**", "OT_GlyphMap8BitLCD", "struct GlyphMap**", "OT_GlyphMap8BitLCDV", "struct GlyphMap**", "OT_WidthList", "struct MinList**", "OT_WidthList32", "struct MinList**", "OT_TextKernPair", "LONG*", "OT_DesignKernPair", "LONG*", "OT_UnderLined", "UWORD*", "OT_StrikeThrough", "BOOL*", "OT_BaseLine", "ULONG*", "OT_NumGlyphs", "ULONG*", "OT_NumKernPairs", "ULONG*", "OT_HasGlyphs", "ULONG*", "OT_GlyphName", "STRPTR*", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["ESetInfo"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["OT_DeviceDPI", "ULONG", "OT_DotSize", "ULONG", "OT_PointHeight", "ULONG", "OT_SetFactor", "ULONG", "OT_ShearSin", "ULONG", "OT_ShearCos", "ULONG", "OT_RotateSin", "ULONG", "OT_RotateCos", "ULONG", "OT_EmboldenX", "ULONG", "OT_EmboldenY", "ULONG", "OT_PointSize", "ULONG", "OT_GlyphCode", "ULONG", "OT_GlyphCode2", "ULONG", "OT_GlyphCode_32", "ULONG", "OT_GlyphCode2_32", "ULONG", "OT_GlyphWidth", "ULONG", "OT_OTagPath", "STRPTR", "OT_OTagList", "APTR", "OT_MemPtr", "APTR", "OT_MemSize", "ULONG", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["FileSystemAttrTags"],
+    "tagStrt": "1",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["FSA_StringNameInput", "STRPTR", "FSA_FileHandleInput", "BPTR", "FSA_LockInput", "BPTR", "FSA_MsgPortInput", "struct MsgPort *", "FSA_MaxFileNameLengthR", "uint32 *", "FSA_DOSTypeR", "uint32 *", "FSA_VersionNumberR", "uint32 *", "FSA_VersionStringR", "STRPTR", "FSA_ActivityFlushTimeoutR", "uint32 *", "FSA_InactivityFlushTimeoutR", "uint32 *", "FSA_HasRecycledEntriesR", "int32 *", "FSA_MaxRecycledEntriesR", "uint32 *", "FSA_MaxFileNameLengthW", "uint32", "FSA_ActivityFlushTimeoutW", "uint32", "FSA_InactivityFlushTimeoutW", "uint32", "FSA_MaxRecycledEntriesW", "uint32", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["FindApplication"],
+    "tagStrt": "1",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["FINDAPP_Name", "STRPTR", "FINDAPP_FileName", "STRPTR", "FINDAPP_AppIdentifier", "STRPTR", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["FindMethod"],
+    "arguments": [
+      {
+        "num": ["2"],
+        "type": "macro",
+        "suggestions": ["OM_NEW", "OM_GET", "OM_SET", "OM_UPDATE", "OM_DISPOSE", "GM_LAYOUT", "GM_HITTEST", "GM_GOACTIVE", "GM_HANDLEINPUT", "GM_RENDER", "DTM_GOTO", "DTM_TRIGGER", "DTM_PROCLAYOUT", "DTM_FRAMEBOX", "DTM_SELECT", "DTM_CLEARSELECTED", "DTM_COPY", "DTM_PRINT", "DTM_WRITE"]
+      }
+    ]
+  },
+  {
+    "name": ["FindTriggerMethod"],
+    "arguments": [
+      {
+        "num": ["3"],
+        "type": "macro",
+        "suggestions": ["STM_PAUSE", "STM_PLAY", "STM_CONTENTS", "STM_INDEX", "STM_RETRACE", "STM_BROWSE_PREV", "STM_BROWSE_NEXT", "STM_NEXT_FIELD", "STM_PREV_FIELD", "STM_ACTIVATE_FIELD", "STM_COMMAND", "STM_REWIND", "STM_FASTFORWARD", "STM_STOP", "STM_RESUME", "STM_LOCATE", "STM_HELP", "STM_SEARCH", "STM_SEARCH_NEXT", "STM_SEARCH_PREV"]
+      }
+    ]
+  },
+  {
+    "name": ["GadgetBox"],
+    "arguments": [
+      {
+        "num": ["3"],
+        "type": "macro",
+        "suggestions": ["GBD_WINDOW", "GBD_BOX", "GBD_RECTANGLE", "GBD_GINFO"]
+      },
+      {
+        "num": ["4"],
+        "type": "macro",
+        "suggestions": ["GBF_BOUNDS", "GBF_MAKERECT"]
+      }
+    ]
+  },
+  {
+    "name": ["GetAppLibAttrs"],
+    "tagStrt": "1",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["APPLIBATTR_LastUsedAppsArray", "PrefsObject **", "APPLIBATTR_LastUsedAppsMaxCount", "uint32 *", "APPLIBATTR_LastUsedDocsArray", "PrefsObject **", "APPLIBATTR_LastUsedDocsMaxCount", "uint32 *", "APPLIBATTR_BlankerIsAllowed", "BOOL *", "APPLIBATTR_GameModeIsActive", "BOOL *", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["GetApplicationAttrs"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["APPATTR_Port", "struct MsgPort **", "APPATTR_FileName", "STRPTR *", "APPATTR_Name", "STRPTR *", "APPATTR_URLIdentifier", "STRPTR *", "APPATTR_AppIdentifier", "STRPTR *", "APPATTR_Hidden", "BOOL *", "APPATTR_IconType", "struct ApplicationIconInfo **", "APPATTR_UniqueApplication", "BOOL *", "APPATTR_SavePrefs", "BOOL *", "APPATTR_AppNotifications", "BOOL *", "APPATTR_BlankerNotifications", "BOOL *", "APPATTR_MainPrefsDict", "PrefsObject **", "APPATTR_AllowsBlanker", "BOOL *", "APPATTR_NeedsGameMode", "BOOL *", " APPATTR_AppIdentifierCounter", "BOOL *", "APPATTR_LastUsedDocsArray", "PrefsObject **", "APPATTR_HasPrefsWindow", "BOOL *", "APPATTR_HasIconifyFeature", "BOOL *", "APPATTR_CanCreateNewDocs", "BOOL *", "APPATTR_CanPrintDocs", "BOOL *", "APPATTR_Description", "STRPTR *", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["GetBackFillHookAttrs"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["BFHA_APen", "ULONG *", "BFHA_BPen", "ULONG *", "BFHA_DrMd", "ULONG *", "BFHA_Pattern", "UWORD **", "BFHA_PatSize", "ULONG *", "BFHA_BitMap", "struct BitMap **", "BFHA_Width", "ULONG *", "BFHA_Height", "ULONG *", "BFHA_OffsetX", "ULONG *", "BFHA_OffsetY", "ULONG *", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["GetCPUInfoTags"],
+    "tagStrt": "1",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["GCIT_NumberOfCPUs", "uint32 *", "GCIT_Family", "uint32 *", "GCIT_Model", "uint32 *", "GCIT_ModelString", "CONST_STRPTR *", "GCIT_Version", "uint32 *", "GCIT_VersionString", "CONST_STRPTR *", "GCIT_FrontsideSpeed", "uint64 *", "GCIT_ProcessorSpeed", "uint64 *", "GCIT_L1CacheSize", "uint32 *", "GCIT_L2CacheSize", "uint32 *", "GCIT_L3CacheSize", "uint32 *", "GCIT_CacheLineSize", "uint32 *", "GCIT_VectorUnit", "uint32 *", "GCIT_Extensions", "CONST_STRPTR *", "GCIT_CPUPageSize", "uint32 *", "GCIT_ExecPageSize", "uint32 *", "GCIT_TimeBaseSpeed", "uint64 *", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["GetDeviceProcFlags"],
+    "arguments": [
+      {
+        "num": ["3"],
+        "type": "flag",
+        "suggestions": ["LDF_DEVICES", "LDF_VOLUMES", "LDF_ASSIGNS", "LDF_ALL"]
+      }
+    ]
+  },
+  {
+    "name": ["GetDMAList"],
+    "arguments": [
+      {
+        "num": ["3"],
+        "type": "flag",
+        "suggestions": ["DMAF_ReadFromRAM", "DMAF_NoModify"]
+      }
+    ]
+  },
+  {
+    "name": ["GetElfAttrsTags"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["EAT_NumSections", "ULONG *", "EAT_ElfHeader", "APTR *", "EAT_SectionStringTable", "APTR *", "EAT_FileName", "STRPTR *", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["GetGUIAttrs"],
+    "tagStrt": "3",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["GUIA_DefaultStyle", "APTR *", "GUIA_WindowBorderStyle", "APTR *", "GUIA_WindowGadgetStyle", "APTR *", "GUIA_SizeGadgetWidth", "BYTE *", "GUIA_SizeGadgetHeight", "BYTE *", "GUIA_ArrowGadgetWidth", "BYTE *", "GUIA_ArrowGadgetHeight", "BYTE *", "GUIA_WindowBorderLeft", "BYTE *", "GUIA_WindowBorderTop", "BYTE *", "GUIA_WindowBorderRight", "BYTE *", "GUIA_WindowBorderBottom", "BYTE *", "GUIA_WindowTitlePosition", "UBYTE *", "GUIA_WindowBarPadding", "UBYTE *", "GUIA_WindowPropKnobHandle", "UWORD *", "GUIA_WindowPropKnobColor", "BOOL *", "GUIA_WindowPropBackground", "UWORD *", "GUIA_PropBackground", "UWORD *", "GUIA_WindowPropKnobBackfill", "struct Hook **", "GUIA_PropKnobBackfill", "struct Hook **", "GUIA_WindowPropSelKnobBackfill", "struct Hook **", "GUIA_PropSelKnobBackfill", "struct Hook **", "GUIA_WindowPropInactKnobBackfill", "struct Hook **", "GUIA_WindowPropBackfill", "struct Hook **", "GUIA_WindowPropInactBackfill", "struct Hook **", "GUIA_PropBackfill", "struct Hook **", "GUIA_SysImageFrameType", "UWORD *", "GUIA_WindowPropBorder", "BOOL *", "GUIA_PropBorder", "BOOL *", "GUIA_WindowPropSpacing", "UBYTE *", "GUIA_PropSpacing", "UBYTE *", "GUIA_PropKnobHandle", "UWORD *", "GUIA_PropKnobColor", "BOOL *", "GUIA_WindowSizeBorder", "UWORD *", "GUIA_WindowGadgetFrameStyle", "APTR *", "GUIA_GadgetStyle", "APTR *", "GUIA_DefaultGeometry", "APTR *", "GUIA_WindowGadgetGeometry", "APTR *", "GUIA_GadgetGeometry", "APTR *", "GUIA_ScreenBarGadgetSize", "APTR *", "GUIA_WindowBarGadgetSize", "APTR *", "GUIA_GadgetArrowType", "ULONG *", "GUIA_GadgetCycleType", "ULONG *", "GUIA_GadgetArrowStyle", "APTR *", "GUIA_GadgetCycleStyle", "APTR *", "GUIA_SysImageSymbolType", "UWORD *", "GUIA_SysIGeometryType", "UWORD *", "GUIA_WindowBarBackfill", "struct Hook **", "GUIA_WindowBarInactBackfill", "struct Hook **", "GUIA_WindowBorderBackfill", "struct Hook **", "GUIA_WindowBorderInactBackfill", "struct Hook **", "GUIA_WindowPropLook", "BOOL *", "GUIA_EvenRequesterButtons", "BOOL *", "GUIA_RequestersPosition", "UWORD *", "GUIA_WindowBorderLook", "UWORD *", "GUIA_WindowBarFrameThickness", "UWORD *", "GUIA_WindowFrameThickness", "UWORD *", "GUIA_PropOuterSpacing", "UWORD *", "GUIA_SliderDisplayMode", "UWORD *", "GUIA_CycleLabelJustify", "UWORD *", "GUIA_ClickTabLook", "ULONG *", "GUIA_GadgetHorizPadding", "UWORD *", "GUIA_GadgetVertPadding", "UWORD *", "GUIA_WindowBackfill", "struct Hook **", "GUIA_RequesterBackfill", "struct Hook **", "GUIA_TabTitleBackfill", "struct Hook **", "GUIA_TabActiveBackfill", "struct Hook **", "GUIA_TabInactiveBackfill", "struct Hook **", "GUIA_LayoutHorizSpacing", "UWORD *", "GUIA_LayoutVertSpacing", "UWORD *", "GUIA_GroupLabelPlace", "ULONG *", "GUIA_GroupLabelLook", "ULONG *", "GUIA_GroupLabelTextAttr", "struct TextAttr **", "GUIA_FallbackTextAttr", "struct TextAttr **", "GUIA_GadgetTextAttr", "struct TextAttr **", "GUIA_LabelTextAttr", "struct TextAttr **", "GUIA_WindowRefresh", "ULONG *", "GUIA_GroupLabelVertAlign", "ULONG *", "GUIA_ListHierNodeStyle", "UWORD *", "GUIA_ListHierConnectType", "UWORD *", "GUIA_WindowOuterFlatThickness", "UWORD *", "GUIA_WindowInnerFlatThickness", "UWORD *", "GUIA_CycleLook", "ULONG *", "GUIA_WindowGaugeLook", "ULONG *", "GUIA_GaugeLook", "ULONG *", "GUIA_ClearBackground", "BOOL *", "GUIA_WindowAlpha", "UBYTE *", "GUIA_WindowInactAlpha", "UBYTE *", "GUIA_WindowDragAlpha", "UBYTE *", "GUIA_WindowOpenFadeTime", "ULONG *", "GUIA_WindowCloseFadeTime", "ULONG *", "GUIA_WindowGoActiveFadeTime", "ULONG *", "GUIA_WindowGoInactiveFadeTime", "ULONG *", "GUIA_FrameAlphaStatus", "ULONG *", "GUIA_WindowShadowSizes", "ULONG *", "GUIA_WindowShadowStrength", "ULONG *", "GUIA_WindowShadowType", "ULONG *", "GUIA_WindowShadowColor", "ULONG *", "GUIA_WindowShadowDisplacement", "ULONG *", "GUIA_WindowShadowSmoothness", "UWORD *", "GUIA_ScreenTitlePosition", "UBYTE *", "GUIA_ScreenBarPadding", "UBYTE *", "GUIA_MenuType", "UWORD *", "GUIA_MenuFlags", "ULONG *", "GUIA_MenuDropShadows", "BOOL *", "GUIA_MenuTransparency", "BOOL *", "GUIA_MenuRenderHook", "struct Hook **", "GUIA_MenuBackfill", "struct Hook **", "GUIA_MenuStyle", "APTR *", "GUIA_BrightContrast", "UBYTE *", "GUIA_DarkContrast", "UBYTE *", "GUIA_FillBrightContrast", "UBYTE *", "GUIA_FillDarkContrast", "UBYTE *", "GUIA_InactiveFillBrightContrast", "UBYTE *", "GUIA_InactiveFillDarkContrast", "UBYTE *", "GUIA_MenuBrightContrast", "UBYTE *", "GUIA_MenuDarkContrast", "UBYTE *", "GUIA_SelectBrightContrast", "UBYTE *", "GUIA_SelectDarkContrast", "UBYTE *", "GUIA_BarBlockBrightContrast", "UBYTE *", "GUIA_BarBlockDarkContrast", "UBYTE *", "GUIA_DisabledBrightContrast", "UBYTE *", "GUIA_DisabledDarkContrast", "UBYTE *", "GUIA_ForeBrightContrast", "UBYTE *", "GUIA_ForeDarkContrast", "UBYTE *", "GUIA_AutomaticEdgesContrast", "BOOL *", "GUIA_BrightCurve", "UBYTE *", "GUIA_DarkCurve", "UBYTE *", "GUIA_FillBrightCurve", "UBYTE *", "GUIA_FillDarkCurve", "UBYTE *", "GUIA_InactiveFillBrightCurve", "UBYTE *", "GUIA_InactiveFillDarkCurve", "UBYTE *", "GUIA_MenuBrightCurve", "UBYTE *", "GUIA_MenuDarkCurve", "UBYTE *", "GUIA_SelectBrightCurve", "UBYTE *", "GUIA_SelectDarkCurve", "UBYTE *", "GUIA_BarBlockBrightCurve", "UBYTE *", "GUIA_BarBlockDarkCurve", "UBYTE *", "GUIA_DisabledBrightCurve", "UBYTE *", "GUIA_DisabledDarkCurve", "UBYTE *", "GUIA_ForeBrightCurve", "UBYTE *", "GUIA_ForeDarkCurve", "UBYTE *", "GUIA_PropKnobHighlight", "UBYTE *", "GUIA_PaletteRGBTable", "ULONG **", "GUIA_PaletteLockTable", "UBYTE **", "GUIA_DRIPens", "UWORD **", "GUIA_FrameForceThinEdges", "UBYTE *", "GUIA_FrameSelectedColor", "UBYTE *", "GUIA_FrameDisabledColors", "UBYTE *", "GUIA_FrameButtonLook", "UBYTE *", "GUIA_FramePressedLook", "UBYTE *", "GUIA_FrameCornersType", "UBYTE *", "GUIA_FrameBackfill", "struct Hook **", "GUIA_FrameSelBackfill", "struct Hook **", "GUIA_FrameStringLook", "UBYTE *", "GUIA_FramePropLook", "UBYTE *", "GUIA_FrameDisplayLook", "UBYTE *", "GUIA_WindowPropKnobHighlight", "UBYTE *", "GUIA_OffScreenDragging", "BOOL *", "GUIA_FrameDisBackfill", "struct Hook **", "GUIA_RealShading", "BOOL *", "GUIA_ScreenBarBackfill", "struct Hook **", "GUIA_MenuSelItemFrame", "UBYTE *", "GUIA_OffScreenSizing", "BOOL *", "GUIA_OffScreenResistance", "UWORD *", "GUIA_MenuTransparencyLevel", "UBYTE *", "GUIA_SpecialEffects", "BOOL *", "GUIA_ShareComposeBitMap", "BOOL *", "GUIA_ScreenBarShadowStrength", "UWORD *", "GUIA_ScreenBarShadowColor", "ULONG *", "GUIA_ScreenBarShadowDisplacement", "UWORD *", "GUIA_ScreenBarShadowSmoothness", "UWORD *", "GUIA_GlobalFlags", "ULONG *", "GUIA_ScreenDragging", "BOOL *", "GUIA_DefaultDRIPens", "UWORD **", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["GetHalfPens"],
+    "arguments": [
+      {
+        "num": ["2"],
+        "type": "macro",
+        "suggestions": ["DETAILPEN", "BLOCKPEN", "TEXTPEN", "SHINEPEN", "SHADOWPEN", "FILLPEN", "FILLTEXTPEN", "BACKGROUNDPEN", "HIGHLIGHTTEXTPEN", "BARDETAILPEN", "BARBLOCKPEN", "BARTRIMPEN", "BARCONTOURPEN", "FOREGROUNDPEN", "FORESHINEPEN", "FORESHADOWPEN", "FILLSHINEPEN", "FILLSHADOWPEN", "INACTIVEFILLPEN", "INACTIVEFILLTEXTPEN", "INACTIVEFILLSHINEPEN", "INACTIVEFILLSHADOWPEN", "DISABLEDPEN", "DISABLEDTEXTPEN", "DISABLEDSHINEPEN", "DISABLEDSHADOWPEN", "MENUBACKGROUNDPEN", "MENUTEXTPEN", "MENUSHINEPEN", "MENUSHADOWPEN", "SELECTPEN", "SELECTTEXTPEN", "SELECTSHINEPEN", "SELECTSHADOWPEN", "GLYPHPEN", "GLYPHFILLPEN", "INACTIVEGLYPHPEN", "RESERVEDPEN", "GADGETPEN", "TITLEPEN", "HALFSHINEPEN", "HALFSHADOWPEN", "FLATBORDERPEN", "FILLFLATPEN", "INACTIVEFILLFLATPEN"]
+      }
+    ]
+  },
+  {
+    "name": ["GetInterfaceTags"],
+    "tagStrt": "4",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["GIT_FLAGS", "TAG_END"],
+        "values": [
+          {
+            "tag": ["GIT_FLAGS"],
+            "type": "flag",
+            "suggestions": ["IFLF_NONE", "IFLF_PROTECTED", "IFLF_NOT_NATIVE", "IFLF_PRIVATE", "IFLF_CHANGED", "IFLF_UNMODIFIED", "IFLF_CLONED", "IFLF_CLONE_EXPUNGE"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["GetMachineInfoTags"],
+    "tagStrt": "1",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["GMIT_Machine", "uint32 *", "GMIT_MachineString", "STRPTR *", "GMIT_MemorySize", "uint32 *", "GMIT_Extensions", "STRPTR *", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["GetNetworkStatistics"],
+    "arguments": [
+      {
+        "num": ["1"],
+        "type": "macro",
+        "suggestions": ["NETSTATUS_icmp", "NETSTATUS_igmp", "NETSTATUS_ip", "NETSTATUS_mb", "NETSTATUS_mrt", "NETSTATUS_rt", "NETSTATUS_tcp", "NETSTATUS_udp", "NETSTATUS_tcp_sockets", "NETSTATUS_udp_sockets"]
+      }
+    ]
+  },
+  {
+    "name": ["GetPartitionNodeAttrs"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["PARTNA_Start", "uint32 *", "PARTNA_End", "uint32 *", "PARTNA_UserData", "APTR *", "PARTNA_Color", "uint16 *", "PARTNA_Pattern", "uint16 **", "PARTNA_PatternSize", "uint16 *", "PARTNA_RenderHook", "struct Hook **", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["GetProcSegList"],
+    "arguments": [
+      {
+        "num": ["2"],
+        "type": "flag",
+        "suggestions": ["GPSLF_CLI", "GPSLF_SEG", "GPSLF_ENT", "GPSLF_RUN"]
+      }
+    ]
+  },
+  {
+    "name": ["GetRouteInfo"],
+    "arguments": [
+      {
+        "num": ["1"],
+        "type": "macro",
+        "suggestions": ["AF_INET", "AF_UNSPEC"]
+      },
+      {
+        "num": ["2"],
+        "type": "flag",
+        "suggestions": ["RTF_UP", "RTF_GATEWAY", "RTF_HOST", "RTF_REJECT", "RTF_DYNAMIC", "RTF_MODIFIED", "RTF_DONE", "RTF_MASK", "RTF_CLONING", "RTF_XRESOLVE", "RTF_LLINFO", "RTF_STATIC", "RTF_BLACKHOLE"]
+      }
+    ]
+  },
+  {
+    "name": ["GetScreenAttr"],
+    "arguments": [
+      {
+        "num": ["2"],
+        "type": "macro",
+        "suggestions": ["SA_Left", "SA_Top", "SA_Width", "SA_Height", "SA_Depth", "SA_DClip", "SA_PubName", "SA_Font", "SA_BitMap", "SA_DisplayID", "SA_BlockPen", "SA_DetailPen", "SA_Quiet", "SA_Interleaved", "SA_Colors32", "SA_ActiveWindow", "SA_Compositing", "SA_WindowDropShadows"]
+      }
+    ]
+  },
+  {
+    "name": ["GetScreenAttrs"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["SA_Left", "LONG *", "SA_Top", "LONG *", "SA_Width", "LONG *", "SA_Height", "LONG *", "SA_Depth", "LONG *", "SA_DClip", "struct Rectangle *", "SA_PubName", "STRPTR *", "SA_Font", "struct TextAttr **", "SA_BitMap", "struct BitMap **", "SA_DisplayID", "ULONG *", "SA_BlockPen", "UBYTE *", "SA_DetailPen", "UBYTE *", "SA_Quiet", "BOOL *", "SA_Interleaved", "BOOL *", "SA_Colors32", "ULONG **", "SA_ActiveWindow", "struct Window **", "SA_Compositing", "BOOL *", "SA_WindowDropShadows", "BOOL *", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["GetSectionTags"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["GST_SectionIndex", "ULONG", "GST_SectionName", "STRPTR", "GST_SearchAddress", "APTR", "GST_Load", "BOOL", "TAG_END"],
+        "values": [
+          {
+            "tag": ["GST_Load"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["GetSectionHeaderTags"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["GST_SectionIndex", "ULONG", "GST_SectionName", "STRPTR", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["GetSegListInfoTags"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["GSLI_Native", "struct PseudoSegList **", "GSLI_68KHUNK", "BPTR *", "GSLI_68KOVLAY", "BPTR *", "GSLI_ElfHandle", "Elf32_Handle *", "GSLI_Data", "APTR *", "GSLI_68KPS", "struct PseudoSeglist **", "GSLI_SegmentSize", "int32 *", "GSLI_HeaderSize", "uint32 *", "GSLI_VersionString", "STRPTR *", "GSLI_ResidentVersionString", "STRPTR *", "GSLI_ResidentStruct", "struct Resident **", "GSLI_68KFileSize", "uint32 *", "GSLI_68KFileXsum", "uint32 *", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["GetWindowAttr"],
+    "arguments": [
+      {
+        "num": ["2"],
+        "type": "macro",
+        "suggestions": ["WA_Left", "WA_Top", "WA_Width", "WA_Height", "WA_DetailPen", "WA_BlockPen", "WA_MinWidth", "WA_MinHeight", "WA_InnerWidth", "WA_InnerHeight", "WA_MaxWidth", "WA_MaxHeight", "WA_Zoom", "WA_WindowBox", "WA_IDCMP", "WA_Flags", "WA_MouseQueue", "WA_RptQueue", "WA_NotifyDepth", "WA_TabletMessages", "WA_MenuHelp", "WA_PointerDelay", "WA_RMBTrap", "WA_WindowName", "WA_ShapeRegion", "WA_ShapeHook", "WA_AlphaClips", "WA_AlphaHook", "WA_Opaqueness", "WA_OverrideOpaqueness", "WA_FadeTime", "WA_NoHitThreshold", "WA_DropShadows", "WA_MenuStrip", "WA_ContextMenuHook", "WA_HelpGroup", "WA_Activate", "WA_Checkmark", "WA_AmigaKey"]
+      }
+    ]
+  },
+  {
+    "name": ["GetWindowAttrs"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["WA_Left", "int32 *", "WA_Top", "int32 *", "WA_Width", "int32 *", "WA_Height", "int32 *", "WA_DetailPen", "int32 *", "WA_BlockPen", "int32 *", "WA_MinWidth", "int32 *", "WA_MinHeight", "int32 *", "WA_InnerWidth", "int32 *", "WA_InnerHeight", "int32 *", "WA_MaxWidth", "int32 *", "WA_MaxHeight", "int32 *", "WA_Zoom", "struct IBox *", "WA_WindowBox", "struct IBox *", "WA_IDCMP", "uint32 *", "WA_Flags", "uint32 *", "WA_MouseQueue", "uint32 *", "WA_RptQueue", "uint32 *", "WA_NotifyDepth", "BOOL *", "WA_TabletMessages", "BOOL *", "WA_MenuHelp", "BOOL *", "WA_PointerDelay", "BOOL *", "WA_RMBTrap", "BOOL *", "WA_WindowName", "STRPTR *", "WA_ShapeRegion", "struct Region **", "WA_ShapeHook", "struct Hook **", "WA_AlphaClips", "struct ClipRect **", "WA_AlphaHook", "struct Hook **", "WA_Opaqueness", "uint8 *", "WA_OverrideOpaqueness", "BOOL *", "WA_FadeTime", "uint32 *", "WA_NoHitThreshold", "int32 *", "WA_DropShadows", "int32 *", "WA_MenuStrip", "struct Menu **", "WA_ContextMenuHook", "struct Hook **", "WA_HelpGroup", "uint32 *", "WA_Activate", "BOOL *", "WA_Checkmark", "struct Image **", "WA_AmigaKey", "struct Image **", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["inet_ntop", "inet_pton"],
+    "arguments": [
+      {
+        "num": ["1"],
+        "type": "macro",
+        "suggestions": ["AF_INET", "AF_UNSPEC"]
+      }
+    ]
+  },
+  {
+    "name": ["IoctlSocket"],
+    "arguments": [
+      {
+        "num": ["2"],
+        "type": "macro",
+        "suggestions": ["FIONBIO", "FIOASYNC", "FIONREAD", "SIOCATMARK"]
+      }
+    ]
+  },
+  {
+    "name": ["ItemPoolControlTags"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["ASOITEM_GCPolicy", "ULONG", "ASOITEM_GCParameter", "LONG", "ASOITEM_Constructor", "struct Hook *", "ASOITEM_Destructor", "struct Hook *", "TAG_END"],
+        "values": [
+          {
+            "tag": ["ASOITEM_GCPolicy"],
+            "type": "macro",
+            "suggestions": ["ITEMGC_AFTERCOUNT", "ITEMGC_NONE"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["MakeInterfaceTags"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["MIT_VectorTable", "APTR *", "MIT_InitData", "APTR", "MIT_InitFunc", "APTR", "MIT_DataSize", "ULONG", "MIT_Flags", "ULONG", "MIT_Version", "ULONG", "MIT_Name", "STRPTR", "TAG_END"],
+        "values": [
+          {
+            "tag": ["MIT_Flags"],
+            "type": "flag",
+            "suggestions": ["IFLF_NONE", "IFLF_PROTECTED", "IFLF_NOT_NATIVE", "IFLF_PRIVATE", "IFLF_CHANGED", "IFLF_UNMODIFIED", "IFLF_CLONED", "IFLF_CLONE_EXPUNGE"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["MountDeviceTags"],
+    "tagStrt": "1",
+    "arguments": [
+      {
+        "num": ["2"],
+        "type": "macro",
+        "suggestions": ["MDT_FileSystem", "MDT_Handler"]
+      },
+      {
+        "type": "tag",
+        "suggestions": ["MD_SectorSize", "uint32", "MD_Surfaces", "uint32", "MD_SectorsPerBlock", "uint32", "MD_SectorsPerTrack", "uint32", "MD_Reserved", "uint32", "MD_PreAlloc", "uint32", "MD_LowCyl", "uint32", "MD_HighCyl", "uint32", "MD_NumBuffers", "uint32", "MD_BufMemType", "uint32", "MD_MaxTransfer", "uint32", "MD_Mask", "uint32", "MD_DOSType", "uint32", "MD_Baud", "uint32", "MD_Control", "STRPTR", "MD_Device", "STRPTR", "MD_Unit", "uint32", "MD_Flags", "uint32", "MD_StackSize", "uint32", "MD_Priority", "uint32", "MD_GlobVec", "uint32", "MD_StartupNumber", "int32", "MD_StartupString", "STRPTR", "MD_IgnoreFSR", "BOOL", "MD_Activate", "BOOL", "MD_Handler", "STRPTR", "MD_SegList", "BPTR", "MD_Entry", "int32(*)(...)", "MD_Port", "struct MsgPort *", "TAG_END"],
+        "values": [
+          {
+            "tag": ["MD_IgnoreFSR", "MD_Activate"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          },
+          {
+            "tag": ["MD_BufMemType"],
+            "type": "flag",
+            "suggestions": ["MEMF_ANY", "MEMF_PUBLIC", "MEMF_CHIP", "MEMF_FAST", "MEMF_VIRTUAL", "MEMF_EXECUTABLE", "MEMF_LOCAL", "MEMF_24BITDMA", "MEMF_KICK", "MEMF_PRIVATE", "MEMF_SHARED"]
+          },
+          {
+            "tag": ["MD_DOSType"],
+            "type": "macro",
+            "suggestions": ["ID_DOS_DISK", "ID_FFS_DISK", "ID_INTER_DOS_DISK", "ID_INTER_FFS_DISK", "ID_FASTDIR_DOS_DISK", "ID_FASTDIR_FFS_DISK", "ID_LONGNAME_DOS_DISK", "ID_LONGNAME_FFS_DISK", "ID_VP255_DOS_DISK", "ID_NOT_REALLY_DOS", "ID_KICKSTART_DISK", "ID_MSDOS_DISK", "ID_CON", "ID_RAWCON"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["NonBlockingModifyDosEntry"],
+    "arguments": [
+      {
+        "num": ["2"],
+        "type": "macro",
+        "suggestions": ["NBM_ADDDOSENTRY", "NBM_REMFREEDOSENTRY", "NBM_REMDOSENTRY", "NBM_RENAMEDOSENTRY", "NBM_CHANGESIGNAL", "NBM_DISKINSERTED", "NBM_DISKREMOVED"]
+      }
+    ]
+  },
+  {
+    "name": ["NotifyVar"],
+    "arguments": [
+      {
+        "num": ["3"],
+        "type": "macro",
+        "suggestions": ["NV_ADD_NOTIFY", "NV_REMOVE_NOTIFY", "NV_SCAN_NOTIFY", "NV_CAUSE_NOTIFY"]
+      }
+    ]
+  },
+  {
+    "name": ["ObtainBitMapInstance"],
+    "tagStrt": "3",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["BMI_Exclusive", "BOOL", "OBP_Precision", "LONG", "BMI_LayerInfo", "BOOL", "BMI_Offsets", "ULONG", "BMI_DoLevels", "BOOL", "BMI_ReferencePen", "UWORD", "BMI_GradientSpec", "struct GradientSpec *", "BMI_CacheGradient", "ULONG", "BMI_GradientAxis", "ULONG", "TAG_END"],
+        "values": [
+          {
+            "tag": ["BMI_Exclusive", "BMI_LayerInfo", "BMI_DoLevels"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          },
+          {
+            "tag": ["OBP_Precision"],
+            "type": "macro",
+            "suggestions": ["PRECISION_EXACT", "PRECISION_IMAGE", "PRECISION_ICON", "PRECISION_GUI"]
+          },
+          {
+            "tag": ["BMI_ReferencePen"],
+            "type": "macro",
+            "suggestions": ["DETAILPEN", "BLOCKPEN", "TEXTPEN", "SHINEPEN", "SHADOWPEN", "FILLPEN", "FILLTEXTPEN", "BACKGROUNDPEN", "HIGHLIGHTTEXTPEN", "BARDETAILPEN", "BARBLOCKPEN", "BARTRIMPEN", "BARCONTOURPEN", "FOREGROUNDPEN", "FORESHINEPEN", "FORESHADOWPEN", "FILLSHINEPEN", "FILLSHADOWPEN", "INACTIVEFILLPEN", "INACTIVEFILLTEXTPEN", "INACTIVEFILLSHINEPEN", "INACTIVEFILLSHADOWPEN", "DISABLEDPEN", "DISABLEDTEXTPEN", "DISABLEDSHINEPEN", "DISABLEDSHADOWPEN", "MENUBACKGROUNDPEN", "MENUTEXTPEN", "MENUSHINEPEN", "MENUSHADOWPEN", "SELECTPEN", "SELECTTEXTPEN", "SELECTSHINEPEN", "SELECTSHADOWPEN", "GLYPHPEN", "GLYPHFILLPEN", "INACTIVEGLYPHPEN", "RESERVEDPEN", "GADGETPEN", "TITLEPEN", "HALFSHINEPEN", "HALFSHADOWPEN", "FLATBORDERPEN", "FILLFLATPEN", "INACTIVEFILLFLATPEN"]
+          },
+          {
+            "tag": ["BMI_GradientAxis"],
+            "type": "macro",
+            "suggestions": ["0/*none*/", "1/*horiz*/", "2/*vert*/"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["ObtainBitMapSource"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["BMS_NoDiskIO", "BOOL", "BMS_DoMask", "BOOL", "BMS_DoOutline", "BOOL", "BMS_DoShade", "BOOL", "TAG_END"],
+        "values": [
+          {
+            "tag": ["BMS_NoDiskIO", "BMS_DoMask", "BMS_DoOutline", "BMS_DoShade"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["ObtainCharsetInfo"],
+    "arguments": [
+      {
+        "num": ["1"],
+        "type": "macro",
+        "suggestions": ["DFCS_NUMBER", "DFCS_NAME", "DFCS_MIMENAME"]
+      },
+      {
+        "num": ["3"],
+        "type": "macro",
+        "suggestions": ["DFCS_NUMBER", "DFCS_NEXTNUMBER", "DFCS_NAME", "DFCS_MIMENAME", "DFCS_MAPTABLE"]
+      }
+    ]
+  },
+  {
+    "name": ["ObtainIBackFill"],
+    "arguments": [
+      {
+        "num": ["2"],
+        "type": "macro",
+        "suggestions": ["BT_BACKGROUND", "BT_DRIPEN", "BT_WINBORDER", "BT_GADGET", "BT_PROPKNOB", "BT_PROPBG", "BT_WINPROPKNOB", "BT_WINPROPBG", "BT_MENU", "BT_SCREENBAR", "BT_WINDOWBAR", "BT_WINDOWBG", "BT_REQUESTERBG", "BT_TABPAGE"]
+      },
+      {
+        "num": ["3"],
+        "type": "macro",
+        "suggestions": ["IDS_NORMAL", "IDS_SELECTED", "IDS_DISABLED", "IDS_BUSY", "IDS_INDETERMINATE", "IDS_INACTIVENORMAL", "IDS_INACTIVESELECTED", "IDS_INACTIVEDISABLED", "IDS_SELECTEDDISABLED"]
+      }
+    ]
+  },
+  {
+    "name": ["ObtainKeyMapInfo"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["KEYMAPINFO_SETCHARSET", "ULONG", "KEYMAPINFO_KEYMAPNODE", "struct KeyMapNode **", "KEYMAPINFO_INFOTEXT_ENGLISH", "STRPTR *", "KEYMAPINFO_INFOTEXT_CHARSET", "ULONG *", "KEYMAPINFO_INFOTEXT_LOCAL", "STRPTR *", "KEYMAPINFO_CLASSIC_ONLY", "BOOL *", "KEYMAPINFO_PC_ONLY", "BOOL *", "TAG_END"],
+        "values": [
+          {
+            "tag": ["KEYMAPINFO_CLASSIC_ONLY", "KEYMAPINFO_PC_ONLY"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["ObtainRawKeyInfo"],
+    "tagStrt": "1",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["RKI_SET_TYPE", "ULONG", "RKI_SET_VALUE", "ULONG", "RKI_GET_RAWKEY", "ULONG *", "RKI_GET_EXT_RAWKEY", "ULONG *", "RKI_GET_PS2_SET1", "ULONG *", "RKI_GET_PS2_SET2", "ULONG *", "RKI_GET_USB", "ULONG *", "RKI_GET_FLAGS", "ULONG *", "RKI_GET_NAME", "STRPTR *", "TAG_END"],
+        "values": [
+          {
+            "tag": ["RKI_SET_TYPE"],
+            "type": "bool",
+            "suggestions": ["RKITYPE_RAWKEY", "RKITYPE_EXT_RAWKEY", "RKITYPE_PS2_SET1", "RKITYPE_PS2_SET2", "RKITYPE_USB", "RKITYPE_USB_UPCODE"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["ObtainSocket"],
+    "arguments": [
+      {
+        "num": ["2"],
+        "type": "macro",
+        "suggestions": ["AF_INET"]
+      },
+      {
+        "num": ["3"],
+        "type": "macro",
+        "suggestions": ["SOCK_STREAM", "SOCK_DGRAM", "SOCK_RAW"]
+      },
+      {
+        "num": ["4"],
+        "type": "macro",
+        "suggestions": ["IPPROTO_IP", "IPPROTO_ICMP", "IPPROTO_IGMP", "IPPROTO_GGP", "IPPROTO_TCP", "IPPROTO_EGP", "IPPROTO_PUP", "IPPROTO_UDP", "IPPROTO_IDP", "IPPROTO_TP", "IPPROTO_EON", "IPPROTO_ENCAP", "IPPROTO_RAW"]
+      }
+    ]
+  },
+  {
+    "name": ["OpenElfTags"],
+    "tagStrt": "1",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["OET_Filename", "STRPTR", "OET_FileHandle", "BPTR", "OET_MemoryAddr", "APTR", "OET_ElfHandle", "Elf32_Handle", "OET_DOSHook", "struct Hook *", "OET_MEMHook", "struct Hook *", "OET_Executable", "BOOL", "OET_ReadOnlyCopy", "BOOL", "OET_NoDOS", "BOOL", "TAG_END"],
+        "values": [
+          {
+            "tag": ["OET_Executable", "OET_ReadOnlyCopy", "OET_NoDOS"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["OpenOutlineFont"],
+    "arguments": [
+      {
+        "num": ["3"],
+        "type": "macro",
+        "suggestions": ["OFF_OPEN"]
+      }
+    ]
+  },
+  {
+    "name": ["ParseCapturePattern"],
+    "arguments": [
+      {
+        "num": ["4"],
+        "type": "bool",
+        "suggestions": ["TRUE", "FALSE"]
+      }
+    ]
+  },
+  {
+    "name": ["POPUPMENU_MakeIDList"],
+    "tagStrt": "1",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["PMA_ExcludeID", "uint32", "PMA_IncludeID", "uint32", "PMA_ReflectID", "uint32", "PMA_InverseID", "uint32", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["PrefsArray"],
+    "tagStrt": "3",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["ALPOARR_Clear", "", "ALPOARR_GetCount", "int32 *", "ALPOARR_AddObj", "PrefsObject *", "ALPOARR_InsertObjAtIndex", "struct ALPOObjIndex *", "ALPOARR_GetObjAtIndex", "struct ALPOObjIndex *", "ALPOARR_RemoveObjAtIndex", "int32", "ALPOARR_ReplaceObjAtIndex", "struct ALPOObjIndex *", "ALPOARR_RemoveObj", "PrefsObject *", "ALPOARR_GetIndexForObj", "struct ALPOObjIndex *", "TAG_END"],
+        "values": [
+          {
+            "tag": ["ALPOARR_Clear"],
+            "type": "null",
+            "suggestions": ["NULL"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["PrefsBaseObject"],
+    "tagStrt": "3",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["ALPO_Alloc", "", "ALPO_AllocWithString", "STRPTR", "ALPO_Release", "", "ALPO_Copy", "", "ALPO_Retain", "", "ALPO_Identify", "uint32 *", "ALPO_Serialize", "struct ALPOPutProcInfo *", "ALPO_Deserialize", "struct ALPOGetProcInfo *", "ALPO_GetRetainCount", "int32 *", "ALPO_SetWithString", "STRPTR", "ALPO_GetAsString", "struct ALPOString *", "TAG_END"],
+        "values": [
+          {
+            "tag": ["ALPO_Alloc", "ALPO_Release", "ALPO_Copy", "ALPO_Retain"],
+            "type": "null",
+            "suggestions": ["NULL"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["PrefsBinary"],
+    "tagStrt": "3",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["ALPOBIN_AllocWithSize", "int32", "ALPOBIN_AllocWithData", "struct ALPOBinData *", "ALPOBIN_ClearData", "", "ALPOBIN_GetData", "uint8 **", "ALPOBIN_GetSize", "int32 *", "ALPOBIN_GetDataStruct", "struct ALPOBinData *", "ALPOBIN_SetData", "struct ALPOBinData *", "TAG_END"],
+        "values": [
+          {
+            "tag": ["ALPOBIN_ClearData"],
+            "type": "null",
+            "suggestions": ["NULL"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["PrefsDate"],
+    "tagStrt": "3",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["ALPODAT_AllocSetTimeVal", "struct timeval *", "ALPODAT_AllocSetCTime", "c_time", "ALPODAT_SetCurrentTime", "", "ALPODAT_SetTimeVal", "struct timeval *", "ALPODAT_GetTimeVal", "struct timeval *", "ALPODAT_SetSecsSince1978", "uint32", "ALPODAT_GetSecsSince1978", "uint32 *", "TAG_END"],
+        "values": [
+          {
+            "tag": ["ALPODAT_SetCurrentTime"],
+            "type": "null",
+            "suggestions": ["NULL"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["PrefsDictionary"],
+    "tagStrt": "3",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["ALPODICT_Clear", "", "ALPODICT_GetCount", "int32 *", "ALPODICT_SetObjForKey", "struct ALPOObjKey *", "ALPODICT_GetObjForKey", "struct ALPOObjKey *", "ALPODICT_RemoveObjForKey", "STRPTR", "ALPODICT_ReplaceObjForKey", "struct ALPOObjKey *", "ALPODICT_GetObjAndKeyAtIndex", "struct ALPOObjKeyIndex *", "ALPODICT_InsertObjAtIndex", "struct ALPOObjKeyIndex *", "ALPODICT_GetObjAtIndex", "struct ALPOObjIndex *", "ALPODICT_RemoveObjAtIndex", "int32", "ALPODICT_ReplaceObjAtIndex", "struct ALPOObjIndex *", "ALPODICT_RemoveObj", "PrefsObject *", "ALPODICT_GetKeyAndIndexForObj", "struct ALPOObjKeyIndex *", "TAG_END"],
+        "values": [
+          {
+            "tag": ["ALPODICT_Clear"],
+            "type": "null",
+            "suggestions": ["NULL"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["PrefsNumber"],
+    "tagStrt": "3",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["ALPONUM_AllocSetLong", "int32", "ALPONUM_AllocSetBool", "BOOL", "ALPONUM_AllocSetDouble", "double *", "ALPONUM_GetType", "int32 *", "ALPONUM_SetLong", "int32", "ALPONUM_GetLong", "int32 *", "ALPONUM_SetBool", "BOOL", "ALPONUM_GetBool", "BOOL *", "ALPONUM_SetDouble", "double *", "ALPONUM_GetDouble", "double *", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["PrefsString"],
+    "tagStrt": "3",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["ALPO_Alloc", "", "ALPOSTR_AllocSetString", "STRPTR", "ALPOSTR_GetLength", "int32 *", "ALPOSTR_SetString", "STRPTR", "ALPOSTR_GetString", "STRPTR *", "TAG_END"],
+        "values": [
+          {
+            "tag": ["ALPO_Alloc"],
+            "type": "null",
+            "suggestions": ["NULL"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["PrintEmbossedDisabledIText"],
+    "arguments": [
+      {
+        "num": ["5"],
+        "type": "macro",
+        "suggestions": ["BT_BACKGROUND", "BT_DRIPEN", "BT_WINBORDER", "BT_GADGET", "BT_PROPKNOB", "BT_PROPBG", "BT_WINPROPKNOB", "BT_WINPROPBG", "BT_MENU", "BT_SCREENBAR", "BT_WINDOWBAR", "BT_WINDOWBG", "BT_REQUESTERBG", "BT_TABPAGE"]
+      },
+      {
+        "num": ["6"],
+        "type": "macro",
+        "suggestions": ["STD_DISABLE_CONTRAST", "CNTR_CORRECT", "CNTR_ABSOLUTE"]
+      }
+    ]
+  },
+  {
+    "name": ["QueryInterfaceTags"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["IFQ_DeviceName", "STRPTR *", "IFQ_DeviceUnit", "LONG *", "IFQ_HardwareAddressSize", "LONG *", "IFQ_HardwareAddress", "UBYTE *", "IFQ_MTU", "LONG *", "IFQ_HardwareMTU", "LONG *", "IFQ_BPS", "LONG *", "IFQ_HardwareType", "LONG *", "IFQ_PacketsReceived", "ULONG *", "IFQ_PacketsSent", "ULONG *", "IFQ_BadData", "ULONG *", "IFQ_Overruns", "ULONG *", "IFQ_UnknownTypes", "ULONG *", "IFQ_LastStart", "struct timeval *", "IFQ_Address", "struct sockaddr *", "IFQ_DestinationAddress", "struct sockaddr *", "IFQ_BroadcastAddress", "struct sockaddr *", "IFQ_NetMask", "struct sockaddr_in *", "IFQ_Metric", "LONG *", "IFQ_State", "LONG *", "IFQ_AddressBindType", "LONG *", "IFQ_AddressLeaseExpires", "struct DateStamp *", "IFQ_PrimaryDNSAddress", "struct sockaddr_in *", "IFQ_SecondaryDNSAddress", "struct sockaddr_in *", "IFQ_NumReadRequests", "LONG *", "IFQ_MaxReadRequests", "LONG", "IFQ_NumReadRequestsPending", "LONG *", "IFQ_NumWriteRequests", "LONG *", "IFQ_MaxWriteRequests", "LONG *", "IFQ_NumWriteRequestsPending", "LONG *", "IFQ_GetBytesIn", "SBQUAD_T *", "IFQ_GetBytesOut", "SBQUAD_T *", "IFQ_GetDebugMode", "LONG *", "IFQ_GetSANA2CopyStats", "struct SANA2CopyStats *", "IFQ_OutputDrops", "LONG *", "IFQ_InputDrops", "LONG *", "IFQ_OutputErrors", "LONG *", "IFQ_InputErrors", "LONG *", "IFQ_OutputMulticasts", "LONG *", "IFQ_InputMulticasts", "LONG *", "IFQ_IPDrops", "LONG *", "IFQ_ARPDrops", "LONG *", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["ReadLineItemTags"],
+    "tagStrt": "3",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["RLI_FileHandleInput", "BPTR", "RLI_CSourceInput", "struct CSource *", "RLI_EscapeChars", "STRPTR", "RLI_MultiLine", "BOOL", "RLI_CommentChars", "STRPTR", "RLI_Substitute_N", "BOOL", "RLI_Substitute_E", "BOOL", "TAG_END"],
+        "values": [
+          {
+            "tag": ["RLI_MultiLine", "RLI_Substitute_N", "RLI_Substitute_E"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["ReadPrefs"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["READPREFS_AppID", "uint32", "READPREFS_FileName", "STRPTR", "READPREFS_LastAppDocs", "BOOL", "READPREFS_ReadENV", "BOOL", "READPREFS_ReadENVARC", "BOOL", "TAG_END"],
+        "values": [
+          {
+            "tag": ["READPREFS_LastAppDocs", "READPREFS_ReadENV", "READPREFS_ReadENVARC"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["ReallocVec"],
+    "arguments": [
+      {
+        "num": ["3"],
+        "type": "flag",
+        "suggestions": ["MEMF_LARGEST"]
+      }
+    ]
+  },
+  {
+    "name": ["RegisterApplication"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["REGAPP_UniqueApplication", "BOOL", "REGAPP_URLIdentifier", "STRPTR", "REGAPP_Hidden", "BOOL", "REGAPP_LoadPrefs", "BOOL", "REGAPP_SavePrefs", "BOOL", "REGAPP_CustomPrefsFileName", "STRPTR", "REGAPP_CustomPrefsBaseName", "STRPTR", "REGAPP_ENVDir", "STRPTR", "REGAPP_WBStartup", "struct WBStartup *", "REGAPP_FileLock", "BPTR", "REGAPP_FileName", "STRPTR", "REGAPP_Name", "STRPTR", "REGAPP_NoIcon", "BOOL", "REGAPP_AppIconInfo", "struct ApplicationIconInfo *", "REGAPP_AppNotifications", "BOOL", "REGAPP_BlankerNotifications", "BOOL", "REGAPP_AllowsBlanker", "BOOL", "REGAPP_NeedsGameMode", "BOOL", "REGAPP_Description", "STRPTR", "TAG_END"],
+        "values": [
+          {
+            "tag": ["REGAPP_UniqueApplication", "REGAPP_Hidden", "REGAPP_LoadPrefs", "REGAPP_SavePrefs", "REGAPP_NoIcon", "REGAPP_AppNotifications", "REGAPP_BlankerNotifications", "REGAPP_AllowsBlanker", "REGAPP_NeedsGameMode"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["ReleaseKeyMapInfo"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["KEYMAPINFO_KEYMAPNODE", "struct KeyMapNode *", "KEYMAPINFO_INFOTEXT_ENGLISH", "STRPTR", "KEYMAPINFO_INFOTEXT_LOCAL", "STRPTR", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["RelocateSectionTags"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["GST_SectionIndex", "LONG", "GST_SectionName", "STRPTR", "GST_Load", "BOOL", "TAG_END"],
+        "values": [
+          {
+            "tag": ["GST_Load"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["RemoteSync"],
+    "tagStrt": "1",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["RS_PROTOCOL", "UBYTE", "RS_SERVER", "STRPTR", "RS_PORT", "ULONG", "RS_UTCOFFSET", "LONG", "RS_SETSYSTIME", "BOOL", "RS_SAVETIME", "BOOL", "RS_DIFFTIME", "struct timeval *", "RS_ERRSTR", "STRPTR *", "RS_ERRNO", "LONG *", "TAG_END"],
+        "values": [
+          {
+            "tag": ["RS_SETSYSTIME", "RS_SAVETIME"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          },
+          {
+            "tag": ["RS_SERVER"],
+            "type": "string",
+            "suggestions": ["\"PREFS\""]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["SaveDTObject", "SaveDTObjectA"],
+    "arguments": [
+      {
+        "num": ["5"],
+        "type": "macro",
+        "suggestions": ["DTWM_IFF", "DTWM_RAW"]
+      },
+      {
+        "num": ["6"],
+        "type": "bool",
+        "suggestions": ["TRUE", "FALSE"]
+      }
+    ]
+  },
+  {
+    "name": ["ScanVars"],
+    "arguments": [
+      {
+        "num": ["2"],
+        "type": "macro",
+        "suggestions": ["LV_VAR", "LV_ALIAS", "LVF_IGNORE", "GVF_GLOBAL_ONLY", "GVF_LOCAL_ONLY", "GVF_BINARY_VAR", "GVF_SCAN_ENVARC", "GVF_SCAN_LEVEL", "GVF_SCAN_STARTDIR"]
+      }
+    ]
+  },
+  {
+    "name": ["SendApplicationMsg"],
+    "arguments": [
+      {
+        "num": ["4"],
+        "type": "macro",
+        "suggestions": ["APPLIBMT_AppRegister", "APPLIBMT_AppUnregister", "APPLIBMT_AppWantsChangeIconType", "APPLIBMT_AppDidChangeIconType", "APPLIBMT_AppDidChangeHidden", "APPLIBMT_LastAppDocChange", "APPLIBMT_Quit", "APPLIBMT_ForceQuit", "APPLIBMT_Hide", "APPLIBMT_Unhide", "APPLIBMT_ToFront", "APPLIBMT_Unique", "APPLIBMT_OpenPrefs", "APPLIBMT_ReloadPrefs", "APPLIBMT_NewBlankDoc", "APPLIBMT_OpenDoc", "APPLIBMT_PrintDoc", "APPLIBMT_CustomMsg", "APPLIBMT_BlankerAllow", "APPLIBMT_BlankerDisallow", "APPLIBMT_BlankerBlank", "APPLIBMT_BlankerMonitorOff", "APPLIBMT_BlankerUnBlank", "APPLIBMT_GameModeEntered", "APPLIBMT_GameModeLeft"]
+      }
+    ]
+  },
+  {
+    "name": ["SetAppLibAttrs"],
+    "tagStrt": "1",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["APPLIBATTR_LastUsedAppsMaxCount", "uint32", "APPLIBATTR_ClearLastUsedApps", "BOOL", "APPLIBATTR_LastUsedDocsMaxCount", "uint32", "APPLIBATTR_ClearLastUsedDocs", "BOOL", "TAG_END"],
+        "values": [
+          {
+            "tag": ["APPLIBATTR_ClearLastUsedApps", "APPLIBATTR_ClearLastUsedDocs"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["SetApplicationAttrs"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["APPATTR_Hidden", "BOOL", "APPATTR_IconType", "struct ApplicationIconInfo *", "APPATTR_SavePrefs", "BOOL", "APPATTR_AppNotifications", "BOOL", "APPATTR_BlankerNotifications", "BOOL", "APPATTR_MainPrefsDict", "PrefsObject *", "APPATTR_AllowsBlanker", "BOOL", "APPATTR_NeedsGameMode", "BOOL", "APPATTR_FlushPrefs", "", "APPATTR_AppOpenedDocument", "STRPTR", "TAG_END"],
+        "values": [
+          {
+            "tag": ["APPATTR_Hidden", "APPATTR_SavePrefs", "APPATTR_AppNotifications", "APPATTR_BlankerNotifications", "APPATTR_AllowsBlanker", "APPATTR_NeedsGameMode"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["SetBackFillHookAttrs"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["BFHA_APen", "UWORD", "BFHA_BPen", "UWORD", "BFHA_DrMd", "UWORD", "BFHA_Pattern", "UWORD *", "BFHA_PatSize", "WORD", "BFHA_BitMap", "struct BitMap *", "BFHA_Width", "UWORD", "BFHA_Height", "UWORD", "BFHA_OffsetX", "UWORD", "BFHA_OffsetY", "UWORD", "TAG_END"],
+        "values": [
+          {
+            "tag": ["BFHA_DrMd"],
+            "type": "macro",
+            "suggestions": ["JAM1", "JAM2", "COMPLEMENT", "INVERSVID"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["SetBlockingMode"],
+    "arguments": [
+      {
+        "num": ["2"],
+        "type": "macro",
+        "suggestions": ["SBM_BLOCKING", "SBM_NON_BLOCKING"]
+      }
+    ]
+  },
+  {
+    "name": ["SetElfAttrsTags"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["EAT_DOSHook", "struct Hook *", "EAT_MEMHook", "struct Hook *", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["SetFileHandleAttrTags"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["FH_BufferSize", "uint32", "FH_UserBuffer", "uint8 *", "FH_BufferMode", "int32", "FH_Locking", "BOOL", "FH_EndStream", "BOOL", "TAG_END"],
+        "values": [
+          {
+            "tag": ["FH_BufferMode"],
+            "type": "macro",
+            "suggestions": ["BUF_LINE", "BUF_FULL", "BUF_NONE"]
+          },
+          {
+            "tag": ["FH_Locking", "FH_EndStream"],
+            "type": "bool",
+            "suggestions": ["DOSTRUE", "DOSFALSE"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["SetGUIAttrs"],
+    "tagStrt": "1",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["GUIA_DefaultStyle", "APTR", "GUIA_SizeGadgetWidth", "BYTE", "GUIA_SizeGadgetHeight", "BYTE", "GUIA_ArrowGadgetWidth", "BYTE", "GUIA_ArrowGadgetHeight", "BYTE", "GUIA_WindowBorderLeft", "BYTE", "GUIA_WindowBorderTop", "BYTE", "GUIA_WindowBorderRight", "BYTE", "GUIA_WindowBorderBottom", "BYTE", "GUIA_WindowTitlePosition", "UBYTE", "GUIA_WindowBarPadding", "UBYTE", "GUIA_WindowPropKnobHandle", "UWORD", "GUIA_WindowPropKnobColor", "BOOL", "GUIA_WindowPropBackground", "UWORD", "GUIA_PropBackground", "UWORD", "GUIA_WindowPropKnobBackfill", "struct Hook *", "GUIA_PropKnobBackfill", "struct Hook *", "GUIA_WindowPropSelKnobBackfill", "struct Hook *", "GUIA_PropSelKnobBackfill", "struct Hook *", "GUIA_WindowPropInactKnobBackfill", "struct Hook *", "GUIA_WindowPropBackfill", "struct Hook *", "GUIA_WindowPropInactBackfill", "struct Hook *", "GUIA_PropBackfill", "struct Hook *", "GUIA_SysImageFrameType", "UWORD", "GUIA_WindowPropBorder", "BOOL", "GUIA_PropBorder", "BOOL", "GUIA_WindowPropSpacing", "UBYTE", "GUIA_PropSpacing", "UBYTE", "GUIA_PropKnobHandle", "UWORD", "GUIA_PropKnobColor", "BOOL", "GUIA_WindowSizeBorder", "UWORD", "GUIA_DefaultGeometry", "APTR", "GUIA_ScreenBarGadgetSize", "APTR", "GUIA_WindowBarGadgetSize", "APTR", "GUIA_GadgetArrowType", "ULONG", "GUIA_GadgetCycleType", "ULONG", "GUIA_SysImageSymbolType", "UWORD", "GUIA_SysIGeometryType", "UWORD", "GUIA_WindowBarBackfill", "struct Hook *", "GUIA_WindowBarInactBackfill", "struct Hook *", "GUIA_WindowBorderBackfill", "struct Hook *", "GUIA_WindowBorderInactBackfill", "struct Hook *", "GUIA_WindowPropLook", "BOOL", "GUIA_EvenRequesterButtons", "BOOL", "GUIA_RequestersPosition", "UWORD", "GUIA_WindowBorderLook", "UWORD", "GUIA_WindowBarFrameThickness", "UWORD", "GUIA_WindowFrameThickness", "UWORD", "GUIA_PropOuterSpacing", "UWORD", "GUIA_SliderDisplayMode", "UWORD", "GUIA_CycleLabelJustify", "UWORD", "GUIA_ClickTabLook", "ULONG", "GUIA_GadgetHorizPadding", "UWORD", "GUIA_GadgetVertPadding", "UWORD", "GUIA_WindowBackfill", "struct Hook *", "GUIA_RequesterBackfill", "struct Hook *", "GUIA_TabTitleBackfill", "struct Hook *", "GUIA_TabActiveBackfill", "struct Hook *", "GUIA_TabInactiveBackfill", "struct Hook *", "GUIA_LayoutHorizSpacing", "UWORD", "GUIA_LayoutVertSpacing", "UWORD", "GUIA_GroupLabelPlace", "ULONG", "GUIA_GroupLabelLook", "ULONG", "GUIA_GroupLabelTextAttr", "struct TextAttr *", "GUIA_FallbackTextAttr", "struct TextAttr *", "GUIA_GadgetTextAttr", "struct TextAttr *", "GUIA_LabelTextAttr", "struct TextAttr *", "GUIA_WindowRefresh", "ULONG", "GUIA_GroupLabelVertAlign", "ULONG", "GUIA_ListHierNodeStyle", "UWORD", "GUIA_ListHierConnectType", "UWORD", "GUIA_WindowOuterFlatThickness", "UWORD", "GUIA_WindowInnerFlatThickness", "UWORD", "GUIA_CycleLook", "ULONG", "GUIA_WindowGaugeLook", "ULONG", "GUIA_GaugeLook", "ULONG", "GUIA_ClearBackground", "BOOL", "GUIA_WindowAlpha", "UBYTE", "GUIA_WindowInactAlpha", "UBYTE", "GUIA_WindowDragAlpha", "UBYTE", "GUIA_WindowOpenFadeTime", "ULONG", "GUIA_WindowCloseFadeTime", "ULONG", "GUIA_WindowGoActiveFadeTime", "ULONG", "GUIA_WindowGoInactiveFadeTime", "ULONG", "GUIA_WindowShadowStrength", "ULONG", "GUIA_WindowShadowType", "ULONG", "GUIA_WindowShadowColor", "ULONG", "GUIA_WindowShadowDisplacement", "ULONG", "GUIA_WindowShadowSmoothness", "UWORD", "GUIA_ScreenTitlePosition", "UBYTE", "GUIA_ScreenBarPadding", "UBYTE", "GUIA_MenuType", "UWORD", "GUIA_MenuFlags", "ULONG", "GUIA_MenuDropShadows", "BOOL", "GUIA_MenuTransparency", "BOOL", "GUIA_MenuRenderHook", "struct Hook *", "GUIA_MenuBackfill", "struct Hook *", "GUIA_MenuStyle", "APTR", "GUIA_BrightContrast", "UBYTE", "GUIA_DarkContrast", "UBYTE", "GUIA_FillBrightContrast", "UBYTE", "GUIA_FillDarkContrast", "UBYTE", "GUIA_InactiveFillBrightContrast", "UBYTE", "GUIA_InactiveFillDarkContrast", "UBYTE", "GUIA_MenuBrightContrast", "UBYTE", "GUIA_MenuDarkContrast", "UBYTE", "GUIA_SelectBrightContrast", "UBYTE", "GUIA_SelectDarkContrast", "UBYTE", "GUIA_BarBlockBrightContrast", "UBYTE", "GUIA_BarBlockDarkContrast", "UBYTE", "GUIA_DisabledBrightContrast", "UBYTE", "GUIA_DisabledDarkContrast", "UBYTE", "GUIA_ForeBrightContrast", "UBYTE", "GUIA_ForeDarkContrast", "UBYTE", "GUIA_AutomaticEdgesContrast", "BOOL", "GUIA_BrightCurve", "UBYTE", "GUIA_DarkCurve", "UBYTE", "GUIA_FillBrightCurve", "UBYTE", "GUIA_FillDarkCurve", "UBYTE", "GUIA_InactiveFillBrightCurve", "UBYTE", "GUIA_InactiveFillDarkCurve", "UBYTE", "GUIA_MenuBrightCurve", "UBYTE", "GUIA_MenuDarkCurve", "UBYTE", "GUIA_SelectBrightCurve", "UBYTE", "GUIA_SelectDarkCurve", "UBYTE", "GUIA_BarBlockBrightCurve", "UBYTE", "GUIA_BarBlockDarkCurve", "UBYTE", "GUIA_DisabledBrightCurve", "UBYTE", "GUIA_DisabledDarkCurve", "UBYTE", "GUIA_ForeBrightCurve", "UBYTE", "GUIA_ForeDarkCurve", "UBYTE", "GUIA_PropKnobHighlight", "UBYTE", "GUIA_PaletteRGBTable", "ULONG *", "GUIA_PaletteLockTable", "UBYTE *", "GUIA_DRIPens", "UWORD *", "GUIA_FrameForceThinEdges", "UBYTE", "GUIA_FrameSelectedColor", "UBYTE", "GUIA_FrameDisabledColors", "UBYTE", "GUIA_FrameButtonLook", "UBYTE", "GUIA_FramePressedLook", "UBYTE", "GUIA_FrameCornersType", "UBYTE", "GUIA_FrameBackfill", "struct Hook *", "GUIA_FrameSelBackfill", "struct Hook *", "GUIA_FrameStringLook", "UBYTE", "GUIA_FramePropLook", "UBYTE", "GUIA_FrameDisplayLook", "UBYTE", "GUIA_WindowPropKnobHighlight", "UBYTE", "GUIA_OffScreenDragging", "BOOL", "GUIA_FrameDisBackfill", "struct Hook *", "GUIA_RealShading", "BOOL", "GUIA_ScreenBarBackfill", "struct Hook *", "GUIA_MenuSelItemFrame", "UBYTE", "GUIA_OffScreenSizing", "BOOL", "GUIA_OffScreenResistance", "UWORD", "GUIA_MenuTransparencyLevel", "UBYTE", "GUIA_SpecialEffects", "BOOL", "GUIA_ShareComposeBitMap", "BOOL", "GUIA_ScreenBarShadowStrength", "UWORD", "GUIA_ScreenBarShadowColor", "ULONG", "GUIA_ScreenBarShadowDisplacement", "UWORD", "GUIA_ScreenBarShadowSmoothness", "UWORD", "GUIA_GlobalFlags", "ULONG", "GUIA_ScreenDragging", "BOOL", "TAG_END"],
+        "values": [
+          {
+            "tag": ["GUIA_GlobalFlags"],
+            "type": "macro",
+            "suggestions": ["GGPF_SCREENDRAGGING"]
+          },
+          {
+            "tag": ["GUIA_WindowPropKnobColor", "GUIA_WindowPropBorder", "GUIA_PropBorder", "GUIA_PropKnobColor", "GUIA_WindowPropLook", "GUIA_EvenRequesterButtons", "GUIA_ClearBackground", "GUIA_MenuDropShadows", "GUIA_MenuTransparency", "GUIA_AutomaticEdgesContrast", "GUIA_OffScreenDragging", "GUIA_RealShading", "GUIA_OffScreenSizing", "GUIA_SpecialEffects", "GUIA_ShareComposeBitMap", "GUIA_ScreenDragging"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          },
+          {
+            "tag": ["GUIA_WindowBorderLook"],
+            "type": "flag",
+            "suggestions": ["FRAMEWINDOW_3D", "FRAMEWINDOW_FRAMED", "FRAMEWINDOW_FLAT"]
+          },
+          {
+            "tag": ["GUIA_FrameForceThinEdges"],
+            "type": "flag",
+            "suggestions": ["FRAMETHIN_FILLEDRAISED", "FRAMETHIN_FILLEDRECESSED", "FRAMETHIN_EDGESONLYRAISED", "FRAMETHIN_EDGESONLYRECESSED"]
+          },
+          {
+            "tag": ["GUIA_FrameSelectedColor"],
+            "type": "macro",
+            "suggestions": ["FRAMESELCOL_FILL", "FRAMESELCOL_SELECT", "FRAMESELCOL_FOREG", "FRAMESELCOL_BACKG"]
+          },
+          {
+            "tag": ["GUIA_FrameDisabledColors"],
+            "type": "macro",
+            "suggestions": ["FRAMEDISCOL_FOREG", "FRAMEDISCOL_BACKG", "FRAMEDISCOL_DISAB"]
+          },
+          {
+            "tag": ["GUIA_FrameButtonLook"],
+            "type": "macro",
+            "suggestions": ["FRAMEBUTTON_3D", "FRAMEBUTTON_FRAMED", "FRAMEBUTTON_FLAT"]
+          },
+          {
+            "tag": ["GUIA_FrameStringLook"],
+            "type": "macro",
+            "suggestions": ["FRAMESTRING_3D", "FRAMESTRING_FRAMED", "FRAMESTRING_FLAT", "FRAMESTRING_FRAMED2"]
+          },
+          {
+            "tag": ["GUIA_FramePropLook"],
+            "type": "macro",
+            "suggestions": ["FRAMEPROP_3D", "FRAMEPROP_FRAMED", "FRAMEPROP_FLAT", "FRAMEPROP_NONE"]
+          },
+          {
+            "tag": ["GUIA_FrameDisplayLook"],
+            "type": "macro",
+            "suggestions": ["FRAMEDISPLAY_3D", "FRAMEDISPLAY_FRAMED", "FRAMEDISPLAY_FLAT", "FRAMEDISPLAY_FRAMED2"]
+          },
+          {
+            "tag": ["GUIA_FramePressedLook"],
+            "type": "macro",
+            "suggestions": ["FRAMEPRESSED_PUSHED", "FRAMEPRESSED_INVERTED"]
+          },
+          {
+            "tag": ["GUIA_WindowPropKnobHighlight"],
+            "type": "value",
+            "suggestions": ["0", "1"]
+          },
+          {
+            "tag": ["GUIA_ClickTabLook"],
+            "type": "flag",
+            "suggestions": ["CLICKTAB_ACTIVEBOLD", "CLICKTAB_EVENWIDTH", "CLICKTAB_INACTIVEDARK", "CLICKTAB_ACTIVEFILLGRAD", "CLICKTAB_ACTIVEPENMASK", "CLICKTAB_ACTIVEPENTEXT", "CLICKTAB_ACTIVEPENHLTEXT", "CLICKTAB_ACTIVEPENTITLE", "CLICKTAB_ACTIVEFILLMASK", "CLICKTAB_ACTIVEFILLFILL", "CLICKTAB_ACTIVEFILLSHINE", "CLICKTAB_ACTIVEFILLSELECT", "CLICKTAB_ACTIVEFILLNONE", "CLICKTAB_ACTIVEBRIGHT"]
+          },
+          {
+            "tag": ["GUIA_GaugeLook", "GUIA_WindowGaugeLook"],
+            "type": "flag",
+            "suggestions": ["GAUGE_FILL_STYLEMASK", "GAUGE_FILL_BORDERLESS", "GAUGE_FILL_3D", "GAUGE_FILL_FRAMED", "GAUGE_FILL_FLAT", "GAUGE_FILL_AUTOSTYLE", "GAUGE_FILL_GRADIENT", "GAUGE_CONT_STYLEMASK", "GAUGE_CONT_BORDERLESS", "GAUGE_CONT_3D", "GAUGE_CONT_FRAMED", "GAUGE_CONT_FLAT", "GAUGE_CONT_FRAMED2", "GAUGE_CONT_AUTOSTYLE", "GAUGE_CONT_GRADIENT", "GAUGE_SPACINGMASK", "GAUGE_INNERTICKS", "GAUGE_UNUSED", "GAUGE_BORDERPENS", "GAUGE_RESERVED"]
+          },
+          {
+            "tag": ["GUIA_PaletteRGBTable"],
+            "type": "macro",
+            "suggestions": ["PALETTERGB_IGNORE"]
+          },
+          {
+            "tag": ["GUIA_PaletteLockTable"],
+            "type": "macro",
+            "suggestions": ["PALETTELOCK_IGNORE"]
+          },
+          {
+            "tag": ["GUIA_DRIPens"],
+            "type": "macro",
+            "suggestions": ["DRIPENS_IGNORE"]
+          },
+          {
+            "tag": ["GUIA_WindowTitlePosition"],
+            "type": "macro",
+            "suggestions": ["WTPOS_LEFT", "WTPOS_CENTERREL", "WTPOS_CENTERABS"]
+          },
+          {
+            "tag": ["GUIA_MenuType"],
+            "type": "macro",
+            "suggestions": ["MT_PULLDOWN", "MT_POPUP", "MT_RELATIVE"]
+          },
+          {
+            "tag": ["GUIA_MenuFlags"],
+            "type": "flag",
+            "suggestions": ["MENUTRANSP", "MENUSHADOW", "MENUALTERN", "MENUFRAMED", "MENUFLAT", "MENUTRACK", "MENUSTICKYPD", "MENUSTICKYPU", "MENUNBPD", "MENUNBPU"]
+          },
+          {
+            "tag": ["GUIA_BrightContrast", "GUIA_DarkContrast", "GUIA_FillBrightContrast", "GUIA_FillDarkContrast", "GUIA_InactiveFillBrightContrast", "GUIA_InactiveFillDarkContrast", "GUIA_MenuBrightContrast", "GUIA_MenuDarkContrast", "GUIA_SelectBrightContrast", "GUIA_SelectDarkContrast", "GUIA_BarBlockBrightContrast", "GUIA_BarBlockDarkContrast", "GUIA_DisabledBrightContrast", "GUIA_DisabledDarkContrast", "GUIA_ForeBrightContrast", "GUIA_ForeDarkContrast"],
+            "type": "flag",
+            "suggestions": ["STD_DISABLE_CONTRAST", "CNTR_CORRECT", "CNTR_ABSOLUTE"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["SetPartitionNodeAttrs"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["PARTNA_Start", "uint32", "PARTNA_End", "uint32", "PARTNA_UserData", "APTR", "PARTNA_Color", "uint16", "PARTNA_Pattern", "uint16 *", "PARTNA_PatternSize", "uint16", "PARTNA_RenderHook", "struct Hook *", "TAG_END"],
+        "values": [
+          {
+            "tag": ["PARTNA_Color"],
+            "type": "macro",
+            "suggestions": ["DETAILPEN", "BLOCKPEN", "TEXTPEN", "SHINEPEN", "SHADOWPEN", "FILLPEN", "FILLTEXTPEN", "BACKGROUNDPEN", "HIGHLIGHTTEXTPEN", "BARDETAILPEN", "BARBLOCKPEN", "BARTRIMPEN", "BARCONTOURPEN", "FOREGROUNDPEN", "FORESHINEPEN", "FORESHADOWPEN", "FILLSHINEPEN", "FILLSHADOWPEN", "INACTIVEFILLPEN", "INACTIVEFILLTEXTPEN", "INACTIVEFILLSHINEPEN", "INACTIVEFILLSHADOWPEN", "DISABLEDPEN", "DISABLEDTEXTPEN", "DISABLEDSHINEPEN", "DISABLEDSHADOWPEN", "MENUBACKGROUNDPEN", "MENUTEXTPEN", "MENUSHINEPEN", "MENUSHADOWPEN", "SELECTPEN", "SELECTTEXTPEN", "SELECTSHINEPEN", "SELECTSHADOWPEN", "GLYPHPEN", "GLYPHFILLPEN", "INACTIVEGLYPHPEN", "RESERVEDPEN", "GADGETPEN", "TITLEPEN", "HALFSHINEPEN", "HALFSHADOWPEN", "FLATBORDERPEN", "FILLFLATPEN", "INACTIVEFILLFLATPEN"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["SetScreenAttr"],
+    "arguments": [
+      {
+        "num": ["2"],
+        "type": "macro",
+        "suggestions": ["SA_Left", "SA_Top", "SA_Quiet", "SA_WindowDropShadows", "SA_Colors32"]
+      }
+    ]
+  },
+  {
+    "name": ["SetScreenAttrs"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["SA_Left", "LONG", "SA_Top", "LONG", "SA_Width", "LONG", "SA_Height", "LONG", "SA_Depth", "UBYTE", "SA_DetailPen", "LONG", "SA_BlockPen", "LONG", "SA_Title", "STRPTR", "SA_Font", "struct TextAttr *", "SA_BitMap", "struct BitMap *", "SA_ShowTitle", "BOOL", "SA_Behind", "BOOL", "SA_Quiet", "BOOL", "SA_Type", "ULONG", "SA_DisplayID", "ULONG", "SA_Overscan", "ULONG", "SA_DClip", "struct Rectangle *", "SA_AutoScroll", "BOOL", "SA_PubName", "STRPTR", "SA_Pens", "UWORD *", "SA_PubTask", "struct Task *", "SA_PubSig", "UBYTE", "SA_Colors", "struct ColorSpec *", "SA_FullPalette", "BOOL", "SA_ErrorCode", "ULONG *", "SA_SysFont", "BOOL", "SA_Parent", "struct Screen *", "SA_FrontChild", "struct Screen *", "SA_BackChild", "struct Screen *", "SA_BackFill", "struct Hook *", "SA_Draggable", "BOOL", "SA_Exclusive", "BOOL", "SA_SharePens", "BOOL", "SA_Colors32", "ULONG *", "SA_Interleaved", "BOOL", "SA_VideoControl", "struct TagItem *", "SA_ColorMapEntries", "UWORD", "SA_LikeWorkbench", "BOOL", "SA_MinimizeISG", "BOOL", "SA_OffScreenDragging", "BOOL", "SA_Compositing", "BOOL", "SA_WindowDropShadows", "BOOL", "TAG_END"],
+        "values": [
+          {
+            "tag": ["SA_ShowTitle", "SA_Behind", "SA_Quiet", "SA_AutoScroll", "SA_FullPalette", "SA_SysFont", "SA_Draggable", "SA_Exclusive", "SA_SharePens", "SA_Interleaved", "SA_LikeWorkbench", "SA_MinimizeISG", "SA_OffScreenDragging", "SA_Compositing", "SA_WindowDropShadows"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          },
+          {
+            "tag": ["SA_Type"],
+            "type": "bool",
+            "suggestions": ["PUBLICSCREEN", "CUSTOMSCREEN"]
+          },
+          {
+            "tag": ["SA_Overscan"],
+            "type": "macro",
+            "suggestions": ["OSCAN_TEXT", "OSCAN_STANDARD", "OSCAN_MAX", "OSCAN_VIDEO"]
+          },
+          {
+            "tag": ["SA_DisplayID"],
+            "type": "id",
+            "suggestions": ["INVALID_ID", "DEFAULT_MONITOR_ID", "NTSC_MONITOR_ID", "PAL_MONITOR_ID", "VGA_MONITOR_ID", "A2024_MONITOR_ID", "EURO72_MONITOR_ID", "EURO36_MONITOR_ID", "SUPER72_MONITOR_ID", "DBLNTSC_MONITOR_ID", "DBLPAL_MONITOR_ID", "LORES_KEY", "HIRES_KEY", "SUPER_KEY", "HAM_KEY", "LORESLACE_KEY", "HIRESLACE_KEY", "SUPERLACE_KEY", "HAMLACE_KEY", "LORESDPF_KEY", "HIRESDPF_KEY", "SUPERDPF_KEY", "LORESLACEDPF_KEY", "HIRESLACEDPF_KEY", "SUPERLACEDPF_KEY", "LORESDPF2_KEY", "HIRESDPF2_KEY", "SUPERDPF2_KEY", "LORESLACEDPF2_KEY", "HIRESLACEDPF2_KEY", "SUPERLACEDPF2_KEY", "EXTRAHALFBRITE_KEY", "EXTRAHALFBRITELACE_KEY", "HIRESHAM_KEY", "SUPERHAM_KEY", "HIRESEHB_KEY", "SUPEREHB_KEY", "HIRESHAMLACE_KEY", "SUPERHAMLACE_KEY", "HIRESEHBLACE_KEY", "SUPEREHBLACE_KEY", "LORESSDBL_KEY", "LORESHAMSDBL_KEY", "LORESEHBSDBL_KEY", "HIRESHAMSDBL_KEY", "VGAEXTRALORES_KEY", "VGALORES_KEY", "VGAPRODUCT_KEY", "VGAHAM_KEY", "VGAEXTRALORESLACE_KEY", "VGALORESLACE_KEY", "VGAPRODUCTLACE_KEY", "VGAHAMLACE_KEY", "VGAEXTRALORESDPF_KEY", "VGALORESDPF_KEY", "VGAPRODUCTDPF_KEY", "VGAEXTRALORESLACEDPF_KEY", "VGALORESLACEDPF_KEY", "VGAPRODUCTLACEDPF_KEY", "VGAEXTRALORESDPF2_KEY", "VGALORESDPF2_KEY", "VGAPRODUCTDPF2_KEY", "VGAEXTRALORESLACEDPF2_KEY", "VGALORESLACEDPF2_KEY", "VGAPRODUCTLACEDPF2_KEY", "VGAEXTRAHALFBRITE_KEY", "VGAEXTRAHALFBRITELACE_KEY", "VGAPRODUCTHAM_KEY", "VGALORESHAM_KEY", "VGAEXTRALORESHAM_KEY", "VGAPRODUCTHAMLACE_KEY", "VGALORESHAMLACE_KEY", "VGAEXTRALORESHAMLACE_KEY", "VGAEXTRALORESEHB_KEY", "VGAEXTRALORESEHBLACE_KEY", "VGALORESEHB_KEY", "VGALORESEHBLACE_KEY", "VGAEHB_KEY", "VGAEHBLACE_KEY", "VGAEXTRALORESDBL_KEY", "VGALORESDBL_KEY", "VGAPRODUCTDBL_KEY", "VGAEXTRALORESHAMDBL_KEY", "VGALORESHAMDBL_KEY", "VGAPRODUCTHAMDBL_KEY", "VGAEXTRALORESEHBDBL_KEY", "VGALORESEHBDBL_KEY", "VGAPRODUCTEHBDBL_KEY", "A2024TENHERTZ_KEY", "A2024FIFTEENHERTZ_KEY", "EURO72EXTRALORES_KEY", "EURO72LORES_KEY", "EURO72PRODUCT_KEY", "EURO72HAM_KEY", "EURO72EXTRALORESLACE_KEY", "EURO72LORESLACE_KEY", "EURO72PRODUCTLACE_KEY", "EURO72HAMLACE_KEY", "EURO72EXTRALORESDPF_KEY", "EURO72LORESDPF_KEY", "EURO72PRODUCTDPF_KEY", "EURO72EXTRALORESLACEDPF_KEY", "EURO72LORESLACEDPF_KEY", "EURO72PRODUCTLACEDPF_KEY", "EURO72EXTRALORESDPF2_KEY", "EURO72LORESDPF2_KEY", "EURO72PRODUCTDPF2_KEY", "EURO72EXTRALORESLACEDPF2_KEY", "EURO72LORESLACEDPF2_KEY", "EURO72PRODUCTLACEDPF2_KEY", "EURO72EXTRAHALFBRITE_KEY", "EURO72EXTRAHALFBRITELACE_KEY", "EURO72PRODUCTHAM_KEY", "EURO72PRODUCTHAMLACE_KEY", "EURO72LORESHAM_KEY", "EURO72LORESHAMLACE_KEY", "EURO72EXTRALORESHAM_KEY", "EURO72EXTRALORESHAMLACE_KEY", "EURO72EXTRALORESEHB_KEY", "EURO72EXTRALORESEHBLACE_KEY", "EURO72LORESEHB_KEY", "EURO72LORESEHBLACE_KEY", "EURO72EHB_KEY", "EURO72EHBLACE_KEY", "EURO72EXTRALORESDBL_KEY", "EURO72LORESDBL_KEY", "EURO72PRODUCTDBL_KEY", "EURO72EXTRALORESHAMDBL_KEY", "EURO72LORESHAMDBL_KEY", "EURO72PRODUCTHAMDBL_KEY", "EURO72EXTRALORESEHBDBL_KEY", "EURO72LORESEHBDBL_KEY", "EURO72PRODUCTEHBDBL_KEY", "SUPER72LORESDBL_KEY", "SUPER72HIRESDBL_KEY", "SUPER72SUPERDBL_KEY", "SUPER72LORESHAMDBL_KEY", "SUPER72HIRESHAMDBL_KEY", "SUPER72SUPERHAMDBL_KEY", "SUPER72LORESEHBDBL_KEY", "SUPER72HIRESEHBDBL_KEY", "SUPER72SUPEREHBDBL_KEY", "DBLNTSCLORES_KEY", "DBLNTSCLORESFF_KEY", "DBLNTSCLORESHAM_KEY", "DBLNTSCLORESHAMFF_KEY", "DBLNTSCLORESEHB_KEY", "DBLNTSCLORESEHBFF_KEY", "DBLNTSCLORESLACE_KEY", "DBLNTSCLORESHAMLACE_KEY", "DBLNTSCLORESEHBLACE_KEY", "DBLNTSCLORESDPF_KEY", "DBLNTSCLORESDPFFF_KEY", "DBLNTSCLORESDPFLACE_KEY", "DBLNTSCLORESDPF2_KEY", "DBLNTSCLORESDPF2FF_KEY", "DBLNTSCLORESDPF2LACE_KEY", "DBLNTSCHIRES_KEY", "DBLNTSCHIRESFF_KEY", "DBLNTSCHIRESHAM_KEY", "DBLNTSCHIRESHAMFF_KEY", "DBLNTSCHIRESLACE_KEY", "DBLNTSCHIRESHAMLACE_KEY", "DBLNTSCHIRESEHB_KEY", "DBLNTSCHIRESEHBFF_KEY", "DBLNTSCHIRESEHBLACE_KEY", "DBLNTSCHIRESDPF_KEY", "DBLNTSCHIRESDPFFF_KEY", "DBLNTSCHIRESDPFLACE_KEY", "DBLNTSCHIRESDPF2_KEY", "DBLNTSCHIRESDPF2FF_KEY", "DBLNTSCHIRESDPF2LACE_KEY", "DBLNTSCEXTRALORES_KEY", "DBLNTSCEXTRALORESHAM_KEY", "DBLNTSCEXTRALORESEHB_KEY", "DBLNTSCEXTRALORESDPF_KEY", "DBLNTSCEXTRALORESDPF2_KEY", "DBLNTSCEXTRALORESFF_KEY", "DBLNTSCEXTRALORESHAMFF_KEY", "DBLNTSCEXTRALORESEHBFF_KEY", "DBLNTSCEXTRALORESDPFFF_KEY", "DBLNTSCEXTRALORESDPF2FF_KEY", "DBLNTSCEXTRALORESLACE_KEY", "DBLNTSCEXTRALORESHAMLACE_KEY", "DBLNTSCEXTRALORESEHBLACE_KEY", "DBLNTSCEXTRALORESDPFLACE_KEY", "DBLNTSCEXTRALORESDPF2LACE_KEY", "DBLPALLORES_KEY", "DBLPALLORESFF_KEY", "DBLPALLORESHAM_KEY", "DBLPALLORESHAMFF_KEY", "DBLPALLORESEHB_KEY", "DBLPALLORESEHBFF_KEY", "DBLPALLORESLACE_KEY", "DBLPALLORESHAMLACE_KEY", "DBLPALLORESEHBLACE_KEY", "DBLPALLORESDPF_KEY", "DBLPALLORESDPFFF_KEY", "DBLPALLORESDPFLACE_KEY", "DBLPALLORESDPF2_KEY", "DBLPALLORESDPF2FF_KEY", "DBLPALLORESDPF2LACE_KEY", "DBLPALHIRES_KEY", "DBLPALHIRESFF_KEY", "DBLPALHIRESHAM_KEY", "DBLPALHIRESHAMFF_KEY", "DBLPALHIRESLACE_KEY", "DBLPALHIRESHAMLACE_KEY", "DBLPALHIRESEHB_KEY", "DBLPALHIRESEHBFF_KEY", "DBLPALHIRESEHBLACE_KEY", "DBLPALHIRESDPF_KEY", "DBLPALHIRESDPFFF_KEY", "DBLPALHIRESDPFLACE_KEY", "DBLPALHIRESDPF2_KEY", "DBLPALHIRESDPF2FF_KEY", "DBLPALHIRESDPF2LACE_KEY", "DBLPALEXTRALORES_KEY", "DBLPALEXTRALORESHAM_KEY", "DBLPALEXTRALORESEHB_KEY", "DBLPALEXTRALORESDPF_KEY", "DBLPALEXTRALORESDPF2_KEY", "DBLPALEXTRALORESFF_KEY", "DBLPALEXTRALORESHAMFF_KEY", "DBLPALEXTRALORESEHBFF_KEY", "DBLPALEXTRALORESDPFFF_KEY", "DBLPALEXTRALORESDPF2FF_KEY", "DBLPALEXTRALORESLACE_KEY", "DBLPALEXTRALORESHAMLACE_KEY", "DBLPALEXTRALORESEHBLACE_KEY", "DBLPALEXTRALORESDPFLACE_KEY", "DBLPALEXTRALORESDPF2LACE_KEY"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["SetTaskTrap"],
+    "arguments": [
+      {
+        "num": ["1"],
+        "type": "id",
+        "suggestions": ["TRAPNUM_BUS_ERROR", "TRAPNUM_DATA_SEGMENT_VIOLATION", "TRAPNUM_INST_SEGMENT_VIOLATION", "TRAPNUM_ALIGNMENT", "TRAPNUM_ILLEGAL_INSTRUCTION", "TRAPNUM_PRIVILEGE_VIOLATION", "TRAPNUM_TRAP", "TRAPNUM_FPU", "TRAPNUM_TRACE", "TRAPNUM_DATA_BREAKPOINT", "TRAPNUM_INST_BREAKPOINT", "TRAPNUM_PERFORMANCE", "TRAPNUM_THERMAL", "TRAPNUM_RESERVED1", "TRAPNUM_ALTIVEC_ASSIST", "TRAPNUM_SMI"]
+      }
+    ]
+  },
+  {
+    "name": ["SetWindowAttr"],
+    "arguments": [
+      {
+        "num": ["2"],
+        "type": "attribute",
+        "suggestions": ["WA_Left", "WA_Top", "WA_Width", "WA_Height", "WA_MinWidth", "WA_MinHeight", "WA_InnerWidth", "WA_InnerHeight", "WA_MaxWidth", "WA_MaxHeight", "WA_Zoom", "WA_WindowBox", "WA_MouseLimits", "WA_IDCMP", "WA_MouseQueue", "WA_RptQueue", "WA_NotifyDepth", "WA_TabletMessages", "WA_MenuHelp", "WA_RMBTrap", "WA_GrabFocus", "WA_Pointer", "WA_BusyPointer", "WA_PointerDelay", "WA_PointerType", "WA_Title", "WA_ScreenTitle", "WA_WindowName", "WA_Hidden", "WA_BackFill", "WA_Activate", "WA_MenuHook", "WA_ContextMenuHook", "WA_MenuStrip", "WA_ShapeRegion", "WA_ShapeHook", "WA_AlphaClips", "WA_AlphaHook", "WA_Opaqueness", "WA_OverrideOpaqueness", "WA_FadeTime", "WA_NoHitThreshold", "WA_DropShadows"]
+      }
+    ]
+  },
+  {
+    "name": ["SetWindowAttrs"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["WA_Left", "LONG", "WA_Top", "LONG", "WA_Width", "LONG", "WA_Height", "LONG", "WA_MinWidth", "LONG", "WA_MinHeight", "LONG", "WA_InnerWidth", "LONG", "WA_InnerHeight", "LONG", "WA_MaxWidth", "LONG", "WA_MaxHeight", "LONG", "WA_Zoom", "struct IBox *", "WA_WindowBox", "struct IBox *", "WA_MouseLimits", "struct IBox *", "WA_IDCMP", "ULONG", "WA_MouseQueue", "ULONG", "WA_RptQueue", "ULONG", "WA_NotifyDepth", "BOOL", "WA_TabletMessages", "BOOL", "WA_MenuHelp", "BOOL", "WA_RMBTrap", "BOOL", "WA_GrabFocus", "BOOL", "WA_Pointer", "APTR", "WA_BusyPointer", "APTR", "WA_PointerDelay", "BOOL", "WA_PointerType", "ULONG", "WA_Title", "STRPTR", "WA_ScreenTitle", "STRPTR", "WA_WindowName", "STRPTR", "WA_Hidden", "BOOL", "WA_BackFill", "struct Hook *", "WA_Activate", "BOOL", "WA_MenuHook", "struct Hook *", "WA_ContextMenuHook", "struct Hook *", "WA_MenuStrip", "struct Menu *", "WA_ShapeRegion", "struct Region *", "WA_ShapeHook", "struct Hook *", "WA_AlphaClips", "struct ClipRect *", "WA_AlphaHook", "struct Hook *", "WA_Opaqueness", "UBYTE", "WA_OverrideOpaqueness", "BOOL", "WA_FadeTime", "ULONG", "WA_NoHitThreshold", "LONG", "WA_DropShadows", "LONG", "TAG_END"],
+        "values": [
+          {
+            "tag": ["WA_NotifyDepth", "WA_TabletMessages", "WA_MenuHelp", "WA_RMBTrap", "WA_GrabFocus", "WA_PointerDelay", "WA_Hidden", "WA_Activate", "WA_OverrideOpaqueness"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          },
+          {
+            "tag": ["WA_IDCMP"],
+            "type": "flag",
+            "suggestions": ["IDCMP_SIZEVERIFY", "IDCMP_NEWSIZE", "IDCMP_REFRESHWINDOW", "IDCMP_MOUSEBUTTONS", "IDCMP_MOUSEMOVE", "IDCMP_GADGETDOWN", "IDCMP_GADGETUP", "IDCMP_REQSET", "IDCMP_MENUPICK", "IDCMP_CLOSEWINDOW", "IDCMP_RAWKEY", "IDCMP_REQVERIFY", "IDCMP_REQCLEAR", "IDCMP_MENUVERIFY", "IDCMP_NEWPREFS", "IDCMP_DISKINSERTED", "IDCMP_DISKREMOVED", "IDCMP_WBENCHMESSAGE", "IDCMP_ACTIVEWINDOW", "IDCMP_INACTIVEWINDOW", "IDCMP_DELTAMOVE", "IDCMP_VANILLAKEY", "IDCMP_INTUITICKS", "IDCMP_IDCMPUPDATE", "IDCMP_MENUHELP", "IDCMP_CHANGEWINDOW", "IDCMP_GADGETHELP"]
+          },
+          {
+            "tag": ["WA_MouseQueue"],
+            "type": "macro",
+            "suggestions": ["DEFAULTMOUSEQUEUE"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["ShadeRect"],
+    "tagStrt": "10",
+    "arguments": [
+      {
+        "num": ["6"],
+        "type": "macro",
+        "suggestions": ["LEVEL_BRIGHT", "LEVEL_HALFBRIGHT", "LEVEL_NORMAL", "LEVEL_HALFDARK", "LEVEL_DARK"]
+      },
+      {
+        "num": ["7"],
+        "type": "macro",
+        "suggestions": ["BT_BACKGROUND", "BT_DRIPEN", "BT_SCREENBAR", "BT_WINDOWBAR", "BT_WINBORDER", "BT_GADGET", "BT_PROPKNOB", "BT_PROPBG", "BT_WINPROPKNOB", "BT_WINPROPBG", "BT_MENU", "BT_WINDOWBG", "BT_REQUESTERBG", "BT_TABPAGE"]
+      },
+      {
+        "type": "tag",
+        "suggestions": ["SRA_OffsetX", "WORD", "SRA_OffsetY", "WORD", "SRA_DeltaX", "WORD", "SRA_DeltaY", "WORD", "SRA_Domain", "struct Rectangle *", "SRA_DirectShade", "BOOL", "SRA_RefreshBG", "BOOL", "TAG_END"],
+        "values": [
+          {
+            "tag": ["SRA_DirectShade", "SRA_RefreshBG"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["ShadeRectA", "ShadeRectOld"],
+    "arguments": [
+      {
+        "num": ["6"],
+        "type": "macro",
+        "suggestions": ["LEVEL_BRIGHT", "LEVEL_HALFBRIGHT", "LEVEL_NORMAL", "LEVEL_HALFDARK", "LEVEL_DARK"]
+      },
+      {
+        "num": ["7"],
+        "type": "macro",
+        "suggestions": ["BT_BACKGROUND", "BT_DRIPEN", "BT_SCREENBAR", "BT_WINDOWBAR", "BT_WINBORDER", "BT_GADGET", "BT_PROPKNOB", "BT_PROPBG", "BT_WINPROPKNOB", "BT_WINPROPBG", "BT_MENU", "BT_WINDOWBG", "BT_REQUESTERBG", "BT_TABPAGE"]
+      }
+    ]
+  },
+  {
+    "name": ["StartDMA"],
+    "arguments": [
+      {
+        "num": ["3"],
+        "type": "flag",
+        "suggestions": ["DMAF_ReadFromRAM"]
+      }
+    ]
+  },
+  {
+    "name": ["StartScreenNotifyTags"],
+    "tagStrt": "1",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["SNA_Priority", "UBYTE", "SNA_PubName", "STRPTR", "SNA_SigTask", "struct Task *", "SNA_SigBit", "ULONG", "SNA_MsgPort", "struct MsgPort *", "SNA_Hook", "struct Hook *", "SNA_UserData", "APTR", "SNA_Notify", "ULONG", "TAG_END"],
+        "values": [
+          {
+            "tag": ["SNA_Notify"],
+            "type": "flag",
+            "suggestions": ["SNOTIFY_AFTER_OPENSCREEN", "SNOTIFY_BEFORE_OPENSCREEN", "SNOTIFY_AFTER_CLOSESCREEN", "SNOTIFY_BEFORE_CLOSESCREEN", "SNOTIFY_AFTER_OPENWB", "SNOTIFY_BEFORE_OPENWB", "SNOTIFY_AFTER_CLOSEWB", "SNOTIFY_BEFORE_CLOSEWB", "SNOTIFY_PUBSCREENSTATE", "SNOTIFY_LOCKPUBSCREEN", "SNOTIFY_SCREENDEPTH", "SNOTIFY_AFTER_OPENWINDOW", "SNOTIFY_BEFORE_OPENWINDOW", "SNOTIFY_AFTER_CLOSEWINDOW", "SNOTIFY_BEFORE_CLOSEWINDOW", "SNOTIFY_WAIT_REPLY"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["SuspendTask"],
+    "arguments": [
+      {
+        "num": ["2"],
+        "type": "flag",
+        "suggestions": ["STF_CRASHED", "STF_REMOVED"]
+      }
+    ]
+  },
+  {
+    "name": ["TimedDosRequesterTags"],
+    "tagStrt": "1",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["TDR_IDCMP_Ptr", "uint32 *", "TDR_Timeout", "int32", "TDR_Window", "struct Window *", "TDR_NonBlocking", "BOOL", "TDR_EasyStruct", "struct EasyStruct *", "TDR_FormatString", "STRPTR", "TDR_TitleString", "STRPTR", "TDR_GadgetString", "STRPTR", "TDR_ArgArray", "APTR", "TDR_Arg1", "APTR", "TDR_Arg2", "APTR", "TDR_Arg3", "APTR", "TDR_Arg4", "APTR", "TDR_Arg5", "APTR", "TDR_Arg6", "APTR", "TDR_Arg7", "APTR", "TDR_Arg8", "APTR", "TDR_Arg9", "APTR", "TDR_Arg10", "APTR", "TDR_ImageType", "uint32", "TDR_Inactive", "BOOL", "TDR_CharSet", "uint32", "TAG_END"],
+        "values": [
+          {
+            "tag": ["TDR_NonBlocking", "TDR_Inactive"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          },
+          {
+            "tag": ["TDR_ImageType"],
+            "type": "macro",
+            "suggestions": ["TDRIMAGE_DEFAULT", "TDRIMAGE_INFO", "TDRIMAGE_WARNING", "TDRIMAGE_ERROR", "TDRIMAGE_QUESTION", "TDRIMAGE_INSERTDISK"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["UnloadSectionTags"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["UTS_SectionIndex", "LONG", "UTS_NonAlloc", "BOOL", "TAG_END"],
+        "values": [
+          {
+            "tag": ["UTS_NonAlloc"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["UnregisterApplication"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["UNREGAPP_WaitForUnlock", "BOOL", "TAG_END"],
+        "values": [
+          {
+            "tag": ["UNREGAPP_WaitForUnlock"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["UpdateWorkbench"],
+    "arguments": [
+      {
+        "num": ["3"],
+        "type": "macro",
+        "suggestions": ["UPDATEWB_ObjectAdded", "UPDATEWB_ObjectRemoved"]
+      }
+    ]
+  },
+  {
+    "name": ["USBAddFunction"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["USBA_DeviceSpeed", "ULONG", "USBA_HubPort", "LONG", "USBA_ErrorCode", "LONG *", "TAG_END"],
+        "values": [
+          {
+            "tag": ["USBA_DeviceSpeed"],
+            "type": "macro",
+            "suggestions": ["USB_SPEED_LOW", "USB_SPEED_FULL", "USB_SPEED_HIGH", "USB_SPEED_SUPER"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["USBAllocRequest"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["USBA_TraceIO", "BOOL", "TAG_END"],
+        "values": [
+          {
+            "tag": ["USBA_TraceIO"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["USBEPControlXfer"],
+    "tagStrt": "9",
+    "arguments": [
+      {
+        "num": ["3"],
+        "type": "macro",
+        "suggestions": ["USBREQC_HUB_GET_STATUS", "USBREQC_HUB_CLEAR_FEATURE", "USBREQC_HUB_GET_STATE", "USBREQC_HUB_SET_FEATURE", "USBREQC_HUB_GET_DESCRIPTOR", "USBREQC_HUB_SET_DESCRIPTOR", "USBREQC_HUB_CLEAR_TT_BUFFER", "USBREQC_HUB_RESET_TT", "USBREQC_HUB_GET_TT_STATE", "USBREQC_HUB_STOP_TT"]
+      },
+      {
+        "num": ["4"],
+        "type": "macro",
+        "suggestions": ["USBSDT_TYP_STANDARD", "USBSDT_TYP_CLASS", "USBSDT_TYP_VENDOR", "USBSDTM_DIRECTION", "USBSDTM_TYPE", "USBSDTM_RECIPIENT", "USBSDT_DIR_HOSTTODEV", "USBSDT_DIR_DEVTOHOST", "USBSDT_REC_DEVICE", "USBSDT_REC_INTERFACE", "USBSDT_REC_ENDPOINT", "USBSDT_REC_OTHER"]
+      },
+      {
+        "type": "tag",
+        "suggestions": ["USBA_DataLength", "int32 *", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["USBEPControlXferA"],
+    "arguments": [
+      {
+        "num": ["3"],
+        "type": "macro",
+        "suggestions": ["USBREQC_HUB_GET_STATUS", "USBREQC_HUB_CLEAR_FEATURE", "USBREQC_HUB_GET_STATE", "USBREQC_HUB_SET_FEATURE", "USBREQC_HUB_GET_DESCRIPTOR", "USBREQC_HUB_SET_DESCRIPTOR", "USBREQC_HUB_CLEAR_TT_BUFFER", "USBREQC_HUB_RESET_TT", "USBREQC_HUB_GET_TT_STATE", "USBREQC_HUB_STOP_TT"]
+      },
+      {
+        "num": ["4"],
+        "type": "macro",
+        "suggestions": ["USBSDT_TYP_STANDARD", "USBSDT_TYP_CLASS", "USBSDT_TYP_VENDOR", "USBSDTM_DIRECTION", "USBSDTM_TYPE", "USBSDTM_RECIPIENT", "USBSDT_DIR_HOSTTODEV", "USBSDT_DIR_DEVTOHOST", "USBSDT_REC_DEVICE", "USBSDT_REC_INTERFACE", "USBSDT_REC_ENDPOINT", "USBSDT_REC_OTHER"]
+      }
+    ]
+  },
+  {
+    "name": ["USBEPGetDescriptor"],
+    "tagStrt": "6",
+    "arguments": [
+      {
+        "num": ["3"],
+        "type": "macro",
+        "suggestions": ["USBSDT_TYP_STANDARD", "USBSDT_TYP_CLASS", "USBSDT_TYP_VENDOR", "USBSDTM_DIRECTION", "USBSDTM_TYPE", "USBSDTM_RECIPIENT", "USBSDT_DIR_HOSTTODEV", "USBSDT_DIR_DEVTOHOST", "USBSDT_REC_DEVICE", "USBSDT_REC_INTERFACE", "USBSDT_REC_ENDPOINT", "USBSDT_REC_OTHER"]
+      },
+      {
+        "num": ["4"],
+        "type": "macro",
+        "suggestions": ["USBDESC_DEVICE", "USBDESC_CONFIGURATION", "USBDESC_STRING", "USBDESC_INTERFACE", "USBDESC_ENDPOINT"]
+      },
+      {
+        "type": "tag",
+        "suggestions": ["USBA_DataLength", "int32 *", "USBA_USBSetupDataIndex", "LONG", "USBA_ErrorCode", "LONG*", "TAG_END"],
+        "values": [
+          {
+            "tag": [],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["USBEPGetDescriptorA"],
+    "arguments": [
+      {
+        "num": ["3"],
+        "type": "macro",
+        "suggestions": ["USBSDT_TYP_STANDARD", "USBSDT_TYP_CLASS", "USBSDT_TYP_VENDOR", "USBSDTM_DIRECTION", "USBSDTM_TYPE", "USBSDTM_RECIPIENT", "USBSDT_DIR_HOSTTODEV", "USBSDT_DIR_DEVTOHOST", "USBSDT_REC_DEVICE", "USBSDT_REC_INTERFACE", "USBSDT_REC_ENDPOINT", "USBSDT_REC_OTHER"]
+      },
+      {
+        "num": ["4"],
+        "type": "macro",
+        "suggestions": ["USBDESC_DEVICE", "USBDESC_CONFIGURATION", "USBDESC_STRING", "USBDESC_INTERFACE", "USBDESC_ENDPOINT"]
+      }
+    ]
+  },
+  {
+    "name": ["USBFDGetAttrs"],
+    "tagStrt": "1",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["USBA_FD_SignalsRunning", "BOOL *", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["USBFindFunction", "USBFindInterface"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["USBA_Class", "ULONG", "USBA_Subclass", "ULONG", "USBA_VendorID", "ULONG", "USBA_ProductID", "ULONG", "USBA_SeeClaimed", "BOOL", "TAG_END"],
+        "values": [
+          {
+            "tag": ["USBA_Class", "USBA_Subclass"],
+            "type": "macro",
+            "suggestions": ["USBCLASS_NONE", "USBCLASS_AUDIO", "USBCLASS_CDCCONTROL", "USBCLASS_HID", "USBCLASS_PHYSICAL", "USBCLASS_IMAGE", "USBCLASS_PRINTER", "USBCLASS_MASSSTORAGE", "USBCLASS_HUB", "USBCLASS_CDCDATA", "USBCLASS_CARD", "USBCLASS_SECURITY", "USBCLASS_VIDEO", "USBCLASS_HEALTHCARE", "USBCLASS_DIAGNOSTIC", "USBCLASS_WIRELESS", "USBCLASS_MISCELLANEOUS", "USBCLASS_APPLICATION", "USBCLASS_VENDOR"]
+          },
+          {
+            "tag": ["USBA_SeeClaimed"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["USBGetRawFunctionAttrs"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["USBA_DeviceDesc", "struct USBBusDevDsc **", "USBA_ConfigurationDesc", "struct USBBusDevDsc **", "USBA_VendorName", "struct USBBusDscHead **", "USBA_ProductName", "struct USBBusDscHead **", "USBA_SerialName", "struct USBBusDscHead **", "USBA_DeviceSpeed", "int32 *", "USBA_Level", "int32 *", "USBA_OwnerStr", "STRPTR *", "USBA_DevicePower", "uint32 *", "USBA_SubtreePower", "uint32 *", "USBA_HCD_Name", "STRPTR *", "USBA_HCD_Unit", "uint32 *", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["USBGetRawInterfaceAttrs"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["USBA_DeviceDesc", "struct USBBusDevDsc **", "USBA_ConfigurationDesc", "struct USBBusDevDsc **", "USBA_InterfaceDesc", "struct USBBusIntDsc **", "USBA_VendorName", "struct USBBusDscHead **", "USBA_ProductName", "struct USBBusDscHead **", "USBA_SerialName", "struct USBBusDscHead **", "USBA_InterfaceName", "struct USBBusDscHead **", "USBA_OwnerStr", "STRPTR *", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["USBGetStackAttrs"],
+    "tagStrt": "1",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["USBA_Stack_Fullbooted", "BOOL *", "USBA_Stack_NumberofHCDs", "ULONG *", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["USBHCAddEndPoint"],
+    "tagStrt": "5",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["USBA_EndPointDesc", "struct USBBusEPDsc *", "USBA_InterfaceDesc", "struct USBBusIntDsc *", "USBA_DeviceDesc", "struct USBBusDevDsc *", "USBA_ErrorCode", "LONG *", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["USBHCAddFunction"],
+    "tagStrt": "4",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["USBA_DeviceSpeed", "ULONG", "USBA_HubPort", "LONG", "USBA_DeviceAddress", "LONG *", "USBA_ErrorCode", "LONG *", "TAG_END"],
+        "values": [
+          {
+            "tag": ["USBA_DeviceSpeed"],
+            "type": "bool",
+            "suggestions": ["USB_SPEED_LOW", "USB_SPEED_FULL", "USB_SPEED_HIGH"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["USBHCGetAttrs"],
+    "tagStrt": "1",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["USBA_FD_SignalsRunning", "LONG *", "USBA_DeviceSpeed", "ULONG *", "USBA_HCD_APIVersion", "ULONG *", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["USBLogPuts", "USBLogVPrintf", "USBLogPrintf"],
+    "arguments": [
+      {
+        "num": ["1"],
+        "type": "value",
+        "suggestions": ["-1 /*Error*/", "0 /*Info*/", "1 /*Warning*/"]
+      }
+    ]
+  },
+  {
+    "name": ["USBObtainResource", "USBReleaseResource"],
+    "arguments": [
+      {
+        "num": ["1"],
+        "type": "macro",
+        "suggestions": ["USBRES_DEFAULTADDRESS"]
+      }
+    ]
+  },
+  {
+    "name": ["USBResRegisterFD"],
+    "tagStrt": "1",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["USBA_ErrorCode", "LONG *", "USBA_FD_Name", "STRPTR", "USBA_FD_Title", "STRPTR", "USBA_Priority", "LONG", "USBA_FD_InterfaceDriver", "BOOL", "USBA_FD_FunctionDriver", "BOOL", "USBA_Class", "ULONG", "USBA_Subclass", "ULONG", "USBA_VendorID", "ULONG", "USBA_ProductID", "ULONG", "USBA_StackSize", "LONG", "TAG_END"],
+        "values": [
+          {
+            "tag": ["USBA_FD_InterfaceDriver", "USBA_FD_FunctionDriver"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          },
+          {
+            "tag": ["USBA_Class", "USBA_Subclass"],
+            "type": "macro",
+            "suggestions": ["USBCLASS_NONE", "USBCLASS_AUDIO", "USBCLASS_CDCCONTROL", "USBCLASS_HID", "USBCLASS_PHYSICAL", "USBCLASS_IMAGE", "USBCLASS_PRINTER", "USBCLASS_MASSSTORAGE", "USBCLASS_HUB", "USBCLASS_CDCDATA", "USBCLASS_CARD", "USBCLASS_SECURITY", "USBCLASS_VIDEO", "USBCLASS_HEALTHCARE", "USBCLASS_DIAGNOSTIC", "USBCLASS_WIRELESS", "USBCLASS_MISCELLANEOUS", "USBCLASS_APPLICATION", "USBCLASS_VENDOR"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["USBResRegisterHCD"],
+    "tagStrt": "1",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["USBA_HCD_Name", "STRPTR", "USBA_HCD_Unit", "LONG", "USBA_ErrorCode", "LONG *", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["USBSetFunctionAttrs", "USBSetInterfaceAttrs"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["USBA_FD_Title", "STRPTR", "USBA_FD_WeakBinding", "BOOL", "USBA_SelfPowered", "BOOL", "TAG_END"],
+        "values": [
+          {
+            "tag": ["USBA_FD_WeakBinding", "USBA_SelfPowered"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["WaitForData"],
+    "arguments": [
+      {
+        "num": ["2"],
+        "type": "flag",
+        "suggestions": ["WFDF_READ", "WFDF_WRITE"]
+      }
+    ]
+  },
+  {
+    "name": ["WhichWorkbenchObject"],
+    "tagStrt": "4",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["WBOBJA_Type", "ULONG *", "WBOBJA_Left", "LONG *", "WBOBJA_Top", "LONG *", "WBOBJA_Width", "ULONG *", "WBOBJA_Height", "ULONG *", "WBOBJA_State", "ULONG *", "WBOBJA_IsFake", "BOOL *", "WBOBJA_IsLink", "BOOL *", "WBOBJA_Name", "STRPTR", "WBOBJA_NameSize", "ULONG", "WBOBJA_FullPath", "STRPTR", "WBOBJA_FullPathSize", "ULONG", "WBOBJA_DrawerPath", "STRPTR", "WBOBJA_DrawerPathSize", "ULONG", "WBOBJA_DrawerFlags", "ULONG *", "WBOBJA_DrawerModes", "ULONG *", "WBOBJA_UseDeviceName", "BOOL", "TAG_END"],
+        "values": [
+          {
+            "tag": ["WBOBJA_UseDeviceName"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["WriteDiskFontHeader"],
+    "tagStrt": "3",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["TA_DeviceDPI", "ULONG", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["WritePrefs"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["WRITEPREFS_AppID", "uint32", "WRITEPREFS_FileName", "STRPTR", "WRITEPREFS_LastAppDocs", "BOOL", "WRITEPREFS_WriteENV", "BOOL", "WRITEPREFS_WriteENVARC", "BOOL", "TAG_END"],
+        "values": [
+          {
+            "tag": ["WRITEPREFS_LastAppDocs", "WRITEPREFS_WriteENV", "WRITEPREFS_WriteENVARC"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["SBTC_ERRNOPTR"],
+    "arguments": [
+      {
+        "num": ["1"],
+        "type": "value",
+        "suggestions": ["sizeof(BYTE)", "sizeof(WORD)", "sizeof(LONG)"]
+      }
+    ]
+  }

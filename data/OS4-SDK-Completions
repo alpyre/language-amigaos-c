@@ -52,7 +52,7 @@
 		"type": "function",
 		"leftLabel": "LONG",
 		"description": "Make a new interface available for network access. (varargs)",
-		"descriptionMoreURL": ""
+		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
 	},
 	{
 		"displayText": "AddNetMonitorHookTagList(type, hook, tags)",
@@ -68,7 +68,7 @@
 		"type": "function",
 		"leftLabel": "LONG",
 		"description": "Add a network monitoring callback hook. (varargs)",
-		"descriptionMoreURL": ""
+		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
 	},
 	{
 		"displayText": "AddResetCallback(resetCallback)",
@@ -100,7 +100,7 @@
 		"type": "function",
 		"leftLabel": "LONG",
 		"description": "Add entries to the networking routing tables. (varargs)",
-		"descriptionMoreURL": ""
+		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
 	},
 	{
 		"displayText": "AddSegListTail(bseglist_head, bseg_new)",
@@ -124,7 +124,7 @@
 		"type": "function",
 		"leftLabel": "APTR",
 		"description": "Add a task to the system. (varargs)",
-		"descriptionMoreURL": ""
+		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/exec.doc.txt"
 	},
 	{
 		"displayText": "AddTrackable(usingTask, object, destFunc)",
@@ -279,8 +279,8 @@
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/partition_gc.doc.txt"
 	},
 	{
-		"displayText": "AllocPartitionNodeA(last)",
-		"snippet": "AllocPartitionNodeA(${1:struct TagItem *last})${2:}",
+		"displayText": "AllocPartitionNodeA(tags)",
+		"snippet": "AllocPartitionNodeA(${1:struct TagItem *tags})${2:}",
 		"type": "function",
 		"leftLabel": "struct Node*",
 		"description": "Allocate a partition node.",
@@ -464,7 +464,7 @@
 	},
 	{
 		"displayText": "CapturePattern(pattern, string, caseSens, cap)",
-		"snippet": "CapturePattern(${1:CONST_STRPTR pat}, ${2:CONST_STRPTR str}, ${3:LONG casesen}, ${4:struct CapturedExpression ** cap})${5:}",
+		"snippet": "CapturePattern(${1:CONST_STRPTR pat}, ${2:CONST_STRPTR str}, ${3:BOOL caseSens}, ${4:struct CapturedExpression **cap})${5:}",
 		"type": "function",
 		"leftLabel": "LONG",
 		"description": "Checks for a pattern match with a string and remember which sections would match. (V50)",
@@ -596,7 +596,7 @@
 		"type": "function",
 		"leftLabel": "LONG",
 		"description": "Configure an interface. (varargs)",
-		"descriptionMoreURL": ""
+		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
 	},
 	{
 		"displayText": "CopyBrokerList(blist)",
@@ -711,12 +711,12 @@
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/exec.doc.txt"
 	},
 	{
-		"displayText": "CreateLibraryTags(dataSize, ...)",
-		"snippet": "CreateLibraryTags(${1:ULONG dataSize}, ${2:...})${3:}",
+		"displayText": "CreateLibraryTags(...)",
+		"snippet": "CreateLibraryTags(${1:...})${2:}",
 		"type": "function",
 		"leftLabel": "struct Library*",
 		"description": "Construct a library. (varargs) (V50)",
-		"descriptionMoreURL": ""
+		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/exec.doc.txt"
 	},
 	{
 		"displayText": "CreateRexxHostPort(base_name)",
@@ -743,12 +743,20 @@
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/utility.doc.txt"
 	},
 	{
+		"displayText": "CreateTask(name, pri, initPC, stackSize, tags)",
+		"snippet": "CreateTask(${1:CONST_STRPTR name}, ${2:LONG pri}, ${3:CONST_APTR initPC}, ${4:ULONG stackSize}, ${5:struct TagItem *tags})${6:}",
+		"type": "function",
+		"leftLabel": "struct Task*",
+		"description": "Create task with given name, priority, stacksize. (varargs) (V50)",
+		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/exec.doc.txt"
+	},
+	{
 		"displayText": "CreateTaskTags(name, pri, initPC, stackSize, ...)",
 		"snippet": "CreateTaskTags(${1:CONST_STRPTR name}, ${2:LONG pri}, ${3:CONST_APTR initPC}, ${4:ULONG stackSize}, ${5:...})${6:}",
 		"type": "function",
 		"leftLabel": "struct Task*",
 		"description": "Create task with given name, priority, stacksize. (varargs) (V50)",
-		"descriptionMoreURL": ""
+		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/exec.doc.txt"
 	},
 	{
 		"displayText": "CW3FloppyAvail()",
@@ -876,7 +884,7 @@
 		"type": "function",
 		"leftLabel": "LONG",
 		"description": "Remove entries from the networking routing tables. (varargs)",
-		"descriptionMoreURL": ""
+		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
 	},
 	{
 		"displayText": "DeleteSkipList(skipList)",
@@ -912,7 +920,7 @@
 	},
 	{
 		"displayText": "DevNameFromFH(fileHandle, buffer, buflen, mode)",
-		"snippet": "DevNameFromFH(${1:BPTR fh}, ${2:STRPTR buffer}, ${3:LONG buflen}, ${4:LONG mode})${5:}",
+		"snippet": "DevNameFromFH(${1:BPTR fh}, ${2:STRPTR buffer}, ${3:LONG buflen}, ${4:ULONG mode})${5:}",
 		"type": "function",
 		"leftLabel": "LONG",
 		"description": "Returns the device with or without path, associated with a filehandle. (V51.32)",
@@ -920,7 +928,7 @@
 	},
 	{
 		"displayText": "DevNameFromLock(lock, buffer, buflen, mode)",
-		"snippet": "DevNameFromLock(${1:BPTR lock}, ${2:STRPTR buffer}, ${3:LONG buflen}, ${4:LONG mode})${5:}",
+		"snippet": "DevNameFromLock(${1:BPTR lock}, ${2:STRPTR buffer}, ${3:LONG buflen}, ${4:ULONG mode})${5:}",
 		"type": "function",
 		"leftLabel": "LONG",
 		"description": "Returns the device with or without path, associated with a lock. (V51)",
@@ -992,7 +1000,7 @@
 	},
 	{
 		"displayText": "DismountDevice(name, flags, reserved)",
-		"snippet": "DismountDevice(${1:CONST_STRPTR name}, ${2:ULONG flags}, ${3:APTR reserved})${4:}",
+		"snippet": "DismountDevice(${1:CONST_STRPTR name}, ${2:ULONG flags}, NULL)${3:}",
 		"type": "function",
 		"leftLabel": "LONG",
 		"description": "Dismounts a file system or handler. (V51.30)",
@@ -1072,7 +1080,7 @@
 	},
 	{
 		"displayText": "DrawGradient(rastPort, left, top, width, height, domain, reserved, gradientspec, drawInfo)",
-		"snippet": "DrawGradient(${1:struct RastPort *rp}, ${2:LONG left}, ${3:LONG top}, ${4:LONG width}, ${5:LONG height}, ${6:struct IBox *domain}, ${7:ULONG reserved}, ${8:struct GradientSpec *gradientspec}, ${9:struct DrawInfo *dri})${10:}",
+		"snippet": "DrawGradient(${1:struct RastPort *rp}, ${2:LONG left}, ${3:LONG top}, ${4:LONG width}, ${5:LONG height}, ${6:struct IBox *domain}, 0L, ${7:struct GradientSpec *gradientspec}, ${8:struct DrawInfo *dri})${9:}",
 		"type": "function",
 		"leftLabel": "ULONG",
 		"description": "Draw a gradient effect into a RastPort. (V50)",
@@ -1156,7 +1164,7 @@
 		"type": "function",
 		"leftLabel": "Elf32_Error",
 		"description": "Make a runnable image from an ELF file. (varargs)",
-		"descriptionMoreURL": ""
+		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/elf.doc.txt"
 	},
 	{
 		"displayText": "EmbossDisableRect(rastPort, minx, miny, maxx, maxy, backtype, contrast, drawInfo)",
@@ -1187,8 +1195,8 @@
 		"snippet": "EmulateTags(${1:CONST_APTR InitPC}, ${2:...})${3:}",
 		"type": "function",
 		"leftLabel": "ULONG",
-		"description": "",
-		"descriptionMoreURL": ""
+		"description": "Run classic 68k Code through emulation. (V50) (varargs)",
+		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/exec.doc.txt"
 	},
 	{
 		"displayText": "EndDMA(startAddr, blockSize, flags)",
@@ -1308,7 +1316,7 @@
 		"type": "function",
 		"leftLabel": "uint32",
 		"description": "Find an application.",
-		"descriptionMoreURL": ""
+		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/application.doc.txt"
 	},
 	{
 		"displayText": "FindIName(start, name)",
@@ -1439,7 +1447,7 @@
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/commodities.doc.txt"
 	},
 	{
-		"displayText": "FreeClipRect(layerInfo, cr)",
+		"displayText": "FreeClipRect(layerInfo, clipRect)",
 		"snippet": "FreeClipRect(${1:struct Layer_Info *li}, ${2:struct ClipRect *cr})${3:}",
 		"type": "function",
 		"leftLabel": "VOID",
@@ -1479,8 +1487,8 @@
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/datatypes.doc.txt"
 	},
 	{
-		"displayText": "FreePartitionNode(last)",
-		"snippet": "FreePartitionNode(${1:struct Node *last})${2:}",
+		"displayText": "FreePartitionNode(node)",
+		"snippet": "FreePartitionNode(${1:struct Node *node})${2:}",
 		"type": "function",
 		"leftLabel": "void",
 		"description": "Free a partition node.",
@@ -1660,7 +1668,7 @@
 		"type": "function",
 		"leftLabel": "ULONG",
 		"description": "Get Attributes from an ELF handle. (varargs)",
-		"descriptionMoreURL": ""
+		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/elf.doc.txt"
 	},
 	{
 		"displayText": "GetElfString(ElfHandle, SectionIndex, StringIndex)",
@@ -1712,7 +1720,7 @@
 	},
 	{
 		"displayText": "GetGUIAttrs(reserved, drawinfo, ...)",
-		"snippet": "GetGUIAttrs(${1:APTR reserved}, ${2:struct DrawInfo *drawinfo}, ${3:...})${4:}",
+		"snippet": "GetGUIAttrs(NULL, ${1:struct DrawInfo *drawinfo}, ${2:...})${3:}",
 		"type": "function",
 		"leftLabel": "ULONG",
 		"description": "Inquire the value of Intuition GUI attributes. (varargs) (V50)",
@@ -1720,7 +1728,7 @@
 	},
 	{
 		"displayText": "GetGUIAttrsA(reserved, drawinfo, taglist)",
-		"snippet": "GetGUIAttrsA(${1:APTR reserved}, ${2:struct DrawInfo *drawinfo}, ${3:struct TagItem *taglist})${4:}",
+		"snippet": "GetGUIAttrsA(NULL, ${1:struct DrawInfo *drawinfo}, ${2:struct TagItem *taglist})${3:}",
 		"type": "function",
 		"leftLabel": "ULONG",
 		"description": "Inquire the value of Intuition GUI attributes. (V50)",
@@ -1743,8 +1751,8 @@
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/exec.doc.txt"
 	},
 	{
-		"displayText": "GetInterface(name, version, taglist)",
-		"snippet": "GetInterface(${1:STRPTR name}, ${2:uint32 version}, ${3:struct TagItem *taglist})${4:}",
+		"displayText": "GetInterface(library, name, version, taglist)",
+		"snippet": "GetInterface(${1:struct Library *library}, ${2:STRPTR name}, ${3:uint32 version}, ${4:struct TagItem *taglist})${5:}",
 		"type": "function",
 		"leftLabel": "struct Interface*",
 		"description": "Retrieve an interface from a library. (V50)",
@@ -1756,7 +1764,7 @@
 		"type": "function",
 		"leftLabel": "struct Interface*",
 		"description": "Retrieve an interface from a library. (varargs) (V50)",
-		"descriptionMoreURL": ""
+		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/exec.doc.txt"
 	},
 	{
 		"displayText": "GetMachineInfo(tagList)",
@@ -1799,16 +1807,16 @@
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/utility.doc.txt"
 	},
 	{
-		"displayText": "GetPartitionNodeAttrs(par1, ...)",
-		"snippet": "GetPartitionNodeAttrs(${1:struct Node *par1}, ${2:...})${3:}",
+		"displayText": "GetPartitionNodeAttrs(node, ...)",
+		"snippet": "GetPartitionNodeAttrs(${1:struct Node *node}, ${2:...})${3:}",
 		"type": "function",
 		"leftLabel": "void",
 		"description": "Get attributes of a partition node. (varargs)",
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/partition_gc.doc.txt"
 	},
 	{
-		"displayText": "GetPartitionNodeAttrsA(par1, last)",
-		"snippet": "GetPartitionNodeAttrsA(${1:struct Node *par1}, ${2:struct TagItem *last})${3:}",
+		"displayText": "GetPartitionNodeAttrsA(node, tags)",
+		"snippet": "GetPartitionNodeAttrsA(${1:struct Node *node}, ${2:struct TagItem *tags})${3:}",
 		"type": "function",
 		"leftLabel": "void",
 		"description": "Get attributes of a partition node.",
@@ -1924,7 +1932,7 @@
 		"type": "function",
 		"leftLabel": "Elf32_Shdr*",
 		"description": "Get a section header from an ELF handle. (varargs)",
-		"descriptionMoreURL": ""
+		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/elf.doc.txt"
 	},
 	{
 		"displayText": "GetSectionTags(ElfHandle, ...)",
@@ -1932,7 +1940,7 @@
 		"type": "function",
 		"leftLabel": "APTR",
 		"description": "Get/Load a section from an ELF handle. (varargs)",
-		"descriptionMoreURL": ""
+		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/elf.doc.txt"
 	},
 	{
 		"displayText": "GetSegListInfo(seglist, tags)",
@@ -2324,7 +2332,7 @@
 		"type": "function",
 		"leftLabel": "uint32",
 		"description": "Control attributes in an item pool. (varargs) (V50)",
-		"descriptionMoreURL": ""
+		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/exec.doc.txt"
 	},
 	{
 		"displayText": "ItemPoolFlush(itemPool)",
@@ -2387,7 +2395,7 @@
 		"snippet": "LockApplicationIcon(${1:uint32 appID})${2:}",
 		"type": "function",
 		"leftLabel": "BOOL",
-		"description": "Attempts to lock a application icon.",
+		"description": "Attempts to lock an application icon.",
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/application.doc.txt"
 	},
 	{
@@ -2444,7 +2452,7 @@
 		"type": "function",
 		"leftLabel": "struct Interface*",
 		"description": "Construct an Interface. (varargs) (V50)",
-		"descriptionMoreURL": ""
+		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/exec.doc.txt"
 	},
 	{
 		"displayText": "mbuf_adj(mp, req_len)",
@@ -2463,40 +2471,40 @@
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
 	},
 	{
-		"displayText": "mbuf_copyback(m, off, len, cp)",
-		"snippet": "mbuf_copyback(${1:struct mbuf *m}, ${2:LONG off}, ${3:LONG len}, ${4:APTR cp})${5:}",
+		"displayText": "mbuf_copyback(buffer, offset, length, data)",
+		"snippet": "mbuf_copyback(${1:struct mbuf *buf}, ${2:LONG off}, ${3:LONG len}, ${4:APTR data})${5:}",
 		"type": "function",
 		"leftLabel": "LONG",
 		"description": "Copy data from a buffer back into an mbuf chain.",
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
 	},
 	{
-		"displayText": "mbuf_copydata(m, off, len, cp)",
-		"snippet": "mbuf_copydata(${1:struct mbuf *m}, ${2:LONG off}, ${3:LONG len}, ${4:APTR cp})${5:}",
+		"displayText": "mbuf_copydata(buffer, offset, length, data)",
+		"snippet": "mbuf_copydata(${1:struct mbuf *buf}, ${2:LONG off}, ${3:LONG len}, ${4:APTR data})${5:}",
 		"type": "function",
 		"leftLabel": "LONG",
 		"description": "Copy data from an mbuf chain into a buffer.",
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
 	},
 	{
-		"displayText": "mbuf_copym(m, off, len)",
-		"snippet": "mbuf_copym(${1:struct mbuf *m}, ${2:LONG off}, ${3:LONG len})${4:}",
+		"displayText": "mbuf_copym(buffer, offset, length)",
+		"snippet": "mbuf_copym(${1:struct mbuf *buf}, ${2:LONG off}, ${3:LONG len})${4:}",
 		"type": "function",
 		"leftLabel": "struct mbuf*",
 		"description": "Make a copy of an mbuf chain.",
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
 	},
 	{
-		"displayText": "mbuf_free(m)",
-		"snippet": "mbuf_free(${1:struct mbuf *m})${2:}",
+		"displayText": "mbuf_free(buffer)",
+		"snippet": "mbuf_free(${1:struct mbuf *buf})${2:}",
 		"type": "function",
 		"leftLabel": "struct mbuf*",
 		"description": "Free a single mbuf and return a pointer to the next mbuf in the chain.",
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
 	},
 	{
-		"displayText": "mbuf_freem(m)",
-		"snippet": "mbuf_freem(${1:struct mbuf *m})${2:}",
+		"displayText": "mbuf_freem(buffer)",
+		"snippet": "mbuf_freem(${1:struct mbuf *buf})${2:}",
 		"type": "function",
 		"leftLabel": "VOID",
 		"description": "Free all mbufs in a chain.",
@@ -2519,15 +2527,15 @@
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
 	},
 	{
-		"displayText": "mbuf_prepend(m, len)",
-		"snippet": "mbuf_prepend(${1:struct mbuf *m}, ${2:LONG len})${3:}",
+		"displayText": "mbuf_prepend(buffer, length)",
+		"snippet": "mbuf_prepend(${1:struct mbuf *buf}, ${2:LONG len})${3:}",
 		"type": "function",
 		"leftLabel": "struct mbuf*",
 		"description": "Allocate new mbuf to be prepended to chain.",
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
 	},
 	{
-		"displayText": "mbuf_pullup(m, len)",
+		"displayText": "mbuf_pullup(buffer, length)",
 		"snippet": "mbuf_pullup(${1:struct mbuf *m}, ${2:LONG len})${3:}",
 		"type": "function",
 		"leftLabel": "struct mbuf*",
@@ -2631,24 +2639,24 @@
 		"descriptionMoreURL": ""
 	},
 	{
-		"displayText": "NonBlockingModifyDosEntry(dl, mode, arg1, arg2)",
-		"snippet": "NonBlockingModifyDosEntry(${1:struct DosList *dl}, ${2:LONG mode}, ${3:APTR arg1}, ${4:APTR arg2})${5:}",
+		"displayText": "NonBlockingModifyDosEntry(dosList, mode, arg1, arg2)",
+		"snippet": "NonBlockingModifyDosEntry(${1:struct DosList *dl}, ${2:LONG mode}, ${3:APTR arg1}, NULL)${4:}",
 		"type": "function",
 		"leftLabel": "LONG",
 		"description": "Modify a DosList node without blocking. (V51.29)",
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/dos.doc.txt"
 	},
 	{
-		"displayText": "NotifyDosListChange(process, signalnum, reserved)",
-		"snippet": "NotifyDosListChange(${1:struct Process *process}, ${2:ULONG signalnum}, ${3:ULONG reserved})${4:}",
+		"displayText": "NotifyDosListChange(process, signalNum, reserved)",
+		"snippet": "NotifyDosListChange(${1:struct Process *process}, ${2:ULONG signalNum}, NULL)${3:}",
 		"type": "function",
 		"leftLabel": "LONG",
 		"description": "Notify a process when the DosList changes. (V51.75)",
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/dos.doc.txt"
 	},
 	{
-		"displayText": "NotifyProcListChange(process, signalnum, reserved)",
-		"snippet": "NotifyProcListChange(${1:struct Process *process}, ${2:ULONG signalnum}, ${3:ULONG reserved})${4:}",
+		"displayText": "NotifyProcListChange(process, signalNum, reserved)",
+		"snippet": "NotifyProcListChange(${1:struct Process *process}, ${2:ULONG signalNum}, NULL)${3:}",
 		"type": "function",
 		"leftLabel": "LONG",
 		"description": "Notify a process when the process list changes. (V51.81)",
@@ -2720,7 +2728,7 @@
 	},
 	{
 		"displayText": "ObtainIBackFill(drawInfo, element, state, flags)",
-		"snippet": "ObtainIBackFill(${1:struct DrawInfo *dri}, ${2:ULONG element}, ${3:ULONG state}, ${4:ULONG flags})${5:}",
+		"snippet": "ObtainIBackFill(${1:struct DrawInfo *dri}, ${2:ULONG element}, ${3:ULONG state}, NULL)${4:}",
 		"type": "function",
 		"leftLabel": "struct Hook*",
 		"description": "Lock and return an Intuition backfill hook. (V50)",
@@ -2812,7 +2820,7 @@
 		"type": "function",
 		"leftLabel": "Elf32_Handle",
 		"description": "Open an ELF file. (varargs) (V50)",
-		"descriptionMoreURL": ""
+		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/elf.doc.txt"
 	},
 	{
 		"displayText": "OpenGUIPlugin(name, version, type, attrmask, applymask)",
@@ -2919,8 +2927,8 @@
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/popupmenu_cl.doc.txt"
 	},
 	{
-		"displayText": "POPUPMENU_MakeMXList(...)",
-		"snippet": "POPUPMENU_MakeMXList(${1:...})${2:}",
+		"displayText": "POPUPMENU_MakeMXList(id1, ...)",
+		"snippet": "POPUPMENU_MakeMXList(${1:ULONG id1}, ${2:...})${3:}",
 		"type": "function",
 		"leftLabel": "APTR",
 		"description": "Build list of ID numbers for mutual exclusion. (varargs)",
@@ -3064,7 +3072,7 @@
 	},
 	{
 		"displayText": "ProcessScan(hook, userdata, reserved)",
-		"snippet": "ProcessScan(${1:const struct Hook *hook}, ${2:CONST_APTR userdata}, ${3:ULONG reserved})${4:}",
+		"snippet": "ProcessScan(${1:const struct Hook *hook}, ${2:CONST_APTR userdata}, NULL)${3:}",
 		"type": "function",
 		"leftLabel": "LONG",
 		"description": "Low level routine to scan through the DOS process list. (V51.75)",
@@ -3092,7 +3100,7 @@
 		"type": "function",
 		"leftLabel": "LONG",
 		"description": "Obtain information on an interface and the associated SANA-II device driver. (varargs)",
-		"descriptionMoreURL": ""
+		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
 	},
 	{
 		"displayText": "Random(state)",
@@ -3199,8 +3207,8 @@
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/intuition.doc.txt"
 	},
 	{
-		"displayText": "ReleaseCapturedExpressions(first)",
-		"snippet": "ReleaseCapturedExpressions(${1:struct CapturedExpression *first})${2:}",
+		"displayText": "ReleaseCapturedExpressions(capturedExpression)",
+		"snippet": "ReleaseCapturedExpressions(${1:struct CapturedExpression *ce})${2:}",
 		"type": "function",
 		"leftLabel": "VOID",
 		"description": "Release memory allocated by a call to CapturePattern(). (V50)",
@@ -3284,7 +3292,7 @@
 		"type": "function",
 		"leftLabel": "BOOL",
 		"description": "Relocate a section. (varargs)",
-		"descriptionMoreURL": ""
+		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/elf.doc.txt"
 	},
 	{
 		"displayText": "RemInterface(interface)",
@@ -3376,11 +3384,19 @@
 	},
 	{
 		"displayText": "RestartTask(whichTask, flags)",
-		"snippet": "RestartTask(${1:struct Task *whichTask}, ${2:ULONG flags})${3:}",
+		"snippet": "RestartTask(${1:struct Task *whichTask}, NULL)${2:}",
 		"type": "function",
 		"leftLabel": "void",
 		"description": "Restart a task that has been suspended. (V50)",
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/exec.doc.txt"
+	},
+	{
+		"displayText": "SaveDTObject(object, window, req, file, mode, saveicon, ...)",
+		"snippet": "SaveDTObject(${1:Object *o}, ${2:struct Window *win}, ${3:struct Requester *req}, ${4:CONST_STRPTR file}, ${5:ULONG mode}, ${6:BOOL saveicon}, ${7:...})${8:}",
+		"type": "function",
+		"leftLabel": "ULONG",
+		"description": "Save object's contents. (V45)",
+		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/datatypes.doc.txt"
 	},
 	{
 		"displayText": "SaveDTObjectA(object, window, req, file, mode, saveicon, attrs)",
@@ -3404,7 +3420,7 @@
 		"type": "function",
 		"leftLabel": "void",
 		"description": "Scan the symbol table. (varargs)",
-		"descriptionMoreURL": ""
+		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/elf.doc.txt"
 	},
 	{
 		"displayText": "ScanVars(hook, flags, userdata)",
@@ -3416,7 +3432,7 @@
 	},
 	{
 		"displayText": "SearchCmdPathList(pathNode, hook, name, tags)",
-		"snippet": "SearchCmdPathList(${1:const struct PathNode *pn}, ${2:const struct Hook *h}, ${3:CONST_STRPTR name}, ${4:const struct TagItem *tags})${5:}",
+		"snippet": "SearchCmdPathList(${1:const struct PathNode *pn}, ${2:const struct Hook *h}, ${3:CONST_STRPTR name}, NULL)${4:}",
 		"type": "function",
 		"leftLabel": "LONG",
 		"description": "Locate an object along a shell search path. (V50)",
@@ -3424,7 +3440,7 @@
 	},
 	{
 		"displayText": "SearchCmdPathListTags(pathNode, hook, name, ...)",
-		"snippet": "SearchCmdPathListTags(${1:const struct PathNode *pn}, ${2:const struct Hook *h}, ${3:CONST_STRPTR name}, ${4:...})${5:}",
+		"snippet": "SearchCmdPathListTags(${1:const struct PathNode *pn}, ${2:const struct Hook *h}, ${3:CONST_STRPTR name}, TAG_END)${4:}",
 		"type": "function",
 		"leftLabel": "LONG",
 		"description": "Locate an object along a shell search path. (varargs) (V50)",
@@ -3532,7 +3548,7 @@
 		"type": "function",
 		"leftLabel": "ULONG",
 		"description": "Set Attributes of an ELF handle. (varargs)",
-		"descriptionMoreURL": ""
+		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/elf.doc.txt"
 	},
 	{
 		"displayText": "SetErrnoPtr(errno_ptr, size)",
@@ -3560,7 +3576,7 @@
 	},
 	{
 		"displayText": "SetGUIAttrs(reserved, drawinfo, ...)",
-		"snippet": "SetGUIAttrs(${1:APTR reserved}, ${2:struct DrawInfo *drawinfo}, ${3:...})${4:}",
+		"snippet": "SetGUIAttrs(NULL, ${1:struct DrawInfo *drawinfo}, ${2:...})${3:}",
 		"type": "function",
 		"leftLabel": "ULONG",
 		"description": "Specify attribute values for the Intuition GUI. (varargs) (V50)",
@@ -3568,7 +3584,7 @@
 	},
 	{
 		"displayText": "SetGUIAttrsA(reserved, drawinfo, taglist)",
-		"snippet": "SetGUIAttrsA(${1:APTR reserved}, ${2:struct DrawInfo *drawinfo}, ${3:struct TagItem *taglist})${4:}",
+		"snippet": "SetGUIAttrsA(NULL, ${1:struct DrawInfo *drawinfo}, ${2:struct TagItem *taglist})${3:}",
 		"type": "function",
 		"leftLabel": "ULONG",
 		"description": "Specify attribute values for the Intuition GUI. (V50)",
@@ -3599,16 +3615,16 @@
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/exec.doc.txt"
 	},
 	{
-		"displayText": "SetPartitionNodeAttrs(par1, ...)",
-		"snippet": "SetPartitionNodeAttrs(${1:struct Node *par1}, ${2:...})${3:}",
+		"displayText": "SetPartitionNodeAttrs(node, ...)",
+		"snippet": "SetPartitionNodeAttrs(${1:struct Node *node}, ${2:...})${3:}",
 		"type": "function",
 		"leftLabel": "void",
 		"description": "Set attributes of a partition node. (varargs)",
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/partition_gc.doc.txt"
 	},
 	{
-		"displayText": "SetPartitionNodeAttrsA(par1, last)",
-		"snippet": "SetPartitionNodeAttrsA(${1:struct Node *par1}, ${2:struct TagItem *last})${3:}",
+		"displayText": "SetPartitionNodeAttrsA(node, tags)",
+		"snippet": "SetPartitionNodeAttrsA(${1:struct Node *node}, ${2:struct TagItem *tags})${3:}",
 		"type": "function",
 		"leftLabel": "void",
 		"description": "Set attributes of a partition node.",
@@ -3796,7 +3812,7 @@
 		"type": "function",
 		"leftLabel": "LONG",
 		"description": "Get/set global library attributes. (varargs)",
-		"descriptionMoreURL": ""
+		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
 	},
 	{
 		"displayText": "StartDMA(startAddr, blockSize, flags)",
@@ -3828,7 +3844,7 @@
 		"type": "function",
 		"leftLabel": "APTR",
 		"description": "Starts notification on a screen. (varargs) (V50)",
-		"descriptionMoreURL": ""
+		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/intuition.doc.txt"
 	},
 	{
 		"displayText": "StripIntuiMessages(port, window)",
@@ -3871,16 +3887,16 @@
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/exec.doc.txt"
 	},
 	{
-		"displayText": "SuspendTask(whichTask, flags)",
-		"snippet": "SuspendTask(${1:struct Task *whichTask}, ${2:ULONG flags})${3:}",
+		"displayText": "SuspendTask(task, flags)",
+		"snippet": "SuspendTask(${1:struct Task *task}, ${2:ULONG flags})${3:}",
 		"type": "function",
 		"leftLabel": "void",
 		"description": "Suspend a task from execution. (V50)",
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/exec.doc.txt"
 	},
 	{
-		"displayText": "SymbolQuery(ElfHandle, NumQueries, Queries)",
-		"snippet": "SymbolQuery(${1:Elf32_Handle ElfHandle}, ${2:ULONG NumQueries}, ${3:struct Elf32_SymbolQuery *Queries})${4:}",
+		"displayText": "SymbolQuery(elfHandle, numQueries, queries)",
+		"snippet": "SymbolQuery(${1:Elf32_Handle ElfHandle}, ${2:ULONG numQueries}, ${3:struct Elf32_SymbolQuery *queries})${4:}",
 		"type": "function",
 		"leftLabel": "ULONG",
 		"description": "Search for a set of symbols in an ELF file.",
@@ -4087,16 +4103,16 @@
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/usbsys.doc.txt"
 	},
 	{
-		"displayText": "USBDeclaimFunction(usfkt)",
-		"snippet": "USBDeclaimFunction(${1:struct UsbFunction *usfkt})${2:}",
+		"displayText": "USBDeclaimFunction(func)",
+		"snippet": "USBDeclaimFunction(${1:struct UsbFunction *func})${2:}",
 		"type": "function",
 		"leftLabel": "void",
 		"description": "Give up ownership of a USB Function.",
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/usbsys.doc.txt"
 	},
 	{
-		"displayText": "USBDeclaimInterface(usifc)",
-		"snippet": "USBDeclaimInterface(${1:struct UsbInterface *usifc})${2:}",
+		"displayText": "USBDeclaimInterface(interface)",
+		"snippet": "USBDeclaimInterface(${1:struct UsbInterface *if})${2:}",
 		"type": "function",
 		"leftLabel": "void",
 		"description": "Give up ownership of a USB Interface.",
@@ -4147,8 +4163,8 @@
 		"snippet": "USBFDGetAttrsA(${1:struct TagItem *taglist})${2:}",
 		"type": "function",
 		"leftLabel": "void",
-		"description": "Function based Function Driver entry point.",
-		"descriptionMoreURL": ""
+		"description": "Query a Function Driver for its attributes.",
+		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/usbfd.doc.txt"
 	},
 	{
 		"displayText": "USBFDRunFunction(startmsg)",
@@ -4479,6 +4495,14 @@
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/usbsys.doc.txt"
 	},
 	{
+		"displayText": "USBLogPrintf(err, context, msg, ...)",
+		"snippet": "USBLogPrintf(${1:LONG err}, ${2:CONST_STRPTR context}, ${3:CONST_STRPTR msg}, ${4:...})${5:}",
+		"type": "function",
+		"leftLabel": "void",
+		"description": "Append an entry to the USB System log using a vprintf-style formatting string. (varargs)",
+		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/usbsys.doc.txt"
+	},
+	{
 		"displayText": "USBNextDescriptor(descriptor)",
 		"snippet": "USBNextDescriptor(${1:struct USBBusDscHead *dscr})${2:}",
 		"type": "function",
@@ -4671,8 +4695,8 @@
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/dos.doc.txt"
 	},
 	{
-		"displayText": "WaitSelect(nfds, read_fds, write_fds, except_fds, _timeout, signals)",
-		"snippet": "WaitSelect(${1:LONG nfds}, ${2:APTR read_fds}, ${3:APTR write_fds}, ${4:APTR except_fds}, ${5:struct __timeval *_timeout}, ${6:ULONG *signals})${7:}",
+		"displayText": "WaitSelect(nfds, read_fds, write_fds, except_fds, timeout, signals)",
+		"snippet": "WaitSelect(${1:LONG nfds}, ${2:APTR read_fds}, ${3:APTR write_fds}, ${4:APTR except_fds}, ${5:struct timeval *timeout}, ${6:ULONG *signals})${7:}",
 		"type": "function",
 		"leftLabel": "LONG",
 		"description": "Synchronous I/O multiplexing.",
@@ -4749,6 +4773,350 @@
 		"leftLabel": "uint32",
 		"description": "Write prefs (==a prefs dictionary) to a file.",
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/application.doc.txt"
+	},
+	{
+		"displayText": "FD_SET(bit, fdSet)",
+		"snippet": "FD_SET(${1:ULONG bit}, ${2:fd_set *fdSet})${3:}",
+		"type": "macro",
+		"leftLabel": "",
+		"description": "Set a bit in a fdSet bit mask.",
+		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+	},
+	{
+		"displayText": "FD_CLR(bit, fdSet)",
+		"snippet": "FD_CLR(${1:ULONG bit}, ${2:fd_set *fdSet})${3:}",
+		"type": "macro",
+		"leftLabel": "",
+		"description": "Clear a bit in a fdSet bit mask.",
+		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+	},
+	{
+		"displayText": "FD_ISSET(bit, fdSet)",
+		"snippet": "FD_ISSET(${1:ULONG bit}, ${2:fd_set *fdSet})${3:}",
+		"type": "macro",
+		"leftLabel": "",
+		"description": "Check a bit in a fdSet bit mask.",
+		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+	},
+	{
+		"displayText": "FD_COPY(src, dest)",
+		"snippet": "FD_COPY(${1:fd_set *src}, ${2:fd_set *dest})${3:}",
+		"type": "macro",
+		"leftLabel": "",
+		"description": "Copy a fdSet.",
+		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+	},
+	{
+		"displayText": "FD_ZERO(fdSet)",
+		"snippet": "FD_ZERO(${1:fd_set *fdSet})${2:}",
+		"type": "macro",
+		"leftLabel": "",
+		"description": "Clear all bits in a fdSet.",
+		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+	},
+	{
+	  "displayText": "SBTM_GETREF(socketBaseTagCode)",
+	  "snippet": "SBTM_GETREF(${1:code})${2:}",
+	  "type": "macro",
+	  "leftLabel": "tag",
+	  "description": "Constructs ti_Tag values for SocketBaseTags() to get by reference.",
+	  "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+	},
+	{
+	  "displayText": "SBTM_GETVAL(socketBaseTagCode)",
+	  "snippet": "SBTM_GETVAL(${1:code})${2:}",
+	  "type": "macro",
+	  "leftLabel": "tag",
+	  "description": "Constructs ti_Tag values for SocketBaseTags() to get by value.",
+	  "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+	},
+	{
+	  "displayText": "SBTM_SETREF(socketBaseTagCode)",
+	  "snippet": "SBTM_GETVAL(${1:code})${2:}",
+	  "type": "macro",
+	  "leftLabel": "tag",
+	  "description": "Constructs ti_Tag values for SocketBaseTags() to set by reference.",
+	  "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+	},
+	{
+	  "displayText": "SBTM_SETVAL(socketBaseTagCode)",
+	  "snippet": "SBTM_GETVAL(${1:code})${2:}",
+	  "type": "macro",
+	  "leftLabel": "tag",
+	  "description": "Constructs ti_Tag values for SocketBaseTags() to get by value.",
+	  "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+	},
+	{
+	  "displayText": "SBTC_ERRNOPTR(size)",
+	  "snippet": "SBTC_ERRNOPTR(${1:size})${2:}",
+	  "type": "macro",
+	  "leftLabel": "baseTag",
+	  "description": "Constructs a base tag for SocketBaseTags() ERRNOPTR tag for the given size.",
+	  "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+	},
+	{
+		"displayText": "SBTC_SIG_ADDRESS_CHANGE_MASK",
+		"snippet": "SBTC_SIG_ADDRESS_CHANGE_MASK",
+		"type": "tag",
+		"leftLabel": "ULONG"
+	},
+	{
+		"displayText": "SBTC_BREAKMASK",
+		"snippet": "SBTC_BREAKMASK",
+		"type": "tag",
+		"leftLabel": "ULONG"
+	},
+	{
+		"displayText": "SBTC_CAN_SHARE_LIBRARY_BASES",
+		"snippet": "SBTC_CAN_SHARE_LIBRARY_BASES",
+		"type": "tag",
+		"leftLabel": "BOOL"
+	},
+	{
+		"displayText": "SBTC_DTABLESIZE",
+		"snippet": "SBTC_DTABLESIZE",
+		"type": "tag",
+		"leftLabel": "ULONG"
+	},
+	{
+		"displayText": "SBTC_ERRNO",
+		"snippet": "SBTC_ERRNO",
+		"type": "tag",
+		"leftLabel": "LONG"
+	},
+	{
+		"displayText": "SBTC_ERRNOBYTEPTR",
+		"snippet": "SBTC_ERRNOBYTEPTR",
+		"type": "tag",
+		"leftLabel": "APTR"
+	},
+	{
+		"displayText": "SBTC_ERRNOWORDPTR",
+		"snippet": "SBTC_ERRNOWORDPTR",
+		"type": "tag",
+		"leftLabel": "APTR"
+	},
+	{
+		"displayText": "SBTC_ERRNOLONGPTR",
+		"snippet": "SBTC_ERRNOLONGPTR",
+		"type": "tag",
+		"leftLabel": "APTR"
+	},
+	{
+		"displayText": "SBTC_ERRNOSTRPTR",
+		"snippet": "SBTC_ERRNOSTRPTR",
+		"type": "tag",
+		"leftLabel": "STRPTR"
+	},
+	{
+		"displayText": "SBTC_ERROR_HOOK",
+		"snippet": "SBTC_ERROR_HOOK",
+		"type": "tag",
+		"leftLabel": "struct Hook *"
+	},
+	{
+		"displayText": "SBTC_GET_BYTES_RECEIVED",
+		"snippet": "SBTC_GET_BYTES_RECEIVED",
+		"type": "tag",
+		"leftLabel": "ULONG"
+	},
+	{
+		"displayText": "SBTC_GET_BYTES_SENT",
+		"snippet": "SBTC_GET_BYTES_SENT",
+		"type": "tag",
+		"leftLabel": "ULONG *"
+	},
+	{
+		"displayText": "SBTC_HAVE_ADDRESS_CONVERSION_API",
+		"snippet": "SBTC_HAVE_ADDRESS_CONVERSION_API",
+		"type": "tag",
+		"leftLabel": "BOOL"
+	},
+	{
+		"displayText": "SBTC_HAVE_DNS_API",
+		"snippet": "SBTC_HAVE_DNS_API",
+		"type": "tag",
+		"leftLabel": "BOOL"
+	},
+	{
+		"displayText": "SBTC_HAVE_INTERFACE_API",
+		"snippet": "SBTC_HAVE_INTERFACE_API",
+		"type": "tag",
+		"leftLabel": "BOOL"
+	},
+	{
+		"displayText": "SBTC_HAVE_KERNEL_MEMORY_API",
+		"snippet": "SBTC_HAVE_KERNEL_MEMORY_API",
+		"type": "tag",
+		"leftLabel": "BOOL"
+	},
+	{
+		"displayText": "SBTC_HAVE_LOCAL_DATABASE_API",
+		"snippet": "SBTC_HAVE_LOCAL_DATABASE_API",
+		"type": "tag",
+		"leftLabel": "BOOL"
+	},
+	{
+		"displayText": "SBTC_HAVE_MONITORING_API",
+		"snippet": "SBTC_HAVE_MONITORING_API",
+		"type": "tag",
+		"leftLabel": "BOOL"
+	},
+	{
+		"displayText": "SBTC_HAVE_ROADSHOWDATA_API",
+		"snippet": "SBTC_HAVE_ROADSHOWDATA_API",
+		"type": "tag",
+		"leftLabel": "BOOL"
+	},
+	{
+		"displayText": "SBTC_HAVE_ROUTING_API",
+		"snippet": "SBTC_HAVE_ROUTING_API",
+		"type": "tag",
+		"leftLabel": "BOOL"
+	},
+	{
+		"displayText": "SBTC_HAVE_SERVER_API",
+		"snippet": "SBTC_HAVE_SERVER_API",
+		"type": "tag",
+		"leftLabel": "BOOL"
+	},
+	{
+		"displayText": "SBTC_HAVE_STATUS_API",
+		"snippet": "SBTC_HAVE_STATUS_API",
+		"type": "tag",
+		"leftLabel": "BOOL"
+	},
+	{
+		"displayText": "SBTC_HERRNO",
+		"snippet": "SBTC_HERRNO",
+		"type": "tag",
+		"leftLabel": "ULONG"
+	},
+	{
+		"displayText": "SBTC_HERRNOSTRPTR",
+		"snippet": "SBTC_HERRNOSTRPTR",
+		"type": "tag",
+		"leftLabel": "STRPTR"
+	},
+	{
+		"displayText": "SBTC_ICMP_MASK_REPLY",
+		"snippet": "SBTC_ICMP_MASK_REPLY",
+		"type": "tag",
+		"leftLabel": "BOOL"
+	},
+	{
+		"displayText": "SBTC_ICMP_PROCESS_ECHO",
+		"snippet": "SBTC_ICMP_PROCESS_ECHO",
+		"type": "tag",
+		"leftLabel": "ULONG"
+	},
+	{
+		"displayText": "SBTC_ICMP_PROCESS_TSTAMP",
+		"snippet": "SBTC_ICMP_PROCESS_TSTAMP",
+		"type": "tag",
+		"leftLabel": "ULONG"
+	},
+	{
+		"displayText": "SBTC_ICMP_SEND_REDIRECTS",
+		"snippet": "SBTC_ICMP_SEND_REDIRECTS",
+		"type": "tag",
+		"leftLabel": "BOOL"
+	},
+	{
+		"displayText": "SBTC_IDN_DEFAULT_CHARACTER_SET",
+		"snippet": "SBTC_IDN_DEFAULT_CHARACTER_SET",
+		"type": "tag",
+		"leftLabel": "ULONG"
+	},
+	{
+		"displayText": "SBTC_IPF_API_VERSION",
+		"snippet": "SBTC_IPF_API_VERSION",
+		"type": "tag",
+		"leftLabel": "ULONG *"
+	},
+	{
+		"displayText": "SBTC_IP_FILTER_HOOK",
+		"snippet": "SBTC_IP_FILTER_HOOK",
+		"type": "tag",
+		"leftLabel": "struct Hook *"
+	},
+	{
+		"displayText": "SBTC_IP_FORWARDING",
+		"snippet": "SBTC_IP_FORWARDING",
+		"type": "tag",
+		"leftLabel": "BOOL"
+	},
+	{
+		"displayText": "SBTC_IP_DEFAULT_TTL",
+		"snippet": "SBTC_IP_DEFAULT_TTL",
+		"type": "tag",
+		"leftLabel": "ULONG"
+	},
+	{
+		"displayText": "SBTC_LOGFACILITY",
+		"snippet": "SBTC_LOGFACILITY",
+		"type": "tag",
+		"leftLabel": "ULONG"
+	},
+	{
+		"displayText": "SBTC_LOG_FILE_NAME",
+		"snippet": "SBTC_LOG_FILE_NAME",
+		"type": "tag",
+		"leftLabel": "STRPTR"
+	},
+	{
+		"displayText": "SBTC_LOG_HOOK",
+		"snippet": "SBTC_LOG_HOOK",
+		"type": "tag",
+		"leftLabel": "struct Hook *"
+	},
+	{
+		"displayText": "SBTC_LOGMASK",
+		"snippet": "SBTC_LOGMASK",
+		"type": "tag",
+		"leftLabel": "ULONG"
+	},
+	{
+		"displayText": "SBTC_LOGSTAT",
+		"snippet": "SBTC_LOGSTAT",
+		"type": "tag",
+		"leftLabel": "ULONG"
+	},
+	{
+		"displayText": "SBTC_LOGTAGPTR",
+		"snippet": "SBTC_LOGTAGPTR",
+		"type": "tag",
+		"leftLabel": "STRPTR"
+	},
+	{
+		"displayText": "SBTC_NUM_PACKET_FILTER_CHANNELS",
+		"snippet": "SBTC_NUM_PACKET_FILTER_CHANNELS",
+		"type": "tag",
+		"leftLabel": "ULONG"
+	},
+	{
+		"displayText": "SBTC_RELEASESTRPTR",
+		"snippet": "SBTC_RELEASESTRPTR",
+		"type": "tag",
+		"leftLabel": "STRPTR"
+	},
+	{
+		"displayText": "SBTC_SIGEVENTMASK",
+		"snippet": "SBTC_SIGEVENTMASK",
+		"type": "tag",
+		"leftLabel": "ULONG"
+	},
+	{
+		"displayText": "SBTC_SYSTEM_STATUS",
+		"snippet": "SBTC_SYSTEM_STATUS",
+		"type": "tag",
+		"leftLabel": "ULONG"
+	},
+	{
+		"displayText": "SBTC_UDP_CHECKSUM",
+		"snippet": "SBTC_UDP_CHECKSUM",
+		"type": "tag",
+		"leftLabel": "BOOL"
 	},
 	{
 		"displayText": "_CIAResource",
