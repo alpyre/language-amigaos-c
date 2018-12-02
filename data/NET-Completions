@@ -1,0 +1,448 @@
+  {
+    "displayText": "accept(socket, addr, addrlen)",
+    "snippet": "accept(${1:long socket}, ${2:struct sockaddr *addr}, ${3:long *addrlen})${4:}",
+    "type": "function",
+    "leftLabel": "long",
+    "description": "Accept a connection on a socket.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "bind(socket, name, namelen)",
+    "snippet": "bind(${1:long socket}, ${2:struct sockaddr *name}, ${3:long namelen})${4:}",
+    "type": "function",
+    "leftLabel": "long",
+    "description": "Bind a name to a socket.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "connect(socket, name, namelen)",
+    "snippet": "connect(${1:long socket}, ${2:struct sockaddr *name}, ${3:long namelen})${4:}",
+    "type": "function",
+    "leftLabel": "long",
+    "description": "Initiate a connection on a socket.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "Errno()",
+    "snippet": "Errno()${1:}",
+    "type": "function",
+    "leftLabel": "long",
+    "description": "Return the error code associated with the cause of the failure.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "getdtablesize()",
+    "snippet": "getdtablesize()${1:}",
+    "type": "function",
+    "leftLabel": "int",
+    "description": "Returns the library descriptor table size.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "gethostbyaddr(addr, len, type)",
+    "snippet": "gethostbyaddr(${1:char *addr}, ${2:long len}, ${3:long type})${4:}",
+    "type": "function",
+    "leftLabel": "struct hostent *",
+    "description": "Get network host entry.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "gethostbyname(name)",
+    "snippet": "gethostbyname(${1:char *name})${2:}",
+    "type": "function",
+    "leftLabel": "struct hostent *",
+    "description": "Get network host entry.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "gethostid()",
+    "snippet": "gethostid()${1:}",
+    "type": "function",
+    "leftLabel": "long",
+    "description": "Returns the 32-bit identifier for the current processor.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "gethostname(name, len)",
+    "snippet": "gethostname(${1:char *name}, ${2:long len})${3:}",
+    "type": "function",
+    "leftLabel": "long",
+    "description": "Get name of current host.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "getnetbyaddr(net, type)",
+    "snippet": "getnetbyaddr(${1:unsigned long net}, ${2:long len})${3:}",
+    "type": "function",
+    "leftLabel": "struct netent *",
+    "description": "Get network entry.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "getnetbyname(name)",
+    "snippet": "getnetbyname(${1:char *name})${2:}",
+    "type": "function",
+    "leftLabel": "struct netent *",
+    "description": "Get network entry.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "getpeername(socket, name, namelen)",
+    "snippet": "getpeername(${1:long socket}, ${2:struct sockaddr *name}, ${3:long *namelen})${4:}",
+    "type": "function",
+    "leftLabel": "long",
+    "description": "Get name of connected peer.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "getprotobyname(name)",
+    "snippet": "getprotobyname(${1:char *name})${2:}",
+    "type": "function",
+    "leftLabel": "struct protoent *",
+    "description": "Get protocol entry.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "getprotobynumber(proto)",
+    "snippet": "getprotobynumber(${1:long proto})${2:}",
+    "type": "function",
+    "leftLabel": "struct protoent *",
+    "description": "Get protocol entry.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "getservbyname(name, proto)",
+    "snippet": "getservbyname(${1:char *name}, ${2: char *proto})${3:}",
+    "type": "function",
+    "leftLabel": "struct servent *",
+    "description": "Get service entry.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "getservbyport(port, proto)",
+    "snippet": "getservbyport(${1:long port}, ${2: char *proto})${3:}",
+    "type": "function",
+    "leftLabel": "struct servent *",
+    "description": "Get service entry.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "getsockname(socket, name, namelen)",
+    "snippet": "getsockname(${1:long socket}, ${2:struct sockaddr *name}, ${3:long *namelen})${4:}",
+    "type": "function",
+    "leftLabel": "long",
+    "description": "Get socket name.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "getsockopt(socket, level, optname, optval, optlen)",
+    "snippet": "getsockopt(${1:long socket}, ${2:long level}, ${3:long optname}, ${4:void *optval}, ${5:long *optlen})${6:}",
+    "type": "function",
+    "leftLabel": "long",
+    "description": "Get options on sockets.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "htonl(host)",
+    "snippet": "htonl(${1:unsigned long host})${2:}",
+    "type": "function",
+    "leftLabel": "unsigned long",
+    "description": "Convert values between host and network byte order.",
+    "descriptionMoreURL": ""
+  },
+  {
+    "displayText": "htons(host)",
+    "snippet": "htonl(${1:unsigned short host})${2:}",
+    "type": "function",
+    "leftLabel": "unsigned short",
+    "description": "Convert values between host and network byte order.",
+    "descriptionMoreURL": ""
+  },
+  {
+    "displayText": "Inet_LnaOf(in)",
+    "snippet": "Inet_LnaOf(${1:unsigned long in})${2:}",
+    "type": "function",
+    "leftLabel": "unsigned long",
+    "description": "Internet address manipulation.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "Inet_MakeAddr(net, lna)",
+    "snippet": "Inet_MakeAddr(${1:long net}, ${2:long lna})${3:}",
+    "type": "function",
+    "leftLabel": "unsigned long",
+    "description": "Internet address manipulation.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "Inet_NetOf(in)",
+    "snippet": "Inet_NetOf(${1:unsigned long in})${2:}",
+    "type": "function",
+    "leftLabel": "unsigned long",
+    "description": "Internet address manipulation.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "Inet_NtoA(in)",
+    "snippet": "Inet_NtoA(${1:unsigned long in})${2:}",
+    "type": "function",
+    "leftLabel": "char *",
+    "description": "Internet address manipulation.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "inet_addr(cp)",
+    "snippet": "inet_addr(${1:char *cp})${2:}",
+    "type": "function",
+    "leftLabel": "unsigned long",
+    "description": "Internet address manipulation.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "inet_lnaof(addr)",
+    "snippet": "inet_addr(${1:struct in_addr addr})${2:}",
+    "type": "function",
+    "leftLabel": "unsigned long",
+    "description": "Internet address manipulation.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "inet_makeaddr(net, host)",
+    "snippet": "inet_makeaddr(${1:int addr}, {2:int host})${3:}",
+    "type": "function",
+    "leftLabel": "struct in_addr",
+    "description": "Internet address manipulation.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "inet_netof(addr)",
+    "snippet": "inet_netof(${1:struct in_addr addr})${2:}",
+    "type": "function",
+    "leftLabel": "unsigned long",
+    "description": "Internet address manipulation.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "inet_network(cp)",
+    "snippet": "inet_network(${1:char *cp})${2:}",
+    "type": "function",
+    "leftLabel": "unsigned long",
+    "description": "Internet address manipulation.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "inet_ntoa(in)",
+    "snippet": "inet_ntoa(${1:struct in_addr addr})${2:}",
+    "type": "function",
+    "leftLabel": "char *",
+    "description": "Internet address manipulation.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "listen(socket, backlog)",
+    "snippet": "listen(${1:long socket}, ${2:long backlog})${3:}",
+    "type": "function",
+    "leftLabel": "long",
+    "description": "Listen to connections on a socket.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "ntohl(net)",
+    "snippet": "ntohl(${1:unsigned long net})${2:}",
+    "type": "function",
+    "leftLabel": "unsigned long",
+    "description": "Convert values between host and network byte order.",
+    "descriptionMoreURL": ""
+  },
+  {
+    "displayText": "ntohs(net)",
+    "snippet": "ntohs(${1:unsigned short net})${2:}",
+    "type": "function",
+    "leftLabel": "unsigned short",
+    "description": "Convert values between host and network byte order.",
+    "descriptionMoreURL": ""
+  },
+  {
+    "displayText": "recv(socket, buffer, length, flags)",
+    "snippet": "recv(${1:long socket}, ${2:void *buf}, ${3:long len}, ${4:long flags})${5:}",
+    "type": "function",
+    "leftLabel": "long",
+    "description": "Receive a message from a socket.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "recvfrom(socket, buffer, length, flags, from, fromlen)",
+    "snippet": "recvfrom(${1:long socket}, ${2:void *buf}, ${3:long len}, ${4:long flags}, ${5:struct sockaddr *from}, ${6:long *fromlen})${7:}",
+    "type": "function",
+    "leftLabel": "long",
+    "description": "Receive a message from a socket.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "recvmsg(socket, message, flags)",
+    "snippet": "recvmsg(${1:long socket}, ${2:struct msghdr *msg}, ${3:long flags})${4:}",
+    "type": "function",
+    "leftLabel": "long",
+    "description": "Receive a message from a socket.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "send(socket, message, length, flags)",
+    "snippet": "send(${1:long socket}, ${2:void *msg}, ${3:long len}, ${4:long flags})${5:}",
+    "type": "function",
+    "leftLabel": "long",
+    "description": "Send a message from a socket.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "sendmsg(socket, message, flags)",
+    "snippet": "sendmsg(${1:long socket}, ${2:struct msghdr *msg}, ${3:long flags})${4:}",
+    "type": "function",
+    "leftLabel": "long",
+    "description": "Send a message from a socket.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "sendto(socket, message, length, flags, to, toLength)",
+    "snippet": "sendto(${1:long socket}, ${2:void *msg}, ${3:long len}, ${4:struct sockaddr *to}, ${5:long toLen})${6:}",
+    "type": "function",
+    "leftLabel": "long",
+    "description": "Send a message from a socket.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "setsockopt(socket, level, optname, optval, optlen)",
+    "snippet": "setsockopt(${1:long socket}, ${2:long level}, ${3:long optname}, ${4:void *optval}, ${5:long optlen})${6:}",
+    "type": "function",
+    "leftLabel": "long",
+    "description": "Set options on sockets.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "shutdown(socket, how)",
+    "snippet": "shutdown(${1:long socket}, ${2:long how})${3:}",
+    "type": "function",
+    "leftLabel": "long",
+    "description": "Shut down part of a full-duplex connection.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "socket(domain, type, protocol)",
+    "snippet": "socket(${1:long domain}, ${2:long type}, ${3:long protocol})${4:}",
+    "type": "function",
+    "leftLabel": "long",
+    "description": "Create an endpoint for communication.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "syslog(priority, message, ...)",
+    "snippet": "syslog(${1:long priority}, ${2:char *message}, ${3:...})${4:}",
+    "type": "function",
+    "leftLabel": "void",
+    "description": "Control system log.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "vsyslog(priority, message, ...)",
+    "snippet": "vsyslog(${1:long priority}, ${2:char *message}, ${3:...})${4:}",
+    "type": "function",
+    "leftLabel": "void",
+    "description": "Control system log.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "CloseSocket(sock)",
+    "snippet": "CloseSocket(${1:LONG sock})${2:}",
+    "type": "function",
+    "leftLabel": "LONG",
+    "description": "Delete a socket descriptor.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "Dup2Socket(old_socket, new_socket)",
+    "snippet": "Dup2Socket(${1:LONG old_socket}, ${2:LONG new_socket})${3:}",
+    "type": "function",
+    "leftLabel": "LONG",
+    "description": "Duplicate a socket descriptor.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "GetSocketEvents(event_ptr)",
+    "snippet": "GetSocketEvents(${1:ULONG *event_ptr})${2:}",
+    "type": "function",
+    "leftLabel": "LONG",
+    "description": "Get the next asynchronous event triggered by socket I/O [AmiTCP V4]",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "IoctlSocket(sock, req, argp)",
+    "snippet": "IoctlSocket(${1:LONG sock}, ${2:ULONG req}, ${3:APTR argp})${4:}",
+    "type": "function",
+    "leftLabel": "LONG",
+    "description": "Control socket parameters.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "ObtainSocket(id, domain, type, protocol)",
+    "snippet": "ObtainSocket(${1:LONG id}, ${2:LONG domain}, ${3:LONG type}, ${4:LONG protocol})${5:}",
+    "type": "function",
+    "leftLabel": "LONG",
+    "description": "Acquire a socket from the public list.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "ReleaseCopyOfSocket(sock, id)",
+    "snippet": "ReleaseCopyOfSocket(${1:LONG sock}, ${2:LONG id})${3:}",
+    "type": "function",
+    "leftLabel": "LONG",
+    "description": "Duplicate a socket descriptor, then release the duplicate to the public list.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "ReleaseSocket(sock, id)",
+    "snippet": "ReleaseSocket(${1:LONG sock}, ${2:LONG id})${3:}",
+    "type": "function",
+    "leftLabel": "LONG",
+    "description": "Release a socket to the public list.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "SetErrnoPtr(errno_ptr, size)",
+    "snippet": "SetErrnoPtr(${1:APTR errno_ptr}, ${2:LONG size})${3:}",
+    "type": "function",
+    "leftLabel": "VOID",
+    "description": "Set the reference to the errno variable.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "SetSocketSignals(int_mask, io_mask, urgent_mask)",
+    "snippet": "SetSocketSignals(${1:ULONG int_mask}, ${2:ULONG io_mask}, ${3:ULONG urgent_mask})${4:}",
+    "type": "function",
+    "leftLabel": "VOID",
+    "description": "Set the signals to be sent for socket events.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "SocketBaseTagList(tags)",
+    "snippet": "SocketBaseTagList(${1:struct TagItem *tags})${2:}",
+    "type": "function",
+    "leftLabel": "LONG",
+    "description": "Get/set global library attributes.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "SocketBaseTags(...)",
+    "snippet": "SocketBaseTags(${1:...})${2:}",
+    "type": "function",
+    "leftLabel": "LONG",
+    "description": "Get/set global library attributes. (varargs)",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  },
+  {
+    "displayText": "WaitSelect(nfds, read_fds, write_fds, except_fds, timeout, signals)",
+    "snippet": "WaitSelect(${1:LONG nfds}, ${2:APTR read_fds}, ${3:APTR write_fds}, ${4:APTR except_fds}, ${5:struct timeval *timeout}, ${6:ULONG *signals})${7:}",
+    "type": "function",
+    "leftLabel": "LONG",
+    "description": "Synchronous I/O multiplexing.",
+    "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
+  }

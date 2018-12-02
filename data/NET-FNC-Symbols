@@ -1,0 +1,8 @@
+  { #AmiTCP function names
+    'match': '\\b(?:accept|bind|connect|Errno|getdtablesize|gethostbyaddr|gethostbyname|gethostid|gethostname|getnetbyaddr|getnetbyname|getpeername|getprotobyname|getprotobynumber|getservbyname|getservbyport|getsockname|getsockopt|htonl|htons|Inet_LnaOf|Inet_MakeAddr|Inet_NetOf|Inet_NtoA|inet_addr|inet_lnaof|inet_makeaddr|inet_netof|inet_network|inet_ntoa|listen|ntohl|ntohs|recv|recvfrom|recvmsg|send|sendmsg|sendto|setsockopt|shutdown|socket|syslog|vsyslog|CloseSocket|Dup2Socket|GetSocketEvents|IoctlSocket|ObtainSocket|ReleaseCopyOfSocket|ReleaseSocket|SetErrnoPtr|SetSocketSignals|SocketBaseTagList|SocketBaseTags|WaitSelect)\\b(?=\\s*\\()'
+    'name': 'support.function.amigaos.c'
+  }
+  { #AmiTCP Macro names
+    'match': '\\b(?:CMSG_DATA|CMSG_NXTHDR|CMSG_FIRSTHDR|IN_(?:BADCLASS|CLASSA|CLASSB|CLASSC|CLASSD|EXPERIMENTAL|MULTICAST))\\b(?=\\s*\\()'
+    'name': 'macro.amigaos.c'
+  }

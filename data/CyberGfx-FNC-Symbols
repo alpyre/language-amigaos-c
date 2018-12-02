@@ -1,4 +1,8 @@
+  { # CyberGfx function names
+    'match': '\\b(?:AllocCModeListTagList|AllocCModeListTags|AttachVLayerTagList|AttachVLayerTags|BestCModeIDTagList|BestCModeIDTags|CModeRequestTagList|CModeRequestTags|CreateVLayerHandleTagList|CreateVLayerHandleTags|CVideoCtrlTagList|CVideoCtrlTags|DeleteVLayerHandle|DetachVLayer|DoCDrawMethodTagList|DoCDrawMethodTags|ExtractColor|FillPixelArray|FreeCModeList|GetCyberIDAttr|GetCyberMapAttr|GetVLayerAttr|InvertPixelArray|IsCyberModeID|LockBitMapTagList|LockBitMapTags|LockVLayer|MovePixelArray|ReadPixelArray|ReadRGBPixel|ScalePixelArray|SetVLayerAttrTagList|SetVLayerAttrTags|UnLockBitMap|UnLockBitMapTagList|UnLockBitMapTags|UnlockVLayer|WriteLUTPixelArray|WritePixelArray|WriteRGBPixel)(?=\\s*\\()'
+    'name': 'support.function.amigaos.CyberGfx.c'
+  }
   { # CyberGfx macro names
-    'match': '\\b(?:AllocCModeListTagList|AllocCModeListTags|AttachVLayerTagList|AttachVLayerTags|BestCModeIDTagList|BestCModeIDTags|CModeRequestTagList|CModeRequestTags|CreateVLayerHandleTagList|CreateVLayerHandleTags|CVideoCtrlTagList|CVideoCtrlTags|DeleteVLayerHandle|DetachVLayer|DoCDrawMethodTagList|DoCDrawMethodTags|ExtractColor|FillPixelArray|FreeCModeList|GetCyberIDAttr|GetCyberMapAttr|GetVLayerAttr|InvertPixelArray|IsCyberModeID|LockBitMapTagList|LockBitMapTags|LockVLayer|MovePixelArray|ReadPixelArray|ReadRGBPixel|ScalePixelArray|SetVLayerAttrTagList|SetVLayerAttrTags|SHIFT_PIXFMT|UnLockBitMap|UnLockBitMapTagList|UnLockBitMapTags|UnlockVLayer|WriteLUTPixelArray|WritePixelArray|WriteRGBPixel)(?=\\s*\\()'
+    'match': '\\b(?:SHIFT_PIXFMT)(?=\\s*\\()'
     'name': 'macro.amigaos.CyberGfx.c'
   }

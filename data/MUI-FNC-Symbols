@@ -1,8 +1,8 @@
   { #MUI function names
-    'match': '\\b(?:MUI_AddClipping|MUI_AddClipRegion|MUI_AllocAslRequest|MUI_AllocAslRequestTags|MUI_AslRequest|MUI_AslRequestTags|MUI_BeginRefresh|MUI_CreateCustomClass|MUI_DeleteCustomClass|MUI_DisposeObject|MUI_EndRefresh|MUI_Error|MUI_FreeAslRequest|MUI_FreeClass|MUI_GetClass|MUI_Layout|MUI_MakeObject|MUI_MakeObjectA|MUI_NewObject|MUI_NewObjectA|MUI_ObtainPen|MUI_Redraw|MUI_RejectIDCMP|MUI_ReleasePen|MUI_RemoveClipping|MUI_RemoveClipRegion|MUI_Request|MUI_RequestA|MUI_RequestIDCMP|MUI_SetError)(?=\\s*\\()'
+    'match': '\\b(?:MUI_(?:AddClipping|AddClipRegion|AllocAslRequest(?:Tags)?|AslRequest(?:Tags)?|BeginRefresh|CreateCustomClass|DeleteCustomClass|DisposeObject|EndRefresh|Error|FreeAslRequest|FreeClass|GetClass|Layout|MakeObjectA?|NewObjectA?|ObtainPen|Redraw|RejectIDCMP|ReleasePen|RemoveClipping|RemoveClipRegion|RequestA?|RequestIDCMP|SetError))(?=\\s*\\()'
     'name': 'support.function.amigaos.MUI.c'
   }
-  { #MUI macro names
-    'match': '\\b(?:MUIPEN|MUIV_Window_AltHeight_MinMax|MUIV_Window_AltHeight_Screen|MUIV_Window_AltHeight_Visible|MUIV_Window_AltTopEdge_Delta|MUIV_Window_AltWidth_MinMax|MUIV_Window_AltWidth_Screen|MUIV_Window_AltWidth_Visible|MUIV_Window_Height_MinMax|MUIV_Window_Height_Screen|MUIV_Window_Height_Visible|MUIV_Window_TopEdge_Delta|MUIV_Window_Width_MinMax|MUIV_Window_Width_Screen|MUIV_Window_Width_Visible|muiAreaData|muiGlobalInfo|muiNotifyData|muiRenderInfo|muiUserData)(?=\\s*\\()'
+  { #MUI macro names (OPTIMIZED)
+    'match': '\\b(?:mui(?:(?:Area|Notify|User)Data|(?:Global|Render)Info)|MUIPEN|MUIV_Window_(?:Alt)?(?:(?:Height|Width)_(?:MinMax|Screen|Visible)|TopEdge_Delta))(?=\\s*\\()'
     'name': 'macro.amigaos.MUI.c'
   }

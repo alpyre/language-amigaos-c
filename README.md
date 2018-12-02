@@ -20,6 +20,7 @@ You can choose which symbols to be highlighted and suggested.\*\*\*\*
 <br>(\*\*\*\*): *A restart is required after changes in highlight preferences to apply.*</br>
 
 **Dependencies** : https://github.com/atom/language-c/ *(0.57.0 and higher)*
+
 **IMPORTANT** : On Atom v.1.32 and above you should deactivate Tree Sitter Parsers for highlighting to work properly *(Settings -> Core -> Use Tree Sitter Parsers)*
 
 Contributions are greatly appreciated. Please fork this repository and open a

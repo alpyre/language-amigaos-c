@@ -9,53 +9,6 @@
     ]
   },
   {
-    "name": ["AddInterfaceTags"],
-    "tagStrt": "4",
-    "arguments": [
-      {
-        "type": "tag",
-        "suggestions": ["IFA_IPType", "LONG", "IFA_ARPType", "LONG", "IFA_NumReadRequests", "LONG", "IFA_NumWriteRequests", "LONG", "IFA_NumARPRequests", "LONG", "IFA_PacketFilterMode", "LONG", "IFA_PointToPoint", "BOOL", "IFA_Multicast", "BOOL", "IFA_DownGoesOffline", "BOOL", "IFA_ReportOffline", "BOOL", "IFA_RequiresInitDelay", "BOOL", "IFA_CopyMode", "LONG", "IFA_HardwareAddress", "struct InterfaceHardwareAddress *", "IFA_SetDebugMode", "BOOL", "IFA_LimitMTU", "ULONG", "TAG_END"],
-        "values": [
-          {
-            "tag": ["IFA_PointToPoint", "IFA_Multicast", "IFA_DownGoesOffline", "IFA_ReportOffline", "IFA_RequiresInitDelay", "IFA_SetDebugMode"],
-            "type": "bool",
-            "suggestions": ["TRUE", "FALSE"]
-          },
-          {
-            "tag": ["IFA_PacketFilterMode"],
-            "type": "macro",
-            "suggestions": ["PFM_Nothing", "PFM_Local", "PFM_IPandARP", "PFM_Everything"]
-          },
-          {
-            "tag": ["IFA_CopyMode"],
-            "type": "macro",
-            "suggestions": ["CM_SlowWordCopy", "CM_FastWordCopy"]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": ["AddNetMonitorHookTagList", "AddNetMonitorHookTags"],
-    "arguments": [
-      {
-        "num": ["1"],
-        "type": "macro",
-        "suggestions": ["MHT_ICMP", "MHT_UDP", "MHT_TCP_Connect", "MHT_Connect", "MHT_Send", "MHT_Packet", "MHT_Bind"]
-      }
-    ]
-  },
-  {
-    "name": ["AddRouteTags"],
-    "tagStrt": "1",
-    "arguments": [
-      {
-        "type": "tag",
-        "suggestions": ["RTA_Destination", "STRPTR", "RTA_Gateway", "STRPTR", "RTA_DefaultGateway", "STRPTR", "RTA_DestinationHost", "STRPTR", "RTA_DestinationNet", "STRPTR", "TAG_END"]
-      }
-    ]
-  },
-  {
     "name": ["AddTaskTags"],
     "tagStrt": "4",
     "arguments": [
@@ -183,16 +136,6 @@
     ]
   },
   {
-    "name": ["bpf_ioctl", "ipf_ioctl"],
-    "arguments": [
-      {
-        "num": ["2"],
-        "type": "macro",
-        "suggestions": ["FIONREAD", "SIOCGIFADDR", "BIOCSBLEN", "BIOCSETF", "BIOCFLUSH", "BIOCGDLT", "BIOCGETIF", "BIOCSETIF", "BIOCSRTIMEOUT", "BIOCGRTIMEOUT", "BIOCGSTATS", "BIOCIMMEDIATE", "BIOCVERSION"]
-      }
-    ]
-  },
-  {
     "name": ["BrokerCommand"],
     "arguments": [
       {
@@ -236,75 +179,6 @@
             "suggestions": ["TRUE", "FALSE"]
           }
         ]
-      }
-    ]
-  },
-  {
-    "name": ["ConfigureInterfaceTags"],
-    "tagStrt": "2",
-    "arguments": [
-      {
-        "type": "tag",
-        "suggestions": ["IFC_Address", "STRPTR", "IFC_NetMask", "STRPTR", "IFC_DestinationAddress", "STRPTR", "IFC_BroadcastAddress", "STRPTR", "IFC_Metric", "LONG", "IFC_AddAliasAddress", "STRPTR", "IFC_DeleteAliasAddress", "STRPTR", "IFC_State", "LONG", "IFC_GetPeerAddress", "BOOL", "IFC_GetDNS", "BOOL", "IFC_AssociatedRoute", "BOOL", "IFC_AssociatedDNS", "BOOL", "IFC_ReleaseAddress", "BOOL", "IFC_SetDebugMode", "BOOL", "IFC_Complete", "BOOL", "IFC_LimitMTU", "ULONG", "TAG_END"],
-        "values": [
-          {
-            "tag": ["IFC_GetPeerAddress", "IFC_GetDNS", "IFC_AssociatedRoute", "IFC_AssociatedDNS", "IFC_ReleaseAddress", "IFC_SetDebugMode", "IFC_Complete"],
-            "type": "bool",
-            "suggestions": ["TRUE", "FALSE"]
-          },
-          {
-            "tag": ["IFC_State"],
-            "type": "macro",
-            "suggestions": ["SM_Down", "SM_Up", "SM_Offline", "SM_Online"]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": ["CreateAddrAllocMessage"],
-    "tagStrt": "5",
-    "arguments": [
-      {
-        "num": ["1"],
-        "type": "macro",
-        "suggestions": ["AAM_VERSION"]
-      },
-      {
-        "num": ["2"],
-        "type": "macro",
-        "suggestions": ["AAMP_BOOTP", "AAMP_DHCP", "AAMP_SLOWAUTO", "AAMP_FASTAUTO"]
-      },
-      {
-        "type": "tag",
-        "suggestions": ["CAAMTA_Timeout", "ULONG", "CAAMTA_LeaseTime", "ULONG", "CAAMTA_RequestedAddress", "ULONG", "CAAMTA_ClientIdentifier", "STRPTR", "CAAMTA_NAKMessageSize", "LONG", "CAAMTA_RouterTableSize", "LONG", "CAAMTA_DNSTableSize", "LONG", "CAAMTA_StaticRouteTableSize", "LONG", "CAAMTA_HostNameSize", "LONG", "CAAMTA_DomainNameSize", "LONG", "CAAMTA_BOOTPMessageSize", "LONG", "CAAMTA_RecordLeaseExpiration", "BOOL", "CAAMTA_ReplyPort", "struct MsgPort *", "TAG_END"],
-        "values": [
-          {
-            "tag": ["CAAMTA_RecordLeaseExpiration"],
-            "type": "bool",
-            "suggestions": ["TRUE", "FALSE"]
-          },
-          {
-            "tag": ["CAAMTA_LeaseTime"],
-            "type": "macro",
-            "suggestions": ["DHCP_DEFAULT_LEASE_TIME", "DHCP_INFINITE_LEASE_TIME"]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": ["CreateAddrAllocMessageA"],
-    "arguments": [
-      {
-        "num": ["1"],
-        "type": "macro",
-        "suggestions": ["AAM_VERSION"]
-      },
-      {
-        "num": ["2"],
-        "type": "macro",
-        "suggestions": ["AAMP_BOOTP", "AAMP_DHCP", "AAMP_SLOWAUTO", "AAMP_FASTAUTO"]
       }
     ]
   },
@@ -366,16 +240,6 @@
             "suggestions": ["TRUE", "FALSE"]
           }
         ]
-      }
-    ]
-  },
-  {
-    "name": ["DeleteRouteTags"],
-    "tagStrt": "1",
-    "arguments": [
-      {
-        "type": "tag",
-        "suggestions": ["RTA_Destination", "STRPTR", "RTA_DefaultGateway", "STRPTR", "TAG_END"]
       }
     ]
   },
@@ -748,16 +612,6 @@
     ]
   },
   {
-    "name": ["GetNetworkStatistics"],
-    "arguments": [
-      {
-        "num": ["1"],
-        "type": "macro",
-        "suggestions": ["NETSTATUS_icmp", "NETSTATUS_igmp", "NETSTATUS_ip", "NETSTATUS_mb", "NETSTATUS_mrt", "NETSTATUS_rt", "NETSTATUS_tcp", "NETSTATUS_udp", "NETSTATUS_tcp_sockets", "NETSTATUS_udp_sockets"]
-      }
-    ]
-  },
-  {
     "name": ["GetPartitionNodeAttrs"],
     "tagStrt": "2",
     "arguments": [
@@ -774,21 +628,6 @@
         "num": ["2"],
         "type": "flag",
         "suggestions": ["GPSLF_CLI", "GPSLF_SEG", "GPSLF_ENT", "GPSLF_RUN"]
-      }
-    ]
-  },
-  {
-    "name": ["GetRouteInfo"],
-    "arguments": [
-      {
-        "num": ["1"],
-        "type": "macro",
-        "suggestions": ["AF_INET", "AF_UNSPEC"]
-      },
-      {
-        "num": ["2"],
-        "type": "flag",
-        "suggestions": ["RTF_UP", "RTF_GATEWAY", "RTF_HOST", "RTF_REJECT", "RTF_DYNAMIC", "RTF_MODIFIED", "RTF_DONE", "RTF_MASK", "RTF_CLONING", "RTF_XRESOLVE", "RTF_LLINFO", "RTF_STATIC", "RTF_BLACKHOLE"]
       }
     ]
   },
@@ -866,26 +705,6 @@
       {
         "type": "tag",
         "suggestions": ["WA_Left", "int32 *", "WA_Top", "int32 *", "WA_Width", "int32 *", "WA_Height", "int32 *", "WA_DetailPen", "int32 *", "WA_BlockPen", "int32 *", "WA_MinWidth", "int32 *", "WA_MinHeight", "int32 *", "WA_InnerWidth", "int32 *", "WA_InnerHeight", "int32 *", "WA_MaxWidth", "int32 *", "WA_MaxHeight", "int32 *", "WA_Zoom", "struct IBox *", "WA_WindowBox", "struct IBox *", "WA_IDCMP", "uint32 *", "WA_Flags", "uint32 *", "WA_MouseQueue", "uint32 *", "WA_RptQueue", "uint32 *", "WA_NotifyDepth", "BOOL *", "WA_TabletMessages", "BOOL *", "WA_MenuHelp", "BOOL *", "WA_PointerDelay", "BOOL *", "WA_RMBTrap", "BOOL *", "WA_WindowName", "STRPTR *", "WA_ShapeRegion", "struct Region **", "WA_ShapeHook", "struct Hook **", "WA_AlphaClips", "struct ClipRect **", "WA_AlphaHook", "struct Hook **", "WA_Opaqueness", "uint8 *", "WA_OverrideOpaqueness", "BOOL *", "WA_FadeTime", "uint32 *", "WA_NoHitThreshold", "int32 *", "WA_DropShadows", "int32 *", "WA_MenuStrip", "struct Menu **", "WA_ContextMenuHook", "struct Hook **", "WA_HelpGroup", "uint32 *", "WA_Activate", "BOOL *", "WA_Checkmark", "struct Image **", "WA_AmigaKey", "struct Image **", "TAG_END"]
-      }
-    ]
-  },
-  {
-    "name": ["inet_ntop", "inet_pton"],
-    "arguments": [
-      {
-        "num": ["1"],
-        "type": "macro",
-        "suggestions": ["AF_INET", "AF_UNSPEC"]
-      }
-    ]
-  },
-  {
-    "name": ["IoctlSocket"],
-    "arguments": [
-      {
-        "num": ["2"],
-        "type": "macro",
-        "suggestions": ["FIONBIO", "FIOASYNC", "FIONREAD", "SIOCATMARK"]
       }
     ]
   },
@@ -1089,26 +908,6 @@
     ]
   },
   {
-    "name": ["ObtainSocket"],
-    "arguments": [
-      {
-        "num": ["2"],
-        "type": "macro",
-        "suggestions": ["AF_INET"]
-      },
-      {
-        "num": ["3"],
-        "type": "macro",
-        "suggestions": ["SOCK_STREAM", "SOCK_DGRAM", "SOCK_RAW"]
-      },
-      {
-        "num": ["4"],
-        "type": "macro",
-        "suggestions": ["IPPROTO_IP", "IPPROTO_ICMP", "IPPROTO_IGMP", "IPPROTO_GGP", "IPPROTO_TCP", "IPPROTO_EGP", "IPPROTO_PUP", "IPPROTO_UDP", "IPPROTO_IDP", "IPPROTO_TP", "IPPROTO_EON", "IPPROTO_ENCAP", "IPPROTO_RAW"]
-      }
-    ]
-  },
-  {
     "name": ["OpenElfTags"],
     "tagStrt": "1",
     "arguments": [
@@ -1279,16 +1078,6 @@
         "num": ["6"],
         "type": "macro",
         "suggestions": ["STD_DISABLE_CONTRAST", "CNTR_CORRECT", "CNTR_ABSOLUTE"]
-      }
-    ]
-  },
-  {
-    "name": ["QueryInterfaceTags"],
-    "tagStrt": "2",
-    "arguments": [
-      {
-        "type": "tag",
-        "suggestions": ["IFQ_DeviceName", "STRPTR *", "IFQ_DeviceUnit", "LONG *", "IFQ_HardwareAddressSize", "LONG *", "IFQ_HardwareAddress", "UBYTE *", "IFQ_MTU", "LONG *", "IFQ_HardwareMTU", "LONG *", "IFQ_BPS", "LONG *", "IFQ_HardwareType", "LONG *", "IFQ_PacketsReceived", "ULONG *", "IFQ_PacketsSent", "ULONG *", "IFQ_BadData", "ULONG *", "IFQ_Overruns", "ULONG *", "IFQ_UnknownTypes", "ULONG *", "IFQ_LastStart", "struct timeval *", "IFQ_Address", "struct sockaddr *", "IFQ_DestinationAddress", "struct sockaddr *", "IFQ_BroadcastAddress", "struct sockaddr *", "IFQ_NetMask", "struct sockaddr_in *", "IFQ_Metric", "LONG *", "IFQ_State", "LONG *", "IFQ_AddressBindType", "LONG *", "IFQ_AddressLeaseExpires", "struct DateStamp *", "IFQ_PrimaryDNSAddress", "struct sockaddr_in *", "IFQ_SecondaryDNSAddress", "struct sockaddr_in *", "IFQ_NumReadRequests", "LONG *", "IFQ_MaxReadRequests", "LONG", "IFQ_NumReadRequestsPending", "LONG *", "IFQ_NumWriteRequests", "LONG *", "IFQ_MaxWriteRequests", "LONG *", "IFQ_NumWriteRequestsPending", "LONG *", "IFQ_GetBytesIn", "SBQUAD_T *", "IFQ_GetBytesOut", "SBQUAD_T *", "IFQ_GetDebugMode", "LONG *", "IFQ_GetSANA2CopyStats", "struct SANA2CopyStats *", "IFQ_OutputDrops", "LONG *", "IFQ_InputDrops", "LONG *", "IFQ_OutputErrors", "LONG *", "IFQ_InputErrors", "LONG *", "IFQ_OutputMulticasts", "LONG *", "IFQ_InputMulticasts", "LONG *", "IFQ_IPDrops", "LONG *", "IFQ_ARPDrops", "LONG *", "TAG_END"]
       }
     ]
   },

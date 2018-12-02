@@ -1,0 +1,8 @@
+  { #OS4 network function names
+    'match': '\\b(?:AbortInterfaceConfig|AddDomainNameServer|AddInterfaceTagList|AddInterfaceTags|AddNetMonitorHookTagList|AddNetMonitorHookTags|AddRouteTagList|AddRouteTags|BeginInterfaceConfig|bpf_close|bpf_data_waiting|bpf_ioctl|bpf_open|bpf_read|bpf_set_interrupt_mask|bpf_set_notify_mask|bpf_write|ChangeRoadshowData|ConfigureInterfaceTagList|ConfigureInterfaceTags|CreateAddrAllocMessageA?|DeleteAddrAllocMessage|DeleteRouteTagList|DeleteRouteTags|endnetent|endprotoent|endservent|FreeRouteInfo|GetDefaultDomainName|getnetent|GetNetworkStatistics|getprotoent|GetRouteInfo|getservent|In_CanForward|In_LocalAddr|inet_aton|inet_ntop|inet_pton|ipf_close|ipf_ioctl|ipf_log_data_waiting|ipf_log_read|ipf_open|ipf_set_interrupt_mask|ipf_set_notify_mask|mbuf_adj|mbuf_cat|mbuf_copyback|mbuf_copydata|mbuf_copym|mbuf_free|mbuf_freem|mbuf_get|mbuf_gethdr|mbuf_prepend|mbuf_pullup|ObtainDomainNameServerList|ObtainInterfaceList|ObtainRoadshowData|ObtainServerSocket|ProcessIsServer|QueryInterfaceTagList|QueryInterfaceTags|ReleaseDomainNameServerList|ReleaseInterfaceList|ReleaseRoadshowData|RemoveDomainNameServer|RemoveInterface|RemoveNetMonitorHook|SetDefaultDomainName|setnetent|setprotoent|setservent)\\b(?=\\s*\\()'
+    'name': 'support.function.amigaos.c'
+  }
+  { #OS4 network Macro names
+    'match': '\\b(?:BPF_(?:CLASS|JUMP|MISCOP|MODE|OP|RVAL|SIZE|SRC|STMT|WORDALIGN)|FD_(?:CLR|COPY|ISSET|SET|ZERO)|SBTC_ERRNOPTR|SBTM_(?:GETREF|GETVAL|SETREF|SETVAL))\\b(?=\\s*\\()'
+    'name': 'macro.amigaos.c'
+  }

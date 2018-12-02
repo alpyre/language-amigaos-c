@@ -1,0 +1,30 @@
+  {
+    "name": ["IoctlSocket"],
+    "arguments": [
+      {
+        "num": ["2"],
+        "type": "macro",
+        "suggestions": ["FIONBIO", "FIOASYNC", "FIONREAD", "SIOCATMARK"]
+      }
+    ]
+  },
+  {
+    "name": ["ObtainSocket"],
+    "arguments": [
+      {
+        "num": ["2"],
+        "type": "macro",
+        "suggestions": ["AF_INET"]
+      },
+      {
+        "num": ["3"],
+        "type": "macro",
+        "suggestions": ["SOCK_STREAM", "SOCK_DGRAM", "SOCK_RAW"]
+      },
+      {
+        "num": ["4"],
+        "type": "macro",
+        "suggestions": ["IPPROTO_IP", "IPPROTO_ICMP", "IPPROTO_IGMP", "IPPROTO_GGP", "IPPROTO_TCP", "IPPROTO_EGP", "IPPROTO_PUP", "IPPROTO_UDP", "IPPROTO_IDP", "IPPROTO_TP", "IPPROTO_EON", "IPPROTO_ENCAP", "IPPROTO_RAW"]
+      }
+    ]
+  }

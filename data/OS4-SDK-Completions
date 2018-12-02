@@ -1,12 +1,4 @@
 	{
-		"displayText": "AbortInterfaceConfig(message)",
-		"snippet": "AbortInterfaceConfig(${1:struct AddressAllocationMessage *message})${2:}",
-		"type": "function",
-		"leftLabel": "VOID",
-		"description": "Attempt to abort an IP address allocation process currently in progress.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
 		"displayText": "AddCmdPathNode(pathNode, lock, where)",
 		"snippet": "AddCmdPathNode(${1:struct PathNode *pn}, ${2:BPTR lock}, ${3:LONG where})${4:}",
 		"type": "function",
@@ -23,52 +15,12 @@
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/dos.doc.txt"
 	},
 	{
-		"displayText": "AddDomainNameServer(address)",
-		"snippet": "AddDomainNameServer(${1:STRPTR address})${2:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Add another domain name server address to the local resolver database.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
 		"displayText": "AddInterface(library, interface)",
 		"snippet": "AddInterface(${1:struct Library *library}, ${2:struct Interface *interface})${3:}",
 		"type": "function",
 		"leftLabel": "void",
 		"description": "Add an interface to a library. (V50)",
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/exec.doc.txt"
-	},
-	{
-		"displayText": "AddInterfaceTagList(interface_name, device_name, unit, tags)",
-		"snippet": "AddInterfaceTagList(${1:STRPTR interface_name}, ${2:STRPTR device_name}, ${3:LONG unit}, ${4:struct TagItem *tags})${5:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Make a new interface available for network access.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "AddInterfaceTags(interface_name, device_name, unit, ...)",
-		"snippet": "AddInterfaceTags(${1:STRPTR interface_name}, ${2:STRPTR device_name}, ${3:LONG unit}, ${4:...})${5:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Make a new interface available for network access. (varargs)",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "AddNetMonitorHookTagList(type, hook, tags)",
-		"snippet": "AddNetMonitorHookTagList(${1:LONG type}, ${2:struct Hook *hook}, ${3:struct TagItem *tags})${4:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Add a network monitoring callback hook.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "AddNetMonitorHookTags(type, hook, ...)",
-		"snippet": "AddNetMonitorHookTags(${1:LONG type}, ${2:struct Hook *hook}, ${3:...})${4:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Add a network monitoring callback hook. (varargs)",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
 	},
 	{
 		"displayText": "AddResetCallback(resetCallback)",
@@ -85,22 +37,6 @@
 		"leftLabel": "uint32",
 		"description": "Map an address to a loaded section.",
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/elf.doc.txt"
-	},
-	{
-		"displayText": "AddRouteTagList(tags)",
-		"snippet": "AddRouteTagList(${1:struct TagItem *tags})${2:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Add entries to the networking routing tables.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "AddRouteTags(...)",
-		"snippet": "AddRouteTags(${1:...})${2:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Add entries to the networking routing tables. (varargs)",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
 	},
 	{
 		"displayText": "AddSegListTail(bseglist_head, bseg_new)",
@@ -351,14 +287,6 @@
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/application.doc.txt"
 	},
 	{
-		"displayText": "BeginInterfaceConfig(message)",
-		"snippet": "BeginInterfaceConfig(${1:struct AddressAllocationMessage *message})${2:}",
-		"type": "function",
-		"leftLabel": "VOID",
-		"description": "Attempt to allocate an IP address for an interface.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
 		"displayText": "BitMapInstanceControl(bitmapinstance, ...)",
 		"snippet": "BitMapInstanceControl(${1:APTR bitmapinstance}, ${2:...})${3:}",
 		"type": "function",
@@ -373,70 +301,6 @@
 		"leftLabel": "ULONG",
 		"description": "Set and get bitmap instance attributes. (V50)",
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/intuition.doc.txt"
-	},
-	{
-		"displayText": "bpf_close(channel)",
-		"snippet": "bpf_close(${1:LONG channel})${2:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Close a packet filter channel.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "bpf_data_waiting(channel)",
-		"snippet": "bpf_data_waiting(${1:LONG channel})${2:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Query whether there is data waiting to be read with bpf_read()",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "bpf_ioctl(channel, command, buffer)",
-		"snippet": "bpf_ioctl(${1:LONG channel}, ${2:ULONG command}, ${3:APTR buffer})${4:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Control packet filter parameters.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "bpf_open(channel)",
-		"snippet": "bpf_open(${1:LONG channel})${2:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Open a packet filter channel.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "bpf_read(channel, buffer, len)",
-		"snippet": "bpf_read(${1:LONG channel}, ${2:APTR buffer}, ${3:LONG len})${4:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Read data from a packet filter channel.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "bpf_set_interrupt_mask(channel, signal_mask)",
-		"snippet": "bpf_set_interrupt_mask(${1:LONG channel}, ${2:ULONG signal_mask})${3:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Choose which signals will cause the bpf_read() call to be interrupted.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "bpf_set_notify_mask(channel, signal_mask)",
-		"snippet": "bpf_set_notify_mask(${1:LONG channel}, ${2:ULONG signal_mask})${3:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Choose the signals to send when new packet data is available for reading.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "bpf_write(channel, buffer, len)",
-		"snippet": "bpf_write(${1:LONG channel}, ${2:APTR buffer}, ${3:LONG len})${4:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Write data to an interface associated with a packet filter channel.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
 	},
 	{
 		"displayText": "BrokerCommand(name, id)",
@@ -575,30 +439,6 @@
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/diskfont.doc.txt"
 	},
 	{
-		"displayText": "CloseSocket(sock)",
-		"snippet": "CloseSocket(${1:LONG sock})${2:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Delete a socket descriptor.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "ConfigureInterfaceTagList(interface_name, tags)",
-		"snippet": "ConfigureInterfaceTagList(${1:STRPTR interface_name}, ${2:struct TagItem *tags})${3:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Configure an interface.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "ConfigureInterfaceTags(interface_name, ...)",
-		"snippet": "ConfigureInterfaceTags(${1:STRPTR interface_name}, ${2:...})${3:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Configure an interface. (varargs)",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
 		"displayText": "CopyBrokerList(blist)",
 		"snippet": "CopyBrokerList(${1:struct List *blist})${2:}",
 		"type": "function",
@@ -645,22 +485,6 @@
 		"leftLabel": "ULONG",
 		"description": "Copy 'C' format string to NUL terminated BCPL format string. (V51.61)",
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/dos.doc.txt"
-	},
-	{
-		"displayText": "CreateAddrAllocMessage(version, protocol, interface_name, result_ptr, ...)",
-		"snippet": "CreateAddrAllocMessage(${1:LONG version}, ${2:LONG protocol}, ${3:STRPTR interface_name}, ${4:struct AddressAllocationMessage ** result_ptr}, ${5:...})${6:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Create a message to be used with the BeginInterfaceConfig(). (varargs)",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "CreateAddrAllocMessageA(version, protocol, interface_name, result_ptr, tags)",
-		"snippet": "CreateAddrAllocMessageA(${1:LONG version}, ${2:LONG protocol}, ${3:STRPTR interface_name}, ${4:struct AddressAllocationMessage ** result_ptr}, ${5:struct TagItem *tags})${6:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Create a message to be used with the BeginInterfaceConfig().",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
 	},
 	{
 		"displayText": "CreateBackFillHook(...)",
@@ -831,14 +655,6 @@
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/exec.doc.txt"
 	},
 	{
-		"displayText": "DeleteAddrAllocMessage(addressAllocationMessage)",
-		"snippet": "DeleteAddrAllocMessage(${1:struct AddressAllocationMessage *aam})${2:}",
-		"type": "function",
-		"leftLabel": "VOID",
-		"description": "Release the memory allocation for an address allocation message created by CreateAddrAllocMessageA().",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
 		"displayText": "DeleteBackFillHook(hook)",
 		"snippet": "DeleteBackFillHook(${1:struct Hook *hook})${2:}",
 		"type": "function",
@@ -869,22 +685,6 @@
 		"leftLabel": "VOID",
 		"description": "Remove an ARexx host MsgPort. (V45)",
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/rexxsyslib.doc.txt"
-	},
-	{
-		"displayText": "DeleteRouteTagList(tags)",
-		"snippet": "DeleteRouteTagList(${1:struct TagItem *tags})${2:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Remove entries from the networking routing tables.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "DeleteRouteTags(...)",
-		"snippet": "DeleteRouteTags(${1:...})${2:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Remove entries from the networking routing tables. (varargs)",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
 	},
 	{
 		"displayText": "DeleteSkipList(skipList)",
@@ -1126,14 +926,7 @@
 		"description": "Release an interface from use. (V50)",
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/exec.doc.txt"
 	},
-	{
-		"displayText": "Dup2Socket(old_socket, new_socket)",
-		"snippet": "Dup2Socket(${1:LONG old_socket}, ${2:LONG new_socket})${3:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Duplicate a socket descriptor.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
+
 	{
 		"displayText": "DupFileHandle(fileHandle)",
 		"snippet": "DupFileHandle(${1:BPTR fh})${2:}",
@@ -1503,14 +1296,6 @@
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/rexxsyslib.doc.txt"
 	},
 	{
-		"displayText": "FreeRouteInfo(buf)",
-		"snippet": "FreeRouteInfo(${1:struct rt_msghdr *buf})${2:}",
-		"type": "function",
-		"leftLabel": "VOID",
-		"description": "Release information obtained by GetRouteInfo().",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
 		"displayText": "FreeSysObject(type, object)",
 		"snippet": "FreeSysObject(${1:ULONG type}, ${2:APTR object})${3:}",
 		"type": "function",
@@ -1791,14 +1576,6 @@
 		"descriptionMoreURL": ""
 	},
 	{
-		"displayText": "GetNetworkStatistics(type, version, destination, size)",
-		"snippet": "GetNetworkStatistics(${1:LONG type}, ${2:LONG version}, ${3:APTR destination}, ${4:LONG size})${5:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Obtain network usage statistics.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
 		"displayText": "GetNextSkipNode(skipList, node)",
 		"snippet": "GetNextSkipNode(${1:const struct SkipList *skipList}, ${2:const struct SkipNode *node})${3:}",
 		"type": "function",
@@ -1879,14 +1656,6 @@
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/rexxsyslib.doc.txt"
 	},
 	{
-		"displayText": "GetRouteInfo(address_family, flags)",
-		"snippet": "GetRouteInfo(${1:LONG address_family}, ${2:LONG flags})${3:}",
-		"type": "function",
-		"leftLabel": "struct rt_msghdr*",
-		"description": "Obtain information on the routing tables.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
 		"displayText": "GetScreenAttr(scr, attribute, data, size)",
 		"snippet": "GetScreenAttr(${1:struct Screen *scr}, ${2:ULONG attr}, ${3:APTR data}, ${4:ULONG size})${5:}",
 		"type": "function",
@@ -1958,14 +1727,7 @@
 		"description": "Obtain information about a SegList. (varargs) (V50)",
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/dos.doc.txt"
 	},
-	{
-		"displayText": "GetSocketEvents(event_ptr)",
-		"snippet": "GetSocketEvents(${1:ULONG *event_ptr})${2:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Get the next asynchronous event triggered by socket I/O [AmiTCP V4]",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
+
 	{
 		"displayText": "GetSucc(node)",
 		"snippet": "GetSucc(${1:struct Node *node})${2:}",
@@ -2103,54 +1865,6 @@
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/expansion.doc.txt"
 	},
 	{
-		"displayText": "Inet_LnaOf(address)",
-		"snippet": "Inet_LnaOf(${1:in_addr_t in})${2:}",
-		"type": "function",
-		"leftLabel": "in_addr_t",
-		"description": "Internet address manipulation.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "Inet_MakeAddr(net, host)",
-		"snippet": "Inet_MakeAddr(${1:in_addr_t net}, ${2:in_addr_t host})${3:}",
-		"type": "function",
-		"leftLabel": "in_addr_t",
-		"description": "Internet address manipulation.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "Inet_NetOf(address)",
-		"snippet": "Inet_NetOf(${1:in_addr_t in})${2:}",
-		"type": "function",
-		"leftLabel": "in_addr_t",
-		"description": "Internet address manipulation.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "Inet_NtoA(ip)",
-		"snippet": "Inet_NtoA(${1:in_addr_t ip})${2:}",
-		"type": "function",
-		"leftLabel": "STRPTR",
-		"description": "Internet address manipulation.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "inet_ntop(addressFamily, source, dest, size)",
-		"snippet": "inet_ntop(${1:LONG addrFmly}, ${2:APTR src}, ${3:STRPTR dest}, ${4:LONG size})${5:}",
-		"type": "function",
-		"leftLabel": "STRPTR",
-		"description": "Convert a network format address to presentation format.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "inet_pton(addressFamily, source, dest)",
-		"snippet": "inet_pton(${1:LONG addrFmly}, ${2:STRPTR src}, ${3:APTR dest})${4:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Convert a presentation format address to network format.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
 		"displayText": "InitData(initTab, memory, size)",
 		"snippet": "InitData(${1:CONST_APTR initTab}, ${2:APTR memory}, ${3:ULONG size})${4:}",
 		"type": "function",
@@ -2195,86 +1909,6 @@
 		"snippet": "IntuitionControlA(${1:APTR object}, ${2:struct TagItem *taglist})${3:}",
 		"type": "function",
 		"leftLabel": "ULONG",
-		"description": "",
-		"descriptionMoreURL": ""
-	},
-	{
-		"displayText": "In_CanForward(address)",
-		"snippet": "In_CanForward(${1:in_addr_t address})${2:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Determine whether an IP address is in a reserved set of addresses that may not be forwarded, or whether datagrams to that destination may be forwarded.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "In_LocalAddr(address)",
-		"snippet": "In_LocalAddr(${1:in_addr_t address})${2:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Check if an internet address is for a 'local' host.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "IoctlSocket(sock, req, argp)",
-		"snippet": "IoctlSocket(${1:LONG sock}, ${2:ULONG req}, ${3:APTR argp})${4:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Control socket parameters.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "ipf_close(channel)",
-		"snippet": "ipf_close(${1:LONG channel})${2:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "",
-		"descriptionMoreURL": ""
-	},
-	{
-		"displayText": "ipf_ioctl(channel, command, buffer)",
-		"snippet": "ipf_ioctl(${1:LONG channel}, ${2:ULONG command}, ${3:APTR buffer})${4:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "",
-		"descriptionMoreURL": ""
-	},
-	{
-		"displayText": "ipf_log_data_waiting(channel)",
-		"snippet": "ipf_log_data_waiting(${1:LONG channel})${2:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "",
-		"descriptionMoreURL": ""
-	},
-	{
-		"displayText": "ipf_log_read(channel, buffer, len)",
-		"snippet": "ipf_log_read(${1:LONG channel}, ${2:APTR buffer}, ${3:LONG len})${4:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "",
-		"descriptionMoreURL": ""
-	},
-	{
-		"displayText": "ipf_open(channel)",
-		"snippet": "ipf_open(${1:LONG channel})${2:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "",
-		"descriptionMoreURL": ""
-	},
-	{
-		"displayText": "ipf_set_interrupt_mask(channel, mask)",
-		"snippet": "ipf_set_interrupt_mask(${1:LONG channel}, ${2:ULONG mask})${3:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "",
-		"descriptionMoreURL": ""
-	},
-	{
-		"displayText": "ipf_set_notify_mask(channel, mask)",
-		"snippet": "ipf_set_notify_mask(${1:LONG channel}, ${2:ULONG mask})${3:}",
-		"type": "function",
-		"leftLabel": "LONG",
 		"description": "",
 		"descriptionMoreURL": ""
 	},
@@ -2455,94 +2089,6 @@
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/exec.doc.txt"
 	},
 	{
-		"displayText": "mbuf_adj(mp, req_len)",
-		"snippet": "mbuf_adj(${1:struct mbuf *mp}, ${2:LONG req_len})${3:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Remove bytes from an mbuf chain.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "mbuf_cat(m, n)",
-		"snippet": "mbuf_cat(${1:struct mbuf *m}, ${2:struct mbuf *n})${3:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Concatenate two mbuf chains.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "mbuf_copyback(buffer, offset, length, data)",
-		"snippet": "mbuf_copyback(${1:struct mbuf *buf}, ${2:LONG off}, ${3:LONG len}, ${4:APTR data})${5:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Copy data from a buffer back into an mbuf chain.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "mbuf_copydata(buffer, offset, length, data)",
-		"snippet": "mbuf_copydata(${1:struct mbuf *buf}, ${2:LONG off}, ${3:LONG len}, ${4:APTR data})${5:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Copy data from an mbuf chain into a buffer.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "mbuf_copym(buffer, offset, length)",
-		"snippet": "mbuf_copym(${1:struct mbuf *buf}, ${2:LONG off}, ${3:LONG len})${4:}",
-		"type": "function",
-		"leftLabel": "struct mbuf*",
-		"description": "Make a copy of an mbuf chain.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "mbuf_free(buffer)",
-		"snippet": "mbuf_free(${1:struct mbuf *buf})${2:}",
-		"type": "function",
-		"leftLabel": "struct mbuf*",
-		"description": "Free a single mbuf and return a pointer to the next mbuf in the chain.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "mbuf_freem(buffer)",
-		"snippet": "mbuf_freem(${1:struct mbuf *buf})${2:}",
-		"type": "function",
-		"leftLabel": "VOID",
-		"description": "Free all mbufs in a chain.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "mbuf_get()",
-		"snippet": "mbuf_get()",
-		"type": "function",
-		"leftLabel": "struct mbuf*",
-		"description": "Allocate memory for an mbuf and initialize it.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "mbuf_gethdr()",
-		"snippet": "mbuf_gethdr()",
-		"type": "function",
-		"leftLabel": "struct mbuf*",
-		"description": "Allocate memory for a single mbuf and initialize it as a packet header.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "mbuf_prepend(buffer, length)",
-		"snippet": "mbuf_prepend(${1:struct mbuf *buf}, ${2:LONG len})${3:}",
-		"type": "function",
-		"leftLabel": "struct mbuf*",
-		"description": "Allocate new mbuf to be prepended to chain.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "mbuf_pullup(buffer, length)",
-		"snippet": "mbuf_pullup(${1:struct mbuf *m}, ${2:LONG len})${3:}",
-		"type": "function",
-		"leftLabel": "struct mbuf*",
-		"description": "Rearrange an mbuf chain so that len bytes are contiguous and in the data area of an mbuf.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
 		"displayText": "MessageDigest_SHA_Final(shas)",
 		"snippet": "MessageDigest_SHA_Final(${1:struct MessageDigest_SHA *shas})${2:}",
 		"type": "function",
@@ -2711,14 +2257,6 @@
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/diskfont.doc.txt"
 	},
 	{
-		"displayText": "ObtainDomainNameServerList()",
-		"snippet": "ObtainDomainNameServerList()",
-		"type": "function",
-		"leftLabel": "struct List*",
-		"description": "Obtain the local in-memory list of domain name server addresses used by the resolver.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
 		"displayText": "ObtainEngine()",
 		"snippet": "ObtainEngine()",
 		"type": "function",
@@ -2733,14 +2271,6 @@
 		"leftLabel": "struct Hook*",
 		"description": "Lock and return an Intuition backfill hook. (V50)",
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/intuition.doc.txt"
-	},
-	{
-		"displayText": "ObtainInterfaceList()",
-		"snippet": "ObtainInterfaceList()",
-		"type": "function",
-		"leftLabel": "struct List*",
-		"description": "Obtain a list of available interfaces.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
 	},
 	{
 		"displayText": "ObtainIPluginList(type, attrmask, applymask)",
@@ -2781,22 +2311,6 @@
 		"leftLabel": "VOID",
 		"description": "Obtain info about a rawkey. (V51.7)",
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/keymap.doc.txt"
-	},
-	{
-		"displayText": "ObtainServerSocket()",
-		"snippet": "ObtainServerSocket()",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Claim the socket associated with the current Process' Internet server connection.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "ObtainSocket(id, domain, type, protocol)",
-		"snippet": "ObtainSocket(${1:LONG id}, ${2:LONG domain}, ${3:LONG type}, ${4:LONG protocol})${5:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Acquire a socket from the public list.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
 	},
 	{
 		"displayText": "ObtainTTextAttr(textFont)",
@@ -3063,14 +2577,6 @@
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/intuition.doc.txt"
 	},
 	{
-		"displayText": "ProcessIsServer(pr)",
-		"snippet": "ProcessIsServer(${1:struct Process *pr})${2:}",
-		"type": "function",
-		"leftLabel": "BOOL",
-		"description": "Find out if a Process is an Internet server.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
 		"displayText": "ProcessScan(hook, userdata, reserved)",
 		"snippet": "ProcessScan(${1:const struct Hook *hook}, ${2:CONST_APTR userdata}, NULL)${3:}",
 		"type": "function",
@@ -3085,22 +2591,6 @@
 		"leftLabel": "LONG",
 		"description": "Writes a string to the default error stream. (V50) (buffered)",
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/dos.doc.txt"
-	},
-	{
-		"displayText": "QueryInterfaceTagList(interface_name, tags)",
-		"snippet": "QueryInterfaceTagList(${1:STRPTR interface_name}, ${2:struct TagItem *tags})${3:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Obtain information on an interface and the associated SANA-II device driver.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "QueryInterfaceTags(interface_name, ...)",
-		"snippet": "QueryInterfaceTags(${1:STRPTR interface_name}, ${2:...})${3:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Obtain information on an interface and the associated SANA-II device driver. (varargs)",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
 	},
 	{
 		"displayText": "Random(state)",
@@ -3215,36 +2705,12 @@
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/dos.doc.txt"
 	},
 	{
-		"displayText": "ReleaseCopyOfSocket(sock, id)",
-		"snippet": "ReleaseCopyOfSocket(${1:LONG sock}, ${2:LONG id})${3:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Duplicate a socket descriptor, then release the duplicate to the public list.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "ReleaseDomainNameServerList(list)",
-		"snippet": "ReleaseDomainNameServerList(${1:struct List *list})${2:}",
-		"type": "function",
-		"leftLabel": "VOID",
-		"description": "Release a list of local domain server addresses as returned by ObtainDomainNameServerList().",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
 		"displayText": "ReleaseIBackFill(hook)",
 		"snippet": "ReleaseIBackFill(${1:struct Hook *hook})${2:}",
 		"type": "function",
 		"leftLabel": "VOID",
 		"description": "Release a lock on an Intuition backfill hook. (V50)",
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/intuition.doc.txt"
-	},
-	{
-		"displayText": "ReleaseInterfaceList(list)",
-		"snippet": "ReleaseInterfaceList(${1:struct List *list})${2:}",
-		"type": "function",
-		"leftLabel": "VOID",
-		"description": "Release a list of available interfaces, as returned by ObtainInterfaceList().",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
 	},
 	{
 		"displayText": "ReleaseIPluginList(list)",
@@ -3269,14 +2735,6 @@
 		"leftLabel": "VOID",
 		"description": "Release info obtained from a keymap handle. (V50)",
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/keymap.doc.txt"
-	},
-	{
-		"displayText": "ReleaseSocket(sock, id)",
-		"snippet": "ReleaseSocket(${1:LONG sock}, ${2:LONG id})${3:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Release a socket to the public list.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
 	},
 	{
 		"displayText": "RelocateSection(ElfHandle, taglist)",
@@ -3325,22 +2783,6 @@
 		"leftLabel": "struct PathNode*",
 		"description": "Remove an entry from a shell search path list. (V50)",
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/dos.doc.txt"
-	},
-	{
-		"displayText": "RemoveDomainNameServer(address)",
-		"snippet": "RemoveDomainNameServer(${1:STRPTR address})${2:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Remove a domain name server address from the local resolver database.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "RemoveNetMonitorHook(hook)",
-		"snippet": "RemoveNetMonitorHook(${1:struct Hook *hook})${2:}",
-		"type": "function",
-		"leftLabel": "VOID",
-		"description": "Remove a network monitoring callback hook previously installed with AddNetMonitorHookTagList().",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
 	},
 	{
 		"displayText": "RemoveSkipNode(skipList, key)",
@@ -3551,14 +2993,6 @@
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/elf.doc.txt"
 	},
 	{
-		"displayText": "SetErrnoPtr(errno_ptr, size)",
-		"snippet": "SetErrnoPtr(${1:APTR errno_ptr}, ${2:LONG size})${3:}",
-		"type": "function",
-		"leftLabel": "VOID",
-		"description": "Set the reference to the errno variable.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
 		"displayText": "SetFileHandleAttr(fileHandle, tags)",
 		"snippet": "SetFileHandleAttr(${1:BPTR fh}, ${2:const struct TagItem *tags})${3:}",
 		"type": "function",
@@ -3695,14 +3129,6 @@
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/intuition.doc.txt"
 	},
 	{
-		"displayText": "SetSocketSignals(int_mask, io_mask, urgent_mask)",
-		"snippet": "SetSocketSignals(${1:ULONG int_mask}, ${2:ULONG io_mask}, ${3:ULONG urgent_mask})${4:}",
-		"type": "function",
-		"leftLabel": "VOID",
-		"description": "Set the signals to be sent for socket events.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
 		"displayText": "SetTaskTrap(trapNum, trapCode, trapData)",
 		"snippet": "SetTaskTrap(${1:ULONG trapNum}, ${2:CONST_APTR trapCode}, ${3:CONST_APTR trapData})${4:}",
 		"type": "function",
@@ -3797,22 +3223,6 @@
 		"leftLabel": "LONG",
 		"description": "Size-bounded formatted output conversion. (V50)",
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/utility.doc.txt"
-	},
-	{
-		"displayText": "SocketBaseTagList(tags)",
-		"snippet": "SocketBaseTagList(${1:struct TagItem *tags})${2:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Get/set global library attributes.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "SocketBaseTags(...)",
-		"snippet": "SocketBaseTags(${1:...})${2:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Get/set global library attributes. (varargs)",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
 	},
 	{
 		"displayText": "StartDMA(startAddr, blockSize, flags)",
@@ -4695,14 +4105,6 @@
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/dos.doc.txt"
 	},
 	{
-		"displayText": "WaitSelect(nfds, read_fds, write_fds, except_fds, timeout, signals)",
-		"snippet": "WaitSelect(${1:LONG nfds}, ${2:APTR read_fds}, ${3:APTR write_fds}, ${4:APTR except_fds}, ${5:struct timeval *timeout}, ${6:ULONG *signals})${7:}",
-		"type": "function",
-		"leftLabel": "LONG",
-		"description": "Synchronous I/O multiplexing.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
 		"displayText": "WhichWorkbenchObject(window, x, y, ...)",
 		"snippet": "WhichWorkbenchObject(${1:struct Window *window}, ${2:LONG x}, ${3:LONG y}, ${4:...})${5:}",
 		"type": "function",
@@ -4773,350 +4175,6 @@
 		"leftLabel": "uint32",
 		"description": "Write prefs (==a prefs dictionary) to a file.",
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/application.doc.txt"
-	},
-	{
-		"displayText": "FD_SET(bit, fdSet)",
-		"snippet": "FD_SET(${1:ULONG bit}, ${2:fd_set *fdSet})${3:}",
-		"type": "macro",
-		"leftLabel": "",
-		"description": "Set a bit in a fdSet bit mask.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "FD_CLR(bit, fdSet)",
-		"snippet": "FD_CLR(${1:ULONG bit}, ${2:fd_set *fdSet})${3:}",
-		"type": "macro",
-		"leftLabel": "",
-		"description": "Clear a bit in a fdSet bit mask.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "FD_ISSET(bit, fdSet)",
-		"snippet": "FD_ISSET(${1:ULONG bit}, ${2:fd_set *fdSet})${3:}",
-		"type": "macro",
-		"leftLabel": "",
-		"description": "Check a bit in a fdSet bit mask.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "FD_COPY(src, dest)",
-		"snippet": "FD_COPY(${1:fd_set *src}, ${2:fd_set *dest})${3:}",
-		"type": "macro",
-		"leftLabel": "",
-		"description": "Copy a fdSet.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "FD_ZERO(fdSet)",
-		"snippet": "FD_ZERO(${1:fd_set *fdSet})${2:}",
-		"type": "macro",
-		"leftLabel": "",
-		"description": "Clear all bits in a fdSet.",
-		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-	  "displayText": "SBTM_GETREF(socketBaseTagCode)",
-	  "snippet": "SBTM_GETREF(${1:code})${2:}",
-	  "type": "macro",
-	  "leftLabel": "tag",
-	  "description": "Constructs ti_Tag values for SocketBaseTags() to get by reference.",
-	  "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-	  "displayText": "SBTM_GETVAL(socketBaseTagCode)",
-	  "snippet": "SBTM_GETVAL(${1:code})${2:}",
-	  "type": "macro",
-	  "leftLabel": "tag",
-	  "description": "Constructs ti_Tag values for SocketBaseTags() to get by value.",
-	  "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-	  "displayText": "SBTM_SETREF(socketBaseTagCode)",
-	  "snippet": "SBTM_GETVAL(${1:code})${2:}",
-	  "type": "macro",
-	  "leftLabel": "tag",
-	  "description": "Constructs ti_Tag values for SocketBaseTags() to set by reference.",
-	  "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-	  "displayText": "SBTM_SETVAL(socketBaseTagCode)",
-	  "snippet": "SBTM_GETVAL(${1:code})${2:}",
-	  "type": "macro",
-	  "leftLabel": "tag",
-	  "description": "Constructs ti_Tag values for SocketBaseTags() to get by value.",
-	  "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-	  "displayText": "SBTC_ERRNOPTR(size)",
-	  "snippet": "SBTC_ERRNOPTR(${1:size})${2:}",
-	  "type": "macro",
-	  "leftLabel": "baseTag",
-	  "description": "Constructs a base tag for SocketBaseTags() ERRNOPTR tag for the given size.",
-	  "descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/bsdsocket.doc.txt"
-	},
-	{
-		"displayText": "SBTC_SIG_ADDRESS_CHANGE_MASK",
-		"snippet": "SBTC_SIG_ADDRESS_CHANGE_MASK",
-		"type": "tag",
-		"leftLabel": "ULONG"
-	},
-	{
-		"displayText": "SBTC_BREAKMASK",
-		"snippet": "SBTC_BREAKMASK",
-		"type": "tag",
-		"leftLabel": "ULONG"
-	},
-	{
-		"displayText": "SBTC_CAN_SHARE_LIBRARY_BASES",
-		"snippet": "SBTC_CAN_SHARE_LIBRARY_BASES",
-		"type": "tag",
-		"leftLabel": "BOOL"
-	},
-	{
-		"displayText": "SBTC_DTABLESIZE",
-		"snippet": "SBTC_DTABLESIZE",
-		"type": "tag",
-		"leftLabel": "ULONG"
-	},
-	{
-		"displayText": "SBTC_ERRNO",
-		"snippet": "SBTC_ERRNO",
-		"type": "tag",
-		"leftLabel": "LONG"
-	},
-	{
-		"displayText": "SBTC_ERRNOBYTEPTR",
-		"snippet": "SBTC_ERRNOBYTEPTR",
-		"type": "tag",
-		"leftLabel": "APTR"
-	},
-	{
-		"displayText": "SBTC_ERRNOWORDPTR",
-		"snippet": "SBTC_ERRNOWORDPTR",
-		"type": "tag",
-		"leftLabel": "APTR"
-	},
-	{
-		"displayText": "SBTC_ERRNOLONGPTR",
-		"snippet": "SBTC_ERRNOLONGPTR",
-		"type": "tag",
-		"leftLabel": "APTR"
-	},
-	{
-		"displayText": "SBTC_ERRNOSTRPTR",
-		"snippet": "SBTC_ERRNOSTRPTR",
-		"type": "tag",
-		"leftLabel": "STRPTR"
-	},
-	{
-		"displayText": "SBTC_ERROR_HOOK",
-		"snippet": "SBTC_ERROR_HOOK",
-		"type": "tag",
-		"leftLabel": "struct Hook *"
-	},
-	{
-		"displayText": "SBTC_GET_BYTES_RECEIVED",
-		"snippet": "SBTC_GET_BYTES_RECEIVED",
-		"type": "tag",
-		"leftLabel": "ULONG"
-	},
-	{
-		"displayText": "SBTC_GET_BYTES_SENT",
-		"snippet": "SBTC_GET_BYTES_SENT",
-		"type": "tag",
-		"leftLabel": "ULONG *"
-	},
-	{
-		"displayText": "SBTC_HAVE_ADDRESS_CONVERSION_API",
-		"snippet": "SBTC_HAVE_ADDRESS_CONVERSION_API",
-		"type": "tag",
-		"leftLabel": "BOOL"
-	},
-	{
-		"displayText": "SBTC_HAVE_DNS_API",
-		"snippet": "SBTC_HAVE_DNS_API",
-		"type": "tag",
-		"leftLabel": "BOOL"
-	},
-	{
-		"displayText": "SBTC_HAVE_INTERFACE_API",
-		"snippet": "SBTC_HAVE_INTERFACE_API",
-		"type": "tag",
-		"leftLabel": "BOOL"
-	},
-	{
-		"displayText": "SBTC_HAVE_KERNEL_MEMORY_API",
-		"snippet": "SBTC_HAVE_KERNEL_MEMORY_API",
-		"type": "tag",
-		"leftLabel": "BOOL"
-	},
-	{
-		"displayText": "SBTC_HAVE_LOCAL_DATABASE_API",
-		"snippet": "SBTC_HAVE_LOCAL_DATABASE_API",
-		"type": "tag",
-		"leftLabel": "BOOL"
-	},
-	{
-		"displayText": "SBTC_HAVE_MONITORING_API",
-		"snippet": "SBTC_HAVE_MONITORING_API",
-		"type": "tag",
-		"leftLabel": "BOOL"
-	},
-	{
-		"displayText": "SBTC_HAVE_ROADSHOWDATA_API",
-		"snippet": "SBTC_HAVE_ROADSHOWDATA_API",
-		"type": "tag",
-		"leftLabel": "BOOL"
-	},
-	{
-		"displayText": "SBTC_HAVE_ROUTING_API",
-		"snippet": "SBTC_HAVE_ROUTING_API",
-		"type": "tag",
-		"leftLabel": "BOOL"
-	},
-	{
-		"displayText": "SBTC_HAVE_SERVER_API",
-		"snippet": "SBTC_HAVE_SERVER_API",
-		"type": "tag",
-		"leftLabel": "BOOL"
-	},
-	{
-		"displayText": "SBTC_HAVE_STATUS_API",
-		"snippet": "SBTC_HAVE_STATUS_API",
-		"type": "tag",
-		"leftLabel": "BOOL"
-	},
-	{
-		"displayText": "SBTC_HERRNO",
-		"snippet": "SBTC_HERRNO",
-		"type": "tag",
-		"leftLabel": "ULONG"
-	},
-	{
-		"displayText": "SBTC_HERRNOSTRPTR",
-		"snippet": "SBTC_HERRNOSTRPTR",
-		"type": "tag",
-		"leftLabel": "STRPTR"
-	},
-	{
-		"displayText": "SBTC_ICMP_MASK_REPLY",
-		"snippet": "SBTC_ICMP_MASK_REPLY",
-		"type": "tag",
-		"leftLabel": "BOOL"
-	},
-	{
-		"displayText": "SBTC_ICMP_PROCESS_ECHO",
-		"snippet": "SBTC_ICMP_PROCESS_ECHO",
-		"type": "tag",
-		"leftLabel": "ULONG"
-	},
-	{
-		"displayText": "SBTC_ICMP_PROCESS_TSTAMP",
-		"snippet": "SBTC_ICMP_PROCESS_TSTAMP",
-		"type": "tag",
-		"leftLabel": "ULONG"
-	},
-	{
-		"displayText": "SBTC_ICMP_SEND_REDIRECTS",
-		"snippet": "SBTC_ICMP_SEND_REDIRECTS",
-		"type": "tag",
-		"leftLabel": "BOOL"
-	},
-	{
-		"displayText": "SBTC_IDN_DEFAULT_CHARACTER_SET",
-		"snippet": "SBTC_IDN_DEFAULT_CHARACTER_SET",
-		"type": "tag",
-		"leftLabel": "ULONG"
-	},
-	{
-		"displayText": "SBTC_IPF_API_VERSION",
-		"snippet": "SBTC_IPF_API_VERSION",
-		"type": "tag",
-		"leftLabel": "ULONG *"
-	},
-	{
-		"displayText": "SBTC_IP_FILTER_HOOK",
-		"snippet": "SBTC_IP_FILTER_HOOK",
-		"type": "tag",
-		"leftLabel": "struct Hook *"
-	},
-	{
-		"displayText": "SBTC_IP_FORWARDING",
-		"snippet": "SBTC_IP_FORWARDING",
-		"type": "tag",
-		"leftLabel": "BOOL"
-	},
-	{
-		"displayText": "SBTC_IP_DEFAULT_TTL",
-		"snippet": "SBTC_IP_DEFAULT_TTL",
-		"type": "tag",
-		"leftLabel": "ULONG"
-	},
-	{
-		"displayText": "SBTC_LOGFACILITY",
-		"snippet": "SBTC_LOGFACILITY",
-		"type": "tag",
-		"leftLabel": "ULONG"
-	},
-	{
-		"displayText": "SBTC_LOG_FILE_NAME",
-		"snippet": "SBTC_LOG_FILE_NAME",
-		"type": "tag",
-		"leftLabel": "STRPTR"
-	},
-	{
-		"displayText": "SBTC_LOG_HOOK",
-		"snippet": "SBTC_LOG_HOOK",
-		"type": "tag",
-		"leftLabel": "struct Hook *"
-	},
-	{
-		"displayText": "SBTC_LOGMASK",
-		"snippet": "SBTC_LOGMASK",
-		"type": "tag",
-		"leftLabel": "ULONG"
-	},
-	{
-		"displayText": "SBTC_LOGSTAT",
-		"snippet": "SBTC_LOGSTAT",
-		"type": "tag",
-		"leftLabel": "ULONG"
-	},
-	{
-		"displayText": "SBTC_LOGTAGPTR",
-		"snippet": "SBTC_LOGTAGPTR",
-		"type": "tag",
-		"leftLabel": "STRPTR"
-	},
-	{
-		"displayText": "SBTC_NUM_PACKET_FILTER_CHANNELS",
-		"snippet": "SBTC_NUM_PACKET_FILTER_CHANNELS",
-		"type": "tag",
-		"leftLabel": "ULONG"
-	},
-	{
-		"displayText": "SBTC_RELEASESTRPTR",
-		"snippet": "SBTC_RELEASESTRPTR",
-		"type": "tag",
-		"leftLabel": "STRPTR"
-	},
-	{
-		"displayText": "SBTC_SIGEVENTMASK",
-		"snippet": "SBTC_SIGEVENTMASK",
-		"type": "tag",
-		"leftLabel": "ULONG"
-	},
-	{
-		"displayText": "SBTC_SYSTEM_STATUS",
-		"snippet": "SBTC_SYSTEM_STATUS",
-		"type": "tag",
-		"leftLabel": "ULONG"
-	},
-	{
-		"displayText": "SBTC_UDP_CHECKSUM",
-		"snippet": "SBTC_UDP_CHECKSUM",
-		"type": "tag",
-		"leftLabel": "BOOL"
 	},
 	{
 		"displayText": "_CIAResource",
