@@ -12,7 +12,7 @@ Knows all reserved symbols in the API\* and highlights them respectively\*\*:
 ### AutoComplete suggestions and snippets for support functions
 Provides instant function suggestions with complete synopsis and powerful snippets for API functions\*\*\*.
 ![snippets](https://i.imgsafe.org/ec/ecb79cb472.gif)
-AutoComplete now also suggests the values and identifiers required in specific arguments of API functions.
+<br>AutoComplete now also suggests the values and identifiers required in specific arguments of API functions.</br>
 ![context](https://i.imgsafe.org/62/627f00fdd3.gif)
 <div>(\*\*\*): *Only* **OS3.9**, **OS4.1**, **MUI** *and* **AHI** *symbols (yet)*.</div>
 
