@@ -31,6 +31,6 @@ A dialog to create subclass code is also available.
 
 <br>**Dependencies** : https://github.com/atom/language-c/ *(0.57.0 and higher)*</br>
 
-**IMPORTANT** : On Atom v.1.32 and above you should deactivate Tree Sitter Parsers for highlighting to work properly *(Settings -> Core -> Use Tree Sitter Parsers)*
+**IMPORTANT** : On Atom **v.1.32** and above you should **deactivate** *Tree Sitter Parsers* for highlighting to work properly ***(Settings -> Core -> Use Tree Sitter Parsers)***
 
 Contributions are greatly appreciated. Please fork this repository and open a pull request to add snippets, make grammar tweaks, etc.
