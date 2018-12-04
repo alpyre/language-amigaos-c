@@ -4,9 +4,9 @@ Adds syntax highlighting and autocomplete snippets for **AmigaOS API** to **C/C+
 
 
 ### Advanced symbol highlighting features
-<div>Knows all reserved symbols in the API\* and highlights them respectively\*\*:</div>
+Knows all reserved symbols in the API\* and highlights them respectively\*\*:
 ![highlighting](https://i.imgsafe.org/ec/ecb79c6b13.gif)
-<div>(\*): *OS symbols are from* **OS3.9** *&* **OS4.1**, *MUI symbols are from* **mui3.8**.*</div>
+<div>(\*): *OS symbols are from* **OS3.9** *&* **OS4.1**, *MUI symbols are from* **mui3.8**.</div>
 <div>(\*\*): *Most suitable for* **One Dark Syntax theme** *(default Atom theme)*.</div>
 
 ### AutoComplete suggestions and snippets for support functions
