@@ -14,12 +14,12 @@ Provides instant function suggestions with complete synopsis and powerful snippe
 ![snippets](https://i.imgsafe.org/ec/ecb79cb472.gif)
 <br>AutoComplete now also suggests the values and identifiers required in specific arguments of API functions.</br>
 ![context](https://i.imgsafe.org/62/627f00fdd3.gif)
-(3): *Only* **OS3.9**, **OS4.1**, **MUI** *and* **AHI** *symbols (yet)*.
+<br>(3): *Only* **OS3.9**, **OS4.1**, **MUI** *and* **AHI** *symbols (yet)*.</br>
 
 ### Detailed preferences page
 You can choose which symbols to be highlighted and suggested.<sup>4</sup>
 ![settings](https://i.imgsafe.org/ec/ecb78ea9c2.gif)
-(4): *A restart is required after changes in highlight preferences to apply.*
+<br>(4): *A restart is required after changes in highlight preferences to apply.*</br>
 
 ### Create new Amiga projects on the fly
 Requesters to automatically create new Amiga projects (ready to be compiled with working helloworld code and a makefile<sup>5</sup>).
