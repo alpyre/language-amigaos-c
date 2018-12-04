@@ -6,6 +6,7 @@
       'submenu': [
         { 'label': 'New Project',  'command': 'lang-amigaos:new-project'  }
         { 'label': 'New Subclass', 'command': 'lang-amigaos:new-subclass' }
+        { 'label': 'Settings', 'command': 'lang-amigaos:settings' }
       ]
     ]
   }

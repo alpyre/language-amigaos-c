@@ -12,12 +12,22 @@ Knows all reserved symbols in the API\* and highlights them respectively\*\*:
 ### AutoComplete suggestions and snippets for support functions
 Provides instant function suggestions with complete synopsis and powerful snippets for API functions\*\*\*.
 ![snippets](https://i.imgsafe.org/ec/ecb79cb472.gif)
+AutoComplete now also suggests the values and identifiers required in specific arguments of API functions.
+![context](https://i.imgsafe.org/62/627f00fdd3.gif)
 <br>(\*\*\*): *Only* **OS3.9**, **OS4.1**, **MUI** *and* **AHI** *symbols (yet)*.</br>
 
 ### Detailed preferences page
 You can choose which symbols to be highlighted and suggested.\*\*\*\*
 ![settings](https://i.imgsafe.org/ec/ecb78ea9c2.gif)
 <br>(\*\*\*\*): *A restart is required after changes in highlight preferences to apply.*</br>
+
+### Create new Amiga projects on the fly  
+Requesters to automatically create new Amiga projects (ready to be compiled with working helloworld code and a makefile\*\*\*\*\*). A dialog to create subclass code is also available.
+![newproject](https://i.imgsafe.org/62/627f0322c9.gif)
+<br>(\*\*\*\*\*): To be able to cross compile with these makefiles it is recommended to install either or all of these toolchains below:
+for OS3/OS4: https://github.com/jens-maus/amigaos-cross-toolchain
+for MorphOS: https://github.com/AmigaPorts/morphos-cross-toolchain
+</br>
 
 **Dependencies** : https://github.com/atom/language-c/ *(0.57.0 and higher)*
 
