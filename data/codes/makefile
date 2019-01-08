@@ -16,21 +16,18 @@ ifeq ($(OS), os3)
   CC = m68k-amigaos-gcc
   OPTIONS = -DNO_INLINE_STDARG#SPLIT#
   LFLAGS = -s -noixemul -lamiga#SPLIT#
-  OBJS = main.o
 else
 ifeq ($(OS), os4)
   CPU = -mcpu=powerpc
   CC = ppc-amigaos-gcc
   OPTIONS = -DNO_INLINE_STDARG -D__USE_INLINE__#SPLIT#
   LFLAGS = -lauto#SPLIT#
-  OBJS = main.o#SPLIT#
 else
 ifeq ($(OS), mos)
   CPU = -mcpu=powerpc
   CC = ppc-morphos-gcc
   OPTIONS = -DNO_PPCINLINE_STDARG
   LFLAGS = -s -noixemul
-  OBJS = main.o
 endif#SPLIT#
 endif
 endif
@@ -42,6 +39,8 @@ DEBUG = #SPLIT#
 IDIRS = #SPLIT#
 
 CFLAGS = $(WARNINGS) $(OPTIMIZE) $(DEBUG) $(CPU) $(OPTIONS) $(IDIRS)
+
+OBJS = main.o
 ################################################################################
 
 # target 'all' (default target)
