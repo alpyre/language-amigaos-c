@@ -3,7 +3,7 @@
     'name': 'storage.type.amigaos.c'
   }
   { #General AmigaOS storage modifier typedefs
-    'match': '\\b(?:__const|__dead|__inline|__pure|__signed|__volatile|GLOBAL|IMPORT|REGISTER|STATIC)\\b'
+    'match': '\\b(?:__const|__dead|__inline|__pure|__signed|__volatile|CONST|GLOBAL|IMPORT|REGISTER|STATIC)\\b'
     'name': 'storage.modifier.amigaos.c'
   }
   { #Common Compiler Macros

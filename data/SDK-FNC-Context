@@ -1498,6 +1498,16 @@
 	  ]
 	},
 	{
+		"name": ["Seek", "SetFileSize"],
+		"arguments": [
+			{
+				"num": ["3"],
+				"type": "macro",
+				"suggestions": ["OFFSET_BEGINNING", "OFFSET_CURRENT", "OFFSET_END"]
+			}
+		]
+	},
+	{
 		"name": ["SetAmigaGuideAttrs"],
 		"tagStrt": "2",
 		"arguments": [
@@ -1597,16 +1607,6 @@
 	          "suggestions": ["DTSIF_LAYOUT", "DTSIF_NEWSIZE", "DTSIF_DRAGGING", "DTSIF_DRAGSELECT", "DTSIF_HIGHLIGHT", "DTSIF_PRINTING", "DTSIF_LAYOUTPROC"]
 	        }
 	      ]
-	    }
-	  ]
-	},
-	{
-		"name": ["SetFileSize"],
-	  "arguments": [
-	    {
-	      "num": ["3"],
-	      "type": "macro",
-	      "suggestions": ["OFFSET_BEGINNING", "OFFSET_CURRENT", "OFFSET_END"]
 	    }
 	  ]
 	},
