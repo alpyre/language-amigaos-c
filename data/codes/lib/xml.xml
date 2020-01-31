@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE library SYSTEM "library.dtd">
+<library name="__prjname__" basename="__BaseName__" openname="__prjname__.library">
+	<include>exec/types.h</include>
+	<include>dos/dos.h</include>
+	<interface name="main" version="1.0" struct="__IFaceName__" prefix="___PrjName___" asmprefix="__IFacePtr__" global="__IFacePtr__">
+		<method name="Obtain" result="ULONG"/>
+		<method name="Release" result="ULONG"/>
+		<method name="Expunge" result="void" status="unimplemented"/>
+		<method name="Clone" result="struct Interface *" status="unimplemented"/>
+	</interface>
+</library>
