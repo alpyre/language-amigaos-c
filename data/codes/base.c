@@ -112,9 +112,9 @@ void           CleanUp(struct Config *config);
 ************************************************/
 struct Config *Init()
 {
-  struct Config *config;
+  struct Config *config = (struct Config*)AllocMem(sizeof(struct Config), MEMF_CLEAR);
 
-  if (config = (struct Config *)AllocMem(sizeof(struct Config), MEMF_CLEAR))
+  if (config)
   {
     //<YOUR INITIALIZATION CODE HERE>
   }
@@ -134,9 +134,9 @@ int main(int argc, char **argv)
   //argc != 0 identifies call from shell
   if (argc)
   {
-    struct Config *config;
+    struct Config *config = Init();
 
-    if (config = Init())
+    if (config)
     {
       #if RDARGS_OPTIONS
         // parse command line arguments
@@ -166,9 +166,9 @@ int wbmain(struct WBStartup *wbs)
   int rc = 20;
 
   #ifdef GENERATEWBMAIN
-    struct Config *config;
+    struct Config *config = Init();
 
-    if (config = Init())
+    if (config)
     {
       //<SET Config->Options[] HERE>
 
