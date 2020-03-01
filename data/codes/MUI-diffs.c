@@ -82,7 +82,8 @@ int Main(struct Config *config)
 {
   int rc = 0;
 
-  if (MUIMasterBase = OpenLibrary("muimaster.library", 0))
+  MUIMasterBase = OpenLibrary("muimaster.library", 0);
+  if (MUIMasterBase)
   {
 #if defined(__amigaos4__)
 		if (IMUIMaster = (struct MUIMasterIFace *)GetInterface(MUIMasterBase, "main", 1, NULL))

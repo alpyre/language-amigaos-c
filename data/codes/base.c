@@ -42,6 +42,7 @@
 #include <utility/hooks.h>
 
 //Amiga protos
+#include <clib/alib_protos.h>
 #include <proto/asl.h>
 #include <proto/commodities.h>
 #include <proto/datatypes.h>
