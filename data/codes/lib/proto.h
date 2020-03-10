@@ -26,9 +26,9 @@
   extern struct __IFaceName__ *__IFacePtr__;
  #endif /* __NOGLOBALIFACE__ */
 #else /* __amigaos4__ */
- #ifndef CLIB_AMISSL_PROTOS_H
+ #ifndef CLIB___PRJNAME___PROTOS_H
   #include <clib/__prjname___protos.h>
- #endif /* CLIB_AMISSL_PROTOS_H */
+ #endif /* CLIB___PRJNAME___PROTOS_H */
  #if defined(__GNUC__)
   #ifdef __AROS__
    #include <defines/__prjname__.h>
