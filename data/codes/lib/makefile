@@ -26,7 +26,7 @@ ifeq ($(OS), mos)
   CPU = -mcpu=powerpc
   CC = ppc-morphos-gcc
   OPTIONS = -D__USE_INLINE__ -DNO_INLINE_STDARG
-  LFLAGS = -s -noixemul -nostdlib -nostartfiles
+  LFLAGS = -s -noixemul -nostdlib -nostartfiles -lgcc
 endif
 endif
 endif

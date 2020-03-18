@@ -47,14 +47,13 @@ struct ExecBase *SysBase;
 ///
 ///entry
 // If a user tries to execute this binary it should return safely
-#ifdef __amigaos4__
-  int32 _start( void )
-  {
-	   return RETURN_FAIL;
-  }
-#else
-  STATIC CONST UWORD __rts = 0x4E75;
+#if !defined (__amigaos4__) && !defined (__MORPHOS__)
+  asm(".text\n\tjra __start\n");
 #endif
+LONG _start( void )
+{
+  return RETURN_FAIL;
+}
 ///
 
 /*******************************************************************************
@@ -153,6 +152,16 @@ static const APTR libVectors[] =
 
     return base;
   }
+
+#ifdef __MORPHOS__
+  STATIC CONST IPTR libInitTab[] =
+  {
+    sizeof(struct __BaseName__),
+    (IPTR)libVectors,
+    (IPTR)NULL,
+    (IPTR)libInit
+  };
+#endif
 ///
 ///libExpunge
 #ifdef __amigaos4__
@@ -339,7 +348,7 @@ STATIC CONST USED_VAR struct Resident ROMTag =
   #if defined(__amigaos4__)
   RTF_AUTOINIT|RTF_NATIVE,      // Add RTF_COLDSTART to be reset resident
   #elif defined(__MORPHOS__)
-  RTF_PPC,
+  RTF_AUTOINIT | RTF_PPC | RTF_EXTENDED,
   #else
   0,
   #endif
@@ -350,6 +359,8 @@ STATIC CONST USED_VAR struct Resident ROMTag =
   (char *)VSTRING,
   #if defined(__amigaos4__)
   (APTR)libCreateTags,
+  #elif defined(__MORPHOS__)
+  (APTR)libInitTab,
   #else
   (APTR)libInit,
   #endif
