@@ -6,8 +6,12 @@
     'match': '\\b(?:__const|__dead|__inline|__pure|__signed|__volatile|CONST|GLOBAL|IMPORT|REGISTER|STATIC)\\b'
     'name': 'storage.modifier.amigaos.c'
   }
+  { #Common storage limits
+    'match': '\\b(?:CHAR_BIT|MB_LEN_MAX|(?:S?CHAR|INT|LONG|SHRT)(?:_MAX|_MIN)|(?:UCHAR|UINT|ULONG|USHRT)_MAX)\\b'
+    'name': 'macro.amigaos.c'
+  }
   { #Common Compiler Macros
-    'match': '\\b(?:__(?:A|a|D|d)[0-7]|__aligned|__AMIGA__|__AMIGADATE__|__amiga__|__amigainterrupt|__amigaos__|__amigaos3__|__amigaos4__|__AROS__|__asm|__autoexit|__autoinit|__BUILD_LIB|__C_MACROS__|__chip|__COMMODORE_DATE__|__cplusplus|__dynamic|__far|__GCC_NEW_VARARGS__|__geta4|__HAVE_IPTR_ATTR__|__interrupt|__interrupt_handler|__MAXON__|__MCH_AMIGA__|__MEM_DEBUG|__MEM_DETAILED|__MORPHOS__|__near|__NOLIBBASE__|__nolibbase__|__noprof|__offsetof|__PPC__|__regargs|__regcall|__SASC|__SASC_60|__saveds|__section|__shared|__SIZE_T_INT|__stackext|__stdargs|__stkargs|__stkcheck|__unaligned|__USE_INLINE__|__USE_SYSBASE|__VBCC__|_ANSI_SOURCE|_DCC|_NO_INLINE|_POSIX_SOURCE|AMIGA|amiga|amigaos|MCH_AMIGA|NDEBUG|NO_INLINE_STDARG)\\b'
+    'match': '\\b(?:__(?:A|a|D|d)[0-7]|__aligned|__AMIGA__|__AMIGADATE__|__amiga__|__amigainterrupt|__amigaos__|__amigaos3__|__amigaos4__|__AROS__|__asm|__autoexit|__autoinit|__BUILD_LIB|__C_MACROS__|__chip|__COMMODORE_DATE__|__cplusplus|__dynamic|__far|__GCC_NEW_VARARGS__|__geta4|__GNUC(?:_MINOR)__|__HAVE_IPTR_ATTR__|__interrupt|__interrupt_handler|__MAXON__|__MCH_AMIGA__|__MEM_DEBUG|__MEM_DETAILED|__MORPHOS__|__near|__NOLIBBASE__|__nolibbase__|__noprof|__offsetof|__PPC__|__regargs|__regcall|__SASC|__SASC_60|__saveds|__section|__shared|__SIZE_T_INT|__stackext|__stdargs|__STDC_VERSION__|__stkargs|__stkcheck|__unaligned|__USE_INLINE__|__USE_SYSBASE|__VBCC__|_ANSI_SOURCE|_DCC|_NO_INLINE|_POSIX_SOURCE|AMIGA|amiga|amigaos|MCH_AMIGA|NDEBUG|NO_INLINE_STDARG)\\b'
     'name': 'macro.compiler.amigaos.c'
   }
   { #AmigaOS3 defines
@@ -35,6 +39,6 @@
     'name': 'identifier.function.amigaos.c'
   }
   { #AmigaOS3 Macro names (SAME SYMBOLS IN THE FNC FILE)
-    'match': '\\b(?:AreaCircle|ARG0|ARG1|ARG2|BADDR|BASEOBJECT|BNDRYOFF|CEND|CINIT|CLVALUE|CMOVE|CUSTOM_HOOK|CWAIT|CxCustom|CxDebug|CxFilter|CxSender|CxSignal|CxTranslate|DrawCircle|ECOFFSET|EC_MEMADDR|EROFFSET|ERT_MEMNEEDED|ERT_SLOTSNEEDED|FULLMENUNUM|GADGET_BOX|GetOPen|GTMENUITEM_USERDATA|GTMENU_USERDATA|IMAGE_HEIGHT|IMAGE_WIDTH|IM_BGPEN|IM_BOX|IM_FGPEN|InitAnimate|INITBYTE|INITLONG|INITSTRUCT|INITWORD|INST_DATA|IsListEmpty|IsMsgPortEmpty|ITEMNUM|itof|IVALUE|LLOFFSET|LLVERS|MAKE_ID|MENUNUM|MENU_USERDATA|MKBADDR|NULL_IX|OCLASS|OFFSET|OpenRequester|PACK_BYTEBIT|PACK_ENTRY|PACK_ICON_ASPECT_RATIO|PACK_LONGBIT|PACK_NEWOFFSET|PACK_STARTTABLE|PACK_WORDBIT|PK_BITNUM|PK_BITNUM1|PK_BITNUM2|PK_CALCOFFSET|PK_LONGOFFSET|PK_WORDOFFSET|pow|RASSIZE|ReadChar|ReadChars|ReadLn|RemBob|RL_GADGETID|RL_GROUPID|round|SafeSetOutlinePen|SafeSetWriteMask|SetAfPt|SetDrPt|SetOPen|SetWrMsk|SHAKNUM|SHIFTITEM|SHIFTMENU|SHIFTSUB|SIGN|SizeNVData|SIZEOF_INSTANCE|SPARNUM|SRBNUM|SSBNUM|SUBNUM|SWBNUM|TOBB|trunc|UNPACK_ICON_ASPECT_RATIO|UnReadChar|VWritef|WriteChar|WriteStr|_OBJ|_OBJECT|__CLIB_PROTOTYPE)\\b(?!\\s*\\()'
+    'match': '\\b(?:AreaCircle|ARG0|ARG1|ARG2|BADDR|BASEOBJECT|BNDRYOFF|CEND|CINIT|CLVALUE|CMOVE|CUSTOM_HOOK|CWAIT|CxCustom|CxDebug|CxFilter|CxSender|CxSignal|CxTranslate|DrawCircle|ECOFFSET|EC_MEMADDR|EROFFSET|ERT_MEMNEEDED|ERT_SLOTSNEEDED|FULLMENUNUM|GADGET_BOX|GetOPen|GTMENUITEM_USERDATA|GTMENU_USERDATA|IMAGE_HEIGHT|IMAGE_WIDTH|IM_BGPEN|IM_BOX|IM_FGPEN|InitAnimate|INITBYTE|INITLONG|INITSTRUCT|INITWORD|INST_DATA|IsListEmpty|IsMsgPortEmpty|ITEMNUM|itof|IVALUE|LLOFFSET|LLVERS|MAKE_ID|MENUNUM|MENU_USERDATA|MKBADDR|NULL_IX|OCLASS|OFFSET|OpenRequester|PACK_BYTEBIT|PACK_ENTRY|PACK_ICON_ASPECT_RATIO|PACK_LONGBIT|PACK_NEWOFFSET|PACK_STARTTABLE|PACK_WORDBIT|PK_BITNUM|PK_BITNUM1|PK_BITNUM2|PK_CALCOFFSET|PK_LONGOFFSET|PK_WORDOFFSET|pow|RASSIZE|REG|ReadChar|ReadChars|ReadLn|RemBob|RL_GADGETID|RL_GROUPID|round|SafeSetOutlinePen|SafeSetWriteMask|SetAfPt|SetDrPt|SetOPen|SetWrMsk|SHAKNUM|SHIFTITEM|SHIFTMENU|SHIFTSUB|SIGN|SizeNVData|SIZEOF_INSTANCE|SPARNUM|SRBNUM|SSBNUM|SUBNUM|SWBNUM|TOBB|trunc|UNPACK_ICON_ASPECT_RATIO|UnReadChar|VWritef|WriteChar|WriteStr|_OBJ|_OBJECT|__CLIB_PROTOTYPE)\\b(?!\\s*\\()'
     'name': 'identifier.macro.amigaos.c'
   }
