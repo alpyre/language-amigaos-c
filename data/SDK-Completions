@@ -1112,7 +1112,7 @@
 	},
 	{
 		"displayText": "BltBitMapRastPort(srcBitMap, xSrc, ySrc, destRP, xDest, yDest, xSize, ySize, minterm)",
-		"snippet": "BltBitMapRastPort(${1:CONST struct BitMap src}, ${2:LONG xSrc}, ${3:LONG ySrc}, ${4:struct RastPort *dest}, ${5:LONG xDest}, ${6:LONG yDest}, ${7:LONG xSize}, ${8:LONG ySize}, ${9:ULONG minterm})${10:}",
+		"snippet": "BltBitMapRastPort(${1:CONST struct BitMap *src}, ${2:LONG xSrc}, ${3:LONG ySrc}, ${4:struct RastPort *dest}, ${5:LONG xDest}, ${6:LONG yDest}, ${7:LONG xSize}, ${8:LONG ySize}, ${9:ULONG minterm})${10:}",
 		"type": "function",
 		"leftLabel": "void",
 		"description": "Blit from source bitmap to destination rastport.",
@@ -1128,7 +1128,7 @@
 	},
 	{
 		"displayText": "BltMaskBitMapRastPort(srcBitMap, xSrc, ySrc, destRP, xDest, yDest, xSize, ySize, minterm, bltMask)",
-		"snippet": "BltMaskBitMapRastPort(${1:CONST struct BitMap src}, ${2:LONG xSrc}, ${3:LONG ySrc}, ${4:struct RastPort *dest}, ${5:LONG xDest}, ${6:LONG yDest}, ${7:LONG xSize}, ${8:LONG ySize}, ${9:ULONG minterm}, ${10:CONST PLANEPTR bltMask})${11:}",
+		"snippet": "BltMaskBitMapRastPort(${1:CONST struct BitMap *src}, ${2:LONG xSrc}, ${3:LONG ySrc}, ${4:struct RastPort *dest}, ${5:LONG xDest}, ${6:LONG yDest}, ${7:LONG xSize}, ${8:LONG ySize}, ${9:ULONG minterm}, ${10:CONST PLANEPTR bltMask})${11:}",
 		"type": "function",
 		"leftLabel": "void",
 		"description": "Blit from source bitmap to destination rastport with masking.",
@@ -6484,7 +6484,7 @@
 		"snippet": "OpenDiskFont(${1:struct TextAttr *attr})${2:}",
 		"type": "function",
 		"leftLabel": "struct TextFont*",
-		"description": "Loadoad and get a pointer to a disk font.",
+		"description": "Load and get a pointer to a disk font.",
 		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0137.html"
 	},
 	{
@@ -8200,7 +8200,7 @@
 		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node03EF.html"
 	},
 	{
-		"displayText": "SetDrMd(restPort, drawMode)",
+		"displayText": "SetDrMd(rastPort, drawMode)",
 		"snippet": "SetDrMd(${1:struct RastPort *rp}, ${2:ULONG drawMode})${3:}",
 		"type": "function",
 		"leftLabel": "void",
@@ -8280,7 +8280,7 @@
 		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node00F8.html"
 	},
 	{
-		"displayText": "SetFont(restPort, textFont)",
+		"displayText": "SetFont(rastPort, textFont)",
 		"snippet": "SetFont(${1:struct RastPort *rp}, ${2:CONST struct TextFont *font})${3:}",
 		"type": "function",
 		"leftLabel": "LONG",
