@@ -1,7 +1,7 @@
 {
   "name": "language-amigaos-c",
   "main": "./lib/index.js",
-  "version": "1.3.5",
+  "version": "1.3.6",
   "description": "Syntax highlighting and autocomplete support for AmigaOS API in Atom.",
   "engines": {
     "atom": "*"
