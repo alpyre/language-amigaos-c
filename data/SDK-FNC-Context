@@ -650,6 +650,16 @@
 	  ]
 	},
 	{
+		"name": ["DoMethod"],
+		"arguments": [
+			{
+				"num": ["2"],
+				"type": "method",
+				"suggestions": ["OM_NEW", "OM_DISPOSE", "OM_SET", "OM_GET", "OM_ADDTAIL", "OM_REMOVE", "OM_NOTIFY", "OM_UPDATE", "OM_ADDMEMBER", "OM_REMMEMBER", "IM_DRAW", "IM_HITTEST", "IM_ERASE", "IM_MOVE", "IM_DRAWFRAME", "IM_FRAMEBOX", "IM_HITFRAME", "IM_ERASEFRAME", "IM_DOMAINFRAME", "GM_HITTEST", "GM_RENDER", "GM_GOACTIVE", "GM_HANDLEINPUT", "GM_GOINACTIVE", "GM_HELPTEST", "GM_LAYOUT", "GM_DOMAIN", "GM_KEYTEST", "GM_KEYGOACTIVE", "GM_KEYGOINACTIVE"]
+			}
+		]
+	},
+	{
 		"name": ["DrawBevelBox"],
 		"tagStrt": "6",
 		"arguments": [

@@ -86,7 +86,7 @@ int Main(struct Config *config)
   if (MUIMasterBase)
   {
 #if defined(__amigaos4__)
-		if (IMUIMaster = (struct MUIMasterIFace *)GetInterface(MUIMasterBase, "main", 1, NULL))
+		if ((IMUIMaster = (struct MUIMasterIFace *)GetInterface(MUIMasterBase, "main", 1, NULL)))
     {
 #endif
       if (buildGUI())

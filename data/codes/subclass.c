@@ -4,15 +4,17 @@
 /*SPLIT*/
 ///Includes/*SPLIT*/
 #include <proto/exec.h>
-#include <proto/utility.h>   // <-- Required for tag redirection
+#include <proto/utility.h>    // <-- Required for tag redirection
 /*SPLIT*/
 #include <libraries/mui.h>
 #include <proto/muimaster.h>
+#include <clib/alib_protos.h> // <-- Required for DoSuperMethod()
 /*SPLIT*/
-#include <SDI_compiler.h>    //     Required for
-#include <SDI_hook.h>        // <-- multi platform
-#include <SDI_stdarg.h>      //     compatibility
+#include <SDI_compiler.h>     //     Required for
+#include <SDI_hook.h>         // <-- multi platform
+#include <SDI_stdarg.h>       //     compatibility
 
+#include "dosupernew.h"
 #include "/*SPLIT*/.h"
 ///
 ///Structs
@@ -33,25 +35,6 @@ struct cl_Msg
   //<SUBCLASS METHOD MESSAGE PAYLOAD HERE>
 };
 ///
-///DoSuperNew()
-#if !defined(__MORPHOS__)
-  Object* VARARGS68K DoSuperNew(struct IClass *cl, Object *obj, ...)
-  {
-    Object *rc;
-    VA_LIST args;
-
-    VA_START(args, obj);
-    #if defined(__AROS__)
-    rc = (Object *) DoSuperNewTagList(cl, obj, NULL, (struct TagItem *) VA_ARG(args, IPTR));
-    #else
-    rc = (Object *) DoSuperMethod(cl, obj, OM_NEW, VA_ARG(args, ULONG), NULL);
-    #endif
-    VA_END(args);
-
-    return rc;
-  }
-#endif // !__MORPHOS__
-///
 
 //<DEFINE SUBCLASS METHODS HERE>
 
@@ -60,29 +43,41 @@ static ULONG m_New(struct IClass* cl, Object* obj, struct opSet* msg)
 {
   struct cl_Data *data;
 
-  if (obj = (Object *) DoSuperNew(cl, obj,
+  if ((obj = (Object *) DoSuperNew(cl, obj,
     //<SUPERCLASS TAGS HERE>
-    TAG_MORE, msg->ops_AttrList))
+    TAG_MORE, msg->ops_AttrList)))
   {
-    data = (struct cl_Data*) INST_DATA(cl, obj);
+    data = (struct cl_Data *) INST_DATA(cl, obj);
 
     //<SUBCLASS INITIALIZATION HERE>
+    if (/*<Success of your initializations>*/ TRUE) {
 
-    return((ULONG) obj);
+      return((ULONG) obj);
+    }
+    else CoerceMethod(cl, obj, OM_DISPOSE);
   }
-  else CoerceMethod(cl, obj, OM_DISPOSE);
 
-return NULL;
+return (ULONG) NULL;
+}
+///
+///Overridden OM_DISPOSE
+static ULONG m_Dispose(struct IClass* cl, Object* obj, Msg msg)
+{
+  struct cl_Data *data = INST_DATA(cl, obj);
+
+  //<FREE SUBCLASS INITIALIZATIONS HERE>
+
+  return DoSuperMethodA(cl, obj, msg);
 }
 ///
 ///Overridden OM_SET
 //*****************
 static ULONG m_Set(struct IClass* cl, Object* obj, struct opSet* msg)
 {
-  struct cl_Data* data = INST_DATA(cl, obj);
+  struct cl_Data *data = INST_DATA(cl, obj);
   struct TagItem *tags, *tag;
 
-  for (tags = msg->ops_AttrList; tag = NextTagItem(&tags);)
+  for (tags = msg->ops_AttrList; (tag = NextTagItem(&tags));)
   {
     switch (tag->ti_Tag)
     {
@@ -97,7 +92,7 @@ static ULONG m_Set(struct IClass* cl, Object* obj, struct opSet* msg)
 //*****************
 static ULONG m_Get(struct IClass* cl, Object* obj, struct opGet* msg)
 {
-  struct cl_Data* data = INST_DATA(cl, obj);
+  struct cl_Data *data = INST_DATA(cl, obj);
 
   switch (msg->opg_AttrID)
   {
@@ -108,15 +103,17 @@ static ULONG m_Get(struct IClass* cl, Object* obj, struct opGet* msg)
 }
 ///
 ///Dispatcher
-DISPATCHERPROTO(cl_Dispatcher)
+SDISPATCHER(cl_Dispatcher)
 {
-  struct cl_Data* data;
+  struct cl_Data *data;
   if (! (msg->MethodID == OM_NEW)) data = INST_DATA(cl, obj);
 
   switch(msg->MethodID)
   {
     case OM_NEW:
       return m_New(cl, obj, (struct opSet*) msg);
+    case OM_DISPOSE:
+      return m_Dispose(cl, obj, msg);
     case OM_SET:
       return m_Set(cl, obj, (struct opSet*) msg);
     case OM_GET:

@@ -471,6 +471,14 @@
 		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0059.html"
 	},
 	{
+		"displayText": "AllocAslRequestTags(reqType, tag1, ...)",
+		"snippet": "AllocAslRequestTags(${1:ULONG reqType}, ${2:ULONG tag1}, ${3:...})${4:}",
+		"type": "function",
+		"leftLabel": "APTR",
+		"description": "Allocate an ASL requester. (V36)",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0059.html"
+	},
+	{
 		"displayText": "Allocate(freeList, byteSize)",
 		"snippet": "Allocate(${1:struct MemHeader *freeList}, ${2:ULONG byteSize})${3:}",
 		"type": "function",
@@ -909,6 +917,22 @@
 		"leftLabel": "ULONG",
 		"description": "Get the soft style bits of the current font.",
 		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node02AD.html"
+	},
+	{
+		"displayText": "AslRequest(requester, tags)",
+		"snippet": "AslRequest(${1:APTR requester}, ${2:struct TagItem *tags})${3:}",
+		"type": "function",
+		"leftLabel": "BOOL",
+		"description": "Get input from user using an ASL requester. (V36)",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node005B.html"
+	},
+	{
+		"displayText": "AslRequestTags(requester, tag1, ...)",
+		"snippet": "AslRequestTags(${1:APTR requester}, ${2:ULONG tag1}, ${3:...})${4:}",
+		"type": "function",
+		"leftLabel": "BOOL",
+		"description": "Get input from user using an ASL requester. (V36)",
+		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node005B.html"
 	},
 	{
 		"displayText": "AssignAdd(name, lock)",
@@ -9894,6 +9918,86 @@
 		"leftLabel": "void",
 		"description": "Change window to \"alternate\" position and dimensions. (V36)",
 		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0407.html"
+	},
+	{
+	  "displayText": "OM_NEW(trueClass, attrs)",
+	  "snippet": "DoMethod(${1:Object *trueClass}, OM_NEW, ${2:struct TagItem *attrList}, NULL)${3:}",
+	  "type": "method",
+	  "leftLabel": "Object *",
+	  "description": "Please always use NewObject() instead!",
+	  "descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Libraries_Manual_guide/node04BC.html"
+	},
+	{
+	  "displayText": "OM_DISPOSE(obj)",
+	  "snippet": "DoMethod(${1:Object *obj}, OM_DISPOSE)${2:}",
+	  "type": "method",
+	  "leftLabel": "VOID",
+	  "description": "Please use DisposeObject() instead!",
+	  "descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Libraries_Manual_guide/node04BD.html"
+	},
+	{
+	  "displayText": "OM_SET(obj, tags, gInfo)",
+	  "snippet": "DoMethod(${1:Object *obj}, OM_SET, ${2:struct TagItem *attrList}, ${3:struct GadgetInfo *gInfo})${4:}",
+	  "type": "method",
+	  "leftLabel": "ULONG",
+	  "description": "Please use SetAttrs() or SetGadgetAttrs() instead!",
+	  "descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Libraries_Manual_guide/node04C3.html"
+	},
+	{
+	  "displayText": "OM_GET(obj, attrID, &storage)",
+	  "snippet": "DoMethod(${1:Object *obj}, OM_GET, ${2:ULONG attrID}, ${3:ULONG *storage})${4:}",
+	  "type": "method",
+	  "leftLabel": "ULONG",
+	  "description": "Please use GetAttr() instead!",
+	  "descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Libraries_Manual_guide/node04C2.html"
+	},
+	{
+	  "displayText": "OM_ADDTAIL(list)",
+	  "snippet": "DoMethod(${1:Object *obj}, OM_ADDTAIL, ${2:struct List *list})${3:}",
+	  "type": "method",
+	  "leftLabel": "VOID",
+	  "description": "Tells an object to add itself to the end of an Exec list.",
+	  "descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Libraries_Manual_guide/node04BE.html"
+	},
+	{
+	  "displayText": "OM_REMOVE()",
+	  "snippet": "DoMethod(${1:Object *obj}, OM_REMOVE)${2:}",
+	  "type": "method",
+	  "leftLabel": "VOID",
+	  "description": "Tells an object to remove itself from the list it is in.",
+	  "descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Libraries_Manual_guide/node04BF.html"
+	},
+	{
+	  "displayText": "OM_NOTIFY(obj, tags, gInfo, flags)",
+	  "snippet": "DoMethod(${1:Object *obj}, OM_NOTIFY, ${2:struct TagItem *attrList}, ${3:struct GadgetInfo *gInfo}, ${4:ULONG flags})${5:}",
+	  "type": "method",
+	  "leftLabel": "VOID",
+	  "description": "Tells an object to broadcast attribute changes.",
+	  "descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Libraries_Manual_guide/node04C5.html"
+	},
+	{
+	  "displayText": "OM_UPDATE(obj, tags, gInfo, flags)",
+	  "snippet": "DoMethod(${1:Object *obj}, OM_UPDATE, ${2:struct TagItem *attrList}, ${3:struct GadgetInfo *gInfo}, ${4:ULONG flags})${5:}",
+	  "type": "method",
+	  "leftLabel": "VOID",
+	  "description": "Tells an object to update one or more of its attributes.",
+	  "descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Libraries_Manual_guide/node04C4.html"
+	},
+	{
+	  "displayText": "OM_ADDMEMBER(obj, child)",
+	  "snippet": "DoMethod(${1:Object *obj}, OM_ADDMEMBER, ${2:Object *child})${3:}",
+	  "type": "method",
+	  "leftLabel": "VOID",
+	  "description": "Tells an object to add another object to its personal Exec list.",
+	  "descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Libraries_Manual_guide/node04C0.html"
+	},
+	{
+	  "displayText": "OM_REMMEMBER(obj, child)",
+	  "snippet": "DoMethod(${1:Object *obj}, OM_REMMEMBER, ${2:Object *child})${3:}",
+	  "type": "method",
+	  "leftLabel": "VOID",
+	  "description": "Tells an object to remove a member object from its personal list.",
+	  "descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Libraries_Manual_guide/node04C1.html"
 	},
 	{
 		"displayText": "EROFFSET(member)",
