@@ -39,6 +39,103 @@
 	  ]
 	},
 	{
+		"name": ["AllocAslRequestTags"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"num": ["1"],
+				"type": "macro",
+				"suggestions": ["ASL_FileRequest", "ASL_FontRequest", "ASL_ScreenModeRequest"]
+			},
+			{
+	      "first": "ASL_FileRequest",
+		    "type": "tag",
+		    "suggestions": ["ASLFR_Window", "struct Window*", "ASLFR_Screen", "struct Screen*", "ASLFR_PubScreenName", "CONST_STRPTR", "ASLFR_PrivateIDCMP", "BOOL", "ASLFR_IntuiMsgFunc", "struct Hook*", "ASLFR_SleepWindow", "BOOL", "ASLFR_UserData", "APTR", "ASLFR_PopToFront", "BOOL", "ASLFR_Activate", "BOOL", "ASLFR_TextAttr", "struct TextAttr*", "ASLFR_Locale", "struct Locale*", "ASLFR_TitleText", "CONST_STRPTR", "ASLFR_PositiveText", "CONST_STRPTR", "ASLFR_NegativeText", "CONST_STRPTR", "ASLFR_InitialLeftEdge", "WORD", "ASLFR_InitialTopEdge", "WORD", "ASLFR_InitialWidth", "WORD", "ASLFR_InitialHeight", "WORD", "ASLFR_InitialFile", "CONST_STRPTR", "ASLFR_InitialDrawer", "CONST_STRPTR", "ASLFR_InitialPattern", "CONST_STRPTR", "ASLFR_InitialShowVolumes", "BOOL", "ASLFR_Flags1", "ULONG", "ASLFR_Flags2", "ULONG", "ASLFR_DoSaveMode", "BOOL", "ASLFR_DoMultiSelect", "BOOL", "ASLFR_DoPatterns", "BOOL", "ASLFR_DrawersOnly", "BOOL", "ASLFR_FilterFunc", "struct Hook*", "ASLFR_RejectIcons", "BOOL", "ASLFR_RejectPattern", "CONST_STRPTR", "ASLFR_AcceptPattern", "CONST_STRPTR", "ASLFR_FilterDrawers", "BOOL", "ASLFR_HookFunc", "struct Hook*", "ASLFR_SetSortBy", "ULONG", "ASLFR_GetSortBy", "ULONG*", "ASLFR_SetSortDrawers", "ULONG", "ASLFR_GetSortDrawers", "ULONG*", "ASLFR_SetSortOrder", "ULONG", "ASLFR_GetSortOrder", "ULONG", "ASLFR_FilterHook", "struct Hook*", "ASLFR_StayOnTop", "BOOL", "TAG_END"],
+		    "values": [
+					{
+						"tag": ["ASLFR_Flags1"],
+						"type": "flag",
+						"suggestions": ["FRF_FILTERFUNC", "FRF_INTUIFUNC", "FRF_DOSAVEMODE", "FRF_PRIVATEIDCMP", "FRF_DOMULTISELECT", "FRF_DOPATTERNS"]
+					},
+					{
+						"tag": ["ASLFR_Flags2"],
+						"type": "flag",
+						"suggestions": ["FRF_DRAWERSONLY", "FRF_FILTERDRAWERS", "FRF_REJECTICONS"]
+					},
+		      {
+		        "tag": ["ASLFR_SetSortBy"],
+		        "type": "macro",
+		        "suggestions": ["ASLFRSORTBY_Name", "ASLFRSORTBY_Date", "ASLFRSORTBY_Size"]
+		      },
+					{
+						"tag": ["ASLFR_SetSortDrawers"],
+						"type": "macro",
+						"suggestions": ["ASLFRSORTDRAWERS_First", "ASLFRSORTDRAWERS_Mix", "ASLFRSORTDRAWERS_Last"]
+					},
+					{
+						"tag": ["ASLFR_SetSortOrder"],
+						"type": "macro",
+						"suggestions": ["ASLFRSORTORDER_Ascend", "ASLFRSORTORDER_Descend"]
+					},
+					{
+						"tag": ["ASLFR_PrivateIDCMP", "ASLFR_SleepWindow", "ASLFR_PopToFront", "ASLFR_Activate", "ASLFR_InitialShowVolumes", "ASLFR_DoSaveMode", "ASLFR_DoMultiSelect", "ASLFR_DoPatterns", "ASLFR_DrawersOnly", "ASLFR_RejectIcons", "ASLFR_FilterDrawers", "ASLFR_StayOnTop"],
+						"type": "bool",
+						"suggestions": ["TRUE", "FALSE"]
+					}
+		    ]
+		  },
+			{
+				"first": "ASL_FontRequest",
+				"type": "tag",
+				"suggestions": ["ASLFO_Window", "struct Window*", "ASLFO_Screen", "struct Screen*", "ASLFO_PubScreenName", "CONST_STRPTR", "ASLFO_PrivateIDCMP", "BOOL", "ASLFO_IntuiMsgFunc", "struct Hook*", "ASLFO_SleepWindow", "BOOL", "ASLFO_UserData", "APTR", "ASLFO_PopToFront", "BOOL", "ASLFO_Activate", "BOOL", "ASLFO_TextAttr", "struct TextAttr*", "ASLFO_Locale", "struct Locale*", "ASLFO_TitleText", "CONST_STRPTR", "ASLFO_PositiveText", "CONST_STRPTR", "ASLFO_NegativeText", "CONST_STRPTR", "ASLFO_InitialLeftEdge", "WORD", "ASLFO_InitialTopEdge", "WORD", "ASLFO_InitialWidth", "WORD", "ASLFO_InitialHeight", "WORD", "ASLFO_InitialName", "CONST_STRPTR", "ASLFO_InitialSize", "CONST_STRPTR", "ASLFO_InitialStyle", "UBYTE", "ASLFO_InitialFlags", "UBYTE", "ASLFO_InitialFrontPen", "UBYTE", "ASLFO_InitialBackPen", "UBYTE", "ASLFO_InitialDrawMode", "UBYTE", "ASLFO_InitialSpecMode", "UBYTE", "ASLFO_InitialCharSet", "ULONG", "ASLFO_Flags", "ULONG", "ASLFO_DoFrontPen", "BOOL", "ASLFO_DoBackPen", "BOOL", "ASLFO_DoStyle", "BOOL", "ASLFO_DoDrawMode", "BOOL", "ASLFO_DoSpecialMode", "BOOL", "ASLFO_DoCharSet", "BOOL", "ASLFO_SampleText", "CONST_STRPTR", "ASLFO_FixedWidthOnly", "BOOL", "ASLFO_OTagOnly", "BOOL", "ASLFO_ScalableOnly", "BOOL", "ASLFO_MinHeight", "UWORD", "ASLFO_MaxHeight", "UWORD", "ASLFO_FilterFunc", "struct Hook*", "ASLFO_CSFilterFunc", "struct Hook*", "ASLFO_HookFunc", "struct Hook*", "ASLFO_MaxFrontPen", "UBYTE", "ASLFO_MaxBackPen", "UBYTE", "ASLFO_ModeList", "CONST_STRPTR*", "ASLFO_FrontPens", "UBYTE*", "ASLFO_BackPens", "UBYTE*", "ASLFO_StayOnTop", "BOOL", "ASLFO_SpecialModeBitMap", "struct BitMap*", "ASLFO_SpecialModeBitMapWidth", "LONG", "ASLFO_SpecialModeBitMapHeight", "LONG", "TAG_END"],
+				"values": [
+					{
+						"tag": ["ASLFO_InitialFlags"],
+						"type": "flag",
+						"suggestions": ["FPF_ROMFONT", "FPF_DISKFONT", "FPF_REVPATH", "FPF_TALLDOT", "FPF_WIDEDOT", "FPF_PROPORTIONAL", "FPF_DESIGNED", "FPF_REMOVED"]
+					},
+					{
+						"tag": ["ASLFO_Flags"],
+						"type": "flag",
+						"suggestions": ["FOF_DOFRONTPEN", "FOF_DOBACKPEN", "FOF_DOSTYLE", "FOF_DODRAWMODE", "FOF_FIXEDWIDTHONLY", "FOF_PRIVATEIDCMP", "FOF_INTUIFUNC", "FOF_FILTERFUNC"]
+					},
+					{
+						"tag": ["ASLFO_InitialDrawMode"],
+						"type": "macro",
+						"suggestions": ["JAM1", "JAM2", "COMPLEMENT", "INVERSVID"]
+					},
+					{
+						"tag": ["ASLFO_InitialSpecMode"],
+						"type": "macro",
+						"suggestions": ["FO_SPECIALMODE_NONE", "FO_SPECIALMODE_OUTLINE", "FO_SPECIALMODE_SHADOW"]
+					},
+					{
+						"tag": ["ASLFO_PrivateIDCMP", "ASLFO_SleepWindow", "ASLFO_PopToFront", "ASLFO_Activate", "ASLFO_DoFrontPen", "ASLFO_DoBackPen", "ASLFO_DoStyle", "ASLFO_DoDrawMode", "ASLFO_DoSpecialMode", "ASLFO_DoCharSet", "ASLFO_FixedWidthOnly", "ASLFO_OTagOnly", "ASLFO_ScalableOnly", "ASLFO_StayOnTop"],
+						"type": "bool",
+						"suggestions": ["TRUE", "FALSE"]
+					}
+				]
+			},
+			{
+				"first": "ASL_ScreenModeRequest",
+				"type": "tag",
+				"suggestions": ["ASLSM_Window", "struct Window*", "ASLSM_Screen", "struct Screen*", "ASLSM_PubScreenName", "CONST_STRPTR", "ASLSM_PrivateIDCMP", "BOOL", "ASLSM_IntuiMsgFunc", "struct Hook*", "ASLSM_SleepWindow", "BOOL", "ASLSM_UserData", "APTR", "ASLSM_PopToFront", "BOOL", "ASLSM_Activate", "BOOL", "ASLSM_TextAttr", "struct TextAttr*", "ASLSM_Locale", "struct Locale*", "ASLSM_TitleText", "CONST_STRPTR", "ASLSM_PositiveText", "CONST_STRPTR", "ASLSM_NegativeText", "CONST_STRPTR", "ASLSM_InitialLeftEdge", "WORD", "ASLSM_InitialTopEdge", "WORD", "ASLSM_InitialWidth", "WORD", "ASLSM_InitialHeight", "WORD", "ASLSM_InitialDisplayID", "ULONG", "ASLSM_InitialDisplayWidth", "ULONG", "ASLSM_InitialDisplayHeight", "ULONG", "ASLSM_InitialDisplayDepth", "UWORD", "ASLSM_InitialOverscanType", "UWORD", "ASLSM_InitialAutoScroll", "BOOL", "ASLSM_InitialInfoOpened", "BOOL", "ASLSM_InitialInfoLeftEdge", "WORD", "ASLSM_InitialInfoTopEdge", "WORD", "ASLSM_DoWidth", "BOOL", "ASLSM_DoHeight", "BOOL", "ASLSM_DoDepth", "BOOL", "ASLSM_DoOverscanType", "BOOL", "ASLSM_DoAutoScroll", "BOOL", "ASLSM_PropertyFlags", "ULONG", "ASLSM_PropertyMask", "ULONG", "ASLSM_MinWidth", "ULONG", "ASLSM_MaxWidth", "ULONG", "ASLSM_MinHeight", "ULONG", "ASLSM_MaxHeight", "ULONG", "ASLSM_MinDepth", "UWORD", "ASLSM_MaxDepth", "UWORD", "ASLSM_FilterFunc", "struct Hook*", "ASLSM_CustomSMList", "struct List*", "ASLSM_StayOnTop", "BOOL", "TAG_END"],
+				"values": [
+					{
+						"tag": ["ASLSM_PropertyFlags", "ASLSM_PropertyMask"],
+						"type": "flag",
+						"suggestions": ["DIPF_IS_LACE", "DIPF_IS_DUALPF", "DIPF_IS_PF2PRI", "DIPF_IS_HAM", "DIPF_IS_ECS", "DIPF_IS_AA", "DIPF_IS_PAL", "DIPF_IS_SPRITES", "DIPF_IS_GENLOCK", "DIPF_IS_WB", "DIPF_IS_DRAGGABLE", "DIPF_IS_PANELLED", "DIPF_IS_BEAMSYNC", "DIPF_IS_EXTRAHALFBRITE", "DIPF_IS_SPRITES_ATT", "DIPF_IS_SPRITES_CHNG_RES", "DIPF_IS_SPRITES_BORDER", "DIPF_IS_SCANDBL", "DIPF_IS_SPRITES_CHNG_BASE", "DIPF_IS_SPRITES_CHNG_PRI", "DIPF_IS_DBUFFER", "DIPF_IS_PROGBEAM", "DIPF_IS_FOREIGN"]
+					},
+					{
+						"tag": ["ASLSM_PrivateIDCMP", "ASLSM_SleepWindow", "ASLSM_PopToFront", "ASLSM_Activate", "ASLSM_InitialAutoScroll", "ASLSM_InitialInfoOpened", "ASLSM_DoWidth", "ASLSM_DoHeight", "ASLSM_DoDepth", "ASLSM_DoOverscanType", "ASLSM_DoAutoScroll", "ASLSM_StayOnTop"],
+						"type": "bool",
+						"suggestions": ["TRUE", "FALSE"]
+					}
+				]
+			}
+		]
+	},
+	{
 		"name": ["AllocBitMap"],
 	  "arguments": [
 	    {
@@ -166,6 +263,73 @@
 	      "suggestions": ["SPRITEA_Width", "UBYTE", "SPRITEA_XReplication", "BYTE", "SPRITEA_YReplication", "BYTE", "SPRITEA_OutputHeight", "ULONG", "SPRITEA_Attached", "BOOL", "SPRITEA_OldDataFormat", "BOOL", "TAG_END"]
 	    }
 	  ]
+	},
+	{
+		"name": ["AslRequestTags"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"type": "tag",
+				"suggestions": ["ASLFR_Window", "struct Window*", "ASLFR_Screen", "struct Screen*", "ASLFR_PubScreenName", "CONST_STRPTR", "ASLFR_PrivateIDCMP", "BOOL", "ASLFR_IntuiMsgFunc", "struct Hook*", "ASLFR_SleepWindow", "BOOL", "ASLFR_UserData", "APTR", "ASLFR_PopToFront", "BOOL", "ASLFR_Activate", "BOOL", "ASLFR_TextAttr", "struct TextAttr*", "ASLFR_Locale", "struct Locale*", "ASLFR_TitleText", "CONST_STRPTR", "ASLFR_PositiveText", "CONST_STRPTR", "ASLFR_NegativeText", "CONST_STRPTR", "ASLFR_InitialLeftEdge", "WORD", "ASLFR_InitialTopEdge", "WORD", "ASLFR_InitialWidth", "WORD", "ASLFR_InitialHeight", "WORD", "ASLFR_InitialFile", "CONST_STRPTR", "ASLFR_InitialDrawer", "CONST_STRPTR", "ASLFR_InitialPattern", "CONST_STRPTR", "ASLFR_InitialShowVolumes", "BOOL", "ASLFR_Flags1", "ULONG", "ASLFR_Flags2", "ULONG", "ASLFR_DoSaveMode", "BOOL", "ASLFR_DoMultiSelect", "BOOL", "ASLFR_DoPatterns", "BOOL", "ASLFR_DrawersOnly", "BOOL", "ASLFR_FilterFunc", "struct Hook*", "ASLFR_RejectIcons", "BOOL", "ASLFR_RejectPattern", "CONST_STRPTR", "ASLFR_AcceptPattern", "CONST_STRPTR", "ASLFR_FilterDrawers", "BOOL", "ASLFR_HookFunc", "struct Hook*", "ASLFR_SetSortBy", "ULONG", "ASLFR_GetSortBy", "ULONG*", "ASLFR_SetSortDrawers", "ULONG", "ASLFR_GetSortDrawers", "ULONG*", "ASLFR_SetSortOrder", "ULONG", "ASLFR_GetSortOrder", "ULONG", "ASLFR_FilterHook", "struct Hook*", "ASLFR_StayOnTop", "BOOL", "ASLFO_Window", "struct Window*", "ASLFO_Screen", "struct Screen*", "ASLFO_PubScreenName", "CONST_STRPTR", "ASLFO_PrivateIDCMP", "BOOL", "ASLFO_IntuiMsgFunc", "struct Hook*", "ASLFO_SleepWindow", "BOOL", "ASLFO_UserData", "APTR", "ASLFO_PopToFront", "BOOL", "ASLFO_Activate", "BOOL", "ASLFO_TextAttr", "struct TextAttr*", "ASLFO_Locale", "struct Locale*", "ASLFO_TitleText", "CONST_STRPTR", "ASLFO_PositiveText", "CONST_STRPTR", "ASLFO_NegativeText", "CONST_STRPTR", "ASLFO_InitialLeftEdge", "WORD", "ASLFO_InitialTopEdge", "WORD", "ASLFO_InitialWidth", "WORD", "ASLFO_InitialHeight", "WORD", "ASLFO_InitialName", "CONST_STRPTR", "ASLFO_InitialSize", "CONST_STRPTR", "ASLFO_InitialStyle", "UBYTE", "ASLFO_InitialFlags", "UBYTE", "ASLFO_InitialFrontPen", "UBYTE", "ASLFO_InitialBackPen", "UBYTE", "ASLFO_InitialDrawMode", "UBYTE", "ASLFO_InitialSpecMode", "UBYTE", "ASLFO_InitialCharSet", "ULONG", "ASLFO_Flags", "ULONG", "ASLFO_DoFrontPen", "BOOL", "ASLFO_DoBackPen", "BOOL", "ASLFO_DoStyle", "BOOL", "ASLFO_DoDrawMode", "BOOL", "ASLFO_DoSpecialMode", "BOOL", "ASLFO_DoCharSet", "BOOL", "ASLFO_SampleText", "CONST_STRPTR", "ASLFO_FixedWidthOnly", "BOOL", "ASLFO_OTagOnly", "BOOL", "ASLFO_ScalableOnly", "BOOL", "ASLFO_MinHeight", "UWORD", "ASLFO_MaxHeight", "UWORD", "ASLFO_FilterFunc", "struct Hook*", "ASLFO_CSFilterFunc", "struct Hook*", "ASLFO_HookFunc", "struct Hook*", "ASLFO_MaxFrontPen", "UBYTE", "ASLFO_MaxBackPen", "UBYTE", "ASLFO_ModeList", "CONST_STRPTR*", "ASLFO_FrontPens", "UBYTE*", "ASLFO_BackPens", "UBYTE*", "ASLFO_StayOnTop", "BOOL", "ASLFO_SpecialModeBitMap", "struct BitMap*", "ASLFO_SpecialModeBitMapWidth", "LONG", "ASLFO_SpecialModeBitMapHeight", "LONG", "ASLSM_Window", "struct Window*", "ASLSM_Screen", "struct Screen*", "ASLSM_PubScreenName", "CONST_STRPTR", "ASLSM_PrivateIDCMP", "BOOL", "ASLSM_IntuiMsgFunc", "struct Hook*", "ASLSM_SleepWindow", "BOOL", "ASLSM_UserData", "APTR", "ASLSM_PopToFront", "BOOL", "ASLSM_Activate", "BOOL", "ASLSM_TextAttr", "struct TextAttr*", "ASLSM_Locale", "struct Locale*", "ASLSM_TitleText", "CONST_STRPTR", "ASLSM_PositiveText", "CONST_STRPTR", "ASLSM_NegativeText", "CONST_STRPTR", "ASLSM_InitialLeftEdge", "WORD", "ASLSM_InitialTopEdge", "WORD", "ASLSM_InitialWidth", "WORD", "ASLSM_InitialHeight", "WORD", "ASLSM_InitialDisplayID", "ULONG", "ASLSM_InitialDisplayWidth", "ULONG", "ASLSM_InitialDisplayHeight", "ULONG", "ASLSM_InitialDisplayDepth", "UWORD", "ASLSM_InitialOverscanType", "UWORD", "ASLSM_InitialAutoScroll", "BOOL", "ASLSM_InitialInfoOpened", "BOOL", "ASLSM_InitialInfoLeftEdge", "WORD", "ASLSM_InitialInfoTopEdge", "WORD", "ASLSM_DoWidth", "BOOL", "ASLSM_DoHeight", "BOOL", "ASLSM_DoDepth", "BOOL", "ASLSM_DoOverscanType", "BOOL", "ASLSM_DoAutoScroll", "BOOL", "ASLSM_PropertyFlags", "ULONG", "ASLSM_PropertyMask", "ULONG", "ASLSM_MinWidth", "ULONG", "ASLSM_MaxWidth", "ULONG", "ASLSM_MinHeight", "ULONG", "ASLSM_MaxHeight", "ULONG", "ASLSM_MinDepth", "UWORD", "ASLSM_MaxDepth", "UWORD", "ASLSM_FilterFunc", "struct Hook*", "ASLSM_CustomSMList", "struct List*", "ASLSM_StayOnTop", "BOOL", "TAG_END"],
+				"values": [
+					{
+						"tag": ["ASLFR_Flags1"],
+						"type": "flag",
+						"suggestions": ["FRF_FILTERFUNC", "FRF_INTUIFUNC", "FRF_DOSAVEMODE", "FRF_PRIVATEIDCMP", "FRF_DOMULTISELECT", "FRF_DOPATTERNS"]
+					},
+					{
+						"tag": ["ASLFR_Flags2"],
+						"type": "flag",
+						"suggestions": ["FRF_DRAWERSONLY", "FRF_FILTERDRAWERS", "FRF_REJECTICONS"]
+					},
+					{
+						"tag": ["ASLFR_SetSortBy"],
+						"type": "macro",
+						"suggestions": ["ASLFRSORTBY_Name", "ASLFRSORTBY_Date", "ASLFRSORTBY_Size"]
+					},
+					{
+						"tag": ["ASLFR_SetSortDrawers"],
+						"type": "macro",
+						"suggestions": ["ASLFRSORTDRAWERS_First", "ASLFRSORTDRAWERS_Mix", "ASLFRSORTDRAWERS_Last"]
+					},
+					{
+						"tag": ["ASLFR_SetSortOrder"],
+						"type": "macro",
+						"suggestions": ["ASLFRSORTORDER_Ascend", "ASLFRSORTORDER_Descend"]
+					},
+					{
+						"tag": ["ASLFO_InitialFlags"],
+						"type": "flag",
+						"suggestions": ["FPF_ROMFONT", "FPF_DISKFONT", "FPF_REVPATH", "FPF_TALLDOT", "FPF_WIDEDOT", "FPF_PROPORTIONAL", "FPF_DESIGNED", "FPF_REMOVED"]
+					},
+					{
+						"tag": ["ASLFO_Flags"],
+						"type": "flag",
+						"suggestions": ["FOF_DOFRONTPEN", "FOF_DOBACKPEN", "FOF_DOSTYLE", "FOF_DODRAWMODE", "FOF_FIXEDWIDTHONLY", "FOF_PRIVATEIDCMP", "FOF_INTUIFUNC", "FOF_FILTERFUNC"]
+					},
+					{
+						"tag": ["ASLFO_InitialDrawMode"],
+						"type": "macro",
+						"suggestions": ["JAM1", "JAM2", "COMPLEMENT", "INVERSVID"]
+					},
+					{
+						"tag": ["ASLFO_InitialSpecMode"],
+						"type": "macro",
+						"suggestions": ["FO_SPECIALMODE_NONE", "FO_SPECIALMODE_OUTLINE", "FO_SPECIALMODE_SHADOW"]
+					},
+					{
+						"tag": ["ASLSM_PropertyFlags", "ASLSM_PropertyMask"],
+						"type": "flag",
+						"suggestions": ["DIPF_IS_LACE", "DIPF_IS_DUALPF", "DIPF_IS_PF2PRI", "DIPF_IS_HAM", "DIPF_IS_ECS", "DIPF_IS_AA", "DIPF_IS_PAL", "DIPF_IS_SPRITES", "DIPF_IS_GENLOCK", "DIPF_IS_WB", "DIPF_IS_DRAGGABLE", "DIPF_IS_PANELLED", "DIPF_IS_BEAMSYNC", "DIPF_IS_EXTRAHALFBRITE", "DIPF_IS_SPRITES_ATT", "DIPF_IS_SPRITES_CHNG_RES", "DIPF_IS_SPRITES_BORDER", "DIPF_IS_SCANDBL", "DIPF_IS_SPRITES_CHNG_BASE", "DIPF_IS_SPRITES_CHNG_PRI", "DIPF_IS_DBUFFER", "DIPF_IS_PROGBEAM", "DIPF_IS_FOREIGN"]
+					},
+					{
+						"tag": ["ASLFR_PrivateIDCMP", "ASLFR_SleepWindow", "ASLFR_PopToFront", "ASLFR_Activate", "ASLFR_InitialShowVolumes", "ASLFR_DoSaveMode", "ASLFR_DoMultiSelect", "ASLFR_DoPatterns", "ASLFR_DrawersOnly", "ASLFR_RejectIcons", "ASLFR_FilterDrawers", "ASLFR_StayOnTop", "ASLFO_PrivateIDCMP", "ASLFO_SleepWindow", "ASLFO_PopToFront", "ASLFO_Activate", "ASLFO_DoFrontPen", "ASLFO_DoBackPen", "ASLFO_DoStyle", "ASLFO_DoDrawMode", "ASLFO_DoSpecialMode", "ASLFO_DoCharSet", "ASLFO_FixedWidthOnly", "ASLFO_OTagOnly", "ASLFO_ScalableOnly", "ASLFO_StayOnTop", "ASLSM_PrivateIDCMP", "ASLSM_SleepWindow", "ASLSM_PopToFront", "ASLSM_Activate", "ASLSM_InitialAutoScroll", "ASLSM_InitialInfoOpened", "ASLSM_DoWidth", "ASLSM_DoHeight", "ASLSM_DoDepth", "ASLSM_DoOverscanType", "ASLSM_DoAutoScroll", "ASLSM_StayOnTop"],
+						"type": "bool",
+						"suggestions": ["TRUE", "FALSE"]
+					}
+				]
+			}
+		]
 	},
 	{
 		"name": ["AttemptLockDosList", "LockDosList", "UnLockDosList"],
