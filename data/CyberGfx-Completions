@@ -1,0 +1,244 @@
+  {
+    "displayText": "AllocCModeListTagList(tagList)",
+    "snippet": "AllocCModeListTagList(${1:struct TagItem *tagList})${2:}",
+    "type": "function",
+    "leftLabel": "APTR",
+    "description": "Allocates an exec list of all requested modes (CGX).",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/5025faa028fdc2f8769d0ecae2a019847b3ac4c5/docs/cybergraphics.doc#L154"
+  },
+  {
+    "displayText": "AllocCModeListTags(tag1, ...)",
+    "snippet": "AllocCModeListTags(${1:Tag tag1}, ${2:...})${3:}",
+    "type": "function",
+    "leftLabel": "APTR",
+    "description": "Allocates an exec list of all requested modes (CGX).",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/5025faa028fdc2f8769d0ecae2a019847b3ac4c5/docs/cybergraphics.doc#L154"
+  },
+  {
+    "displayText": "BestCModeIDTagList(tagList)",
+    "snippet": "BestCModeIDTagList(${1:struct TagItem *tagList})${2:}",
+    "type": "function",
+    "leftLabel": "ULONG",
+    "description": "Calculates the best ModeID with given parameters (CGX).",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/5025faa028fdc2f8769d0ecae2a019847b3ac4c5/docs/cybergraphics.doc#L226"
+  },
+  {
+    "displayText": "BestCModeIDTags(tag1, ...)",
+    "snippet": "BestCModeIDTags(${1:Tag tag1}, ${2:...})${3:}",
+    "type": "function",
+    "leftLabel": "ULONG",
+    "description": "Calculates the best ModeID with given parameters (CGX).",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/5025faa028fdc2f8769d0ecae2a019847b3ac4c5/docs/cybergraphics.doc#L226"
+  },
+  {
+    "displayText": "CModeRequestTagList(requester, tagList)",
+    "snippet": "CModeRequestTagList(${1:APTR requester}, ${2:struct TagItem *tagList})${3:}",
+    "type": "function",
+    "leftLabel": "LONG",
+    "description": "Get screenmode from user using a requester (CGX).",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/5025faa028fdc2f8769d0ecae2a019847b3ac4c5/docs/cybergraphics.doc#L290"
+  },
+  {
+    "displayText": "CModeRequestTags(requester, tag1, ...)",
+    "snippet": "CModeRequestTags(${1:APTR requester}, ${2:Tag tag1}, ${3:...})${4:}",
+    "type": "function",
+    "leftLabel": "LONG",
+    "description": "Get screenmode from user using a requester (CGX).",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/5025faa028fdc2f8769d0ecae2a019847b3ac4c5/docs/cybergraphics.doc#L290"
+  },
+  {
+    "displayText": "CVideoCtrlTagList(viewPort, tagList)",
+    "snippet": "CVideoCtrlTagList(${1:struct ViewPort *viewPort}, ${2:struct TagItem *tagList})${3:}",
+    "type": "function",
+    "leftLabel": "VOID",
+    "description": "Control video output (CGX).",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/5025faa028fdc2f8769d0ecae2a019847b3ac4c5/docs/cybergraphics.doc#L381"
+  },
+  {
+    "displayText": "CVideoCtrlTags(viewPort, tag1, ...)",
+    "snippet": "CVideoCtrlTags(${1:struct ViewPort *viewPort}, ${2:Tag tag1}, ${3:...})${4:}",
+    "type": "function",
+    "leftLabel": "VOID",
+    "description": "Control video output (CGX).",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/5025faa028fdc2f8769d0ecae2a019847b3ac4c5/docs/cybergraphics.doc#L381"
+  },
+  {
+    "displayText": "DoCDrawMethodTagList(hook, rastPort, tagList)",
+    "snippet": "DoCDrawMethodTagList(${1:struct Hook *hook}, ${2:struct RastPort *rastPort}, ${3:struct TagItem *tagList})${4:}",
+    "type": "function",
+    "leftLabel": "VOID",
+    "description": "Do the given hook for the supplied rastport (CGX).",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/5025faa028fdc2f8769d0ecae2a019847b3ac4c5/docs/cybergraphics.doc#L422"
+  },
+  {
+    "displayText": "DoCDrawMethodTags(hook, rastPort, tag1, ...)",
+    "snippet": "DoCDrawMethodTags(${1:struct Hook *hook}, ${2:struct RastPort *rastPort}, ${3:Tag tag1}, ${4:...})${5:}",
+    "type": "function",
+    "leftLabel": "VOID",
+    "description": "Do the given hook for the supplied rastport (CGX).",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/5025faa028fdc2f8769d0ecae2a019847b3ac4c5/docs/cybergraphics.doc#L422"
+  },
+  {
+    "displayText": "FreeCModeList(modeList)",
+    "snippet": "FreeCModeList(${1:struct List *modeList})${2:}",
+    "type": "function",
+    "leftLabel": "VOID",
+    "description": "Frees a previously allocated ModeList (CGX).",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/5025faa028fdc2f8769d0ecae2a019847b3ac4c5/docs/cybergraphics.doc#L485"
+  },
+  {
+    "displayText": "GetCyberMapAttr(bitMap, attribute)",
+    "snippet": "GetCyberMapAttr(${1:struct BitMap *bitMap}, ${2:ULONG attribute})${3:}",
+    "type": "function",
+    "leftLabel": "ULONG",
+    "description": "Returns information about a cybergraphics bitmap (CGX).",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/5025faa028fdc2f8769d0ecae2a019847b3ac4c5/docs/cybergraphics.doc#L505"
+  },
+  {
+    "displayText": "GetCyberIDAttr(attribute, modeID)",
+    "snippet": "GetCyberIDAttr(${1:ULONG attribute}, ${2:ULONG modeID})${3:}",
+    "type": "function",
+    "leftLabel": "ULONG",
+    "description": "Returns information about a specified displaymode id (CGX).",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/5025faa028fdc2f8769d0ecae2a019847b3ac4c5/docs/cybergraphics.doc#L559"
+  },
+  {
+    "displayText": "IsCyberModeID(modeID)",
+    "snippet": "IsCyberModeID(${1:ULONG modeID})${2:}",
+    "type": "function",
+    "leftLabel": "BOOL",
+    "description": "Returns whether supplied ModeID is a cybergraphics id (CGX).",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/5025faa028fdc2f8769d0ecae2a019847b3ac4c5/docs/cybergraphics.doc#L593"
+  },
+  {
+    "displayText": "ExtractColor(rastPort, singleMap, colour, sX, sY, width, height)",
+    "snippet": "ExtractColor(${1:struct RastPort *rastPort}, ${2:struct BitMap *singleMap}, ${3:ULONG colour}, ${4:ULONG sX}, ${5:ULONG sY}, ${6:ULONG width}, ${7:ULONG height})${8:}",
+    "type": "function",
+    "leftLabel": "LONG",
+    "description": "Extract the specified colour/CLUT value from a RastPort (CGX).",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/5025faa028fdc2f8769d0ecae2a019847b3ac4c5/docs/cybergraphics.doc#L614"
+  },
+  {
+    "displayText": "FillPixelArray(rastPort, destX, destY, sizeX, sizeY, ARGB)",
+    "snippet": "FillPixelArray(${1:struct RastPort *rastPort}, ${2:UWORD destX}, ${3:UWORD destY}, ${4:UWORD sizeX}, ${5:UWORD sizeY}, ${6:ULONG ARGB})${7:}",
+    "type": "function",
+    "leftLabel": "LONG",
+    "description": "Fill a rectangular area with the supplied ARGB value (CGX).",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/5025faa028fdc2f8769d0ecae2a019847b3ac4c5/docs/cybergraphics.doc#L664"
+  },
+  {
+    "displayText": "InvertPixelArray(rastPort, destX, destY, sizeX, sizeY)",
+    "snippet": "InvertPixelArray(${1:struct RastPort *rastPort}, ${2:UWORD destX}, ${3:UWORD destY}, ${4:UWORD sizeX}, ${5:UWORD sizeY})${6:}",
+    "type": "function",
+    "leftLabel": "LONG",
+    "description": "Invert a rectangular area (CGX).",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/5025faa028fdc2f8769d0ecae2a019847b3ac4c5/docs/cybergraphics.doc#L714"
+  },
+  {
+    "displayText": "LockBitmapTagList(bitMap, tagList)",
+    "snippet": "LockBitmapTagList(${1:struct BitMap *bitMap}, ${2:struct TagItem* tagList})${3:}",
+    "type": "function",
+    "leftLabel": "APTR",
+    "description": "Lock supplied CGX BitMap for a short amount of time (CGX).",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/5025faa028fdc2f8769d0ecae2a019847b3ac4c5/docs/cybergraphics.doc#L747"
+  },
+  {
+    "displayText": "LockBitMapTags(bitMap, tag1, ...)",
+    "snippet": "LockBitMapTags(${1:struct BitMap *bitMap}, ${2:Tag tag1}, ${3:...})${4:}",
+    "type": "function",
+    "leftLabel": "APTR",
+    "description": "Lock supplied CGX BitMap for a short amount of time (CGX).",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/5025faa028fdc2f8769d0ecae2a019847b3ac4c5/docs/cybergraphics.doc#L747"
+  },
+  {
+    "displayText": "MovePixelArray(srcX, srcY, rastPort, destX, destY, sizeX, sizeY)",
+    "snippet": "MovePixelArray(${1:UWORD srcX}, ${2:UWORD srxY}, ${3:struct RastPort *rastPort}, ${4:UWORD destX}, ${5:UWORD destY}, ${6:UWORD sizeX}, ${7:UWORD sizeY})${8:}",
+    "type": "function",
+    "leftLabel": "LONG",
+    "description": "Move a rectangular area within a certain RastPort (CGX).",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/5025faa028fdc2f8769d0ecae2a019847b3ac4c5/docs/cybergraphics.doc#L826"
+  },
+  {
+    "displayText": "ReadPixelArray(destRect, destX, destY, destMod, rastPort, srcX, srcY, sizeX, sizeY, destFormat)",
+    "snippet": "ReadPixelArray(${1:APTR destRect}, ${2:UWORD destX}, ${3:UWORD destY}, ${4:UWORD destMod}, ${5:struct RastPort *rp}, ${6:UWORD srcX}, ${7:UWORD srcY}, ${8:UWORD sizeX}, ${9:UWORD sizeY}, ${10:UBYTE destFormat})${11:}",
+    "type": "function",
+    "leftLabel": "LONG",
+    "description": "Read the color values from a certain RastPort (CGX).",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/5025faa028fdc2f8769d0ecae2a019847b3ac4c5/docs/cybergraphics.doc#L865"
+  },
+  {
+    "displayText": "ReadRGBPixel(rastPort, x, y)",
+    "snippet": "ReadRGBPixel(${1:struct RastPort *rastPort}, ${2:UWORD x}, ${3:UWORD y})${4:}",
+    "type": "function",
+    "leftLabel": "ULONG",
+    "description": "Reads a pixel in ARGB format from a location (CGX).",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/5025faa028fdc2f8769d0ecae2a019847b3ac4c5/docs/cybergraphics.doc#L924"
+  },
+  {
+    "displayText": "ScalePixelArray(srcRect, srcW, srcH, srcMod, rastPort, destX, destY, destW, destH, srcFormat)",
+    "snippet": "ScalePixelArray(${1:APTR srcRect}, ${2:UWORD srcW}, ${3:UWORD srcH}, ${4:UWORD srcMod}, ${5:struct RastPort *rp}, ${6:UWORD destX}, ${7:UWORD destY}, ${8:UWORD destW}, ${9:UWORD destH}, ${10:UBYTE srcFormat})${11:}",
+    "type": "function",
+    "leftLabel": "LONG",
+    "description": "Scale a rectangular area within a certain RastPort (CGX).",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/5025faa028fdc2f8769d0ecae2a019847b3ac4c5/docs/cybergraphics.doc#L960"
+  },
+  {
+    "displayText": "WriteLUTPixelArray(srcRect, srcX, srcY, srcMod, rastPort, colTable, destX, destY, sizeX, sizeY, cTblFormat)",
+    "snippet": "WriteLUTPixelArray(${1:APTR srcRect}, ${2:UWORD srcX}, ${3:UWORD srcY}, ${4:UWORD srcMod}, ${5:struct RastPort *rp}, ${6:APTR colTable}, ${7:UWORD destX}, ${8:UWORD destY}, ${9:UWORD sizeX}, ${10:UWORD sizeY}, ${11:UBYTE cTblFormat})${12:}",
+    "type": "function",
+    "leftLabel": "LONG",
+    "description": "Write a color generated from a color table within a certain RastPort (CGX).",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/5025faa028fdc2f8769d0ecae2a019847b3ac4c5/docs/cybergraphics.doc#L1032"
+  },
+  {
+    "displayText": "WritePixelArray(srcRect, srcX, srcY, srcMod, rastPort, destX, destY, sizeX, sizeY, srcFormat)",
+    "snippet": "WritePixelArray(${1:APTR srcRect}, ${2:UWORD srcX}, ${3:UWORD srcY}, ${4:UWORD srcMod}, ${5:struct RastPort *rp}, ${6:UWORD destX}, ${7:UWORD destY}, ${8:UWORD sizeX}, ${9:UWORD sizeY}, ${10:UBYTE srcFormat})${11:}",
+    "type": "function",
+    "leftLabel": "LONG",
+    "description": "Write the color values from a certain RastPort (CGX).",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/5025faa028fdc2f8769d0ecae2a019847b3ac4c5/docs/cybergraphics.doc#L1093"
+  },
+  {
+    "displayText": "WriteRGBPixel(rastPort, x, y, color)",
+    "snippet": "WriteRGBPixel(${1:struct RastPort *rastPort}, ${2:UWORD x}, ${3:UWORD y}, ${4:ULONG color})${5:}",
+    "type": "function",
+    "leftLabel": "ULONG",
+    "description": "Writes an ARGB color value to a pixel location (CGX).",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/5025faa028fdc2f8769d0ecae2a019847b3ac4c5/docs/cybergraphics.doc#L1164"
+  },
+  {
+    "displayText": "UnLockBitmap(handle)",
+    "snippet": "UnLockBitmap(${1:APTR handle})${2:}",
+    "type": "function",
+    "leftLabel": "VOID",
+    "description": "Unlock a CGX BitMap which was previously locked (CGX).",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/5025faa028fdc2f8769d0ecae2a019847b3ac4c5/docs/cybergraphics.doc#L1203"
+  },
+  {
+    "displayText": "UnLockBitmapTagList(handle, tagList)",
+    "snippet": "UnLockBitmapTagList(${1:APTR handle}, ${2:struct TagItem *tagList})${3:}",
+    "type": "function",
+    "leftLabel": "VOID",
+    "description": "Unlock a CGX BitMap which was previously locked (CGX).",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/5025faa028fdc2f8769d0ecae2a019847b3ac4c5/docs/cybergraphics.doc#L1223"
+  },
+  {
+    "displayText": "UnLockBitMapTags(handle, tag1, ...)",
+    "snippet": "UnLockBitMapTags(${1:APTR handle}, ${2:Tag tag1}, ${3:...})${4:}",
+    "type": "function",
+    "leftLabel": "VOID",
+    "description": "Unlock a CGX BitMap which was previously locked (CGX).",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/5025faa028fdc2f8769d0ecae2a019847b3ac4c5/docs/cybergraphics.doc#L1223"
+  },
+  {
+    "displayText": "CyberModeNode",
+    "type": "struct",
+    "description": "Definition of CyberModeNode (Returned in AllocModeList) (CGX).",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/4cd018de4429ff4a1ea09b07e175464c953f0325/structs/CyberGraphX_structs.h#L9"
+  },
+  {
+    "displayText": "CDrawMsg",
+    "type": "struct",
+    "description": "Message passed to the DoCDrawMethodTagList() hook function (CGX).",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/4cd018de4429ff4a1ea09b07e175464c953f0325/structs/CyberGraphX_structs.h#L22"
+  }

@@ -1,0 +1,141 @@
+  {
+    "name": ["AllocCModeListTags"],
+    "tagStrt": "1",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["CYBRMREQ_MinWidth", "ULONG", "CYBRMREQ_MaxWidth", "ULONG", "CYBRMREQ_MinHeight", "ULONG", "CYBRMREQ_MaxHeight", "ULONG", "CYBRMREQ_MinDepth", "UWORD", "CYBRMREQ_MaxDepth", "UWORD", "CYBRMREQ_CModelArray", "UWORD*", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["BestCModeIDTags"],
+    "tagStrt": "1",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["CYBRBIDTG_Depth", "ULONG", "CYBRBIDTG_NominalWidth", "UWORD", "CYBRBIDTAG_NominalHeight", "UWORD", "CYBRBIDTG_MonitorID", "ULONG", "CYBRBIDTG_BoardName", "STRPTR", "TAG_END"],
+        "values": [
+          {
+            "tag": ["CYBRBIDTG_BoardName"],
+            "type": "string",
+            "suggestions": ["\"CVision64\"", "\"Piccolo\"", "\"PicassoII\"", "\"Spectrum\"", "\"Domino\"", "\"RetinaZ3\"", "\"DraCoAltais\"", "\"PiccoSD64\"", "\"A2410\"", "\"CVision3D\"", "\"Inferno\"", "\"PicassoIV\""]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["CModeRequestTags"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["CYBRMREQ_Screen", "struct Screen*", "CYBRMREQ_WinTitle", "STRPTR", "CYBRMREQ_OKText", "STRPTR", "CYBRMREQ_CancelText", "STRPTR", "CYBRMREQ_MinWidth", "ULONG", "CYBRMREQ_MaxWidth", "ULONG", "CYBRMREQ_MinHeight", "ULONG", "CYBRMREQ_MaxHeight", "ULONG", "CYBRMREQ_MinDepth", "UWORD", "CYBRMREQ_MaxDepth", "UWORD", "CYBRMREQ_CModelArray", "UWORD*", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["CVideoCtrlTags"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["SETVC_DPMSLevel", "ULONG", "TAG_END"],
+        "values": [
+          {
+            "tag": ["SETVC_DPMSLevel"],
+            "type": "macro",
+            "suggestions": ["DPMS_ON", "DPMS_STANDBY", "DPMS_SUSPEND", "DPMS_OFF"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["DoCDrawMethodTags"],
+    "tagStrt": "3",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["GetCyberMapAttr"],
+    "arguments": [
+      {
+        "num": ["2"],
+        "type": "flag",
+        "suggestions": ["CYBRMATTR_XMOD", "CYBRMATTR_BPPIX", "CYBRMATTR_PIXFMT", "CYBRMATTR_WIDTH", "CYBRMATTR_HEIGHT", "CYBRMATTR_DEPTH", "CYBRMATTR_ISCYBERGFX", "CYBRMATTR_ISLINEARMEM"]
+      }
+    ]
+  },
+  {
+    "name": ["GetCyberIDAttr"],
+    "arguments": [
+      {
+        "num": ["1"],
+        "type": "flag",
+        "suggestions": ["CYBRIDATTR_PIXFMT", "CYBRIDATTR_WIDTH", "CYBRIDATTR_HEIGHT", "CYBRIDATTR_DEPTH", "CYBRIDATTR_BPPIX"]
+      }
+    ]
+  },
+  {
+    "name": ["LockBitMapTags"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["LBMI_WIDTH", "ULONG*", "LBMI_HEIGHT", "ULONG*", "LBMI_DEPTH", "ULONG*", "LBMI_PIXFMT", "ULONG*", "LBMI_BYTESPERPIX", "ULONG*", "LBMI_BYTESPERROW", "ULONG*", "LBMI_BASEADDRESS", "ULONG*", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["ReadPixelArray"],
+    "arguments": [
+      {
+        "num": ["10"],
+        "type": "macro",
+        "suggestions": ["RECTFMT_RGB", "RECTFMT_RGBA", "RECTFMT_ARGB"]
+      }
+    ]
+  },
+  {
+    "name": ["ScalePixelArray", "WritePixelArray"],
+    "arguments": [
+      {
+        "num": ["10"],
+        "type": "macro",
+        "suggestions": ["RECTFMT_RGB", "RECTFMT_RGBA", "RECTFMT_ARGB", "RECTFMT_LUT8", "RECTFMT_GREY8"]
+      }
+    ]
+  },
+  {
+    "name": ["WriteLUTPixelArray"],
+    "arguments": [
+      {
+        "num": ["11"],
+        "type": "macro",
+        "suggestions": ["CTABFMT_XRGB8"]
+      }
+    ]
+  },
+  {
+    "name": ["UnLockBitMapTags"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["UBMI_UPDATERECTS", "struct RectList*", "UBMI_REALLYUNLOCK", "BOOL", "TAG_END"],
+        "values": [
+          {
+            "tag": ["UBMI_REALLYUNLOCK"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          }
+        ]
+      }
+    ]
+  }
