@@ -1,0 +1,222 @@
+  {
+    "name": ["AHI_AllocAudio"],
+    "tagStrt": "1",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["AHIA_AudioID", "ULONG", "AHIA_MixFreq", "ULONG", "AHIA_Channels", "UWORD", "AHIA_Sounds", "UWORD", "AHIA_SoundFunc", "struct Hook*", "AHIA_PlayerFunc", "struct Hook*", "AHIA_PlayerFreq", "Fixed", "AHIA_MinPlayerFreq", "Fixed", "AHIA_MaxPlayerFreq", "Fixed", "AHIA_RecordFunc", "struct Hook*", "AHIA_UserData", "APTR", "TAG_END"],
+        "values": [
+          {
+            "tag": ["AHIA_AudioID"],
+            "type": "macro",
+            "suggestions": ["AHI_DEFAULT_ID", "AHI_LOOPBACK_ID"]
+          },
+          {
+            "tag": ["AHIA_MixFreq"],
+            "type": "macro",
+            "suggestions": ["AHI_DEFAULT_FREQ"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["AHI_AllocAudioRequest"],
+    "tagStrt": "1",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["AHIR_Window", "struct Window*", "AHIR_PubScreenName", "STRPTR", "AHIR_Screen", "struct Screen*", "AHIR_PrivateIDCMP", "BOOL", "AHIR_IntuiMsgFunc", "struct Hook*", "AHIR_SleepWindow", "BOOL", "AHIR_UserData", "APTR", "AHIR_TextAttr", "struct TextAttr*", "AHIR_Locale", "struct Locale*", "AHIR_TitleText", "STRPTR", "AHIR_PositiveText", "STRPTR", "AHIR_NegativeText", "STRPTR", "AHIR_InitialLeftEdge", "WORD", "AHIR_InitialTopEdge", "WORD", "AHIR_InitialWidth", "WORD", "AHIR_InitialHeight", "WORD", "AHIR_InitialAudioID", "ULONG", "AHIR_InitialMixFreq", "ULONG", "AHIR_InitialInfoOpened", "BOOL", "AHIR_InitialInfoLeftEdge", "WORD", "AHIR_InitialInfoTopEdge", "WORD", "AHIR_DoMixFreq", "BOOL", "AHIR_DoDefaultMode", "BOOL", "AHIR_FilterFunc", "struct Hook*", "AHIR_FilterTags", "struct TagItem*", "TAG_END"],
+        "values": [
+          {
+            "tag": ["AHIR_InitialAudioID"],
+            "type": "macro",
+            "suggestions": ["AHI_INVALID_ID", "AHI_DEFAULT_ID", "AHI_LOOPBACK_ID"]
+          },
+          {
+						"tag": ["AHIR_PrivateIDCMP", "AHIR_SleepWindow", "AHIR_InitialInfoOpened", "AHIR_DoMixFreq", "AHIR_DoDefaultMode"],
+						"type": "bool",
+						"suggestions": ["TRUE", "FALSE"]
+					}
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["AHI_AudioRequest"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["AHIR_Window", "struct Window*", "AHIR_PubScreenName", "STRPTR", "AHIR_Screen", "struct Screen*", "AHIR_PrivateIDCMP", "BOOL", "AHIR_IntuiMsgFunc", "struct Hook*", "AHIR_SleepWindow", "BOOL", "AHIR_UserData", "APTR", "AHIR_TextAttr", "struct TextAttr*", "AHIR_Locale", "struct Locale*", "AHIR_TitleText", "STRPTR", "AHIR_PositiveText", "STRPTR", "AHIR_NegativeText", "STRPTR", "AHIR_InitialLeftEdge", "WORD", "AHIR_InitialTopEdge", "WORD", "AHIR_InitialWidth", "WORD", "AHIR_InitialHeight", "WORD", "AHIR_InitialAudioID", "ULONG", "AHIR_InitialMixFreq", "ULONG", "AHIR_InitialInfoOpened", "BOOL", "AHIR_InitialInfoLeftEdge", "WORD", "AHIR_InitialInfoTopEdge", "WORD", "AHIR_DoMixFreq", "BOOL", "AHIR_DoDefaultMode", "BOOL", "AHIR_FilterFunc", "struct Hook*", "AHIR_FilterTags", "struct TagItem*", "TAG_END"],
+        "values": [
+          {
+            "tag": ["AHIR_InitialAudioID"],
+            "type": "macro",
+            "suggestions": ["AHI_INVALID_ID"]
+          },
+          {
+            "tag": ["AHIR_PrivateIDCMP", "AHIR_SleepWindow", "AHIR_InitialInfoOpened", "AHIR_DoMixFreq", "AHIR_DoDefaultMode"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["AHI_BestAudioID"],
+    "tagStrt": "1",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["AHIDB_AudioID", "ULONG", "AHIDB_Volume", "BOOL", "AHIDB_Stereo", "BOOL", "AHIDB_Panning", "BOOL", "AHIDB_HiFi", "BOOL", "AHIDB_PingPong", "BOOL", "AHIDB_Record", "BOOL", "AHIDB_Realtime", "BOOL", "AHIDB_FullDuplex", "BOOL", "AHIDB_Bits", "UBYTE", "AHIDB_MaxChannels", "UWORD", "AHIDB_MinMixFreq", "ULONG", "AHIDB_MaxMixFreq", "ULONG", "AHIB_Dizzy", "struct TagItem*", "TAG_END"],
+        "values": [
+          {
+            "tag": ["AHIDB_Volume", "AHIDB_Stereo", "AHIDB_Panning", "AHIDB_HiFi", "AHIDB_PingPong", "AHIDB_Record", "AHIDB_Realtime", "AHIDB_FullDuplex"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["AHI_ControlAudio"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["AHIC_Play", "BOOL", "AHIC_Record", "BOOL", "AHIC_MonitorVolume", "Fixed", "AHIC_MonitorVolume_Query", "Fixed*", "AHIC_MixFreq_Query", "ULONG*", "AHIC_InputGain", "Fixed", "AHIC_InputGain_Query", "Fixed*", "AHIC_OutputVolume", "Fixed", "AHIC_OutputVolume_Query", "Fixed*", "AHIC_Input", "ULONG", "AHIC_Input_Query", "ULONG*", "AHIC_Output", "ULONG", "AHIC_Output_Query", "ULONG*", "AHIA_SoundFunc", "struct Hook*", "AHIA_PlayerFunc", "struct Hook*", "AHIA_PlayerFreq", "Fixed", "AHIA_RecordFunc", "struct Hook*", "AHIA_UserData", "APTR", "TAG_END"],
+        "values": [
+          {
+            "tag": ["AHIC_Play", "AHIC_Record"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["AHI_GetAudioAttrs"],
+    "tagStrt": "3",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["AHIDB_Volume", "ULONG*", "AHIDB_Stereo", "ULONG*", "AHIDB_Panning", "ULONG*", "AHIDB_HiFi", "ULONG*", "AHIDB_PingPong", "ULONG*", "AHIDB_Record", "ULONG*", "AHIDB_FullDuplex", "ULONG*", "AHIDB_Realtime", "ULONG*", "AHIDB_Bits", "ULONG*", "AHIDB_MaxChannels", "ULONG*", "AHIDB_MinMixFreq", "ULONG*", "AHIDB_MaxMixFreq", "ULONG*", "AHIDB_Frequencies", "ULONG*", "AHIDB_FrequencyArg", "ULONG", "AHIDB_Frequency", "ULONG*", "AHIDB_IndexArg", "ULONG", "AHIDB_Index", "ULONG*", "AHIDB_MaxPlaySamples", "ULONG*", "AHIDB_MaxRecordSamples", "ULONG*", "AHIDB_BufferLen", "ULONG", "AHIDB_Driver", "STRPTR", "AHIDB_Name", "STRPTR", "AHIDB_Author", "STRPTR", "AHIDB_Copyright", "STRPTR", "AHIDB_Version", "STRPTR", "AHIDB_Annotation", "STRPTR", "AHIDB_MinMonitorVolume", "Fixed*", "AHIDB_MaxMonitorVolume", "Fixed*", "AHIDB_MinInputGain", "Fixed*", "AHIDB_MaxInputGain", "Fixed*", "AHIDB_MinOutputVolume", "Fixed*", "AHIDB_MaxOutputVolume", "Fixed*", "AHIDB_Inputs", "ULONG*", "AHIDB_InputArg", "ULONG", "AHIDB_Input", "STRPTR", "AHIDB_Outputs", "ULONG*", "AHIDB_OutputArg", "ULONG", "AHIDB_Output", "STRPTR", "AHIDB_AudioID", "ULONG*", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["AHI_LoadSound", "AHIsub_LoadSound"],
+    "arguments": [
+      {
+        "num": ["2"],
+        "type": "macro",
+        "suggestions": ["AHIST_SAMPLE", "AHIST_DYNAMICSAMPLE", "AHIST_INPUT"]
+      }
+    ]
+  },
+  {
+    "name": ["AHI_NextAudioID"],
+    "arguments": [
+      {
+        "num": ["1"],
+        "type": "macro",
+        "suggestions": ["AHI_INVALID_ID"]
+      }
+    ]
+  },
+  {
+    "name": ["AHI_Play"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["AHIP_BeginChannel", "UWORD", "AHIP_EndChannel", "ULONG", "AHIP_Freq", "ULONG", "AHIP_Vol", "Fixed", "AHIP_Pan", "sposition", "AHIP_Sound", "UWORD", "AHIP_Offset", "ULONG", "AHIP_Length", "LONG", "AHIP_LoopFreq", "ULONG", "AHIP_LoopVol", "Fixed", "AHIP_LoopPan", "sposition", "AHIP_LoopSound", "UWORD", "AHIP_LoopOffset", "ULONG", "AHIP_LoopLength", "LONG", "TAG_END"],
+        "values": [
+          {
+            "tag": ["AHIP_Freq", "AHIP_LoopFreq"],
+            "type": "macro",
+            "suggestions": ["AHI_MIXFREQ"]
+          },
+          {
+            "tag": ["AHIP_Sound"],
+            "type": "macro",
+            "suggestions": ["AHI_NOSOUND"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["AHI_SampleFrameSize"],
+    "arguments": [
+      {
+        "num": ["1"],
+        "type": "macro",
+        "suggestions": ["AHIST_M8S", "AHIST_M16S", "AHIST_S8S", "AHIST_S16S", "AHIST_M32S", "AHIST_S32S", "AHIST_M8U", "AHIST_L7_1"]
+      }
+    ]
+  },
+  {
+    "name": ["AHI_SetFreq", "AHIsub_SetFreq"],
+    "arguments": [
+      {
+        "num": ["2"],
+        "type": "macro",
+        "suggestions": ["AHI_MIXFREQ"]
+      },
+      {
+        "num": ["4"],
+        "type": "flag",
+        "suggestions": ["AHISF_IMM"]
+      }
+    ]
+  },
+  {
+    "name": ["AHI_SetSound", "AHIsub_SetSound"],
+    "arguments": [
+      {
+        "num": ["2"],
+        "type": "macro",
+        "suggestions": ["AHI_NOSOUND"]
+      },
+      {
+        "num": ["6"],
+        "type": "flag",
+        "suggestions": ["AHISF_IMM"]
+      }
+    ]
+  },
+  {
+    "name": ["AHI_SetVol", "AHIsub_SetVol"],
+    "arguments": [
+      {
+        "num": ["5"],
+        "type": "flag",
+        "suggestions": ["AHISF_IMM"]
+      }
+    ]
+  },
+  {
+    "name": ["AHIsub_HardwareControl"],
+    "arguments": [
+      {
+        "num": ["1"],
+        "type": "value",
+        "suggestions": ["AHIC_MonitorVolume", "AHIC_MonitorVolume_Query", "AHIC_InputGain", "AHIC_InputGain_Query", "AHIC_OutputVolume", "AHIC_OutputVolume_Query", "AHIC_Input", "AHIC_Input_Query", "AHIC_Output", "AHIC_Output_Query"]
+      }
+    ]
+  },
+  {
+    "name": ["AHIsub_Start", "AHIsub_Stop"],
+    "arguments": [
+      {
+        "num": ["1"],
+        "type": "flag",
+        "suggestions": ["AHISF_PLAY", "AHISF_RECORD"]
+      }
+    ]
+  }

@@ -7,12 +7,12 @@
 		"descriptionMoreURL": ""
 	},
 	{
-		"displayText": "AHI_AllocAudio(...)",
-		"snippet": "AHI_AllocAudio(${1:...})${2:}",
+		"displayText": "AHI_AllocAudio(tag1, ...)",
+		"snippet": "AHI_AllocAudio(${1:Tag tag1}, ${2:...})${3:}",
 		"type": "function",
 		"leftLabel": "struct AHIAudioCtrl*",
 		"description": "Allocates and initializes the audio hardware.",
-		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_AllocAudioA&funcgroup=AHI&action=Search"
+		"descriptionMoreURL": "http://www.lysator.liu.se/ahi/v4-site/files/ahi/doc/ahi.html#AHI_AllocAudioA"
 	},
 	{
 		"displayText": "AHI_AllocAudioA(tagList)",
@@ -20,15 +20,15 @@
 		"type": "function",
 		"leftLabel": "struct AHIAudioCtrl*",
 		"description": "Allocates and initializes the audio hardware.",
-		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_AllocAudioA&funcgroup=AHI&action=Search"
+		"descriptionMoreURL": "http://www.lysator.liu.se/ahi/v4-site/files/ahi/doc/ahi.html#AHI_AllocAudioA"
 	},
 	{
-		"displayText": "AHI_AllocAudioRequest(...)",
-		"snippet": "AHI_AllocAudioRequest(${1:...})${2:}",
+		"displayText": "AHI_AllocAudioRequest(tag1, ...)",
+		"snippet": "AHI_AllocAudioRequest(${1:Tag tag1}, ${2:...})${3:}",
 		"type": "function",
 		"leftLabel": "struct AHIAudioModeRequester*",
 		"description": "Allocate an audio mode requester.",
-		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_AllocAudioRequestA&funcgroup=AHI&action=Search"
+		"descriptionMoreURL": "http://www.lysator.liu.se/ahi/v4-site/files/ahi/doc/ahi.html#AHI_AllocAudioRequestA"
 	},
 	{
 		"displayText": "AHI_AllocAudioRequestA(tagList)",
@@ -36,15 +36,15 @@
 		"type": "function",
 		"leftLabel": "struct AHIAudioModeRequester*",
 		"description": "Allocate an audio mode requester.",
-		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_AllocAudioRequestA&funcgroup=AHI&action=Search"
+		"descriptionMoreURL": "http://www.lysator.liu.se/ahi/v4-site/files/ahi/doc/ahi.html#AHI_AllocAudioRequestA"
 	},
 	{
-		"displayText": "AHI_AudioRequest(requester, ...)",
-		"snippet": "AHI_AudioRequest(${1:struct AHIAudioModeRequester *requester}, ${2:...})${3:}",
+		"displayText": "AHI_AudioRequest(requester, tag1, ...)",
+		"snippet": "AHI_AudioRequest(${1:struct AHIAudioModeRequester *requester}, ${2:Tag tag1}, ${3:...})${4:}",
 		"type": "function",
 		"leftLabel": "BOOL",
 		"description": "Get an audio mode from user using a requester.",
-		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_AudioRequestA&funcgroup=AHI&action=Search"
+		"descriptionMoreURL": "http://www.lysator.liu.se/ahi/v4-site/files/ahi/doc/ahi.html#AHI_AudioRequestA"
 	},
 	{
 		"displayText": "AHI_AudioRequestA(requester, tagList)",
@@ -52,15 +52,15 @@
 		"type": "function",
 		"leftLabel": "BOOL",
 		"description": "Get an audio mode from user using a requester.",
-		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_AudioRequestA&funcgroup=AHI&action=Search"
+		"descriptionMoreURL": "http://www.lysator.liu.se/ahi/v4-site/files/ahi/doc/ahi.html#AHI_AudioRequestA"
 	},
 	{
-		"displayText": "AHI_BestAudioID(...)",
-		"snippet": "AHI_BestAudioID(${1:...})${2:}",
+		"displayText": "AHI_BestAudioID(tag1, ...)",
+		"snippet": "AHI_BestAudioID(${1:Tag tag1}, ${2:...})${3:}",
 		"type": "function",
 		"leftLabel": "ULONG",
 		"description": "Calculate the best ModeID with given parameters.",
-		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_BestAudioIDA&funcgroup=AHI&action=Search"
+		"descriptionMoreURL": "http://www.lysator.liu.se/ahi/v4-site/files/ahi/doc/ahi.html#AHI_BestAudioIDA"
 	},
 	{
 		"displayText": "AHI_BestAudioIDA(tagList)",
@@ -68,15 +68,15 @@
 		"type": "function",
 		"leftLabel": "ULONG",
 		"description": "Calculate the best ModeID with given parameters.",
-		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_BestAudioIDA&funcgroup=AHI&action=Search"
+		"descriptionMoreURL": "http://www.lysator.liu.se/ahi/v4-site/files/ahi/doc/ahi.html#AHI_BestAudioIDA"
 	},
 	{
-		"displayText": "AHI_ControlAudio(audioCtrl, ...)",
-		"snippet": "AHI_ControlAudio(${1:struct AHIAudioCtrl *audioCtrl}, ${2:...})${3:}",
+		"displayText": "AHI_ControlAudio(audioCtrl, tag1, ...)",
+		"snippet": "AHI_ControlAudio(${1:struct AHIAudioCtrl *audioCtrl}, ${2:Tag tag1}, ${3:...})${4:}",
 		"type": "function",
 		"leftLabel": "ULONG",
 		"description": "Change audio attributes.",
-		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_ControlAudioA&funcgroup=AHI&action=Search"
+		"descriptionMoreURL": "http://www.lysator.liu.se/ahi/v4-site/files/ahi/doc/ahi.html#AHI_ControlAudioA"
 	},
 	{
 		"displayText": "AHI_ControlAudioA(audioCtrl, tagList)",
@@ -84,31 +84,31 @@
 		"type": "function",
 		"leftLabel": "ULONG",
 		"description": "Change audio attributes.",
-		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_ControlAudioA&funcgroup=AHI&action=Search"
+		"descriptionMoreURL": "http://www.lysator.liu.se/ahi/v4-site/files/ahi/doc/ahi.html#AHI_ControlAudioA"
 	},
 	{
 		"displayText": "AHI_FreeAudio(audioCtrl)",
 		"snippet": "AHI_FreeAudio(${1:struct AHIAudioCtrl *audioCtrl})${2:}",
 		"type": "function",
-		"leftLabel": "void",
+		"leftLabel": "VOID",
 		"description": "Deallocates the audio hardware.",
-		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_FreeAudio&funcgroup=AHI&action=Search"
+		"descriptionMoreURL": "http://www.lysator.liu.se/ahi/v4-site/files/ahi/doc/ahi.html#AHI_FreeAudio"
 	},
 	{
 		"displayText": "AHI_FreeAudioRequest(aequester)",
 		"snippet": "AHI_FreeAudioRequest(${1:struct AHIAudioModeRequester *aequester})${2:}",
 		"type": "function",
-		"leftLabel": "void",
+		"leftLabel": "VOID",
 		"description": "Frees requester resources.",
-		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_FreeAudioRequest&funcgroup=AHI&action=Search"
+		"descriptionMoreURL": "http://www.lysator.liu.se/ahi/v4-site/files/ahi/doc/ahi.html#AHI_FreeAudioRequest"
 	},
 	{
-		"displayText": "AHI_GetAudioAttrs(ID, audioCtrl, ...)",
-		"snippet": "AHI_GetAudioAttrs(${1:ULONG ID}, ${2:struct AHIAudioCtrl *audioCtrl}, ${3:...})${4:}",
+		"displayText": "AHI_GetAudioAttrs(ID, audioCtrl, tag1, ...)",
+		"snippet": "AHI_GetAudioAttrs(${1:ULONG ID}, ${2:struct AHIAudioCtrl *audioCtrl}, ${3:Tag tag1}, ${4:...})${5:}",
 		"type": "function",
 		"leftLabel": "BOOL",
 		"description": "Examine an audio mode via a tag list.",
-		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_GetAudioAttrsA&funcgroup=AHI&action=Search"
+		"descriptionMoreURL": "http://www.lysator.liu.se/ahi/v4-site/files/ahi/doc/ahi.html#AHI_GetAudioAttrsA"
 	},
 	{
 		"displayText": "AHI_GetAudioAttrsA(ID, audioCtrl, tagList)",
@@ -116,13 +116,13 @@
 		"type": "function",
 		"leftLabel": "BOOL",
 		"description": "Examine an audio mode via arguments.",
-		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_GetAudioAttrsA&funcgroup=AHI&action=Search"
+		"descriptionMoreURL": "http://www.lysator.liu.se/ahi/v4-site/files/ahi/doc/ahi.html#AHI_GetAudioAttrsA"
 	},
 	{
 		"displayText": "AHI_KillAudio()",
 		"snippet": "AHI_KillAudio()",
 		"type": "function",
-		"leftLabel": "void",
+		"leftLabel": "VOID",
 		"description": "",
 		"descriptionMoreURL": ""
 	},
@@ -135,12 +135,12 @@
 		"descriptionMoreURL": ""
 	},
 	{
-		"displayText": "AHI_LoadSound(Sound, Type, Info, audioCtrl)",
-		"snippet": "AHI_LoadSound(${1:UWORD Sound}, ${2:ULONG Type}, ${3:APTR Info}, ${4:struct AHIAudioCtrl *audioCtrl})${5:}",
+		"displayText": "AHI_LoadSound(sound, type, info, audioCtrl)",
+		"snippet": "AHI_LoadSound(${1:UWORD sound}, ${2:ULONG type}, ${3:struct AHISampleInfo *info}, ${4:struct AHIAudioCtrl *audioCtrl})${5:}",
 		"type": "function",
 		"leftLabel": "ULONG",
 		"description": "Prepare a sound for playback.",
-		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_LoadSound&funcgroup=AHI&action=Search"
+		"descriptionMoreURL": "http://www.lysator.liu.se/ahi/v4-site/files/ahi/doc/ahi.html#AHI_LoadSound"
 	},
 	{
 		"displayText": "AHI_NextAudioID(last_ID)",
@@ -148,23 +148,23 @@
 		"type": "function",
 		"leftLabel": "ULONG",
 		"description": "Iterate current audio mode identifiers.",
-		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_NextAudioID&funcgroup=AHI&action=Search"
+		"descriptionMoreURL": "http://www.lysator.liu.se/ahi/v4-site/files/ahi/doc/ahi.html#AHI_NextAudioID"
 	},
 	{
-		"displayText": "AHI_Play(audioCtrl, ...)",
-		"snippet": "AHI_Play(${1:struct AHIAudioCtrl *audioCtrl}, ${2:...})${3:}",
+		"displayText": "AHI_Play(audioCtrl, tag1, ...)",
+		"snippet": "AHI_Play(${1:struct AHIAudioCtrl *audioCtrl}, ${2:Tag tag1}, ${3:...})${4:}",
 		"type": "function",
-		"leftLabel": "void",
+		"leftLabel": "VOID",
 		"description": "Start multiple sounds in one call. (V4)",
-		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_PlayA&funcgroup=AHI&action=Search"
+		"descriptionMoreURL": "http://www.lysator.liu.se/ahi/v4-site/files/ahi/doc/ahi.html#AHI_PlayA"
 	},
 	{
 		"displayText": "AHI_PlayA(audioCtrl, tagList)",
 		"snippet": "AHI_PlayA(${1:struct AHIAudioCtrl *audioCtrl}, ${2:struct TagItem *tagList})${3:}",
 		"type": "function",
-		"leftLabel": "void",
+		"leftLabel": "VOID",
 		"description": "Start multiple sounds in one call. (V4)",
-		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_PlayA&funcgroup=AHI&action=Search"
+		"descriptionMoreURL": "http://www.lysator.liu.se/ahi/v4-site/files/ahi/doc/ahi.html#AHI_PlayA"
 	},
 	{
 		"displayText": "AHI_RemoveAudioMode(ahiPrivate)",
@@ -180,7 +180,7 @@
 		"type": "function",
 		"leftLabel": "ULONG",
 		"description": "Get the size of a sample frame. (V4)",
-		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_SampleFrameSize&funcgroup=AHI&action=Search"
+		"descriptionMoreURL": "http://www.lysator.liu.se/ahi/v4-site/files/ahi/doc/ahi.html#AHI_SampleFrameSize"
 	},
 	{
 		"displayText": "AHI_SetEffect(effect, audioCtrl)",
@@ -188,159 +188,159 @@
 		"type": "function",
 		"leftLabel": "ULONG",
 		"description": "Set audio effect.",
-		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_SetEffect&funcgroup=AHI&action=Search"
+		"descriptionMoreURL": "http://www.lysator.liu.se/ahi/v4-site/files/ahi/doc/ahi.html#AHI_SetEffect"
 	},
 	{
 		"displayText": "AHI_SetFreq(channel, freq, audioCtrl, flags)",
 		"snippet": "AHI_SetFreq(${1:UWORD channel}, ${2:ULONG freq}, ${3:struct AHIAudioCtrl *audioCtrl}, ${4:ULONG flags})${5:}",
 		"type": "function",
-		"leftLabel": "void",
+		"leftLabel": "VOID",
 		"description": "Set frequency for a channel.",
-		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_SetFreq&funcgroup=AHI&action=Search"
+		"descriptionMoreURL": "http://www.lysator.liu.se/ahi/v4-site/files/ahi/doc/ahi.html#AHI_SetFreq"
 	},
 	{
 		"displayText": "AHI_SetSound(channel, sound, offset, length, audioCtrl, flags)",
 		"snippet": "AHI_SetSound(${1:UWORD channel}, ${2:UWORD sound}, ${3:ULONG offset}, ${4:LONG length}, ${5:struct AHIAudioCtrl *audioCtrl}, ${6:ULONG flags})${7:}",
 		"type": "function",
-		"leftLabel": "void",
+		"leftLabel": "VOID",
 		"description": "Set what sound to play for a channel.",
-		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_SetSound&funcgroup=AHI&action=Search"
+		"descriptionMoreURL": "http://www.lysator.liu.se/ahi/v4-site/files/ahi/doc/ahi.html#AHI_SetSound"
 	},
 	{
 		"displayText": "AHI_SetVol(channel, volume, pan, audioCtrl, flags)",
 		"snippet": "AHI_SetVol(${1:UWORD channel}, ${2:Fixed volume}, ${3:sposition pan}, ${4:struct AHIAudioCtrl *audioCtrl}, ${5:ULONG flags})${6:}",
 		"type": "function",
-		"leftLabel": "void",
+		"leftLabel": "VOID",
 		"description": "Set volume and stereo panning for a channel.",
-		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_SetVol&funcgroup=AHI&action=Search"
+		"descriptionMoreURL": "http://www.lysator.liu.se/ahi/v4-site/files/ahi/doc/ahi.html#AHI_SetVol"
 	},
 	{
-		"displayText": "AHI_UnloadSound(Sound, audioCtrl)",
-		"snippet": "AHI_UnloadSound(${1:UWORD Sound}, ${2:struct AHIAudioCtrl *audioCtrl})${3:}",
+		"displayText": "AHI_UnloadSound(sound, audioCtrl)",
+		"snippet": "AHI_UnloadSound(${1:UWORD sound}, ${2:struct AHIAudioCtrl *audioCtrl})${3:}",
 		"type": "function",
-		"leftLabel": "void",
+		"leftLabel": "VOID",
 		"description": "Discard a sound.",
-		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=AHI_UnloadSound&funcgroup=AHI&action=Search"
+		"descriptionMoreURL": "http://www.lysator.liu.se/ahi/v4-site/files/ahi/doc/ahi.html#AHI_UnloadSound"
 	},
 	{
 		"displayText": "AHIsub_AllocAudio(tagList, audioCtrl)",
 		"snippet": "AHIsub_AllocAudio(${1:struct TagItem *tagList}, ${2:struct AHIAudioCtrlDrv *audioCtrl})${3:}",
 		"type": "function",
 		"leftLabel": "ULONG",
-		"description": "",
-		"descriptionMoreURL": ""
+		"description": "Allocates and initializes the audio hardware.",
+		"descriptionMoreURL": "http://www.lysator.liu.se/ahi/v4-site/files/ahi/doc/ahi_sub.html#AHIsub_AllocAudio"
 	},
 	{
 		"displayText": "AHIsub_Disable(audioCtrl)",
 		"snippet": "AHIsub_Disable(${1:struct AHIAudioCtrlDrv *audioCtrl})${2:}",
 		"type": "function",
-		"leftLabel": "void",
-		"description": "",
-		"descriptionMoreURL": ""
+		"leftLabel": "VOID",
+		"description": "Temporary turn off audio interrupt/task.",
+		"descriptionMoreURL": "http://www.lysator.liu.se/ahi/v4-site/files/ahi/doc/ahi_sub.html#AHIsub_Disable"
 	},
 	{
 		"displayText": "AHIsub_Enable(audioCtrl)",
 		"snippet": "AHIsub_Enable(${1:struct AHIAudioCtrlDrv *audioCtrl})${2:}",
 		"type": "function",
-		"leftLabel": "void",
-		"description": "",
-		"descriptionMoreURL": ""
+		"leftLabel": "VOID",
+		"description": "Turn on audio interrupt/task.",
+		"descriptionMoreURL": "http://www.lysator.liu.se/ahi/v4-site/files/ahi/doc/ahi_sub.html#AHIsub_Enable"
 	},
 	{
 		"displayText": "AHIsub_FreeAudio(audioCtrl)",
 		"snippet": "AHIsub_FreeAudio(${1:struct AHIAudioCtrlDrv *audioCtrl})${2:}",
 		"type": "function",
-		"leftLabel": "void",
-		"description": "",
-		"descriptionMoreURL": ""
+		"leftLabel": "VOID",
+		"description": "Deallocates the audio hardware.",
+		"descriptionMoreURL": "http://www.lysator.liu.se/ahi/v4-site/files/ahi/doc/ahi_sub.html#AHIsub_FreeAudio"
 	},
 	{
 		"displayText": "AHIsub_GetAttr(attribute, argument, defaults, tagList, audioCtrl)",
 		"snippet": "AHIsub_GetAttr(${1:ULONG attribute}, ${2:LONG argument}, ${3:LONG defaults}, ${4:struct TagItem *tagList}, ${5:struct AHIAudioCtrlDrv *audioCtrl})${6:}",
 		"type": "function",
 		"leftLabel": "LONG",
-		"description": "",
-		"descriptionMoreURL": ""
+		"description": "Returns information about audio modes or driver.",
+		"descriptionMoreURL": "http://www.lysator.liu.se/ahi/v4-site/files/ahi/doc/ahi_sub.html#AHIsub_GetAttr"
 	},
 	{
 		"displayText": "AHIsub_HardwareControl(attribute, argument, audioCtrl)",
 		"snippet": "AHIsub_HardwareControl(${1:ULONG attribute}, ${2:LONG argument}, ${3:struct AHIAudioCtrlDrv *audioCtrl})${4:}",
 		"type": "function",
 		"leftLabel": "LONG",
-		"description": "",
-		"descriptionMoreURL": ""
+		"description": "Modify sound card settings.",
+		"descriptionMoreURL": "http://www.lysator.liu.se/ahi/v4-site/files/ahi/doc/ahi_sub.html#AHIsub_HardwareControl"
 	},
 	{
 		"displayText": "AHIsub_LoadSound(sound, type, info, audioCtrl)",
-		"snippet": "AHIsub_LoadSound(${1:UWORD sound}, ${2:ULONG type}, ${3:APTR info}, ${4:struct AHIAudioCtrlDrv *audioCtrl})${5:}",
+		"snippet": "AHIsub_LoadSound(${1:UWORD sound}, ${2:ULONG type}, ${3:struct AHISampleInfo *info}, ${4:struct AHIAudioCtrlDrv *audioCtrl})${5:}",
 		"type": "function",
 		"leftLabel": "ULONG",
-		"description": "",
-		"descriptionMoreURL": ""
+		"description": "Prepare a sound for playback.",
+		"descriptionMoreURL": "http://www.lysator.liu.se/ahi/v4-site/files/ahi/doc/ahi.html#AHI_LoadSound"
 	},
 	{
 		"displayText": "AHIsub_SetEffect(effect, audioCtrl)",
 		"snippet": "AHIsub_SetEffect(${1:APTR effect}, ${2:struct AHIAudioCtrlDrv *audioCtrl})${3:}",
 		"type": "function",
 		"leftLabel": "ULONG",
-		"description": "",
-		"descriptionMoreURL": ""
+		"description": "Set audio effect.",
+		"descriptionMoreURL": "http://www.lysator.liu.se/ahi/v4-site/files/ahi/doc/ahi.html#AHI_SetEffect"
 	},
 	{
 		"displayText": "AHIsub_SetFreq(channel, freq, audioCtrl, flags)",
 		"snippet": "AHIsub_SetFreq(${1:UWORD channel}, ${2:ULONG freq}, ${3:struct AHIAudioCtrlDrv *audioCtrl}, ${4:ULONG flags})${5:}",
 		"type": "function",
 		"leftLabel": "ULONG",
-		"description": "",
-		"descriptionMoreURL": ""
+		"description": "Set frequency for a channel.",
+		"descriptionMoreURL": "http://www.lysator.liu.se/ahi/v4-site/files/ahi/doc/ahi.html#AHI_SetFreq"
 	},
 	{
 		"displayText": "AHIsub_SetSound(channel, sound, offset, length, audioCtrl, flags)",
 		"snippet": "AHIsub_SetSound(${1:UWORD channel}, ${2:UWORD sound}, ${3:ULONG offset}, ${4:LONG length}, ${5:struct AHIAudioCtrlDrv *audioCtrl}, ${6:ULONG flags})${7:}",
 		"type": "function",
 		"leftLabel": "ULONG",
-		"description": "",
-		"descriptionMoreURL": ""
+		"description": "Set what sound to play for a channel.",
+		"descriptionMoreURL": "http://www.lysator.liu.se/ahi/v4-site/files/ahi/doc/ahi.html#AHI_SetSound"
 	},
 	{
 		"displayText": "AHIsub_SetVol(channel, volume, pan, audioCtrl, flags)",
 		"snippet": "AHIsub_SetVol(${1:UWORD channel}, ${2:Fixed volume}, ${3:sposition pan}, ${4:struct AHIAudioCtrlDrv *audioCtrl}, ${5:ULONG flags})${6:}",
 		"type": "function",
 		"leftLabel": "ULONG",
-		"description": "",
-		"descriptionMoreURL": ""
+		"description": "Set volume and stereo panning for a channel.",
+		"descriptionMoreURL": "http://www.lysator.liu.se/ahi/v4-site/files/ahi/doc/ahi.html#AHI_SetVol"
 	},
 	{
 		"displayText": "AHIsub_Start(flags, audioCtrl)",
 		"snippet": "AHIsub_Start(${1:ULONG flags}, ${2:struct AHIAudioCtrlDrv *audioCtrl})${3:}",
 		"type": "function",
 		"leftLabel": "ULONG",
-		"description": "",
-		"descriptionMoreURL": ""
+		"description": "Starts playback or recording.",
+		"descriptionMoreURL": "http://www.lysator.liu.se/ahi/v4-site/files/ahi/doc/ahi_sub.html#AHIsub_Start"
 	},
 	{
 		"displayText": "AHIsub_Stop(flags, audioCtrl)",
 		"snippet": "AHIsub_Stop(${1:ULONG flags}, ${2:struct AHIAudioCtrlDrv *audioCtrl})${3:}",
 		"type": "function",
 		"leftLabel": "ULONG",
-		"description": "",
-		"descriptionMoreURL": ""
+		"description": "Stops playback.",
+		"descriptionMoreURL": "http://www.lysator.liu.se/ahi/v4-site/files/ahi/doc/ahi_sub.html#AHIsub_Stop"
 	},
 	{
 		"displayText": "AHIsub_UnloadSound(sound, audioCtrl)",
 		"snippet": "AHIsub_UnloadSound(${1:UWORD sound}, ${2:struct AHIAudioCtrlDrv *audioCtrl})${3:}",
 		"type": "function",
 		"leftLabel": "ULONG",
-		"description": "",
-		"descriptionMoreURL": ""
+		"description": "Discard a sound.",
+		"descriptionMoreURL": "http://www.lysator.liu.se/ahi/v4-site/files/ahi/doc/ahi.html#AHI_UnloadSound"
 	},
 	{
 		"displayText": "AHIsub_Update(flags, audioCtrl)",
 		"snippet": "AHIsub_Update(${1:ULONG flags}, ${2:struct AHIAudioCtrlDrv *audioCtrl})${3:}",
 		"type": "function",
 		"leftLabel": "ULONG",
-		"description": "",
-		"descriptionMoreURL": ""
+		"description": "Update some variables.",
+		"descriptionMoreURL": "http://www.lysator.liu.se/ahi/v4-site/files/ahi/doc/ahi_sub.html#AHIsub_Update"
 	},
 	{
 		"displayText": "AHIAudioCtrl",
