@@ -3,7 +3,7 @@
     'name': 'macro.amigaos.CyberGfx.c'
   }
   { # CyberGfx structs
-    'match': '\\bstruct\\s+(?:CyberModeNode|CDrawMsg)\\b'
+    'match': '\\bstruct\\s+(?:CDrawMsg|CyberModeNode|IntCGXVBase|VLayerHandle)\\b'
     'name': 'struct.amigaos.CyberGfx.c'
   }
   { # CyberGfx function names (SAME SYMBOLS IN THE FNC FILE)

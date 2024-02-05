@@ -138,4 +138,51 @@
         ]
       }
     ]
+  },
+  {
+    "name": ["AttachVLayerTags"],
+    "tagStrt": "3",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["VOA_LeftIndent", "ULONG", "VOA_RightIndent", "ULONG", "VOA_TopIndent", "ULONG", "VOA_BottomIndent", "ULONG", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["CreateVLayerHandleTags"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["VOA_SrcType", "ULONG", "VOA_SrcWidth", "ULONG", "VOA_SrcHeight", "ULONG", "VOA_Error", "ULONG*", "VOA_UseColorKey", "BOOL", "VOA_UseBackFill", "BOOL", "TAG_END"],
+        "values": [
+          {
+            "tag": ["VOA_SrcType"],
+            "type": "macro",
+            "suggestions": ["SRCFMT_YUV16", "SRCFMT_YCbCr16", "SRCFMT_RGB15PC", "SRCFMT_RGB16PC"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["GetVLayerAttr"],
+    "arguments": [
+      {
+        "num": ["2"],
+        "type": "macro",
+        "suggestions": ["VOA_BaseAddress", "VOA_ColorKeyPen", "VOA_ColorKey"]
+      }
+    ]
+  },
+  {
+    "name": ["SetVLayerAttrTags"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["VOA_LeftIndent", "ULONG", "VOA_RightIndent", "ULONG", "VOA_TopIndent", "ULONG", "VOA_BottomIndent", "ULONG", "TAG_END"]
+      }
+    ]
   }

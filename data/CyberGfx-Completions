@@ -241,4 +241,84 @@
     "type": "struct",
     "description": "Message passed to the DoCDrawMethodTagList() hook function (CGX).",
     "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/4cd018de4429ff4a1ea09b07e175464c953f0325/structs/CyberGraphX_structs.h#L22"
+  },
+  {
+    "displayText": "AttachVLayerTagList(handle, window, tagList)",
+    "snippet": "AttachVLayerTagList(${1:struct VLayerHandle *handle}, ${2:struct Window *window}, ${3:struct TagItem *tagList})${4:}",
+    "type": "function",
+    "leftLabel": "ULONG",
+    "description": "Attaches a videolayer handle to the specified window (CGXV).",
+    "descriptionMoreURL": "http://www.aros.org/documentation/developers/autodocs/cgxvideo.php#attachvlayertaglist"
+  },
+  {
+    "displayText": "AttachVLayerTags(handle, window, tag1, ...)",
+    "snippet": "AttachVLayerTags(${1:struct VLayerHandle *handle}, ${2:struct Window *window}, ${3:Tag *tag1}, ${4:...})${5:}",
+    "type": "function",
+    "leftLabel": "ULONG",
+    "description": "Attaches a videolayer handle to the specified window (CGXV).",
+    "descriptionMoreURL": "http://www.aros.org/documentation/developers/autodocs/cgxvideo.php#attachvlayertaglist"
+  },
+  {
+    "displayText": "CreateVLayerHandleTagList(screen, tagList)",
+    "snippet": "CreateVLayerHandleTagList(${1:struct Screen *scr}, ${2:struct TagItem *tagList})${3:}",
+    "type": "function",
+    "leftLabel": "struct VLayerHandle*",
+    "description": "Creates a video layer handle for the given screen (CGXV).",
+    "descriptionMoreURL": "http://www.aros.org/documentation/developers/autodocs/cgxvideo.php#createvlayerhandletaglist"
+  },
+  {
+    "displayText": "CreateVLayerHandleTags(screen, tag1, ...)",
+    "snippet": "CreateVLayerHandleTags(${1:struct Screen *scr}, ${2:Tag *tag1}, ${3:...})${4:}",
+    "type": "function",
+    "leftLabel": "struct VLayerHandle*",
+    "description": "Creates a video layer handle for the given screen (CGXV).",
+    "descriptionMoreURL": "http://www.aros.org/documentation/developers/autodocs/cgxvideo.php#createvlayerhandletaglist"
+  },
+  {
+    "displayText": "DeleteVLayerHandle(handle)",
+    "snippet": "DeleteVLayerHandle(${1:struct VLayerHandle *handle})${2:}",
+    "type": "function",
+    "leftLabel": "VOID",
+    "description": "Deletes a created video layer handle (CGXV).",
+    "descriptionMoreURL": "http://www.aros.org/documentation/developers/autodocs/cgxvideo.php#deletevlayerhandle"
+  },
+  {
+    "displayText": "GetVLayerAttr(handle, attribute)",
+    "snippet": "GetVLayerAttr(${1:struct VLayerHandle *handle}, ${2:ULONG attribute})${3:}",
+    "type": "function",
+    "leftLabel": "IPTR",
+    "description": "Gets a certain attribute from a given video layer (CGXV).",
+    "descriptionMoreURL": "http://www.aros.org/documentation/developers/autodocs/cgxvideo.php#getvlayerattr"
+  },
+  {
+    "displayText": "LockVLayer(handle)",
+    "snippet": "LockVLayer(${1:struct VLayerHandle *handle})${2:}",
+    "type": "function",
+    "leftLabel": "ULONG",
+    "description": "Locks a video layer to allow access to source data (CGXV).",
+    "descriptionMoreURL": "http://www.aros.org/documentation/developers/autodocs/cgxvideo.php#lockvlayer"
+  },
+  {
+    "displayText": "SetVLayerAttrTagList(handle, tagList)",
+    "snippet": "SetVLayerAttrTagList(${1:struct VLayerHandle *handle}, ${2:struct TagItem *tagList})${3:}",
+    "type": "function",
+    "leftLabel": "VOID",
+    "description": "Sets certain attributes for a given video layer (CGXV).",
+    "descriptionMoreURL": "http://www.aros.org/documentation/developers/autodocs/cgxvideo.php#setvlayerattrtaglist"
+  },
+  {
+    "displayText": "SetVLayerAttrTags(handle, tag1, ...)",
+    "snippet": "SetVLayerAttrTags(${1:struct VLayerHandle *handle}, ${2:Tag tag1}, ${3:...})${4:}",
+    "type": "function",
+    "leftLabel": "VOID",
+    "description": "Sets certain attributes for a given video layer (CGXV).",
+    "descriptionMoreURL": "http://www.aros.org/documentation/developers/autodocs/cgxvideo.php#setvlayerattrtaglist"
+  },
+  {
+    "displayText": "UnlockVLayer(handle)",
+    "snippet": "UnlockVLayer(${1:struct VLayerHandle *handle})${2:}",
+    "type": "function",
+    "leftLabel": "VOID",
+    "description": "Unlocks a previouly locked video layer (CGXV).",
+    "descriptionMoreURL": "http://www.aros.org/documentation/developers/autodocs/cgxvideo.php#unlockvlayer"
   }
