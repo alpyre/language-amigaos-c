@@ -55,11 +55,19 @@
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/dos.doc.txt"
 	},
 	{
+		"displayText": "AddTask(task, initialPC, finalPC, tagList)",
+		"snippet": "AddTaskTags(${1:struct Task *task}, ${2:CONST_APTR initialPC}, ${3:CONST_APTR finalPC}, ${4:struct TagItem *tagList})${5:}",
+		"type": "function",
+		"leftLabel": "APTR",
+		"description": "Add a task to the system. (OS4)",
+		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/exec.doc.txt"
+	},
+	{
 		"displayText": "AddTaskTags(task, initialPC, finalPC, ...)",
 		"snippet": "AddTaskTags(${1:struct Task *task}, ${2:CONST_APTR initialPC}, ${3:CONST_APTR finalPC}, ${4:...})${5:}",
 		"type": "function",
 		"leftLabel": "APTR",
-		"description": "Add a task to the system. (varargs)",
+		"description": "Add a task to the system. (V50)",
 		"descriptionMoreURL": "http://wiki.amigaos.net/amiga/autodocs/exec.doc.txt"
 	},
 	{
