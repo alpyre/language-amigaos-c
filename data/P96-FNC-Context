@@ -1,0 +1,193 @@
+  {
+    "name": ["p96AllocBitMap"],
+    "arguments": [
+      {
+        "num": ["4"],
+        "type": "flag",
+        "suggestions": ["BMF_CLEAR", "BMF_DISPLAYABLE", "BMF_STANDARD", "BMF_USERPRIVATE"]
+      },
+      {
+        "num": ["6"],
+        "type": "enum",
+        "suggestions": ["RGBFB_CLUT", "RGBFB_R8G8B8", "RGBFB_B8G8R8", "RGBFB_R5G6B5PC", "RGBFB_R5G5B5PC", "RGBFB_A8R8G8B8", "RGBFB_A8B8G8R8", "RGBFB_R8G8B8A8", "RGBFB_B8G8R8A8", "RGBFB_R5G6B5", "RGBFB_R5G5B5", "RGBFB_B5G6R5PC", "RGBFB_B5G5R5PC", "RGBFB_YUV422CGX", "RGBFB_YUV411", "RGBFB_YUV411PC", "RGBFB_YUV422", "RGBFB_YUV422PC", "RGBFB_YUV422PA", "RGBFB_YUV422PAPC", "RGBFB_Y4U2V2", "RGBFB_Y4U1V1"]
+      }
+    ]
+  },
+  {
+    "name": ["p96AllocModeListTags", "p96RequestModeIDTags"],
+    "tagStrt": "1",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["P96MA_MinWidth", "ULONG", "P96MA_MinHeight", "ULONG", "P96MA_MinDepth", "ULONG", "P96MA_MaxWidth", "ULONG", "P96MA_MaxHeight", "ULONG", "P96MA_MaxDepth", "ULONG", "P96MA_DisplayID", "ULONG", "P96MA_FormatsAllowed", "ULONG", "P96MA_FormatsForbidden", "ULONG", "P96MA_WindowTitle", "STRPTR", "P96MA_OKText", "STRPTR", "P96MA_CancelText", "STRPTR", "P96MA_Window", "struct Window*", "P96MA_PubScreenName", "STRPTR", "P96MA_Screen", "struct Screen*", "P96MA_VideoCompatible", "BOOL", "P96MA_PabloIVCompatible", "BOOL", "P96MA_PalomaIVCompatible", "BOOL", "TAG_END"],
+        "values": [
+          {
+            "tag": ["P96MA_FormatsAllowed", "P96MA_FormatsForbidden"],
+            "type": "flag",
+            "suggestions": ["RGBFF_NONE", "RGBFF_CLUT", "RGBFF_R8G8B8", "RGBFF_B8G8R8", "RGBFF_R5G6B5PC", "RGBFF_R5G5B5PC", "RGBFF_A8R8G8B8", "RGBFF_A8B8G8R8", "RGBFF_R8G8B8A8", "RGBFF_B8G8R8A8", "RGBFF_R5G6B5", "RGBFF_R5G5B5", "RGBFF_B5G6R5PC", "RGBFF_B5G5R5PC", "RGBFF_YUV422CGX", "RGBFF_YUV411", "RGBFF_YUV411PC", "RGBFF_YUV422", "RGBFF_YUV422PC", "RGBFF_YUV422PA", "RGBFF_YUV422PAPC", "RGBFF_Y4U2V2", "RGBFF_Y4U1V1", "RGBFF_HICOLOR", "RGBFF_TRUECOLOR", "RGBFF_TRUEALPHA"]
+          },
+          {
+            "tag": ["P96MA_VideoCompatible", "P96MA_PabloIVCompatible", "P96MA_PalomaIVCompatible"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["p96BestModeIDTags"],
+    "tagStrt": "1",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["P96BIDTAG_NominalWidth", "ULONG", "P96BIDTAG_NominalHeight", "ULONG", "P96BIDTAG_Depth", "ULONG", "P96BIDTAG_FormatsAllowed", "ULONG", "P96BIDTAG_FormatsForbidden", "ULONG", "P96BIDTAG_VideoCompatible", "BOOL", "P96BIDTAG_PabloIVCompatible", "BOOL", "P96BIDTAG_PalomaIVCompatible", "BOOL", "TAG_END"],
+        "values": [
+          {
+            "tag": ["P96MA_FormatsAllowed", "P96MA_FormatsForbidden"],
+            "type": "flag",
+            "suggestions": ["RGBFF_NONE", "RGBFF_CLUT", "RGBFF_R8G8B8", "RGBFF_B8G8R8", "RGBFF_R5G6B5PC", "RGBFF_R5G5B5PC", "RGBFF_A8R8G8B8", "RGBFF_A8B8G8R8", "RGBFF_R8G8B8A8", "RGBFF_B8G8R8A8", "RGBFF_R5G6B5", "RGBFF_R5G5B5", "RGBFF_B5G6R5PC", "RGBFF_B5G5R5PC", "RGBFF_YUV422CGX", "RGBFF_YUV411", "RGBFF_YUV411PC", "RGBFF_YUV422", "RGBFF_YUV422PC", "RGBFF_YUV422PA", "RGBFF_YUV422PAPC", "RGBFF_Y4U2V2", "RGBFF_Y4U1V1", "RGBFF_HICOLOR", "RGBFF_TRUECOLOR", "RGBFF_TRUEALPHA"]
+          },
+          {
+            "tag": ["P96MA_VideoCompatible", "P96MA_PabloIVCompatible", "P96MA_PalomaIVCompatible"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["p96GetBitMapAttr"],
+    "arguments": [
+      {
+        "num": ["2"],
+        "type": "macro",
+        "suggestions": ["P96BMA_WIDTH", "P96BMA_HEIGHT", "P96BMA_DEPTH", "P96BMA_BYTESPERPIXEL", "P96BMA_BITSPERPIXEL", "P96BMA_RGBFORMAT", "P96BMA_ISP96", "P96BMA_BYTESPERROW", "P96BMA_MEMORY", "P96BMA_ISONBOARD", "P96BMA_BOARDMEMBASE", "P96BMA_BOARDIOBASE", "P96BMA_BOARDMEMIOBASE"]
+      }
+    ]
+  },
+  {
+    "name": ["p96GetBoardDataTags"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["P96BD_BoardName", "STRPTR", "P96BD_ChipName", "STRPTR", "P96BD_TotalMemory", "ULONG", "P96BD_FreeMemory", "ULONG", "P96BD_LargestFreeMemory", "ULONG", "P96BD_MonitorSwitch", "ULONG", "P96BD_RGBFormats", "ULONG", "P96BD_MemoryClock", "ULONG", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["p96GetModeIDAttr"],
+    "arguments": [
+      {
+        "num": ["2"],
+        "type": "macro",
+        "suggestions": ["P96IDA_WIDTH", "P96IDA_HEIGHT", "P96IDA_DEPTH", "P96IDA_BYTESPERPIXEL", "P96IDA_BITSPERPIXEL", "P96IDA_RGBFORMAT", "P96IDA_ISP96", "P96IDA_BOARDNUMBER", "P96IDA_STDBYTESPERROW", "P96IDA_BOARDNAME", "P96IDA_COMPATIBLEFORMATS", "P96IDA_VIDEOCOMPATIBLE", "P96IDA_PABLOIVCOMPATIBLE", "P96IDA_PALOMAIVCOMPATIBLE"]
+      }
+    ]
+  },
+  {
+    "name": ["p96GetRTGDataTags"],
+    "tagStrt": "1",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["P96RD_NumberOfBoards", "ULONG", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["p96PIP_GetTags"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["P96PIP_SourceBitMap", "struct BitMap*", "P96PIP_SourceRPort", "struct RastPort*", "P96PIP_Brightness", "ULONG", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["p96PIP_OpenTags"],
+    "tagStrt": "1",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["WA_Left", "LONG", "WA_Top", "LONG", "WA_MinWidth", "LONG", "WA_MinHeight", "LONG", "WA_MaxWidth", "LONG", "WA_MaxHeight", "LONG", "WA_DetailPen", "LONG", "WA_BlockPen", "LONG", "WA_IDCMP", "ULONG", "WA_Flags", "ULONG", "WA_Gadgets", "struct Gadget*", "WA_Title", "STRPTR", "WA_CustomScreen", "struct Screen*", "WA_SizeGadget", "BOOL", "WA_DragBar", "BOOL", "WA_DepthGadget", "BOOL", "WA_CloseGadget", "BOOL", "WA_Backdrop", "BOOL", "WA_ReportMouse", "BOOL", "WA_NoCareRefresh", "BOOL", "WA_Borderless", "BOOL", "WA_Activate", "BOOL", "WA_RMBTrap", "BOOL", "WA_WBenchWindow", "BOOL", "WA_SimpleRefresh", "BOOL", "WA_SmartRefresh", "BOOL", "WA_SizeBRight", "BOOL", "WA_SizeBBottom", "BOOL", "WA_NewLookMenus", "BOOL", "WA_ScreenTitle", "STRPTR", "WA_AutoAdjust", "BOOL", "WA_InnerWidth", "LONG", "WA_InnerHeight", "LONG", "WA_PubScreenName", "STRPTR", "WA_PubScreen", "struct Screen*", "WA_PubScreenFallBack", "BOOL", "WA_Zoom", "WORD*", "WA_MouseQueue", "UWORD", "WA_RptQueue", "UWORD", "WA_MenuHelp", "BOOL", "WA_NotifyDepth", "BOOL", "WA_Checkmark", "struct Image*", "WA_AmigaKey", "struct Image*", "WA_Pointer", "APTR", "WA_BusyPointer", "BOOL", "WA_PointerDelay", "BOOL", "WA_HelpGroup", "ULONG", "WA_HelpGroupWindow", "struct Window*", "WA_TabletMessages", "BOOL", "P96PIP_SourceFormat", "RGBFTYPE", "P96PIP_SourceWidth", "ULONG", "P96PIP_SourceHeight", "ULONG", "P96PIP_Type", "ULONG", "P96PIP_ErrorCode", "LONG*", "P96PIP_Brightness", "ULONG", "P96PIP_Left", "ULONG", "P96PIP_Top", "ULONG", "P96PIP_Width", "ULONG", "P96PIP_Height", "ULONG", "P96PIP_Relativity", "ULONG", "P96PIP_Colors", "struct ColorSpec*", "P96PIP_Colors32", "ULONG*", "P96PIP_ConstantBytesPerRow", "BOOL", "P96PIP_AllowCropping", "BOOL", "P96PIP_InitialIntScaling", "BOOL", "P96PIP_ClipLeft", "ULONG", "P96PIP_ClipTop", "ULONG", "P96PIP_ClipWidth", "ULONG", "P96PIP_ClipHeight", "ULONG", "P96PIP_ConstantByteSwapping", "BOOL", "TAG_END"],
+        "values": [
+          {
+            "tag": ["WA_IDCMP"],
+            "type": "flag",
+            "suggestions": ["IDCMP_SIZEVERIFY", "IDCMP_NEWSIZE", "IDCMP_REFRESHWINDOW", "IDCMP_MOUSEBUTTONS", "IDCMP_MOUSEMOVE", "IDCMP_GADGETDOWN", "IDCMP_GADGETUP", "IDCMP_REQSET", "IDCMP_MENUPICK", "IDCMP_CLOSEWINDOW", "IDCMP_RAWKEY", "IDCMP_REQVERIFY", "IDCMP_REQCLEAR", "IDCMP_MENUVERIFY", "IDCMP_NEWPREFS", "IDCMP_DISKINSERTED", "IDCMP_DISKREMOVED", "IDCMP_WBENCHMESSAGE", "IDCMP_ACTIVEWINDOW", "IDCMP_INACTIVEWINDOW", "IDCMP_DELTAMOVE", "IDCMP_VANILLAKEY", "IDCMP_INTUITICKS", "IDCMP_IDCMPUPDATE", "IDCMP_MENUHELP", "IDCMP_CHANGEWINDOW", "IDCMP_GADGETHELP"]
+          },
+          {
+            "tag": ["WA_Flags"],
+            "type": "flag",
+            "suggestions": ["WFLG_SIZEGADGET", "WFLG_DRAGBAR", "WFLG_DEPTHGADGET", "WFLG_CLOSEGADGET", "WFLG_SIZEBRIGHT", "WFLG_SIZEBBOTTOM", "WFLG_SMART_REFRESH", "WFLG_SIMPLE_REFRESH", "WFLG_SUPER_BITMAP", "WFLG_OTHER_REFRESH", "WFLG_BACKDROP", "WFLG_REPORTMOUSE", "WFLG_GIMMEZEROZERO", "WFLG_BORDERLESS", "WFLG_ACTIVATE", "WFLG_RMBTRAP", "WFLG_NOCAREREFRESH", "WFLG_NW_EXTENDED", "WFLG_NEWLOOKMENUS"]
+          },
+          {
+            "tag": ["P96PIP_SourceFormat"],
+            "type": "enum",
+            "suggestions": ["RGBFB_CLUT", "RGBFB_R8G8B8", "RGBFB_B8G8R8", "RGBFB_R5G6B5PC", "RGBFB_R5G5B5PC", "RGBFB_A8R8G8B8", "RGBFB_A8B8G8R8", "RGBFB_R8G8B8A8", "RGBFB_B8G8R8A8", "RGBFB_R5G6B5", "RGBFB_R5G5B5", "RGBFB_B5G6R5PC", "RGBFB_B5G5R5PC", "RGBFB_YUV422CGX", "RGBFB_YUV411", "RGBFB_YUV411PC", "RGBFB_YUV422", "RGBFB_YUV422PC", "RGBFB_YUV422PA", "RGBFB_YUV422PAPC", "RGBFB_Y4U2V2", "RGBFB_Y4U1V1"]
+          },
+          {
+            "tag": ["P96PIP_Type"],
+            "type": "macro",
+            "suggestions": ["P96PIPT_MemoryWindow", "P96PIPT_VideoWindow"]
+          },
+          {
+            "tag": ["P96PIP_Relativity"],
+            "type": "flag",
+            "suggestions": ["PIPRel_Right", "PIPRel_Bottom", "PIPRel_Width", "PIPRel_Height"]
+          },
+          {
+            "tag": ["WA_SizeGadget", "WA_DragBar", "WA_DepthGadget", "WA_CloseGadget", "WA_Backdrop", "WA_ReportMouse", "WA_NoCareRefresh", "WA_Borderless", "WA_Activate", "WA_RMBTrap", "WA_WBenchWindow", "WA_SimpleRefresh", "WA_SmartRefresh", "WA_SizeBRight", "WA_SizeBBottom", "WA_NewLookMenus", "WA_AutoAdjust", "WA_PubScreenFallBack", "WA_MenuHelp", "WA_NotifyDepth", "WA_BusyPointer", "WA_PointerDelay", "WA_TabletMessages", "P96PIP_ConstantBytesPerRow", "P96PIP_AllowCropping", "P96PIP_InitialIntScaling", "P96PIP_ConstantByteSwapping"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["p96PIP_SetTags"],
+    "tagStrt": "2",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["P96PIP_Brightness", "ULONG", "P96PIP_Colors", "struct ColorSpec*", "P96PIP_Colors32", "ULONG*", "TAG_END"]
+      }
+    ]
+  },
+  {
+    "name": ["p96OpenScreenTags"],
+    "tagStrt": "1",
+    "arguments": [
+      {
+        "type": "tag",
+        "suggestions": ["P96SA_Left", "LONG", "P96SA_Top", "LONG", "P96SA_Width", "LONG", "P96SA_Height", "LONG", "P96SA_Depth", "UBYTE", "P96SA_DetailPen", "LONG", "P96SA_BlockPen", "LONG", "P96SA_Title", "STRPTR", "P96SA_Colors", "struct ColorSpec*", "P96SA_ErrorCode", "ULONG*", "P96SA_Font", "struct TextAttr*", "P96SA_SysFont", "BOOL", "P96SA_Type", "ULONG", "P96SA_BitMap", "struct BitMap*", "P96SA_PubName", "STRPTR", "P96SA_PubSig", "UBYTE", "P96SA_PubTask", "struct Task*", "P96SA_DisplayID", "ULONG", "P96SA_DClip", "struct Rectangle*", "P96SA_ShowTitle", "BOOL", "P96SA_Behind", "BOOL", "P96SA_Quiet", "BOOL", "P96SA_AutoScroll", "BOOL", "P96SA_Pens", "UWORD*", "P96SA_SharePens", "BOOL", "P96SA_BackFill", "struct Hook*", "P96SA_Colors32", "ULONG*", "P96SA_VideoControl", "struct TagItem*", "P96SA_RGBFormat", "RGBFTYPE", "P96SA_NoSprite", "BOOL", "P96SA_NoMemory", "BOOL", "P96SA_RenderFunc", "struct Hook*", "P96SA_SaveFunc", "struct Hook*", "P96SA_Alignment", "ULONG", "P96SA_DirectAccess", "APTR", "TAG_END"],
+        "values": [
+          {
+            "tag": ["P96SA_SysFont", "P96SA_ShowTitle", "P96SA_Behind", "P96SA_Quiet", "P96SA_AutoScroll", "P96SA_SharePens", "P96SA_NoSprite", "P96SA_NoMemory"],
+            "type": "bool",
+            "suggestions": ["TRUE", "FALSE"]
+          },
+          {
+            "tag": ["P96SA_Type"],
+            "type": "macro",
+            "suggestions": ["PUBLICSCREEN", "CUSTOMSCREEN"]
+          },
+          {
+            "tag": ["P96SA_DisplayID"],
+            "type": "id",
+            "suggestions": ["DEFAULT_MONITOR_ID"]
+          },
+          {
+            "tag": ["P96SA_RGBFormat"],
+            "type": "enum",
+            "suggestions": ["RGBFB_CLUT", "RGBFB_R8G8B8", "RGBFB_B8G8R8", "RGBFB_R5G6B5PC", "RGBFB_R5G5B5PC", "RGBFB_A8R8G8B8", "RGBFB_A8B8G8R8", "RGBFB_R8G8B8A8", "RGBFB_B8G8R8A8", "RGBFB_R5G6B5", "RGBFB_R5G5B5", "RGBFB_B5G6R5PC", "RGBFB_B5G5R5PC", "RGBFB_YUV422CGX", "RGBFB_YUV411", "RGBFB_YUV411PC", "RGBFB_YUV422", "RGBFB_YUV422PC", "RGBFB_YUV422PA", "RGBFB_YUV422PAPC", "RGBFB_Y4U2V2", "RGBFB_Y4U1V1"]
+          }
+        ]
+      }
+    ]
+  }

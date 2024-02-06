@@ -1,0 +1,280 @@
+  {
+    "displayText": "p96AllocBitMap(sizeX, sizeY, depth, flags, friend, RGBFormat)",
+    "snippet": "p96AllocBitMap(${1:ULONG sizeX}, ${2:ULONG sizeY}, ${3:ULONG depth}, ${4:ULONG flags}, ${5:struct BitMap *bm}, ${6:RGBFTYPE RGBFormat})${7:}",
+    "type": "function",
+    "leftLabel": "struct BitMap*",
+    "description": "Allocate a Picasso96 BitMap and its graphics memory.",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/d9af10d233a5aa115ed27bd51d89d08537c230db/docs/Picasso96API.doc#L133"
+  },
+  {
+    "displayText": "p96AllocModeListTagList(tagList)",
+    "snippet": "p96AllocModeListTagList(${1:struct TagItem *tagList})${2:}",
+    "type": "function",
+    "leftLabel": "struct List*",
+    "description": "Allocate mode list.",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/d9af10d233a5aa115ed27bd51d89d08537c230db/docs/Picasso96API.doc#L164"
+  },
+  {
+    "displayText": "p96AllocModeListTags(tag1, ...)",
+    "snippet": "p96AllocModeListTags(${1:Tag tag1}, ${2:...})${3:}",
+    "type": "function",
+    "leftLabel": "struct List*",
+    "description": "Allocate mode list.",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/d9af10d233a5aa115ed27bd51d89d08537c230db/docs/Picasso96API.doc#L164"
+  },
+  {
+    "displayText": "p96BestModeIDTagList(tagList)",
+    "snippet": "p96BestModeIDTagList(${1:struct TagItem *tagList})${2:}",
+    "type": "function",
+    "leftLabel": "ULONG",
+    "description": "Find the DisplayID matching requested requirements.",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/d9af10d233a5aa115ed27bd51d89d08537c230db/docs/Picasso96API.doc#L196"
+  },
+  {
+    "displayText": "p96BestModeIDTags(tag1, ...)",
+    "snippet": "p96BestModeIDTags(${1:Tag tag1}, ${2:...})${3:}",
+    "type": "function",
+    "leftLabel": "ULONG",
+    "description": "Find the DisplayID matching requested requirements.",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/d9af10d233a5aa115ed27bd51d89d08537c230db/docs/Picasso96API.doc#L196"
+  },
+  {
+    "displayText": "p96CloseScreen(screen)",
+    "snippet": "p96CloseScreen(${1:struct Screen *screen})${2:}",
+    "type": "function",
+    "leftLabel": "BOOL",
+    "description": "Closes a P96 screen.",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/d9af10d233a5aa115ed27bd51d89d08537c230db/docs/Picasso96API.doc#L235"
+  },
+  {
+    "displayText": "p96EncodeColor(RGBFormat, color)",
+    "snippet": "p96EncodeColor(${1:RGBFTYPE format}, ${2:ULONG color})${3:}",
+    "type": "function",
+    "leftLabel": "ULONG",
+    "description": "Convert color value to destination RGB format.",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/d9af10d233a5aa115ed27bd51d89d08537c230db/docs/Picasso96API.doc#L264"
+  },
+  {
+    "displayText": "p96FreeBitMap(bitMap)",
+    "snippet": "p96FreeBitMap(${1:struct BitMap *bm})${2:}",
+    "type": "function",
+    "leftLabel": "VOID",
+    "description": "Frees BitMap and associated graphics memory.",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/d9af10d233a5aa115ed27bd51d89d08537c230db/docs/Picasso96API.doc#L288"
+  },
+  {
+    "displayText": "p96FreeModeList(modeList)",
+    "snippet": "p96FreeModeList(${1:struct List *modeList})${2:}",
+    "type": "function",
+    "leftLabel": "VOID",
+    "description": "Deallocates a list returned by p96AllocModeListTagList().",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/d9af10d233a5aa115ed27bd51d89d08537c230db/docs/Picasso96API.doc#L307"
+  },
+  {
+    "displayText": "p96GetBitMapAttr(bitMap, attribute)",
+    "snippet": "p96GetBitMapAttr(${1:struct BitMap *bm}, ${2:ULONG attribute})${3:}",
+    "type": "function",
+    "leftLabel": "ULONG",
+    "description": "Query a P96 BitMap.",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/d9af10d233a5aa115ed27bd51d89d08537c230db/docs/Picasso96API.doc#L327"
+  },
+  {
+    "displayText": "p96GetBoardDataTagList(board_num, taglist)",
+    "snippet": "p96GetBoardDataTagList(${1:ULONG num}, ${2:struct TagItem *tagList})${3:}",
+    "type": "function",
+    "leftLabel": "LONG",
+    "description": "Returns information about a P96 board.",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/d9af10d233a5aa115ed27bd51d89d08537c230db/docs/Picasso96API.doc#L372"
+  },
+  {
+    "displayText": "p96GetBoardDataTags(board_num, tag1, ...)",
+    "snippet": "p96GetBoardDataTags(${1:ULONG num}, ${2:Tag tag1}, ${3:...})${4:}",
+    "type": "function",
+    "leftLabel": "LONG",
+    "description": "Returns information about a P96 board.",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/d9af10d233a5aa115ed27bd51d89d08537c230db/docs/Picasso96API.doc#L372"
+  },
+  {
+    "displayText": "p96GetModeIDAttr(displayID, attribute)",
+    "snippet": "p96GetModeIDAttr(${1:ULONG displayID}, ${2:ULONG attribute})${3:}",
+    "type": "function",
+    "leftLabel": "ULONG",
+    "description": "Query a P96 mode.",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/d9af10d233a5aa115ed27bd51d89d08537c230db/docs/Picasso96API.doc#L427"
+  },
+  {
+    "displayText": "p96GetRTGDataTagList(tagList)",
+    "snippet": "p96GetRTGDataTagList(${1:struct TagItem *tagList})${2:}",
+    "type": "function",
+    "leftLabel": "LONG",
+    "description": "Get global informations about Picasso96.",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/d9af10d233a5aa115ed27bd51d89d08537c230db/docs/Picasso96API.doc#L487"
+  },
+  {
+    "displayText": "p96GetRTGDataTags(tag1, ...)",
+    "snippet": "p96GetRTGDataTags(${1:Tag tag1}, ${2:...})${3:}",
+    "type": "function",
+    "leftLabel": "LONG",
+    "description": "Get global information about Picasso96.",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/d9af10d233a5aa115ed27bd51d89d08537c230db/docs/Picasso96API.doc#L487"
+  },
+  {
+    "displayText": "p96LockBitMap(bitMap, buffer, size)",
+    "snippet": "p96LockBitMap(${1:struct BitMap* bm}, ${2:UBYTE* buf}, ${3:ULONG size})${4:}",
+    "type": "function",
+    "leftLabel": "LONG",
+    "description": "Locks a BitMap against relocation.",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/d9af10d233a5aa115ed27bd51d89d08537c230db/docs/Picasso96API.doc#L519"
+  },
+  {
+    "displayText": "p96PIP_Close(window)",
+    "snippet": "p96PIP_Close(${1:struct Window *win})${2:}",
+    "type": "function",
+    "leftLabel": "BOOL",
+    "description": "Closes a P96 PIP window.",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/d9af10d233a5aa115ed27bd51d89d08537c230db/docs/Picasso96API.doc#L558"
+  },
+  {
+    "displayText": "p96PIP_GetTagList(window, taglist)",
+    "snippet": "p96PIP_GetTagList(${1:struct Window *win}, ${2:struct TagItem *tagList})${3:}",
+    "type": "function",
+    "leftLabel": "ULONG",
+    "description": "Query P96 PIP window properties.",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/d9af10d233a5aa115ed27bd51d89d08537c230db/docs/Picasso96API.doc#L580"
+  },
+  {
+    "displayText": "p96PIP_GetTags(window, tag1, ...)",
+    "snippet": "p96PIP_GetTags(${1:struct Window *win}, ${2:Tag tag1}, ${3:...})${4:}",
+    "type": "function",
+    "leftLabel": "ULONG",
+    "description": "Query P96 PIP window properties.",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/d9af10d233a5aa115ed27bd51d89d08537c230db/docs/Picasso96API.doc#L580"
+  },
+  {
+    "displayText": "p96PIP_OpenTagList(tagList)",
+    "snippet": "p96PIP_OpenTagList(${1:struct TagItem *tagList})${2:}",
+    "type": "function",
+    "leftLabel": "struct Window*",
+    "description": "Open a P96 PIP window.",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/d9af10d233a5aa115ed27bd51d89d08537c230db/docs/Picasso96API.doc#L620"
+  },
+  {
+    "displayText": "p96PIP_OpenTags(tag1, ...)",
+    "snippet": "p96PIP_OpenTags(${1:Tag tag1}, ${2:...})${3:}",
+    "type": "function",
+    "leftLabel": "struct Window*",
+    "description": "Open a P96 PIP window.",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/d9af10d233a5aa115ed27bd51d89d08537c230db/docs/Picasso96API.doc#L620"
+  },
+  {
+    "displayText": "p96PIP_SetTagList(window, taglist)",
+    "snippet": "p96PIP_SetTagList(${1:struct Window *win}, ${2:struct TagItem *tagList})${3:}",
+    "type": "function",
+    "leftLabel": "ULONG",
+    "description": "Modify attributes of a P96 PIP window.",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/d9af10d233a5aa115ed27bd51d89d08537c230db/docs/Picasso96API.doc#L705"
+  },
+  {
+    "displayText": "p96PIP_SetTags(window, tag1, ...)",
+    "snippet": "p96PIP_SetTags(${1:struct Window *win}, ${2:Tag tag1}, ${3:...})${4:}",
+    "type": "function",
+    "leftLabel": "ULONG",
+    "description": "Modify attributes of a P96 PIP window.",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/d9af10d233a5aa115ed27bd51d89d08537c230db/docs/Picasso96API.doc#L705"
+  },
+  {
+    "displayText": "p96OpenScreenTagList(tagList)",
+    "snippet": "p96OpenScreenTagList(${1:struct TagItem *tagList})${2:}",
+    "type": "function",
+    "leftLabel": "struct Screen*",
+    "description": "Open a P96 PIP screen.",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/d9af10d233a5aa115ed27bd51d89d08537c230db/docs/Picasso96API.doc#L741"
+  },
+  {
+    "displayText": "p96OpenScreenTags(tag1, ...)",
+    "snippet": "p96OpenScreenTags(${1:Tag tag1}, ${2:...})${3:}",
+    "type": "function",
+    "leftLabel": "struct Screen*",
+    "description": "Open a P96 PIP screen.",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/d9af10d233a5aa115ed27bd51d89d08537c230db/docs/Picasso96API.doc#L741"
+  },
+  {
+    "displayText": "p96ReadPixel(rastPort, x, y)",
+    "snippet": "p96ReadPixel(${1:struct RastPort *rp}, ${2:UWORD x}, ${3:UWORD y})${4:}",
+    "type": "function",
+    "leftLabel": "ULONG",
+    "description": "Read the ARGB color value of a pixel.",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/d9af10d233a5aa115ed27bd51d89d08537c230db/docs/Picasso96API.doc#L834"
+  },
+  {
+    "displayText": "p96ReadPixelArray(renderInfo, destX, destY, rastPort, srcX, srcY, sizeX, sizeY)",
+    "snippet": "p96ReadPixelArray(${1:struct RenderInfo *ri}, ${2:UWORD destX}, ${3:UWORD destY}, ${4:struct RastPort* rp}, ${5:UWORD srcX}, ${6:UWORD srcY}, ${7:UWORD sizeX}, ${8:UWORD sizeY})${9:}",
+    "type": "function",
+    "leftLabel": "VOID",
+    "description": "Read pen values of a rectangular area.",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/d9af10d233a5aa115ed27bd51d89d08537c230db/docs/Picasso96API.doc#L858"
+  },
+  {
+    "displayText": "p96ReadTrueColorData(trueColorInfo, destX, destY, rastPort, srcX, srcY, sizeX, sizeY)",
+    "snippet": "p96ReadTrueColorData(${1:struct TrueColorInfo *tci}, ${2:UWORD destX}, ${3:UWORD destY}, ${4:struct RastPort* rp}, ${5:UWORD srcX}, ${6:UWORD srcY}, ${7:UWORD sizeX}, ${8:UWORD sizeY})${9:}",
+    "type": "function",
+    "leftLabel": "VOID",
+    "description": "Read RGB data from Hi or TrueColor RastPort.",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/d9af10d233a5aa115ed27bd51d89d08537c230db/docs/Picasso96API.doc#L888"
+  },
+  {
+    "displayText": "p96RectFill(rastPort, minX, minY, maxX, maxY, color)",
+    "snippet": "p96RectFill(${1:struct RastPort *rp}, ${2:UWORD minX}, ${3:UWORD minY}, ${4:UWORD maxX}, ${5:UWORD maxY}, ${6:ULONG color})${7:}",
+    "type": "function",
+    "leftLabel": "VOID",
+    "description": "Fill a rectangular area in a RastPort with a ARGB color.",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/d9af10d233a5aa115ed27bd51d89d08537c230db/docs/Picasso96API.doc#L920"
+  },
+  {
+    "displayText": "p96RequestModeIDTagList(tagList)",
+    "snippet": "p96RequestModeIDTagList(${1:struct TagItem *tagList})${2:}",
+    "type": "function",
+    "leftLabel": "ULONG",
+    "description": "Launch DisplayID requester.",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/d9af10d233a5aa115ed27bd51d89d08537c230db/docs/Picasso96API.doc#L942"
+  },
+  {
+    "displayText": "p96RequestModeIDTags(tag1, ...)",
+    "snippet": "p96RequestModeIDTags(${1:Tag tag1}, ${2:...})${3:}",
+    "type": "function",
+    "leftLabel": "ULONG",
+    "description": "Launch DisplayID requester.",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/d9af10d233a5aa115ed27bd51d89d08537c230db/docs/Picasso96API.doc#L942"
+  },
+  {
+    "displayText": "p96UnlockBitMap(bitMap, lock)",
+    "snippet": "p96UnlockBitMap(${1:struct BitMap *bm}, ${2:LONG lock})${3:}",
+    "type": "function",
+    "leftLabel": "VOID",
+    "description": "Unlock a P96 BitMap.",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/d9af10d233a5aa115ed27bd51d89d08537c230db/docs/Picasso96API.doc#L1004"
+  },
+  {
+    "displayText": "p96WritePixel(rastPort, x, y, color)",
+    "snippet": "p96WritePixel(${1:struct RastPort *rp}, ${2:UWORD x}, ${3:UWORD y}, ${4:ULONG color})${5:}",
+    "type": "function",
+    "leftLabel": "ULONG",
+    "description": "Write an ARGB pixel.",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/d9af10d233a5aa115ed27bd51d89d08537c230db/docs/Picasso96API.doc#L1025"
+  },
+  {
+    "displayText": "p96WritePixelArray(renderInfo, destX, destY, rastPort, srcX, srcY, sizeX, sizeY)",
+    "snippet": "p96WritePixelArray(${1:struct RenderInfo *ri}, ${2:UWORD destX}, ${3:UWORD destY}, ${4:struct RastPort* rp}, ${5:UWORD srcX}, ${6:UWORD srcY}, ${7:UWORD sizeX}, ${8:UWORD sizeY})${9:}",
+    "type": "function",
+    "leftLabel": "VOID",
+    "description": "Write pen values of a rectangular area.",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/d9af10d233a5aa115ed27bd51d89d08537c230db/docs/Picasso96API.doc#L1050"
+  },
+  {
+    "displayText": "p96WriteTrueColorData(trueColorInfo, destX, destY, rastPort, srcX, srcY, sizeX, sizeY)",
+    "snippet": "p96WriteTrueColorData(${1:struct TrueColorInfo *tci}, ${2:UWORD destX}, ${3:UWORD destY}, ${4:struct RastPort* rp}, ${5:UWORD srcX}, ${6:UWORD srcY}, ${7:UWORD sizeX}, ${8:UWORD sizeY})${9:}",
+    "type": "function",
+    "leftLabel": "VOID",
+    "description": "Write RGB data to Hi or TrueColor RastPort.",
+    "descriptionMoreURL": "https://github.com/alpyre/AmigaOS_SDK_Symbol_Reference/blob/d9af10d233a5aa115ed27bd51d89d08537c230db/docs/Picasso96API.doc#L1080"
+  }
