@@ -82,6 +82,11 @@ static ULONG m_Set(struct IClass* cl, Object* obj, struct opSet* msg)
     switch (tag->ti_Tag)
     {
       //<SUBCLASS ATTRIBUTES HERE>
+      /*
+      case /*SPLIT*/_{Attribute}:
+        data->{Variable} = tag->ti_Data;
+      break;
+      */
     }
   }
 
@@ -97,6 +102,11 @@ static ULONG m_Get(struct IClass* cl, Object* obj, struct opGet* msg)
   switch (msg->opg_AttrID)
   {
     //<SUBCLASS ATTRIBUTES HERE>
+    /*
+    case /*SPLIT*/_{Attribute}:
+      *msg->opg_Storage = data->{Variable};
+    return TRUE;
+    */
   }
 
   return (DoSuperMethodA(cl, obj, (Msg) msg));
