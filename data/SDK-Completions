@@ -2954,7 +2954,7 @@
 		"displayText": "Examine(lock, fileInfoBlock)",
 		"snippet": "Examine(${1:BPTR lock}, ${2:struct FileInfoBlock *fib})${3:}",
 		"type": "function",
-		"leftLabel": "LONG",
+		"leftLabel": "BOOL",
 		"description": "Examine a directory or file associated with a lock.",
 		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node015C.html"
 	},

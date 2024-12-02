@@ -855,8 +855,8 @@
 		"descriptionMoreURL": "http://amiga.sourceforge.net/amidevhelp/phpwebdev.php?keyword=MUIM_MultiSet&funcgroup=MUI&action=Search"
 	},
 	{
-		"displayText": "MUIM_NoNotifySet(attr, format, val, ...)",
-		"snippet": "DoMethod(${1:obj}, MUIM_NoNotifySet, ${2:ULONG attr}, ${3:char *format}, ${4:ULONG val}, ${5:...})${6:}",
+		"displayText": "MUIM_NoNotifySet(attr, val)",
+		"snippet": "DoMethod(${1:obj}, MUIM_NoNotifySet, ${2:ULONG attr}, ${3:ULONG val})${4:}",
 		"type": "method",
 		"leftLabel": "ULONG",
 		"description": "Set an attribute to a value without triggering any notifications. (V9)",
