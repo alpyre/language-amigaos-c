@@ -14,7 +14,7 @@ Provides instant function suggestions with complete synopsis and powerful snippe
 ![snippets](https://s4.gifyu.com/images/AutoCompleteSuggestions.gif)
 <br>AutoComplete now also suggests the values and identifiers required in specific arguments of API functions.</br>
 ![context](https://s4.gifyu.com/images/Context.gif)
-<br>(3): *Only* **OS3.9**, **OS4.1**, **MUI** *and* **AHI** *symbols (yet)*.</br>
+<br>(3): *Only* **OS3.9**, **OS4.1**, **MUI**, **AHI**, **CyberGfx** *and* **P96** *symbols (yet)*.</br>
 
 ### Detailed preferences page
 You can choose which symbols to be highlighted and suggested.<sup>4</sup>

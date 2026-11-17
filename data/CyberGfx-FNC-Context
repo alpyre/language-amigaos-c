@@ -1,188 +1,269 @@
-  {
-    "name": ["AllocCModeListTags"],
-    "tagStrt": "1",
-    "arguments": [
-      {
-        "type": "tag",
-        "suggestions": ["CYBRMREQ_MinWidth", "ULONG", "CYBRMREQ_MaxWidth", "ULONG", "CYBRMREQ_MinHeight", "ULONG", "CYBRMREQ_MaxHeight", "ULONG", "CYBRMREQ_MinDepth", "UWORD", "CYBRMREQ_MaxDepth", "UWORD", "CYBRMREQ_CModelArray", "UWORD*", "TAG_END"]
-      }
-    ]
-  },
-  {
-    "name": ["BestCModeIDTags"],
-    "tagStrt": "1",
-    "arguments": [
-      {
-        "type": "tag",
-        "suggestions": ["CYBRBIDTG_Depth", "ULONG", "CYBRBIDTG_NominalWidth", "UWORD", "CYBRBIDTAG_NominalHeight", "UWORD", "CYBRBIDTG_MonitorID", "ULONG", "CYBRBIDTG_BoardName", "STRPTR", "TAG_END"],
-        "values": [
-          {
-            "tag": ["CYBRBIDTG_BoardName"],
-            "type": "string",
-            "suggestions": ["\"CVision64\"", "\"Piccolo\"", "\"PicassoII\"", "\"Spectrum\"", "\"Domino\"", "\"RetinaZ3\"", "\"DraCoAltais\"", "\"PiccoSD64\"", "\"A2410\"", "\"CVision3D\"", "\"Inferno\"", "\"PicassoIV\""]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": ["CModeRequestTags"],
-    "tagStrt": "2",
-    "arguments": [
-      {
-        "type": "tag",
-        "suggestions": ["CYBRMREQ_Screen", "struct Screen*", "CYBRMREQ_WinTitle", "STRPTR", "CYBRMREQ_OKText", "STRPTR", "CYBRMREQ_CancelText", "STRPTR", "CYBRMREQ_MinWidth", "ULONG", "CYBRMREQ_MaxWidth", "ULONG", "CYBRMREQ_MinHeight", "ULONG", "CYBRMREQ_MaxHeight", "ULONG", "CYBRMREQ_MinDepth", "UWORD", "CYBRMREQ_MaxDepth", "UWORD", "CYBRMREQ_CModelArray", "UWORD*", "TAG_END"]
-      }
-    ]
-  },
-  {
-    "name": ["CVideoCtrlTags"],
-    "tagStrt": "2",
-    "arguments": [
-      {
-        "type": "tag",
-        "suggestions": ["SETVC_DPMSLevel", "ULONG", "TAG_END"],
-        "values": [
-          {
-            "tag": ["SETVC_DPMSLevel"],
-            "type": "macro",
-            "suggestions": ["DPMS_ON", "DPMS_STANDBY", "DPMS_SUSPEND", "DPMS_OFF"]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": ["DoCDrawMethodTags"],
-    "tagStrt": "3",
-    "arguments": [
-      {
-        "type": "tag",
-        "suggestions": ["TAG_END"]
-      }
-    ]
-  },
-  {
-    "name": ["GetCyberMapAttr"],
-    "arguments": [
-      {
-        "num": ["2"],
-        "type": "flag",
-        "suggestions": ["CYBRMATTR_XMOD", "CYBRMATTR_BPPIX", "CYBRMATTR_PIXFMT", "CYBRMATTR_WIDTH", "CYBRMATTR_HEIGHT", "CYBRMATTR_DEPTH", "CYBRMATTR_ISCYBERGFX", "CYBRMATTR_ISLINEARMEM"]
-      }
-    ]
-  },
-  {
-    "name": ["GetCyberIDAttr"],
-    "arguments": [
-      {
-        "num": ["1"],
-        "type": "flag",
-        "suggestions": ["CYBRIDATTR_PIXFMT", "CYBRIDATTR_WIDTH", "CYBRIDATTR_HEIGHT", "CYBRIDATTR_DEPTH", "CYBRIDATTR_BPPIX"]
-      }
-    ]
-  },
-  {
-    "name": ["LockBitMapTags"],
-    "tagStrt": "2",
-    "arguments": [
-      {
-        "type": "tag",
-        "suggestions": ["LBMI_WIDTH", "ULONG*", "LBMI_HEIGHT", "ULONG*", "LBMI_DEPTH", "ULONG*", "LBMI_PIXFMT", "ULONG*", "LBMI_BYTESPERPIX", "ULONG*", "LBMI_BYTESPERROW", "ULONG*", "LBMI_BASEADDRESS", "ULONG*", "TAG_END"]
-      }
-    ]
-  },
-  {
-    "name": ["ReadPixelArray"],
-    "arguments": [
-      {
-        "num": ["10"],
-        "type": "macro",
-        "suggestions": ["RECTFMT_RGB", "RECTFMT_RGBA", "RECTFMT_ARGB"]
-      }
-    ]
-  },
-  {
-    "name": ["ScalePixelArray", "WritePixelArray"],
-    "arguments": [
-      {
-        "num": ["10"],
-        "type": "macro",
-        "suggestions": ["RECTFMT_RGB", "RECTFMT_RGBA", "RECTFMT_ARGB", "RECTFMT_LUT8", "RECTFMT_GREY8"]
-      }
-    ]
-  },
-  {
-    "name": ["WriteLUTPixelArray"],
-    "arguments": [
-      {
-        "num": ["11"],
-        "type": "macro",
-        "suggestions": ["CTABFMT_XRGB8"]
-      }
-    ]
-  },
-  {
-    "name": ["UnLockBitMapTags"],
-    "tagStrt": "2",
-    "arguments": [
-      {
-        "type": "tag",
-        "suggestions": ["UBMI_UPDATERECTS", "struct RectList*", "UBMI_REALLYUNLOCK", "BOOL", "TAG_END"],
-        "values": [
-          {
-            "tag": ["UBMI_REALLYUNLOCK"],
-            "type": "bool",
-            "suggestions": ["TRUE", "FALSE"]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": ["AttachVLayerTags"],
-    "tagStrt": "3",
-    "arguments": [
-      {
-        "type": "tag",
-        "suggestions": ["VOA_LeftIndent", "ULONG", "VOA_RightIndent", "ULONG", "VOA_TopIndent", "ULONG", "VOA_BottomIndent", "ULONG", "TAG_END"]
-      }
-    ]
-  },
-  {
-    "name": ["CreateVLayerHandleTags"],
-    "tagStrt": "2",
-    "arguments": [
-      {
-        "type": "tag",
-        "suggestions": ["VOA_SrcType", "ULONG", "VOA_SrcWidth", "ULONG", "VOA_SrcHeight", "ULONG", "VOA_Error", "ULONG*", "VOA_UseColorKey", "BOOL", "VOA_UseBackFill", "BOOL", "TAG_END"],
-        "values": [
-          {
-            "tag": ["VOA_SrcType"],
-            "type": "macro",
-            "suggestions": ["SRCFMT_YUV16", "SRCFMT_YCbCr16", "SRCFMT_RGB15PC", "SRCFMT_RGB16PC"]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": ["GetVLayerAttr"],
-    "arguments": [
-      {
-        "num": ["2"],
-        "type": "macro",
-        "suggestions": ["VOA_BaseAddress", "VOA_ColorKeyPen", "VOA_ColorKey"]
-      }
-    ]
-  },
-  {
-    "name": ["SetVLayerAttrTags"],
-    "tagStrt": "2",
-    "arguments": [
-      {
-        "type": "tag",
-        "suggestions": ["VOA_LeftIndent", "ULONG", "VOA_RightIndent", "ULONG", "VOA_TopIndent", "ULONG", "VOA_BottomIndent", "ULONG", "TAG_END"]
-      }
-    ]
-  }
+	{
+		"name": ["AllocCModeListTags"],
+		"tagStrt": "1",
+		"arguments": [
+			{
+				"type": "tag",
+				"suggestions": ["CYBRMREQ_MinWidth", "ULONG", "CYBRMREQ_MaxWidth", "ULONG", "CYBRMREQ_MinHeight", "ULONG", "CYBRMREQ_MaxHeight", "ULONG", "CYBRMREQ_MinDepth", "UWORD", "CYBRMREQ_MaxDepth", "UWORD", "CYBRMREQ_CModelArray", "UWORD*", "TAG_END"]
+			}
+		]
+	},
+	{
+		"name": ["BestCModeIDTags"],
+		"tagStrt": "1",
+		"arguments": [
+			{
+				"type": "tag",
+				"suggestions": ["CYBRBIDTG_Depth", "ULONG", "CYBRBIDTG_NominalWidth", "UWORD", "CYBRBIDTAG_NominalHeight", "UWORD", "CYBRBIDTG_MonitorID", "ULONG", "CYBRBIDTG_BoardName", "STRPTR", "TAG_END"],
+				"values": [
+					{
+						"tag": ["CYBRBIDTG_BoardName"],
+						"type": "string",
+						"suggestions": ["\"A2410\"", "\"CVision3D\"", "\"CVision64\"", "\"Domino\"", "\"Inferno\"", "\"PiccoSD64\"", "\"PicassoII\"", "\"PicassoIV\"", "\"Piccolo\"", "\"RetinaZ3\"", "\"Spectrum\""]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": ["BltBitMapAlpha", "BltBitMapRastPortAlpha"],
+		"tagStrt": "9",
+		"arguments": [
+			{
+				"type": "tag",
+				"suggestions": ["BLTBMA_DESTALPHAVALUE", "ULONG", "BLTBMA_MIXLEVEL", "ULONG", "BLTBMA_USESOURCEALPHA", "ULONG", "TAG_END"],
+				"values": [
+					{
+						"tag": ["BLTBMA_DESTALPHAVALUE"],
+						"type": "macro",
+						"suggestions": ["DESTALPHAVALUE_UNDEFINED", "DESTALPHAVALUE_ONE", "DESTALPHAVALUE_USESOURCE", "DESTALPHAVALUE_USEDEST"]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": ["CModeRequestTags"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"type": "tag",
+				"suggestions": ["CYBRMREQ_Screen", "struct Screen*", "CYBRMREQ_WinTitle", "STRPTR", "CYBRMREQ_OKText", "STRPTR", "CYBRMREQ_CancelText", "STRPTR", "CYBRMREQ_MinWidth", "ULONG", "CYBRMREQ_MaxWidth", "ULONG", "CYBRMREQ_MinHeight", "ULONG", "CYBRMREQ_MaxHeight", "ULONG", "CYBRMREQ_MinDepth", "UWORD", "CYBRMREQ_MaxDepth", "UWORD", "CYBRMREQ_CModelArray", "UWORD*", "TAG_END"]
+			}
+		]
+	},
+	{
+		"name": ["CVideoCtrlTags"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"type": "tag",
+				"suggestions": ["SETVC_DPMSLevel", "ULONG", "TAG_END"],
+				"values": [
+					{
+						"tag": ["SETVC_DPMSLevel"],
+						"type": "macro",
+						"suggestions": ["DPMS_ON", "DPMS_STANDBY", "DPMS_SUSPEND", "DPMS_OFF"]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": ["DoCDrawMethodTags"],
+		"tagStrt": "3",
+		"arguments": [
+			{
+				"type": "tag",
+				"suggestions": ["TAG_END"]
+			}
+		]
+	},
+	{
+		"name": ["GetCyberIDAttr"],
+		"arguments": [
+			{
+				"num": ["1"],
+				"type": "macro",
+				"suggestions": ["CYBRIDATTR_PIXFMT", "CYBRIDATTR_WIDTH", "CYBRIDATTR_HEIGHT", "CYBRIDATTR_DEPTH", "CYBRIDATTR_BPPIX"]
+			}
+		]
+	},
+	{
+		"name": ["GetCyberMapAttr"],
+		"arguments": [
+			{
+				"num": ["2"],
+				"type": "macro",
+				"suggestions": ["CYBRMATTR_XMOD", "CYBRMATTR_BPPIX", "CYBRMATTR_PIXFMT", "CYBRMATTR_WIDTH", "CYBRMATTR_HEIGHT", "CYBRMATTR_DEPTH", "CYBRMATTR_ISCYBERGFX", "CYBRMATTR_ISLINEARMEM"]
+			}
+		]
+	},
+	{
+		"name": ["LockBitMapTags"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"type": "tag",
+				"suggestions": ["LBMI_WIDTH", "ULONG*", "LBMI_HEIGHT", "ULONG*", "LBMI_DEPTH", "ULONG*", "LBMI_PIXFMT", "ULONG*", "LBMI_BYTESPERPIX", "ULONG*", "LBMI_BYTESPERROW", "ULONG*", "LBMI_BASEADDRESS", "ULONG*", "TAG_END"]
+			}
+		]
+	},
+	{
+		"name": ["ProcessPixelArray"],
+		"arguments": [
+			{
+				"num": ["6"],
+				"type": "macro",
+				"suggestions": ["POP_BRIGHTEN", "POP_DARKEN", "POP_SETALPHA", "POP_TINT", "POP_BLUR", "POP_COLOR2GREY", "POP_NEGATIVE", "POP_NEGFADE", "POP_TINTFADE", "POP_GRADIENT", "POP_SHIFTRGB"]
+			},
+			{
+				"num": ["7"],
+				"type": "macro",
+				"suggestions": ["RGBSHIFT_BGR", "RGBSHIFT_BRG", "RGBSHIFT_GBR", "RGBSHIFT_GRB", "RGBSHIFT_RGB"]
+			}
+		]
+	},
+	{
+		"name": ["ReadPixelArray", "ScalePixelArray", "WritePixelArray"],
+		"arguments": [
+			{
+				"num": ["10"],
+				"type": "macro",
+				"suggestions": ["RECTFMT_RGB", "RECTFMT_RGBA", "RECTFMT_ARGB", "RECTFMT_LUT8", "RECTFMT_GREY8", "RECTFMT_RAW"]
+			}
+		]
+	},
+	{
+		"name": ["ScaleMapRastPortAlpha"],
+		"tagStrt": "11",
+		"arguments": [
+			{
+				"type": "tag",
+				"suggestions": ["TAG_END"]
+			}
+		]
+	},
+	{
+		"name": ["UnLockBitMapTags"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"type": "tag",
+				"suggestions": ["UBMI_UPDATERECTS", "struct RectList*", "UBMI_REALLYUNLOCK", "BOOL", "TAG_END"],
+				"values": [
+					{
+						"tag": ["UBMI_REALLYUNLOCK"],
+						"type": "macro",
+						"suggestions": ["TRUE", "FALSE"]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": ["WriteLUTPixelArray"],
+		"arguments": [
+			{
+				"num": ["11"],
+				"type": "macro",
+				"suggestions": ["CTABFMT_XRGB8"]
+			}
+		]
+	},
+	{
+		"name": ["AttachVLayerTags"],
+		"tagStrt": "3",
+		"arguments": [
+			{
+				"type": "tag",
+				"suggestions": ["VOA_LeftIndent", "ULONG", "VOA_RightIndent", "ULONG", "VOA_TopIndent", "ULONG", "VOA_BottomIndent", "ULONG", "VOA_ColorKeyFill", "BOOL", "TAG_END"],
+				"values": [
+					{
+						"tag": ["VOA_ColorKeyFill"],
+						"type": "macro",
+						"suggestions": ["TRUE", "FALSE"]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": ["CreateVLayerHandleTags"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"type": "tag",
+				"suggestions": ["VOA_SrcType", "ULONG", "VOA_SrcWidth", "ULONG", "VOA_SrcHeight", "ULONG", "VOA_Error", "ULONG*", "VOA_UseColorKey", "BOOL", "VOA_UseBackfill", "BOOL", "VOA_Modulo", "ULONG", "VOA_DoubleBuffer", "BOOL", "VOA_MultiBuffer", "ULONG", "VOA_UseFilter", "BOOL", "VOA_InterLaced", "BOOL", "VOA_CaptureMode", "BOOL", "VOA_SubPicture", "BOOL", "VOA_SrcWidthSP", "UWORD", "VOA_SrcHeightSP", "UWORD", "VOA_ColorSpace", "ULONG", "VOA_ColorRange", "ULONG", "TAG_END"],
+				"values": [
+					{
+						"tag": ["VOA_SrcType"],
+						"type": "macro",
+						"suggestions": ["SRCFMT_YUV16", "SRCFMT_YCbCr16", "SRCFMT_RGB15PC", "SRCFMT_RGB16PC", "SRCFMT_YCbCr420", "SRCFMT_YCbCr420_NV12"]
+					},
+					{
+						"tag": ["VOA_ColorSpace"],
+						"type": "macro",
+						"suggestions": ["VOCS_BT601", "VOCS_BT709", "VOCS_BT2020"]
+					},
+					{
+						"tag": ["VOA_ColorRange"],
+						"type": "macro",
+						"suggestions": ["VOCR_LIMITED", "VOCR_FULL"]
+					},
+					{
+						"tag": ["VOA_CaptureMode", "VOA_DoubleBuffer", "VOA_InterLaced", "VOA_SubPicture", "VOA_UseBackfill", "VOA_UseColorKey", "VOA_UseFilter"],
+						"type": "macro",
+						"suggestions": ["TRUE", "FALSE"]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": ["GetVLayerAttr"],
+		"arguments": [
+			{
+				"num": ["2"],
+				"type": "macro",
+				"suggestions": ["VOA_Width", "VOA_Height", "VOA_ColorKey", "VOA_ColorKeyPen", "VOA_Identifier", "VOA_FrameType", "VOA_FrameIndex", "VOA_FrameBase0", "VOA_FrameBase1", "VOA_BaseAddress", "VOA_BaseOffset", "VOA_BaseOffset0", "VOA_BaseOffset1", "VOA_BaseOffset2", "VOA_Underlay", "VOA_Modulo"]
+			}
+		]
+	},
+	{
+		"name": ["QueryVLayerAttr"],
+		"arguments": [
+			{
+				"num": ["2"],
+				"type": "macro",
+				"suggestions": ["VSQ_SupportedFeatures", "VSQ_SupportedFormats", "VSQ_MaxWidth", "VSQ_MaxWidthSP"]
+			}
+		]
+	},
+	{
+		"name": ["SetVLayerAttrTags"],
+		"tagStrt": "2",
+		"arguments": [
+			{
+				"type": "tag",
+				"suggestions": ["VOA_LeftIndent", "ULONG", "VOA_RightIndent", "ULONG", "VOA_TopIndent", "ULONG", "VOA_BottomIndent", "ULONG", "VOA_SrcWidth", "UWORD", "VOA_SrcHeight", "UWORD", "VOA_UseFilter", "BOOL", "VOA_ZoomRect", "struct Rectangle*", "VOA_Color0SP", "ULONG", "VOA_Color1SP", "ULONG", "VOA_Color2SP", "ULONG", "VOA_Color3SP", "ULONG", "VOA_Color4SP", "ULONG", "VOA_Color5SP", "ULONG", "VOA_Color6SP", "ULONG", "VOA_Color7SP", "ULONG", "VOA_Color8SP", "ULONG", "VOA_Color9SP", "ULONG", "VOA_Color10SP", "ULONG", "VOA_Color11SP", "ULONG", "VOA_Color12SP", "ULONG", "VOA_Color13SP", "ULONG", "VOA_Color14SP", "ULONG", "VOA_Color15SP", "ULONG", "VOA_StreamRectSP", "struct Rectangle*", "VOA_HLRectSP", "struct Rectangle*", "VOA_EnableSP", "BOOL", "VOA_HLEnableSP", "BOOL", "VOA_ColConSP", "ULONG", "VOA_HLColConSP", "ULONG", "VOA_SrcWidthSP", "UWORD", "VOA_SrcHeightSP", "UWORD", "VOA_ColorRange", "ULONG", "VOA_ColorSpace", "ULONG", "TAG_END"],
+				"values": [
+					{
+						"tag": ["VOA_ColorSpace"],
+						"type": "macro",
+						"suggestions": ["VOCS_BT601", "VOCS_BT709", "VOCS_BT2020"]
+					},
+					{
+						"tag": ["VOA_ColorRange"],
+						"type": "macro",
+						"suggestions": ["VOCR_LIMITED", "VOCR_FULL"]
+					},
+					{
+						"tag": ["VOA_DoubleBuffer", "VOA_EnableSP", "VOA_HLEnableSP", "VOA_UseFilter", "VOA_UseBackfill"],
+						"type": "macro",
+						"suggestions": ["TRUE", "FALSE"]
+					}
+				]
+			}
+		]
+	}

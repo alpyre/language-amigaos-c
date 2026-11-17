@@ -9339,7 +9339,7 @@
 		"displayText": "TextExtent(rastPort, string, count, textExtent)",
 		"snippet": "TextExtent(${1:struct RastPort *rp}, ${2:CONST_STRPTR str}, ${3:LONG count}, ${4:struct TextExtent *te})${5:}",
 		"type": "function",
-		"leftLabel": "WORD",
+		"leftLabel": "void",
 		"description": "Determine raster extent of text data. (V36)",
 		"descriptionMoreURL": "http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0333.html"
 	},
